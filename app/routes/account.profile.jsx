@@ -1,148 +1,138 @@
-import {CUSTOMER_UPDATE_MUTATION} from '~/graphql/customer-account/CustomerUpdateMutation';
+import {data as json, redirect} from 'react-router';
 import {
-  data,
-  Form,
-  useActionData,
-  useNavigation,
-  useOutletContext,
-} from 'react-router';
+   
+    useActionData,
 
-/**
- * @type {Route.MetaFunction}
- */
-export const meta = () => {
-  return [{title: 'Profile'}];
-};
-
-/**
- * @param {Route.LoaderArgs}
- */
-export async function loader({context}) {
-  await context.customerAccount.handleAuthStatus();
-
-  return {};
-}
-
-/**
- * @param {Route.ActionArgs}
- */
+  } from 'react-router';
 export async function action({request, context}) {
-  const {customerAccount} = context;
+  const {session, storefront} = context;
 
   if (request.method !== 'PUT') {
-    return data({error: 'Method not allowed'}, {status: 405});
+    return json({error: 'Method not allowed'}, {status: 405});
   }
 
   const form = await request.formData();
-
-  try {
-    const customer = {};
-    const validInputKeys = ['firstName', 'lastName'];
-    for (const [key, value] of form.entries()) {
-      if (!validInputKeys.includes(key)) {
-        continue;
-      }
-      if (typeof value === 'string' && value.length) {
-        customer[key] = value;
-      }
+  const customerAccessToken = await session.get('customerAccessToken');
+  if (!customerAccessToken) {
+    return json({error: 'Unauthorized'}, {status: 401});
+  }
+  const password = getPassword(form);
+  const customer = {};
+  for (const [key, value] of form.entries()) {    
+    if (typeof value === 'string' && value.length) {
+        if(key !=="currentPassword" && key !== "newPassword"){
+            customer[key] = value;
+        }
+  
     }
+  }
+
+  if (password) {
+    customer.password = password;
+  }
+  try {
+ 
 
     // update customer and possibly password
-    const {data, errors} = await customerAccount.mutate(
-      CUSTOMER_UPDATE_MUTATION,
+    const updated = await storefront.mutate(CUSTOMER_UPDATE_MUTATION, {
+      variables: {
+        customerAccessToken: customerAccessToken,
+        customer,
+      },
+    });
+
+    // check for mutation errors
+    if (updated.customerUpdate?.customerUserErrors?.length) {
+      return json(
+        {error: updated.customerUpdate?.customerUserErrors[0]},
+        {status: 400},
+      );
+    }
+    // update session with the updated access token
+    if (updated.customerUpdate?.customerAccessToken?.accessToken) {
+      session.set(
+        'customerAccessToken',
+        updated.customerUpdate?.customerAccessToken.accessToken,
+      );
+    }
+
+    return  json({error: null, customer: updated.customerUpdate?.customer},
       {
-        variables: {
-          customer,
-          language: customerAccount.i18n.language,
+        headers: {
+          'Set-Cookie': await session.commit(),
+          "Content-Type": "application/json;",
         },
+        status:200,
       },
     );
-
-    if (errors?.length) {
-      throw new Error(errors[0].message);
-    }
-
-    if (!data?.customerUpdate?.customer) {
-      throw new Error('Customer profile update failed.');
-    }
-
-    return {
-      error: null,
-      customer: data?.customerUpdate?.customer,
-    };
   } catch (error) {
-    return data(
-      {error: error.message, customer: null},
-      {
-        status: 400,
-      },
-    );
+    return json({error: error.message, customer: null}, {status: 400});
   }
 }
 
 export default function AccountProfile() {
-  const account = useOutletContext();
-  const {state} = useNavigation();
-  /** @type {ActionReturnData} */
-  const action = useActionData();
-  const customer = action?.customer ?? account?.customer;
-
-  return (
-    <div className="account-profile">
-      <h2>My profile</h2>
-      <br />
-      <Form method="PUT">
-        <legend>Personal information</legend>
-        <fieldset>
-          <label htmlFor="firstName">First name</label>
-          <input
-            id="firstName"
-            name="firstName"
-            type="text"
-            autoComplete="given-name"
-            placeholder="First name"
-            aria-label="First name"
-            defaultValue={customer.firstName ?? ''}
-            minLength={2}
-          />
-          <label htmlFor="lastName">Last name</label>
-          <input
-            id="lastName"
-            name="lastName"
-            type="text"
-            autoComplete="family-name"
-            placeholder="Last name"
-            aria-label="Last name"
-            defaultValue={customer.lastName ?? ''}
-            minLength={2}
-          />
-        </fieldset>
-        {action?.error ? (
-          <p>
-            <mark>
-              <small>{action.error}</small>
-            </mark>
-          </p>
-        ) : (
-          <br />
-        )}
-        <button type="submit" disabled={state !== 'idle'}>
-          {state !== 'idle' ? 'Updating' : 'Update'}
-        </button>
-      </Form>
-    </div>
-  );
+    const data=useActionData()
+  return null
 }
 
-/**
- * @typedef {{
- *   error: string | null;
- *   customer: CustomerFragment | null;
- * }} ActionResponse
- */
+function getPassword(form) {
+  let password;
+  const currentPassword = form.get('currentPassword');
+  const newPassword = form.get('newPassword');
+  let passwordError;
+  if (newPassword && !currentPassword) {
+    passwordError = new Error('Current password is required.');
+  }
 
-/** @typedef {import('customer-accountapi.generated').CustomerFragment} CustomerFragment */
-/** @typedef {import('@shopify/hydrogen/customer-account-api-types').CustomerUpdateInput} CustomerUpdateInput */
-/** @typedef {import('./+types/account.profile').Route} Route */
-/** @typedef {ReturnType<typeof useLoaderData<typeof loader>>} LoaderReturnData */
-/** @typedef {ReturnType<typeof useActionData<typeof action>>} ActionReturnData */
+  if (newPassword && newPassword !== newPassword) {
+    passwordError = new Error('New passwords must match.');
+  }
+
+  if (newPassword && currentPassword && newPassword === currentPassword) {
+    passwordError = new Error(
+      'New password must be different than current password.',
+    );
+  }
+
+  if (passwordError) {
+    throw passwordError;
+  }
+
+  if (currentPassword && newPassword) {
+    password = newPassword;
+  } else {
+    password = currentPassword;
+  }
+
+  return String(password);
+}
+
+const CUSTOMER_UPDATE_MUTATION = `#graphql
+  # https://shopify.dev/docs/api/storefront/latest/mutations/customerUpdate
+  mutation profileCustomerUpdate(
+    $customerAccessToken: String!,
+    $customer: CustomerUpdateInput!
+    $country: CountryCode
+    $language: LanguageCode
+  ) @inContext(language: $language, country: $country) {
+    customerUpdate(customerAccessToken: $customerAccessToken, customer: $customer) {
+      customer {
+        acceptsMarketing
+        email
+        firstName
+        id
+        lastName
+        phone
+      }
+      customerAccessToken {
+        accessToken
+        expiresAt
+      }
+      customerUserErrors {
+        code
+        field
+        message
+      }
+    }
+  }
+`;

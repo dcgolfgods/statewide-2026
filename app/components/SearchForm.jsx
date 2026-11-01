@@ -1,74 +1,62 @@
-import {useRef, useEffect} from 'react';
+import {useEffect, useState} from 'react';
 import {Form} from 'react-router';
+import {Input} from './Input';
 
 /**
- * Search form component that sends search requests to the `/search` route.
- * @example
- * ```tsx
- * <SearchForm>
- *  {({inputRef}) => (
- *    <>
- *      <input
- *        ref={inputRef}
- *        type="search"
- *        defaultValue={term}
- *        name="q"
- *        placeholder="Search…"
- *      />
- *      <button type="submit">Search</button>
- *   </>
- *  )}
- *  </SearchForm>
- * @param {SearchFormProps}
+ * SSR shell: keeps header search usable before hydration.
+ * Algolia predictive UI lives in SearchForm.client.jsx (excluded from server bundle).
  */
-export function SearchForm({children, ...props}) {
-  const inputRef = useRef(null);
+const SearchForm = (props) => {
+  const [ClientComponent, setClientComponent] = useState(null);
+  const {params} = props;
+  const searchFormAction = params?.locale
+    ? `/${params.locale}/api/predictivesearch`
+    : '/api/predictivesearch';
 
-  useFocusOnCmdK(inputRef);
+  useEffect(() => {
+    let isMounted = true;
+    import('./SearchForm.client').then((mod) => {
+      if (isMounted) {
+        setClientComponent(() => mod.SearchForm);
+      }
+    });
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
-  if (typeof children !== 'function') {
-    return null;
+  if (ClientComponent) {
+    return <ClientComponent {...props} />;
   }
 
   return (
-    <Form method="get" {...props}>
-      {children({inputRef})}
+    <Form
+      method="POST"
+      action={searchFormAction}
+      className="relative lg:w-[90%] mx-auto flex items-center w-full text-[#00aeef] search-form"
+    >
+      <label htmlFor="header-search-input" className="sr-only">
+        Search spare parts
+      </label>
+      <Input
+        id="header-search-input"
+        className="text-[11.2px] w-full placeholder:text-black rounded-md text-black border-2 border-[#00aeef] focus:border-[#00aeef] h-[40px]"
+        type="search"
+        placeholder="Start typing a brand, appliance, part no. or model no."
+        autoComplete="off"
+        variant="minisearch"
+        name="q"
+        data-copy-allowed="true"
+      />
+      <button
+        type="submit"
+        className="absolute top-1/2 transform right-[4px] -translate-y-1/2 flex items-center justify-center w-8 h-8"
+        aria-label="Search spare parts"
+      >
+        <i className="fa fa-search text-[20px]" aria-hidden="true"></i>
+      </button>
     </Form>
   );
-}
+};
 
-/**
- * Focuses the input when cmd+k is pressed
- * @param {React.RefObject<HTMLInputElement>} inputRef
- */
-function useFocusOnCmdK(inputRef) {
-  // focus the input when cmd+k is pressed
-  useEffect(() => {
-    function handleKeyDown(event) {
-      if (event.key === 'k' && event.metaKey) {
-        event.preventDefault();
-        inputRef.current?.focus();
-      }
-
-      if (event.key === 'Escape') {
-        inputRef.current?.blur();
-      }
-    }
-
-    document.addEventListener('keydown', handleKeyDown);
-
-    return () => {
-      document.removeEventListener('keydown', handleKeyDown);
-    };
-  }, [inputRef]);
-}
-
-/**
- * @typedef {Omit<FormProps, 'children'> & {
- *   children: (args: {
- *     inputRef: React.RefObject<HTMLInputElement>;
- *   }) => React.ReactNode;
- * }} SearchFormProps
- */
-
-/** @typedef {import('react-router').FormProps} FormProps */
+export {SearchForm};

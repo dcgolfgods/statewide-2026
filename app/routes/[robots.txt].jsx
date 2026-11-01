@@ -1,86 +1,75 @@
-/**
- * @param {Route.LoaderArgs}
- */
-export function loader({request}) {
+import {isSearchEngineIndexable} from '~/lib/indexing.server';
+
+export const loader = ({request}) => {
   const url = new URL(request.url);
-  const body = robotsTxtData({url: url.origin});
+  const allowIndexing = isSearchEngineIndexable(request);
 
-  return new Response(body, {
-    status: 200,
-    headers: {
-      'Content-Type': 'text/plain',
-
-      'Cache-Control': `max-age=${60 * 60 * 24}`,
+  return new Response(
+    robotsTxtData({url: url.origin, allowIndexing}),
+    {
+      status: 200,
+      headers: {
+        'content-type': 'text/plain',
+        // Staging: short cache so changes apply quickly. Production: 24h.
+        'cache-control': allowIndexing
+          ? `max-age=${60 * 60 * 24}`
+          : 'max-age=300',
+        ...(allowIndexing
+          ? {}
+          : {'X-Robots-Tag': 'noindex, nofollow'}),
+      },
     },
-  });
-}
+  );
+};
 
-/**
- * @param {{url?: string}}
- */
-function robotsTxtData({url}) {
+function robotsTxtData({url, allowIndexing}) {
+  if (!allowIndexing) {
+    return `
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: adsbot-google
+Disallow: /
+`.trim();
+  }
+
   const sitemapUrl = url ? `${url}/sitemap.xml` : undefined;
 
   return `
 User-agent: *
-${generalDisallowRules({sitemapUrl})}
+Disallow: /admin
+Disallow: /cart
+Disallow: /orders
+Disallow: /checkouts/
+Disallow: /checkout
+Disallow: /carts
+Disallow: /account
+Disallow: /collections
+Disallow: /collections/
+Disallow: /collections/*
+Disallow: /*?variant=
+Disallow: /*?Title=Default Title
+Disallow: /*?Title=Default+Title
+Disallow: /*?Title=Default%20Title
+Disallow: /*?SystemName=aboutus
+Disallow: /*?SystemName=privacyinfo
+Disallow: /*?SystemName=conditionsofUse
+Disallow: /*?SystemName=shippinginfo
+Disallow: /*?attachment_id=
+Disallow: /*?s=
+${sitemapUrl ? `Sitemap: ${sitemapUrl}` : ''}
 
 # Google adsbot ignores robots.txt unless specifically named!
 User-agent: adsbot-google
-Disallow: /cart
-Disallow: /account
-Disallow: /search
-Allow: /search/
-Disallow: /search/?*
-
-User-agent: Nutch
-Disallow: /
-
-User-agent: AhrefsBot
-Crawl-delay: 10
-${generalDisallowRules({sitemapUrl})}
-
-User-agent: AhrefsSiteAudit
-Crawl-delay: 10
-${generalDisallowRules({sitemapUrl})}
-
-User-agent: MJ12bot
-Crawl-Delay: 10
+Disallow: /checkouts/
+Disallow: /checkout
+Disallow: /carts
+Disallow: /orders
 
 User-agent: Pinterest
 Crawl-delay: 1
 `.trim();
 }
-
-/**
- * This function generates disallow rules that generally follow what Shopify's
- * Online Store has as defaults for their robots.txt
- * @param {{sitemapUrl?: string}}
- */
-function generalDisallowRules({sitemapUrl}) {
-  return `Disallow: /cart
-Disallow: /account
-Disallow: /collections/*sort_by*
-Disallow: /*/collections/*sort_by*
-Disallow: /collections/*+*
-Disallow: /collections/*%2B*
-Disallow: /collections/*%2b*
-Disallow: /*/collections/*+*
-Disallow: /*/collections/*%2B*
-Disallow: /*/collections/*%2b*
-Disallow: /*/collections/*filter*&*filter*
-Disallow: /blogs/*+*
-Disallow: /blogs/*%2B*
-Disallow: /blogs/*%2b*
-Disallow: /*/blogs/*+*
-Disallow: /*/blogs/*%2B*
-Disallow: /*/blogs/*%2b*
-Disallow: /policies/
-Disallow: /search
-Allow: /search/
-Disallow: /search/?*
-${sitemapUrl ? `Sitemap: ${sitemapUrl}` : ''}`;
-}
-
-/** @typedef {import('./+types/[robots.txt]').Route} Route */
-/** @typedef {ReturnType<typeof useLoaderData<typeof loader>>} LoaderReturnData */

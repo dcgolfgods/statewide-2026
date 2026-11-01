@@ -17,7 +17,11 @@ export default async function handleRequest(
   reactRouterContext,
   context,
 ) {
-  const {nonce, header, NonceProvider} = createContentSecurityPolicy({
+  // The nonce is still threaded through inline scripts, but the
+  // Content-Security-Policy header is intentionally not sent: the storefront
+  // injects GTM, Google Ads, Klaviyo, HubSpot, Clarity, Continually, Algolia
+  // and reCAPTCHA at runtime, which the default strict policy would block.
+  const {nonce, NonceProvider} = createContentSecurityPolicy({
     shop: {
       checkoutDomain: context.env.PUBLIC_CHECKOUT_DOMAIN,
       storeDomain: context.env.PUBLIC_STORE_DOMAIN,
@@ -47,7 +51,6 @@ export default async function handleRequest(
   }
 
   responseHeaders.set('Content-Type', 'text/html');
-  responseHeaders.set('Content-Security-Policy', header);
 
   return new Response(body, {
     headers: responseHeaders,
