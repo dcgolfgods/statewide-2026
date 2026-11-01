@@ -1,15 +1,12 @@
 import {createHydrogenContext} from '@shopify/hydrogen';
 import {AppSession} from '~/lib/session';
-import {CART_QUERY_FRAGMENT} from '~/lib/fragments';
-import {getLocaleFromRequest} from '~/lib/i18n';
+import {CART_QUERY_FRAGMENT} from '~/data/fragments';
+import {getLocaleFromRequest} from '~/lib/utils';
 
 // Define the additional context object
 const additionalContext = {
   // Additional context for custom properties, CMS clients, 3P SDKs, etc.
   // These will be available as both context.propertyName and context.get(propertyContext)
-  // Example of complex objects that could be added:
-  // cms: await createCMSClient(env),
-  // reviews: await createReviewsClient(env),
 };
 
 /**
@@ -44,8 +41,10 @@ export async function createHydrogenRouterContext(
       cache,
       waitUntil,
       session,
-      // Or detect from URL path based on locale subpath, cookies, or any other strategy
+      // AU/NZ market from ?currency, the `locale` cookie or Oxygen's buyer country
       i18n: getLocaleFromRequest(request),
+      // The storefront cart lives client-side (see ~/lib/cartHelper); this
+      // server cart only backs the /cart/:lines and /discount/:code permalinks.
       cart: {
         queryFragment: CART_QUERY_FRAGMENT,
       },
@@ -57,5 +56,3 @@ export async function createHydrogenRouterContext(
 }
 
 /** @typedef {Class<additionalContext>} AdditionalContextType */
-
-/** @typedef {import('storefrontapi.generated').CartApiQueryFragment} CartApiQueryFragment */
