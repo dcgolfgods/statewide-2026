@@ -34,3 +34,4 @@ npm run build
 ```
 
 The build runs GraphQL codegen, which validates every `#graphql` query against the Storefront API schema.
+
