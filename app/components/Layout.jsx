@@ -18,16 +18,23 @@ import { CartProvider, useCart } from '~/components/cartContext';
 import { MenuDrawer } from './MenuDrawer';
 import MegaMenuDesktop from './MegaMenuDesktop';
 
-const Footer = lazy(() => import('./Footer'));
-const GoogleReview = lazy(() => import('./GoogleReview'));
+import ServerFooter from './Footer';
+import ServerGoogleReview from './GoogleReview';
 
-export function Layout({ children, layout, customeFirstName }) {
+// Code-split in the browser for a faster first paint. The server renders them
+// eagerly: MiniOxygen's dev worker can't resolve a lazy import mid-stream.
+const Footer = import.meta.env.SSR ? ServerFooter : lazy(() => import('./Footer'));
+const GoogleReview = import.meta.env.SSR
+  ? ServerGoogleReview
+  : lazy(() => import('./GoogleReview'));
+
+export function Layout({ children, layout = {}, customeFirstName }) {
   const {headerMenu, footerMenu, siteNav} = layout;
   // console.log("headerMenu",headerMenu)
   const [root] = useMatches(); 
   const location = useLocation();
-  const customerToken = root.data.customerToken; 
-  const userCountry = root.data.userCountry;
+  const customerToken = root?.data?.customerToken; 
+  const userCountry = root?.data?.userCountry;
   const email = root.data?.customer?.email;
   const skipResources = root?.data?.skipResources; 
 
@@ -181,7 +188,7 @@ export function Layout({ children, layout, customeFirstName }) {
         </div>
         {headerMenu && (
           <Header
-            title={layout.shop.name}
+            title={layout.shop?.name}
             menu={headerMenu}
             siteNav={siteNav}
             customerToken={customerToken}

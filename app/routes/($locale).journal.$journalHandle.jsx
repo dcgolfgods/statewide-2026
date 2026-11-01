@@ -8,6 +8,9 @@ import {seoPayload} from '~/lib/seo.server';
 import {routeHeaders} from '~/data/cache';
 
 import styles from '../styles/custom-font.css?url';
+import {getRouteSeoMeta} from '~/lib/meta';
+
+export const meta = ({matches}) => getRouteSeoMeta(matches);
 
 const BLOG_HANDLE = 'journal';
 

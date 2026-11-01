@@ -22,6 +22,9 @@ import {PRODUCT_CARD_FRAGMENT} from '~/data/fragments';
 import {routeHeaders} from '~/data/cache';
 import {seoPayload} from '~/lib/seo.server';
 import {getImageLoadingPriority} from '~/lib/const';
+import {getRouteSeoMeta} from '~/lib/meta';
+
+export const meta = ({matches}) => getRouteSeoMeta(matches);
 
 export const headers = routeHeaders;
 

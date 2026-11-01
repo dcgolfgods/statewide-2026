@@ -10,6 +10,9 @@ import {getImageLoadingPriority, PAGINATION_SIZE} from '~/lib/const';
 import {seoPayload} from '~/lib/seo.server';
 
 import {getFeaturedData} from './($locale).featured-products';
+import {getRouteSeoMeta} from '~/lib/meta';
+
+export const meta = ({matches}) => getRouteSeoMeta(matches);
 
 
 export async function loader({request, context: {storefront}}) {

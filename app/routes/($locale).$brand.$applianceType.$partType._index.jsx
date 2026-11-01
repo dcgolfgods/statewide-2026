@@ -7,6 +7,9 @@ import { useLoaderData } from 'react-router';
 import {seoPayload} from '~/lib/seo.server';
 import {metaDescription} from '../lib/meta-description.server'
 import { getCollectionDataUsingMetaobject } from '~/lib/shopifyAdminMetaobjects';
+import {getRouteSeoMeta} from '~/lib/meta';
+
+export const meta = ({matches}) => getRouteSeoMeta(matches);
 
 export async function loader({ params, request, context }) {
   const searchParams = new URL(request.url).searchParams;

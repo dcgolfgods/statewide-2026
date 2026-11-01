@@ -8,6 +8,9 @@ import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/data/fragments';
 import {getHeroPlaceholder} from '~/lib/placeholders';
 import {seoPayload} from '~/lib/seo.server';
 import {routeHeaders} from '~/data/cache';
+import {getRouteSeoMeta} from '~/lib/meta';
+
+export const meta = ({matches}) => getRouteSeoMeta(matches);
 
 export const headers = routeHeaders;
 

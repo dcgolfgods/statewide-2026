@@ -33,9 +33,26 @@ export default defineConfig({
        * @see https://vitejs.dev/config/dep-optimization-options
        */
       include: [
+        'hoist-non-react-statics',
         'react-router > set-cookie-parser',
         'react-router > cookie',
         'react-router',
+        // Storefront dependencies that ship CommonJS
+        'react-select',
+        'react-google-recaptcha',
+        'react-paginate',
+        'react-use',
+        'typographic-base',
+        'tiny-invariant',
+        'clsx',
+        'algoliasearch',
+        '@algolia/requester-fetch',
+        'react-intersection-observer',
+        '@react-spring/web',
+        '@use-gesture/react',
+        'swiper/react',
+        'swiper/modules',
+        'worktop/cookie',
       ],
     },
   },

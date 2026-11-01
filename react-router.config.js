@@ -9,6 +9,11 @@ import {hydrogenPreset} from '@shopify/hydrogen/react-router-preset';
  */
 export default {
   presets: [hydrogenPreset()],
+  // Ship the full route manifest up front. The storefront's optional
+  // ($locale) and dynamic $brand/$applianceType/$partType segments make a
+  // partially discovered manifest match a different route on the client
+  // (e.g. /dishwashers/filters -> $brand instead of $brand.$applianceType).
+  routeDiscovery: {mode: 'initial'},
 };
 
 /** @typedef {import('@react-router/dev/config').Config} Config */

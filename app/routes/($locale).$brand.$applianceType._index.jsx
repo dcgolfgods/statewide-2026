@@ -12,6 +12,9 @@ import {
 } from '~/lib/utils';
 import { getCollectionDataUsingMetaobject } from '~/lib/shopifyAdminMetaobjects';
 import {fetchAnnouncements} from '~/lib/announcements';
+import {getRouteSeoMeta} from '~/lib/meta';
+
+export const meta = ({matches}) => getRouteSeoMeta(matches);
 
 export async function loader({params, request, context}) {
   const searchParams = new URL(request.url).searchParams;

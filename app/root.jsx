@@ -22,8 +22,6 @@ import {getRouteSeoMeta} from '~/lib/meta';
 import {getRedirectionByHandle} from '~/lib/shopifyAdminMetaobjects';
 import {getLowercasePathRedirect, isStaticAssetPath} from '~/lib/urlRedirects';
 
-import favicon from '../public/favicon.ico';
-
 import {GenericError} from './components/GenericError';
 import {NotFound} from './components/NotFound';
 import styles from './styles/app.css?url';
@@ -74,7 +72,7 @@ export function links() {
       rel: 'preconnect',
       href: 'https://shop.app',
     },
-    {rel: 'icon', type: 'image/svg+xml', href: favicon},
+    {rel: 'icon', type: 'image/svg+xml', href: '/favicon.ico'},
   ];
 }
 

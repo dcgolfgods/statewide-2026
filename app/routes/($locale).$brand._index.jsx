@@ -26,6 +26,9 @@ import {seoPayload} from '~/lib/seo.server';
 import {metaDescription} from '../lib/meta-description.server';
 import { getCollectionDataUsingMetaobject } from '~/lib/shopifyAdminMetaobjects';
 import {fetchAnnouncements} from '~/lib/announcements';
+import {getRouteSeoMeta} from '~/lib/meta';
+
+export const meta = ({matches}) => getRouteSeoMeta(matches);
 
 const pages = ["appliance-service",'conditions-of-use','ssl-secure','privacy-policy','reviews','commercial-credit-application','findyourmodel','service-repairs','contactus','deliveries-returns','aboutus',"coronavirus-update",'all-brands','trade-promotion-terms-conditions']
 
