@@ -1,0 +1,7379 @@
+export const prefixData = [
+  {
+    "tags": ["contact", "Contacts", "Contact us", "Contactus", "stores"],
+    "url": "/contactus",
+  },
+  {
+    "tags": ["deliveries", "returns", "deliveries and returns", "deliveries returns", "delivery", "return", "returns", "exchanges"],
+    "url": "/deliveries-returns",
+  },
+  {
+    "tags": ["about", "about us", "aboutus"],
+    "url": "/aboutus",
+  },
+  {
+    "tags": ["condition", "terms and conditions", "conditions", "terms"],
+    "url": "/conditions-of-use",
+  },
+  {
+    "tags": ["privacy", "policy", "privacy policy", "policies"],
+    "url": "/privacy-policy",
+  },
+  {
+    "tags": ["model no", "find model no", "model", "find your model no"],
+    "url": "/findyourmodel",
+  },
+  {
+    "tags": ["coronavirus", "corona", "virus", "update", "covid"],
+    "url": "/coronavirus-update",
+  },
+  {
+    "tags": ["trade", "application", "trade application", "trade applications", "trade applications", "credit", "credit account", "trade app"],
+    "url": "/commercial-credit-application",
+  },
+  {
+    "tags": ["service", "repairs"],
+    "url": "/service-repairs",
+  },
+  {
+    "tags": ["brands", "brand"],
+    "url": "/all-brands",
+  },
+  {
+    "tags": ["login", "signin", "sign in", "order", "history", "order history", "Order & Order History"],
+    "url": "/login",
+  },
+  {
+    "tags": ["register", "registration", "signup", "sign up"],
+    "url": "/register",
+  },
+  {
+    "tags": ["activate", "activate account", "signup", "sign up"],
+    "url": "/activate-account",
+  },
+  {
+    "title": "ActronAir spare parts",
+    "tags": ["Actron air", "actron air","Actron","ActronAir"],
+    "url": "/actronair",
+    "vendor": "actronair",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Miele vacuum bags & filters",
+    "tags": ["GN Bag", "Miele GN bags", "GN Bags", "Miele vacuum bags & filters", "Miele vacuum bags & filters", "FJM Bag", "FJM Bags", "Miele dustbag", "Meile Vacuum cleaner bags", "Miele vac bags", "Miele vac bag", "Miele Vacuum Cleaner Bag", "Miele Vacuum Cleaner Bags", "Miele Vacuum Bags", "Miele Vacuum Bag", "miele bags", "Miele bag", "Miele Dustbags", "Miele Dust bags", "Miele Dust bag", "Miele GN", "Miele FJM", "Miele GN Dustbags", "Miele FJM Dustbags", "Miele GN Dust bags", "Miele FJM Dust bags", "Miele GN Dustbag", "Miele FJM Dustbag", "Miele GN Dust bag", "Miele FJM Dust bag", "Miele blue clip", "Miele red clip", "GN", "FJM", "Miele Vacuum Cleaner Bags", "Miele blue clip", "Miele red clip", "Meile dustbag", "Meile Vacuum cleaner bags", "Meile vac bags", "Meile vac bag", "Meile Vacuum Cleaner Bag", "Meile Vacuum Cleaner Bags", "Meile Vacuum Bags", "Meile Vacuum Bag", "Meile bags", "Meile bag", "Meile Dustbags", "Meile Dust bags", "Meile Dust bag", "Meile GN", "Meile FJM", "Meile GN Dustbags", "Meile FJM Dustbags", "Meile GN Dust bags", "Meile FJM Dust bags", "Meile GN Dustbag", "Meile FJM Dustbag", "Meile GN Dust bag", "Meile FJM Dust bag", "Meile blue clip", "Meile red clip", "GN", "FJM", "Meile Vacuum Cleaner Bags", "Meile blue clip", "Meile red clip"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Miele Vacuum Bags at Statewide Appliance Spares. Statewide offer genuine Miele GN & Miele FJM dustbags that are perfectly designed to fit your Miele Vacuum Cleaner. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Miele Vacuum Bags feature:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>AirClean filter system that filters more than 99.9% of all fine dust particles</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Active HEPA filter. The HEPA AirClean Filter filters even fine dust and allergens – ideal for those with house dust allergies.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Active AirClean filters that help to neutralise unpleasant odours – ideal for pet owners or households with smokers.</span></p></li></ul><p dir="ltr"><span>To search vacuum bags / filters for other brands, click&nbsp;</span><a href="https://www.statewideapp.com.au/vacuum-cleaners/bag"><span>here</span></a></p><h2 class="contenthead" dir="ltr"><span>Why choose genuine MIELE vacuum cleaner dustbags:</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Miele bags offer the perfect fit for your vacuum. You can recognise the right original HyClean dustbag by the colour-matched key-lock principle.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>First class suction power. Miele HyClean dustbag remains permeable to air even as it becomes fuller. The appliance will indicate when the dust bag is full or the exhaust filter is saturated. After replacing the filter, you can enjoy the same level of suction power, cleaning performance and hygiene, as you did when you first used it.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>25% more vacuuming with one bag. Original Miele dustbags retain an especially large amount of fine dust. Dust diffusers distribute the vacuumed dust evenly within the dustbag so that the full capacity is used. That means you will use 1/4 fewer dustbags if you use Original Miele dustbags.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Dust-free hygienic dustbag replacement. When the vacuum cleaner is opened, the original Miele HyClean dustbag's collar closes automatically and locks in the vacuumed dust for good.</span></p></li></ul><p dir="ltr"><span>Shop for our selection of Miele vacuum bags at Statewide Appliance Spares. We ensure our most popular Miele vacuum bags are always in stock and offer the best prices, with fast, Australia wide delivery.</span></p></div>`,
+    "url": "/miele-vacuum-bags-filters",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "bag"
+  },
+  {
+    "title": "Vacuum bags & filters",
+    "url": "/vacuum-bags-filters",
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "filter"
+  },
+  {
+    "title": "LG vacuum cleaner spare parts",
+    "tags": ["lg vacuum cleaner", "lg vacuum cleaner"],
+    "url": "/vacuum-cleaner/LG",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Enhance your LG vacuum's performance and ensure a healthier living environment with our range of LG vacuum cleaner spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><h2 class="contenthead" dir="ltr"><span>Where can I find LG vacuum cleaner spare parts and LG CordZero spare parts?</span></h2><p dir="ltr"><span>Experience the convenience of online shopping with Statewide Appliance Spares. Our user-friendly website allows you to explore our extensive selection of LG vacuum parts, ensuring you find the perfect fit for your vacuum cleaner.</span></p><p dir="ltr"><strong>LG CordZero Parts:&nbsp;</strong><span>The biggest range of </span><a href="https://www.statewideapp.com.au/lg/cordzero-vacuum-cleaners"><span>LG CordZero parts</span></a><span> for your cordless vacuum.</span></p><p dir="ltr"><strong>LG Vacuum Belts:</strong><span>&nbsp;Keep your vacuum's&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/brush-roller"><span>brush</span></a><span>&nbsp;spinning effectively with our LG vacuum&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/belt"><span>belts</span></a><span>.</span></p><p dir="ltr"><strong>LG Vacuum Filters:</strong><span>&nbsp;Maintain optimal air quality by replacing your vacuum's&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/filter"><span>filter</span></a><span>&nbsp;when needed.</span></p><p dir="ltr"><strong>LG Vacuum Hoses:</strong><span>&nbsp;Restore suction power with a new&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/hose-pipe-tubing"><span>hose</span></a><span>&nbsp;if yours is damaged or clogged.</span></p><p dir="ltr"><strong>LG Vacuum Motors:</strong><span>&nbsp;Replace a malfunctioning&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/motor-gearbox-shaft"><span>motor</span></a><span>&nbsp;to ensure your vacuum operates at peak performance.</span></p><p dir="ltr"><strong>LG Vacuum Brush/Roller:</strong><span>&nbsp;Upgrade your vacuum's cleaning efficiency with a new&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/brush-roller"><span>brush/roller</span></a><span>.</span></p><p dir="ltr"><strong>LG Vacuum Nozzles:</strong><span>&nbsp;Enhance your vacuum's versatility with a replacement&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/floor-tool-nozzle"><span>nozzle</span></a><span>.</span></p><p dir="ltr"><strong>LG Vacuum Crevice Tools:</strong><span>&nbsp;Reach tight spaces effortlessly with a new&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/floor-tool-nozzle"><span>crevice tool</span></a><span>.</span></p><p dir="ltr"><strong>LG Vacuum Dustbins:</strong><span>&nbsp;Keep your vacuum cleaner tidy by replacing a damaged or worn&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/dust-bin"><span>dustbin</span></a><span>.</span></p><p dir="ltr"><strong>LG Vacuum Batteries:</strong><span>&nbsp;Extend your vacuum's runtime with a new&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/battery"><span>battery</span></a><span>.</span></p><p dir="ltr"><strong>LG Vacuum Power Cords:</strong><span>&nbsp;Ensure a steady power supply with a replacement&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/cable-cord"><span>power cord</span></a><span>.</span></p><p dir="ltr"><strong>LG Vacuum Extension Wands:</strong><span>&nbsp;Reach high or low areas with ease using an extension&nbsp;</span><a href="https://statewideapp.com.au/lg/vacuum-cleaners/wand-rod"><span>wand</span></a><span>.</span></p><h2 class="contenthead" dir="ltr"><span>How do I choose the right spare parts for my LG vacuum cleaner?</span></h2><p dir="ltr"><span>Selecting the right spare parts for your LG vacuum cleaner is easy.</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the right&nbsp;spare part for your LG vacuum cleaner, you will need your model number. If unsure where to find your model number, check out our&nbsp;</span><a href="https://statewideapp.com.au/findyourmodel"><span>guide</span></a><span>.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct replacement part.</span></p></li></ul><p dir="ltr"><span>With our lowest price guarantee, you can shop confidently, as you always get great value for your money. Shop genuine LG vacuum cleaner spare parts at Statewide Appliance Spares today. Experience convenience, reliability and exceptional quality with every purchase.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "lg",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Vacuum cleaner chargers",
+    "url": "/vacuum-cleaners/acadapter/charger",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Statewide offer an extensive range of vacuum cleaner chargers for leading brands including&nbsp;<a href="https://www.statewideapp.com.au/bosch/vacuum-cleaners/ac-adapter-charger">Bosch</a>,&nbsp;<a href="https://www.statewideapp.com.au/lg/cordzero-vacuum-cleaners/ac-adapter-charger">LG CordZero</a>,&nbsp;<a href="https://www.statewideapp.com.au/VAX/vacuum-cleaners/ac-adapter-charger">VAX</a>&nbsp;and&nbsp;<a href="https://www.statewideapp.com.au/electrolux/vacuum-cleaners/ac-adapter-charger">Electrolux</a>, ready for fast Australia wide delivery. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><h2 class="contenthead" dir="ltr"><span>When to replace your vacuum cleaner charger</span></h2><p dir="ltr"><span>It may be time to replace your vacuum cleaner charger if:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your vacuum cleaner charger is not functioning properly, such as not charging the vacuum or providing inconsistent power, it may be time to replace it.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If the charger is physically damaged, such as a frayed cord, broken plug, or any other visible signs of wear and tear, it's advisable to replace it. Damaged chargers can pose safety hazards and may not provide reliable power.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Over time, chargers can degrade or wear out, leading to diminished performance. If your vacuum cleaner charger is quite old and you're experiencing charging issues, it might be time for a replacement.</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>Why use genuine parts</span></h2><p dir="ltr"><strong>Highest quality standards</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Genuine spare parts are designed and manufactured by the original equipment manufacturer (OEM) specifically for your vacuum cleaner model. They are made to the highest quality standards and undergo rigorous testing to ensure optimal performance. Using genuine parts ensures that your vacuum cleaner will function as intended and maintain its performance level.</span></p></li></ul><p dir="ltr"><strong>Designed to fit</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Genuine spare parts are guaranteed to be compatible with your specific vacuum cleaner model. They are engineered to fit seamlessly and work in conjunction with other components.</span></p></li></ul><p dir="ltr"><strong>Warranty coverage</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your vacuum cleaner is still under warranty, using genuine spare parts is often a requirement to maintain warranty coverage. Manufacturers may void the warranty if non-genuine parts are used, as they cannot guarantee their quality or compatibility.</span></p></li></ul><p dir="ltr"><strong>Safety testing</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Vacuum cleaners are electrical appliances, and using non-genuine spare parts can pose safety risks. Genuine parts undergo stringent safety testing to meet industry standards and regulations.</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>How long does charging take?</span></h2><p dir="ltr"><span>The charging time for a vacuum cleaner can vary depending on several factors, including the specific model, battery capacity, and the charging technology used.</span></p><p dir="ltr"><span>Most modern vacuum cleaners come with lithium-ion batteries, which are commonly used due to their high energy density and faster charging capabilities. These batteries typically require several hours to fully charge. However, the exact charging time can vary depending on the battery's capacity and the charging speed supported by the charger. To determine the charging time for your specific vacuum cleaner model, it is best to refer to the manufacturer's instructions or user manual. They usually provide specific information about the estimated charging time and recommendations for optimal charging practices</span></p><h2 class="contenthead" dir="ltr"><span>Buy your spare parts at Statewide Appliance Spares</span></h2><p dir="ltr"><span>Statewide Appliance Spares offer Australia’s biggest range of spare parts for all home appliances. Find the part your need, hassle free! Shop online with secure transactions and fast, Australia wide shipping options. Your spare parts are only a few clicks away.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "ac-adapter-charger"
+  },
+  {
+    "title": "Vax vacuum & floor care spare parts",
+    "url": "/vax/vacuums-and-floor-care",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Statewide offer an extensive range of vacuum cleaner chargers for leading brands including&nbsp;<a href="https://www.statewideapp.com.au/bosch/vacuum-cleaners/ac-adapter-charger">Bosch</a>,&nbsp;<a href="https://www.statewideapp.com.au/lg/cordzero-vacuum-cleaners/ac-adapter-charger">LG CordZero</a>,&nbsp;<a href="https://www.statewideapp.com.au/VAX/vacuum-cleaners/ac-adapter-charger">VAX</a>&nbsp;and&nbsp;<a href="https://www.statewideapp.com.au/electrolux/vacuum-cleaners/ac-adapter-charger">Electrolux</a>, ready for fast Australia wide delivery. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><h2 class="contenthead" dir="ltr"><span>33When to replace your vacuum cleaner charger</span></h2><p dir="ltr"><span>It may be time to replace your vacuum cleaner charger if:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your vacuum cleaner charger is not functioning properly, such as not charging the vacuum or providing inconsistent power, it may be time to replace it.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If the charger is physically damaged, such as a frayed cord, broken plug, or any other visible signs of wear and tear, it's advisable to replace it. Damaged chargers can pose safety hazards and may not provide reliable power.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Over time, chargers can degrade or wear out, leading to diminished performance. If your vacuum cleaner charger is quite old and you're experiencing charging issues, it might be time for a replacement.</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>Why use genuine parts</span></h2><p dir="ltr"><strong>Highest quality standards</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Genuine spare parts are designed and manufactured by the original equipment manufacturer (OEM) specifically for your vacuum cleaner model. They are made to the highest quality standards and undergo rigorous testing to ensure optimal performance. Using genuine parts ensures that your vacuum cleaner will function as intended and maintain its performance level.</span></p></li></ul><p dir="ltr"><strong>Designed to fit</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Genuine spare parts are guaranteed to be compatible with your specific vacuum cleaner model. They are engineered to fit seamlessly and work in conjunction with other components.</span></p></li></ul><p dir="ltr"><strong>Warranty coverage</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your vacuum cleaner is still under warranty, using genuine spare parts is often a requirement to maintain warranty coverage. Manufacturers may void the warranty if non-genuine parts are used, as they cannot guarantee their quality or compatibility.</span></p></li></ul><p dir="ltr"><strong>Safety testing</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Vacuum cleaners are electrical appliances, and using non-genuine spare parts can pose safety risks. Genuine parts undergo stringent safety testing to meet industry standards and regulations.</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>How long does charging take?</span></h2><p dir="ltr"><span>The charging time for a vacuum cleaner can vary depending on several factors, including the specific model, battery capacity, and the charging technology used.</span></p><p dir="ltr"><span>Most modern vacuum cleaners come with lithium-ion batteries, which are commonly used due to their high energy density and faster charging capabilities. These batteries typically require several hours to fully charge. However, the exact charging time can vary depending on the battery's capacity and the charging speed supported by the charger. To determine the charging time for your specific vacuum cleaner model, it is best to refer to the manufacturer's instructions or user manual. They usually provide specific information about the estimated charging time and recommendations for optimal charging practices</span></p><h2 class="contenthead" dir="ltr"><span>Buy your spare parts at Statewide Appliance Spares</span></h2><p dir="ltr"><span>Statewide Appliance Spares offer Australia’s biggest range of spare parts for all home appliances. Find the part your need, hassle free! Shop online with secure transactions and fast, Australia wide shipping options. Your spare parts are only a few clicks away.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "vax",
+    "appliance_type": "vacuums-floor-care",
+    "part_type": ""
+  },
+  {
+    "title": "Lux vacuum & floor care spare parts",
+    "url": "/lux/vacuums-and-floor-care",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Shop for Lux vacuum cleaner parts from Statewide Appliance Spares. Statewide Appliance Spares have Australia’s biggest range of vacuum cleaner spare parts and accessories from all the leading brands including Lux. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div><p>We ensure our most popular Lux vacuum cleaner spare parts are always in stock – including filters, hoses, cables, floor tools and vacuum bags and offer fast, Australia wide delivery at competitive prices.</p></div>`,
+    "vendor": "lux",
+    "appliance_type": "vacuums-floor-care",
+    "part_type": ""
+  },
+  {
+    "title": "Freestanding oven spare parts",
+    "url": "/freestanding",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8">A freestanding oven is an oven (gas or electric) that can be placed straight onto the floor in the kitchen, and it usually combines the oven with the cooktop to make it an all in one unit. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><h2 class="contenthead" dir="ltr"><span>Statewide specializes in supplying a wide range of freestanding oven spare parts such as elements, racks, hinges, glass doors, knobs and burners for most leading brands. </span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": ""
+  },
+  {
+    "title": "Bosch vacuum & floor care spare parts",
+    "url": "/bosch/vacuums-and-floor-care",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Bosch home appliances have been making everyday life a bit easier for many decades. They make sure that our housework gets finished faster and improve our quality of life. The Bosch range of vacuum cleaners includes handstick vacuums, bagless vacuums, and bagged vacuums. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><h2 class="contenthead" dir="ltr"><span>When to replace your vacuum cleaner charger</span></h2><p dir="ltr"><span>It may be time to replace your vacuum cleaner charger if:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your vacuum cleaner charger is not functioning properly, such as not charging the vacuum or providing inconsistent power, it may be time to replace it.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If the charger is physically damaged, such as a frayed cord, broken plug, or any other visible signs of wear and tear, it's advisable to replace it. Damaged chargers can pose safety hazards and may not provide reliable power.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Over time, chargers can degrade or wear out, leading to diminished performance. If your vacuum cleaner charger is quite old and you're experiencing charging issues, it might be time for a replacement.</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>Why use genuine parts</span></h2><p dir="ltr"><strong>Highest quality standards</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Genuine spare parts are designed and manufactured by the original equipment manufacturer (OEM) specifically for your vacuum cleaner model. They are made to the highest quality standards and undergo rigorous testing to ensure optimal performance. Using genuine parts ensures that your vacuum cleaner will function as intended and maintain its performance level.</span></p></li></ul><p dir="ltr"><strong>Designed to fit</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Genuine spare parts are guaranteed to be compatible with your specific vacuum cleaner model. They are engineered to fit seamlessly and work in conjunction with other components.</span></p></li></ul><p dir="ltr"><strong>Warranty coverage</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your vacuum cleaner is still under warranty, using genuine spare parts is often a requirement to maintain warranty coverage. Manufacturers may void the warranty if non-genuine parts are used, as they cannot guarantee their quality or compatibility.</span></p></li></ul><p dir="ltr"><strong>Safety testing</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Vacuum cleaners are electrical appliances, and using non-genuine spare parts can pose safety risks. Genuine parts undergo stringent safety testing to meet industry standards and regulations.</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>How long does charging take?</span></h2><p dir="ltr"><span>The charging time for a vacuum cleaner can vary depending on several factors, including the specific model, battery capacity, and the charging technology used.</span></p><p dir="ltr"><span>Most modern vacuum cleaners come with lithium-ion batteries, which are commonly used due to their high energy density and faster charging capabilities. These batteries typically require several hours to fully charge. However, the exact charging time can vary depending on the battery's capacity and the charging speed supported by the charger. To determine the charging time for your specific vacuum cleaner model, it is best to refer to the manufacturer's instructions or user manual. They usually provide specific information about the estimated charging time and recommendations for optimal charging practices</span></p><h2 class="contenthead" dir="ltr"><span>Buy your spare parts at Statewide Appliance Spares</span></h2><p dir="ltr"><span>Statewide Appliance Spares offer Australia’s biggest range of spare parts for all home appliances. Find the part your need, hassle free! Shop online with secure transactions and fast, Australia wide shipping options. Your spare parts are only a few clicks away.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "bosch",
+    "appliance_type": "vacuums-floor-care",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung vacuum & floor care spare parts",
+    "url": "/samsung/vacuums-and-floor-care",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Shop for Samsung vacuum cleaner parts from Statewide Appliance Spares. Statewide Appliance Spares have Australia’s biggest range of vacuum cleaner spare parts and accessories from all the leading brands including Samsung. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><h2 class="contenthead" dir="ltr"><span>We ensure our most popular Samsung vacuum cleaner spare parts are always in stock – including filters, hoses, cables, floor tools and vacuum bags and offer fast, Australia wide delivery at competitive prices.<br><brStatewide Appliance Spares are a market leader in appliance spare parts for over 35 years. Our dedicated customer service team can offer expert guidance and advice to make buying spare parts easier.</p></div>`,
+    "vendor": "samsung",
+    "appliance_type": "vacuums-floor-care",
+    "part_type": ""
+  }, 
+  {
+    "title": "Clothes dryer spare parts",
+    "url": "/clothes-dryer-parts",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares have Australia’s biggest range of dryer spare parts and accessories for leading brands including Bosch, Electrolux, Fisher & Paykel and LG. As a common household appliance the clothes dryer (tumble dryer) can be powered by electricity or gas and effectively removes moisture from fabric and clothes by heating. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><h2 class="contenthead" dir="ltr"><span>Statewide specializes in supplying a wide range of spare parts for most major brands of clothes dryers including elements, belts, filters and even replacement doors. Keep your dryer running as good as new for a fraction of the price of replacing it.</p></div>`,
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Vacuum cleaner chargers",
+    "url": "/vax/vacuum-cleaners/brush",
+    "vendor": "vax",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "brush-roller"
+  },
+  {
+    "title": "Samsung spare parts",
+    "tags": ["Samsung Parts", "Samsung parts", "Samsung spare parts"],
+    "url": "/samsung",
+    "vendor": "samsung",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Ventilation globes",
+    "url": "/ventilation/globe",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop heat lamps and globes. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Experience the Statewide advantage – the biggest range in Australia, fast delivery, lowest price guarantee, and expert guidance from our local team. At Statewide Appliance Spares, we make buying spares easier!</p></div>`,
+    "vendor": "",
+    "appliance_type": "ventilation",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Miele vacuum bags & filters",
+    "url": "/miele/miele-vacuum-bags-filters",
+    "vendor": "miele",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "LG vacuum cleaners",
+    "tags": ["lg vacuum cleaners", "lg vacuum cleaner"],
+    "url": "/lg-vacuum-cleaners",
+    "vendor": "lg",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "LG vacuum cleaners",
+    "url": "/lg-vacuum-cleaners2",
+    "vendor": "lg",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "LG CordZero spare parts",
+    "tags": ["LG CordZero spare parts", "LG CordZero spare part", "LG Cord zero spare parts", "LG CordZero", "LG Cord Zero", "Cordzero", "Cord zero", "zero"],
+    "url": "/lg/cordzero-vacuum-cleaners",
+    "vendor": "lg",
+    "appliance_type": "cordzero-vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Television spare parts",
+    "tags": ["tv"],
+    "url": "/televisions",
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "TV LCD spare parts",
+    "tags": ["tv cd"],
+    "url": "/tv-lcd",
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "TV plasma",
+    "tags": ["tv plasma"],
+    "url": "/tv-plasma",
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "LG air conditioner spare parts",
+    "url": "/lg/air-conditioners/motor-gearbox-shaft",
+    "vendor": "lg",
+    "appliance_type": "air-conditioners",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "LG air conditioner spare parts",
+    "url": "/lg/air-conditioners/motor-gearbox-shaft",
+    "vendor": "lg",
+    "appliance_type": "air-conditioners",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Split system air conditioning",
+    "url": "/split-system",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><div class="topicpage-body"><p><meta charset="utf-8"><span>Split-system (also multi-split system) air conditioners are an air conditioning unit made up of two units — an outside unit, the compressor, and an inside air outlet unit, usually referred to as the “wall unit”. Statewide specialises in supplying a wide range of split system air conditioning spare parts for many leading brands. </span><span class="collection-read-more">Read more</span></p></div></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><div class="topicpage-body"><p><meta charset="utf-8"><span>From replacement </span><a href="https://www.statewideapp.com.au/air-conditioners/remote-control">remotes</a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/air-conditioners/filter">filters</a><span>&nbsp;and even compressors, Statewide can supply the spare parts you need to keep your unit running as good as new for a fraction of the price of replacing it.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "LG air conditioner spare parts",
+    "url": "/lg-air-conditioner-parts",
+    "vendor": "lg",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "LG air conditioner spare parts",
+    "url": "/lg/air-conditioners/remote-wall-control",
+    "vendor": "lg",
+    "appliance_type": "air-conditioners",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Other appliance spare parts",
+    "url": "/electronic-appliances",
+    "vendor": "",
+    "appliance_type": "other-electronic-appliances",
+    "part_type": ""
+  },
+  {
+    "title": "LG electrical parts",
+    "url": "/lg-electrical-parts",
+    "vendor": "lg",
+    "appliance_type": "other-electronic-appliances",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><div class="topicpage-body"><p><meta charset="utf-8"><span>LG is a leader when it comes to all things electrical. Whether it's laptops, mobile phones, digital cameras or GPS trackers, LG's range of electrical equipment is state of the art.At Statewide Appliance Spares we stock a comprehensive range of LG laptop accessories and LG mobile phone parts, so if you’ve got an LG mobile or laptop computer that's in need of repair you know who to turn to. </span><span class="collection-read-more">Read more</span></p></div></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><div class="topicpage-body"><p><meta charset="utf-8"><span>We stock LG laptop accessories across more than 100 different makes and models of LG's most popular notebook computers. Our comprehensive range of LG laptop accessories includes screens, batteries and chargers, as well as a diverse range of replacement LCD cables. And when it comes to LG mobile phone parts we offer a huge selection of replacement screens, chargers, and a whole lot more.</span></p></div>`,
+    "part_type": ""
+  },
+  {
+    "title": "LG dishwasher spare parts",
+    "url": "/lg/dishwashers/roller-wheel",
+    "vendor": "lg",
+    "appliance_type": "dishwashers",
+    "part_type": "wheel"
+  },
+  {
+    "title": "Dishwasher spare parts",
+    "url": "/dishwasher-parts",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><div class="topicpage-body"><p><meta charset="utf-8"><span>Statewide Appliance Spares have Australia’s biggest range of dishwasher spare parts and accessories for leading brands Dishlex, Bosch, Fisher & Paykel, Electrolux and more. </span><span class="collection-read-more">Read more</span></p></div></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><div class="topicpage-body"><p><meta charset="utf-8"><span>We ensure our most popular dishwasher spare parts are always in stock – including hoses, cutlery baskets, rollers and replacement trays. Statewide Appliance Spares are a market leader in the supply of appliance spare parts for over 35 years. <br> <br> Our extensively stocked warehouse includes genuine parts and a large range of universal fitting and great value compatible, generic spare parts. We make buying spare parts easier, with fast Australia wide delivery and competitive prices.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "LG dishwasher spare parts",
+    "url": "/lg-dishwasher-spares",
+    "vendor": "lg",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "LG dryer parts",
+    "url": "/lg-dryer-parts",
+    "vendor": "lg",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "LG microwave spare parts",
+    "url": "/lg-microwave-parts",
+    "vendor": "lg",
+    "appliance_type": "microwaves",
+    "part_type": ""
+  },
+  {
+    "title": "LG oven parts",
+    "url": "/lg-oven-parts",
+    "vendor": "lg",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": ""
+  },
+  {
+    "title": "Blanco dishwasher spare parts",
+    "url": "/blanco/dishwashers/hose-pipe-tubing",
+    "vendor": "blanco",
+    "appliance_type": "dishwashers",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Blanco dishwasher spare parts",
+    "url": "/blanco/dishwashers/basket-rack-parts",
+    "vendor": "blanco",
+    "appliance_type": "dishwashers",
+    "part_type": "basket-rack"
+  },
+  {
+    "title": "Blanco oven & cooktop spare parts",
+    "url": "/blanco/ovens-and-cooktops/door-parts",
+    "vendor": "blanco",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "door-lid-latch"
+  },
+  {
+    "title": "Blanco oven & cooktop spare parts",
+    "url": "/blanco/ovens-and-cooktops/element",
+    "vendor": "blanco",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Blanco oven & cooktop spare parts",
+    "url": "/blanco/ovens-and-cooktops/knob-button",
+    "vendor": "blanco",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Euro spare parts",
+    "tags": ["euro button", "euro lever", "euro knob", "euro buttons", "euro levers", "euro knobs"],
+    "url": "/euro/knob-button",
+    "vendor": "euro",
+    "appliance_type": "",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Blanco oven & cooktop spare parts",
+    "url": "/blanco/ovens-and-cooktops/element-heater",
+    "vendor": "blanco",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Blanco rangehood spare parts",
+    "url": "/blanco/rangehoods/globe-bulb",
+    "vendor": "blanco",
+    "appliance_type": "rangehoods",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "LG rangehood spare parts",
+    "url": "/lg-rangehood",
+    "vendor": "lg",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel rangehood spare parts",
+    "tags": ["Fisher & Paykel rangehood", "Fisher & Paykel rangehoods"],
+    "url": "/fisher-and-paykel/rangehoods",
+    "vendor": "fisher-paykel",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "tags": ["Fisher & Paykel shelf", "Fisher & Paykel shelfs"],
+    "url": "/fisher-and-paykel/shelf",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": "shelf-rack"
+  },
+  {
+    "title": "Blanco washing machine spare parts",
+    "url": "/blanco/washing-machines",
+    "vendor": "blanco",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Kleenmaid washing machine spare parts",
+    "url": "/kleenmaid/washing-machines",
+    "vendor": "kleenmaid",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Front load spare parts",
+    "tags": ["Front load", "Front load spare parts"],
+    "url": "/front-load",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Twin tub washing machine spare parts",
+    "tags": ["twin tub", "twin tub loader", "Twin tub washing machine"],
+    "url": "/twin-tub",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "LG dishwasher spare parts",
+    "url": "/lg/dishwashers/cutlery-basket",
+    "vendor": "lg",
+    "appliance_type": "dishwashers",
+    "part_type": "cutlery-baskets"
+  },
+  {
+    "title": "LG dishwasher spare parts",
+    "url": "/lg/dishwashers/basket-rack-parts",
+    "vendor": "lg",
+    "appliance_type": "dishwashers",
+    "part_type": "basket-rack"
+  },
+  {
+    "title": "LG dishwasher spare parts",
+    "url": "/lg/dishwashers/hose",
+    "vendor": "lg",
+    "appliance_type": "dishwashers",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "LG dishwasher spare parts",
+    "url": "/lg/dishwashers",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop LG dishwasher spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">LG is a name synonymous with cutting-edge technology, sleek design, and unmatched performance in the world of home appliances. Statewide Appliance Spares provides an extensive selection of genuine LG spare parts. Whether it's a replacement component for your refrigerator, washing machine, dishwasher, or dryer, we offer the essential parts to maintain your LG appliances' optimal performance.<br><br>Our friendly and knowledgeable staff are here to assist you every step of the way. With their expertise and commitment to customer satisfaction, they'll ensure you find exactly what you need to keep your LG appliances operating at their peak.</p></div>`,
+    "vendor": "lg",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Refrigerator spare parts",
+    "url": "/refrigerator",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><span>Statewide specializes in supplying a wide range of spare parts for most major brands of refrigerators including thermostats, door seals (gaskets) ,&nbsp;</span><a href="https://www.statewideapp.com.au/save-on-fridge-water-filters-buy-today">water filters</a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fridges-and-freezers/shelf">shelves</a><span>, wire baskets, crisper bins, even replacement doors. Keep your refrigerator running as good as new for a fraction of the price of replacing it!</span></p></div>`,
+    "below_description": `<div></div>`,
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Refrigerator spare parts",
+    "url": "/side-by-side",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><span>The side-by-side refrigerator is very popular for its sleek, professional look and convenient configuration. The freezer and refrigerator are placed next to each other, making both easy to access. These models usually come with external ice & filtered water dispensers.</span> <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div>Statewide specializes in supplying a wide range of spare parts for most major brands of side by side refrigerators including thermostats, door gaskets, water filters, shelves, globes, crisper bins, even replacement doors.Keep your side by side refrigerator running as good as new for a fraction of the price of replacing it.</div>`,
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "LG fridge & freezer spare parts",
+    "url": "/lg-fridge-spare-parts",
+    "vendor": "lg",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "LG fridge & freezer spare parts",
+    "url": "/lg-fridge-spare-parts",
+    "vendor": "lg",
+    "appliance_type": "fridges-freezers",
+    "part_type": "air-filter"
+  },
+  {
+    "title": "LG fridge & freezer spare parts",
+    "url": "/lg/fridges-freezers/water-filter",
+    "vendor": "lg",
+    "appliance_type": "fridges-freezers",
+    "part_type": "water-filter"
+  },
+  {
+    "title": "LG television spare parts",
+    "url": "/lg/televisions/cable",
+    "vendor": "lg",
+    "appliance_type": "televisions",
+    "part_type": "cable"
+  },
+  {
+    "title": "LG vacuum cleaner spare parts",
+    "url": "/lg/vacuum-cleaners/hose-pipe-tubing",
+    "vendor": "lg",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "LG vacuum cleaner spare parts",
+    "url": "/lg/vacuum-cleaners/motor-gearbox-shaft",
+    "vendor": "lg",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Omega washing machine spare parts",
+    "url": "/omega/washing-machines",
+    "vendor": "omega",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Washing machine switches",
+    "url": "/washing-machines/switch-relay",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "switch-relay"
+  },
+  {
+    "title": "Omega fridge & freezer spare parts",
+    "url": "/omega/fridges",
+    "vendor": "omega",
+    "appliance_type": "fridge-parts",
+    "part_type": ""
+  },
+  {
+    "title": "Maytag washing machine spare parts",
+    "url": "/maytag/washing-machines",
+    "vendor": "maytag",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "LG washing machine spare parts",
+    "url": "/lg/washing-machines/door-lid-parts",
+    "vendor": "lg",
+    "appliance_type": "washing-machine",
+    "part_type": "door-lid-latch"
+  },
+  {
+    "title": "LG washing machine spare parts",
+    "url": "/lg/washing-machines/lint-filter",
+    "vendor": "lg",
+    "appliance_type": "washing-machine",
+    "part_type": "lint-filter"
+  },
+  {
+    "title": "LG washing machine spare parts",
+    "url": "/lg/washing-machines/agitator",
+    "vendor": "lg",
+    "appliance_type": "washing-machine",
+    "part_type": "agitator"
+  },
+  {
+    "title": "LG washing machine spare parts",
+    "url": "/lg/washing-machines/drum-parts",
+    "vendor": "lg",
+    "appliance_type": "washing-machine",
+    "part_type": "drum"
+  },
+  {
+    "title": "Washing machine seals",
+    "url": "/washing-machines/gasket/seal",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find the biggest range of washing machine seals and gaskets at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">A washing machine door seal is a flexible rubber or plastic ring that creates a watertight seal between the drum and the door of the machine. It is a crucial component of the washing machine, and regular inspection and maintenance are important for ensuring that the machine operates efficiently and effectively.</p><p>Your washing machine seal serves several important functions:</p><ul><li><strong>Keeps water from leaking out:</strong> The seal creates a tight seal between the washing machine drum and the door, preventing water from leaking out of the machine during the wash cycle.</li><li><strong>Prevents mould and mildew growth:</strong> Moisture can accumulate on the seal, creating a perfect environment for mould and mildew to grow. A clean and well-maintained seal helps prevent the growth of mould and mildew, which can cause unpleasant odours and even health issues.</li><li><strong>Protects the washing machine:</strong> The seal acts as a buffer between the drum and the door, preventing any damage to the machine caused by vibrations or friction.</li><li><strong>Enhances washing performance:</strong> If the seal is worn or damaged, water may leak out, reducing the effectiveness of the wash cycle. A properly functioning seal ensures that the washing machine performs optimally.</li></ul><h2 class="contenthead">Buy your washing machine spare parts online at Statewide</h2><p>Statewide Appliance Spares are Australia’s largest distributor of genuine spare parts and accessories for all leading brands of household appliances. With over 38 years of experience in the industry, Statewide Appliance Spares has developed a reputation for excellence in customer service. We offer fast and reliable shipping, ensuring our customers receive their parts quickly. Shop washing machine gasket spares with the lowest prices, guaranteed.</p></div>`,
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "seal"
+  },
+  {
+    "title": "LG washing machine spare parts",
+    "url": "/lg/washing-machines/pump",
+    "vendor": "lg",
+    "appliance_type": "washing-machine",
+    "part_type": "pump"
+  },
+  {
+    "title": "LG washing machine spare parts",
+    "url": "/lg/washing-machines/seal-gasket",
+    "vendor": "lg",
+    "appliance_type": "washing-machine",
+    "part_type": "seal"
+  },
+  {
+    "title": "Seal gasket spare parts",
+    "url": "/seal-gasket",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "seal"
+  },
+  {
+    "title": "LG television spare parts",
+    "tags": ["LG tv stand"],
+    "url": "/lg/televisions/stand",
+    "vendor": "lg",
+    "appliance_type": "televisions",
+    "part_type": "stand"
+  },
+  {
+    "title": "Vacuum & floor care spare parts",
+    "tags": ["commercial floor care", "commercial floor", "commercial care", "Commercial Floor Care"],
+    "url": "/vacuums-floor-care",
+    "vendor": "",
+    "appliance_type": "vacuums-floor-care",
+    "part_type": ""
+  },
+  {
+    "title": "Remote control",
+    "tags": ["universal remote"],
+    "url": "/remote-control",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Air conditioning remote controls",
+    "url": "/remote-controls-air-conditioning",
+    "vendor": "",
+    "appliance_type": "air-conditioning",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Fujitsu spare parts",
+    "tags": ["fujitsu remote", "Fujitsu Remote control", "Fujitsu Remote controls", "Fujitsu Remote controls AST9", "Fujitsu Remote control AST9"],
+    "url": "/fujitsu/remote-control",
+    "vendor": "fujitsu",
+    "appliance_type": "",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Remote controls",
+    "url": "/remote-controls",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Fujitsu spare parts",
+    "tags": ["fujitsu pcb", "Fujitsu pcb control box"],
+    "url": "/fujitsu/pcb-control-box",
+    "vendor": "fujitsu",
+    "appliance_type": "",
+    "part_type": "pcb"
+  },
+  {
+    "title": "Fujitsu air conditioner spare parts",
+    "url": "/fujitsu/air-conditioners/remote-wall-control",
+    "vendor": "fujitsu",
+    "appliance_type": "air-conditioners",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "LG spare parts",
+    "tags": ["magic remote", "LG tv remote", "lg magic remote", "Lg remote", "Lg Remote control", "Lg Remote controls", "Lg Remote controls"],
+    "url": "/lg/remote-control",
+    "vendor": "lg",
+    "appliance_type": "",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Panasonic spare parts",
+    "tags": ["panasonic remote", "Panasonic tv remote"],
+    "url": "/panasonic/remote-control",
+    "vendor": "panasonic",
+    "appliance_type": "",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Panasonic fridge & freezer spare parts",
+    "url": "/panasonic/fridges-freezers/seal-gasket",
+    "vendor": "panasonic",
+    "appliance_type": "fridges-freezers",
+    "part_type": "seal"
+  },
+  {
+    "title": "Panasonic fridge & freezer spare parts",
+    "url": "/panasonic/fridges-freezers/crisper-drawer-parts",
+    "vendor": "panasonic",
+    "appliance_type": "fridges-freezers",
+    "part_type": "crisper-bin-drawer"
+  },
+  {
+    "title": "LG television spare parts",
+    "tags": ["LG tv ir", "LG 55 ix6500"],
+    "url": "/lg/televisions",
+    "vendor": "lg",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "Panasonic spare parts",
+    "tags": ["panasonic remote", "panasonic remote control"],
+    "url": "/panasonic/televisions/remote-control",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Take control of your viewing experience with our range of television remote controls. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>At Statewide Appliance Spares, we understand the importance of a reliable and responsive television remote control. Explore our collection of television remote controls designed to enhance your viewing experience and put the power in your hands.&nbsp;</span></p><p dir=\"ltr\"><span>Finding the perfect remote control for your television is easy – simply browse our selection or refine your search using your TV's brand and model number. If you need assistance or can't find the specific remote you're looking for, our friendly and knowledgeable team is here to help. Give us a call at 1800 005 220, and we'll guide you to the right solution. Whether you need a replacement for your&nbsp;</span><a href=\"https://www.statewideapp.com.au/samsung/televisions/remote-control\"><span>Samsung</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/lg/televisions/remote-control\"><span>LG</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/panasonic/televisions/remote-control\"><span>Panasonic</span></a><span> or any other TV brand, we have the right remote for you.</span></p><p dir=\"ltr\"><span>Don't let a missing remote control interrupt your TV time – shop our selection of television remote controls today and experience the ease and convenience of Statewide Appliance Spares!</span></p><p dir=\"ltr\">&nbsp;</p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "televisions",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Television remote controls",
+    "tags": ["tv remote control", "tv remote"],
+    "url": "/televisions/remote-control",
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>At Statewide Appliance Spares, we understand the importance of a reliable and responsive television remote control. Explore our collection of television remote controls designed to enhance your viewing experience and put the power in your hands.&nbsp;</span></p><p dir=\"ltr\"><span>Finding the perfect remote control for your television is easy – simply browse our selection or refine your search using your TV's brand and model number. If you need assistance or can't find the specific remote you're looking for, our friendly and knowledgeable team is here to help. Give us a call at 1800 005 220, and we'll guide you to the right solution. Whether you need a replacement for your&nbsp;</span><a href=\"https://www.statewideapp.com.au/samsung/televisions/remote-control\"><span>Samsung</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/lg/televisions/remote-control\"><span>LG</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/panasonic/televisions/remote-control\"><span>Panasonic</span></a><span> or any other TV brand, we have the right remote for you.</span></p><p dir=\"ltr\"><span>Don't let a missing remote control interrupt your TV time – shop our selection of television remote controls today and experience the ease and convenience of Statewide Appliance Spares!</span></p><p dir=\"ltr\">&nbsp;</p></div>`,
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Take control of your viewing experience with our range of television remote controls. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Hisense televisions spare parts",
+    "url": "/televisions/hisense",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Statewide Appliance Spares is your trusted destination for Hisense television spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>From </span><a href=\"https://www.statewideapp.com.au/hisense/televisions/remote-control\"><span>remote controls</span></a><span> and </span><a href=\"https://www.statewideapp.com.au/hisense/televisions/remote-control\"><span>PCB’s</span></a><span> to </span><a href=\"https://www.statewideapp.com.au/hisense/televisions/stand\"><span>stands</span></a><span> and </span><a href=\"https://www.statewideapp.com.au/hisense/televisions/cable-cord\"><span>cables</span></a><span>, we have the right parts to keep your Hisense TV running smoothly. With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're committed to providing quality service and convenience. Our extensive inventory of Hisense parts ensures fast Australia-wide delivery, so you can quickly get your Hisense TV back to its optimal performance.</span></p><p dir=\"ltr\"><span>Don't let a broken TV interrupt your entertainment – shop our selection of Hisense television spare parts today and experience the ease and convenience of Statewide Appliance Spares!</span></p><p dir=\"ltr\">&nbsp;</p></div>`,
+    "vendor": "hisense",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "Palsonic televisions spare parts",
+    "url": "/televisions/palsonic",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop Palsonic televisions spare parts at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance and advice to make buying spare parts easier.</p></div>`,
+    "vendor": "palsonic",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "Panasonic televisions spare parts",
+    "url": "/televisions/panasonic",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your Panasonic televisions running smoothly with our range of genuine Panasonic parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find all your Panasonic televisions spares at Statewide Appliance Spares. We have a big selection of televisions spare parts, ensuring that you can maintain your equipment with ease. Experience the Statewide Appliance Spares difference – shop now!</p></div>",
+    "vendor": "panasonic",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "Palsonic televisions spare parts",
+    "url": "/televisions/palsonic",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Palsonic televisions spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance and advice to make buying spare parts easier.</p></div>",
+    "vendor": "palsonic",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung televisions spare parts",
+    "url": "/televisions/samsung",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Samsung televisions spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>At Statewide Appliance Spares, we are proud to offer a comprehensive selection of genuine</span><span> Samsung</span><span> televisions parts, such as </span><a href=\"https://www.statewideapp.com.au/samsung/televisions/remote-control\"><span>remote controls</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/samsung/televisions/pcb\"><span>PCB’s</span></a><span> and </span><a href=\"https://www.statewideapp.com.au/samsung/televisions/stand\"><span>stands</span></a><span>, ensuring that your home entertainment system performs at its best. Shopping with us is easy, with our easy online browsing and fast Australia-wide delivery.&nbsp;</span></p><p dir=\"ltr\"><span>Don't let a malfunctioning TV disrupt your viewing pleasure – shop our selection of Samsung television spare parts today and enjoy uninterrupted entertainment with Statewide Appliance Spares!</span></p><p>&nbsp;</p></div>",
+    "vendor": "samsung",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung televisions spare parts",
+    "url": "/televisions/samsung",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Samsung televisions spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>At Statewide Appliance Spares, we are proud to offer a comprehensive selection of genuine</span><span> Samsung</span><span> televisions parts, such as </span><a href=\"https://www.statewideapp.com.au/samsung/televisions/remote-control\"><span>remote controls</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/samsung/televisions/pcb\"><span>PCB’s</span></a><span> and </span><a href=\"https://www.statewideapp.com.au/samsung/televisions/stand\"><span>stands</span></a><span>, ensuring that your home entertainment system performs at its best. Shopping with us is easy, with our easy online browsing and fast Australia-wide delivery.&nbsp;</span></p><p dir=\"ltr\"><span>Don't let a malfunctioning TV disrupt your viewing pleasure – shop our selection of Samsung television spare parts today and enjoy uninterrupted entertainment with Statewide Appliance Spares!</span></p><p>&nbsp;</p></div>",
+    "vendor": "samsung",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "Sanyo televisions spare parts",
+    "url": "/televisions/sanyo",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover genuine Sanyo televisions spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Statewide Appliance Spares is your trusted distributor for genuine Sanyo televisions spare parts. </span><span>&nbsp;</span><span>With our extensive selection and easy shopping experience, keeping your television in top condition has never been easier!</span></p><p dir=\"ltr\"><span>At Statewide Appliance Spares, we stock a wide range of genuine Sanyo televisions spare parts to ensure your TV operates at peak efficiency. We have everything you need to maintain and repair your Sanyo televisions.</span></p><p>&nbsp;</p></div>",
+    "vendor": "sanyo",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "Speed televisions spare parts",
+    "url": "/televisions/speed",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover Speed wall brackets and stands at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find all your Speed TV Wall brackets, rails and stands at Statewide Appliance Spares. We have a big selection of televisions spare parts, ensuring that you can maintain your equipment with ease. Experience the Statewide Appliance Spares difference – shop now!</p></div>",
+    "vendor": "speed",
+    "appliance_type": "televisions",
+    "part_type": ""
+  },
+  {
+    "title": "LG televisions spare parts",
+    "url": "/televisions/lg",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Explore Statewide Appliance Spares for the biggest range of genuine LG television spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Immerse yourself in the world of dynamic viewing and superior sound quality offered by LG's state-of-the-art home theatre systems. LG TVs and audio devices are renowned for delivering superb picture clarity and immersive sound, transforming your movie nights into vivid cinematic experiences right in your living room.</span></p><p dir=\"ltr\"><span>Experience uninterrupted entertainment with genuine LG television spare parts from Statewide Appliance Spares. We recognise the inconvenience of a malfunctioning TV, which is why we provide a comprehensive selection of LG television spare parts, ready for fast delivery. Whether you need a replacement&nbsp;</span><a href=\"https://www.statewideapp.com.au/lg/televisions/remote-control\"><span>remote control</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/lg/televisions/cable-cord\"><span>power cord</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/lg/televisions/pcb\"><span>PCB</span></a><span>, or </span><a href=\"https://www.statewideapp.com.au/lg/televisions/bracket-guiderail-wallmount\"><span>wall mount</span></a><span>, Statewide has the right parts and accessories to ensure your LG TV continues to deliver outstanding performance.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>Why Choose Statewide Appliance Spares for your LG parts?</span></h2><p dir=\"ltr\"><strong>Genuine LG parts:</strong><span> We source our LG television spare parts directly from the manufacturer, ensuring authenticity and compatibility.</span></p><p dir=\"ltr\"><strong>Expert assistance:</strong><span> Unsure which part you need? Our knowledgeable team is here to provide guidance and support to help you find the part you need.</span></p><p dir=\"ltr\"><strong>Australia’s largest LG distributor:&nbsp;</strong><span>&nbsp;Shop with confidence as Statewide Appliance Spares is Australia’s largest authorised national distributor.</span></p><p dir=\"ltr\"><span><strong>Proven track record:</strong>&nbsp;</span><span>With over 38 years of experience in the industry, we have earned a reputation for being a trusted source for LG television spare parts.</span></p><p dir=\"ltr\"><strong>Fast delivery across Australia:</strong><span> Get your LG TV up and running again quickly with our fast nationwide delivery.</span></p><p dir=\"ltr\"><strong>Customer satisfaction guaranteed:</strong><span> Join our community of satisfied customers who rely on us for exceptional service and quality parts. Read our </span><a href=\"https://www.statewideapp.com.au/reviews\"><span>reviews</span></a><span> to see why Statewide is the preferred choice for appliance spares.</span></p><p dir=\"ltr\"><span>Find the perfect spare part for your LG TV and restore its performance and functionality with ease.</span></p><p dir=\"ltr\">&nbsp;</p></div>`,
+    "appliance_type": "televisions",
+    "vendor": "lg",
+    "part_type": ""
+  },
+  {
+    "title": "Panasonic air conditioner spare parts",
+    "tags": ["PANASONIC AIRCON WALL CONTROLLER"],
+    "url": "/panasonic/air-conditioners/remote-control",
+    "vendor": "panasonic",
+    "appliance_type": "air-conditioners",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Air conditioner remote controls",
+    "tags": ["air con remote control", "air con remote controls"],
+    "url": "/air-conditioners/remote-control",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover the biggest range of air conditioner remote controls for all the leading brands. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>At Statewide Appliance Spares, we offer a wide range of remote controls for all your home appliances, including&nbsp;</span><a href="https://www.statewideapp.com.au/air-conditioners/remote-control"><span>air conditioners</span></a><span>, </span><a href="https://www.statewideapp.com.au/televisions/remote-control"><span>TVs</span></a><span>,&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/blu-ray-dvd/remote-control"><span>Blu Ray / DVD players</span></a><span>.&nbsp;</span></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Genuine remote controls are made by the original manufacturer of your appliance, ensuring compatibility and optimal performance.</span></p></li></ul><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Non-genuine, compatible remote controls are high-quality alternatives that offer great value for money without compromising on functionality or reliability.</span></p></li></ul><h2 dir="ltr" class="contenthead"><span>To find the right remote control for your AC, you will first need your model number</span></h2><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Look for the model number on the back or underside of the remote control. It may be printed on a sticker or engraved into the plastic.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Check the battery compartment of the remote control. Some remotes have the model number printed inside the battery compartment.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Consult the user manual that came with the remote control. The model number should be listed in the specifications or on the cover of the manual.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>If you don’t have the user manual, try searching for the brand and model of your remote control online. You may be able to find a digital copy of the manual that includes the model number.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>If all else fails, contact the team at Statewide Appliance Spares and we will help you identify the model number and find a replacement remote control.</span><b><br></b></p></li></ul><p dir="ltr"><span>Statewide Appliance Spares offer fast and reliable shipping to anywhere in Australia. And with our easy-to-use website and knowledgeable customer service team, finding the right remote control for your air conditioner has never been easier!</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Daikin air conditioner spare parts",
+    "url": "/air-conditioners/daikin",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Upgrade your Daikin air conditioner with genuine spare parts. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With extensive experience in heating and cooling Australian homes, Daikin is well-versed in handling the diverse extremes of our country's climate. At Statewide, we ensure your Daikin air conditioner parts reach you quickly, so you can stay comfortable in any climate. <br><br>Genuine Daikin spare parts are engineered to uphold their high standards, ensuring optimal performance, energy efficiency, and longevity for your unit. Don't settle for substitutes – choose genuine Daikin spare parts from Statewide Appliance Spares for peace of mind and reliable comfort.</p></div>`,
+    "vendor": "daikin",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "Electrolux air conditioner spare parts",
+    "url": "/air-conditioners/electrolux",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop the biggest range of genuine Electrolux AC spare parts. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide, we understand the importance of quality and reliability when it comes to appliance repairs. That's why we're proud to offer a wide range of genuine Electrolux spare parts, designed to meet the highest standards of performance and durability. <br><br>Don't let a malfunctioning air conditioner disrupt your comfort. Trust Statewide for all your Electrolux air conditioning part needs. Shop now and experience why countless customers rely on Statewide for their appliance spares.</p></div>`,
+    "vendor": "electrolux",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "Fujitsu air conditioner spare parts",
+    "url": "/air-conditioners/fujitsu",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Fujitsu air conditioning spare parts from Statewide Appliance Spares. We have the biggest range of air conditioning spares to suit Fujitsu air conditioners. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Fujitsu offer a range of air conditioning units for residential and commercial use. Their residential range is suited to a single room or living space and includes ducted systems, wall mounted split system air conditioners, cassette models and floor/ceiling consoles. For multiple room solutions, Fujitsu’s range includes multi systems that allow individual units to be installed in multiple rooms using one compact outdoor unit and Airstage VRF units. They have an air conditioning solution to suit customer’s heating and cooling needs and a reputation as Australia’s Favourite Air®.</span><b></b></p><p dir="ltr"><span>Our comprehensive range of Fujitsu air conditioner spares includes&nbsp;</span><a href="https://www.statewideapp.com.au/fujitsu/filter" data-mce-href="https://www.statewideapp.com.au/fujitsu/filter"><span>filters</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fujitsu/remote-control" data-mce-href="https://www.statewideapp.com.au/fujitsu/remote-control"><span>remote controls</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fujitsu/pcb-control-box" data-mce-href="https://www.statewideapp.com.au/fujitsu/pcb-control-box"><span>PCB’s</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fujitsu/compressor" data-mce-href="https://www.statewideapp.com.au/fujitsu/compressor"><span>compressors</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fujitsu/fan-blower" data-mce-href="https://www.statewideapp.com.au/fujitsu/fan-blower"><span>fans</span></a><span>&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/fujitsu/hose-pipe-tubing" data-mce-href="https://www.statewideapp.com.au/fujitsu/hose-pipe-tubing"><span>tubing</span></a><span> to get your Fujitsu unit back to working order and provide you a better living and more comfortable environment.</span></p><h2 dir="ltr"><span></span><span></span><span>How often do I need to clean my Fujitsu filters?</span></h2><p dir="ltr"><span></span><span>To maintain optimum performance of your air conditioner, Fujitsu recommends cleaning filters regularly. If your air conditioner is used daily, your filter should be cleaned monthly. If you use your unit less often, seasonally is recommended. You can clean your air conditioner in 7 easy steps. Check out our handy blog </span><a href="https://www.statewideapp.com.au/blogs/how-to-clean-your-air-conditioner-filter" data-mce-href="https://www.statewideapp.com.au/blogs/how-to-clean-your-air-conditioner-filter"><span>guide</span></a><span>.</span><span><br></span><span><br></span><span>If you want to reach ‘hard to get’ places, consider a&nbsp;</span><a href="https://www.statewideapp.com.au/mitsubishi-elec-aircon-quick-clean-brush-kit-mac-093ss-svc" data-mce-href="https://www.statewideapp.com.au/mitsubishi-elec-aircon-quick-clean-brush-kit-mac-093ss-svc"><span>Quick Clean Kit</span></a><span>. This effective special cleaning adaptor is easy to use. It ensures efficient dust free operation of your air conditioner.</span></p><h2 dir="ltr"><span></span><span>What is the best temperature to set my Fujitsu air conditioner to?</span></h2><p dir="ltr"><span></span><span>Fujitsu recommends that the temperature is set between 23-26 degrees (cooling) in summer and 18-21 degrees (heating) in winter.</span><span><br></span></p><h2 dir="ltr"><span><span><meta charset="utf-8">How do I find the right spare part for my Fujitsu air conditioner?</span></span></h2><p dir="ltr"><span></span><span>Still unsure about the right part needed for your Fujistu air conditioner? Why not speak to our dedicated customer care team on Free Call 1800 005 220? The team has a wealth of experience and can offer the right guidance to help you find the part you need. </span></p><p dir="ltr"><span></span><span>Buy your quality parts online with confidence. Statewide are a Fujitsu authorised spare parts distributor. Regular system maintenance and quality servicing will ensure that any problems with your Fujistu unit are quickly rectified. Refer to a trusted technician for servicing and buy your genuine Fujistu replacement parts from Statewide Appliance Spares.</span></p></div>`,
+    "vendor": "fujitsu",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "Haier air conditioner spare parts",
+    "url": "/air-conditioners/haier",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Haier air conditioning spare parts from Statewide Appliance Spares. We have the biggest range of air conditioning spares to suit Haier air conditioners. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide, we understand the importance of quality and reliability when it comes to appliance repairs. That's why we're proud to offer a wide range of genuine Haier spare parts, designed to meet the highest standards of performance and durability. <br><br>Don't let a malfunctioning air conditioner disrupt your comfort. Trust Statewide for all your Haier air conditioning part needs. Shop now and experience why countless customers rely on Statewide for their appliance spares.</p></div>`,
+    "vendor": "haier",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "Kelvinator air conditioner spare parts",
+    "url": "/air-conditioners/kelvinator",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Upgrade your air conditioner with genuine Kelvinator spare parts. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide, we understand the importance of quality and reliability when it comes to appliance repairs. That's why we're proud to offer a wide range of genuine Kelvinator spare parts, designed to meet the highest standards of performance and durability. <br><br>Don't let a malfunctioning air conditioner disrupt your comfort. Trust Statewide for all your Kelvinator air conditioning part needs. We ensure our most popular air conditioner parts are always in stock to get your unit back to working order and provide you a better living and more comfortable environment.</p></div>`,
+    "vendor": "kelvinator",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "LG air conditioner spare parts",
+    "url": "/air-conditioners/lg",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find the biggest range of genuine LG air conditioner parts at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Designed using the latest in innovative technology and modern design, LG air conditioners have been keeping Australians cool in summer and warm in winter for over 15 years. The LG air conditioning range includes split systems, ducted systems, multi split, cassette and multi v systems.</span><span><br></span><span><br></span><span>Buy your LG air conditioning spares from Statewide Appliance Spares. We have the biggest range of LG air conditioning spares including&nbsp;</span><a href="https://www.statewideapp.com.au/lg/air-conditioners/filter" data-mce-href="https://www.statewideapp.com.au/lg/air-conditioners/filter"><span>filters</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/lg/air-conditioners/remote-wall-control" data-mce-href="https://www.statewideapp.com.au/lg/air-conditioners/remote-wall-control"><span>remote controls</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/lg/air-conditioners/pcb-control-box" data-mce-href="https://www.statewideapp.com.au/lg/air-conditioners/pcb-control-box"><span>PCB’s</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/lg/air-conditioners/compressor" data-mce-href="https://www.statewideapp.com.au/lg/air-conditioners/compressor"><span>compressors</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/lg/air-conditioners/motor-gearbox-shaft" data-mce-href="https://www.statewideapp.com.au/lg/air-conditioners/motor-gearbox-shaft"><span>motors</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/lg/air-conditioners/fan-blower" data-mce-href="https://www.statewideapp.com.au/lg/air-conditioners/fan-blower"><span>fans</span></a><span>&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/lg/air-conditioners/fan-blower" data-mce-href="https://www.statewideapp.com.au/lg/air-conditioners/fan-blower"><span>panels</span></a><span>.</span><b></b><span></span></p><h2 dir="ltr"><span>How often do I need to clean my LG filters?</span></h2><p dir="ltr"><span></span><span>Performing regular maintenance on your air conditioner can help to ensure that your unit performs at its best. To maintain optimum performance of your air conditioner, LG recommends cleaning filters regularly. If your air conditioner is used daily, your filter should be cleaned monthly. If you use your unit less often, seasonally is recommended. You can clean your air conditioner in 7 easy steps. Check out our handy blog </span><a href="https://www.statewideapp.com.au/blogs/how-to-clean-your-air-conditioner-filter" data-mce-href="https://www.statewideapp.com.au/blogs/how-to-clean-your-air-conditioner-filter"><span>guide</span></a><span>. If you want to reach ‘hard to get’ places, consider a&nbsp;</span><a href="https://www.statewideapp.com.au/mitsubishi-elec-aircon-quick-clean-brush-kit-mac-093ss-svc" data-mce-href="https://www.statewideapp.com.au/mitsubishi-elec-aircon-quick-clean-brush-kit-mac-093ss-svc"><span>Quick Clean Kit</span></a><span>. This effective special cleaning adaptor is easy to use. It ensures efficient dust free operation of your air conditioner.</span></p><h2 dir="ltr"><span></span><span>What is the best temperature to set my LG air conditioner to?</span></h2><p dir="ltr"><span></span><span>LG recommends that the temperature is set between 24-26 degrees (cooling) in summer and 18-21 degrees (heating) in winter.</span></p><h2 dir="ltr"><span>How can I reduce my air conditioner energy costs?</span></h2><p dir="ltr"><span></span><span>You can significantly save on energy costs with our handy </span><a href="https://www.statewideapp.com.au/blogs/top-10-energy-saving-tips-for-your-air-conditioner" data-mce-href="https://www.statewideapp.com.au/blogs/top-10-energy-saving-tips-for-your-air-conditioner"><span>hints</span><span></span></a></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Ensure your home is well insulated</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Choose an energy efficient model when purchasing a new unit</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Check and clean your filters periodically</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Set the right temperature on your thermostat</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Keep your exterior windows and doors closed</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Use a ceiling fan to help air flow. Ceiling fans should rotate clockwise on winter mode and anti-clockwise on summer mode</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Use your air conditioner only when you are at home</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Regular maintenance including a regular service by a qualified technician to fix any problems so that your unit can run at its best for longer</span></p></li></ul><h2 dir="ltr"><span>What are your top tips for air conditioner maintenance?</span><span><br></span></h2><ol><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Clean your filter regularly. Just wash in warm water and mild detergent and let it air dry completely before replacing. Use our&nbsp;</span><a href="https://www.statewideapp.com.au/mitsubishi-elec-aircon-quick-clean-brush-kit-mac-093ss-svc" data-mce-href="https://www.statewideapp.com.au/mitsubishi-elec-aircon-quick-clean-brush-kit-mac-093ss-svc"><span>Quick Clean Kit</span></a><span>&nbsp;for hard-to-reach places.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Check your window and door frame seals. Gaps in seals can significantly affect heating / cooling efficiency.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Inspect and create clearance around your outdoor unit regularly</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Use your programmable thermostat to ensure energy efficient zones and timing</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Book in a regular service of your air conditioning system. A professional can often diagnose issues before they become a bigger inconvenience</span></p></li></ol><p dir="ltr"><span>Shop confidently at Statewide Appliance Spares and unlock the full potential of your LG air conditioner today!</span></p></div>`,
+    "vendor": "lg",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "Mitsubishi Electric air conditioner spare parts",
+    "url": "/air-conditioners/mitsubishi-electric",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find your genuine Mitsubishi Electric spare parts for your air conditioner. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your go-to destination for Mitsubishi Electric air conditioner spare parts. Mitsubishi Electric has consistently delivered cutting-edge cooling solutions that redefine comfort and efficiency. Their air conditioners include an extensive range of indoor unit styles and outdoor unit capacities, offering unparalleled flexibility to meet diverse cooling requirements. From sleek wall-mounted units to space-saving floor-standing designs, and even fully ducted air conditioning solutions, Mitsubishi Electric ensures that every home or business can enjoy the perfect balance of comfort and performance. <br><br>Enjoy competitive pricing on our entire range of Mitsubishi Electric spare parts, backed by our lowest price guarantee. Genuine Mitsubishi Electric spare parts are designed to meet the brand's highest standards, ensuring optimal performance, energy efficiency, and longevity for your unit. Don't compromise – choose genuine Mitsubishi Electric spare parts from Statewide Appliance Spares.</p></div>`,
+    "vendor": "mitsubishi-electric",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "Panasonic air conditioner spare parts",
+    "url": "/air-conditioners/panasonic",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find your genuine Panasonic parts for your air conditioner. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Elevate your comfort with genuine Panasonic air conditioner spare parts. Since pioneering their first window-type air conditioning unit in 1958, Panasonic Air Conditioning has become a global leader, renowned for delivering unparalleled quality and reliability. Panasonic leads the industry in providing the ultimate comfort solution for your home, ensuring you stay cool and comfortable all year round. <br><br>Experience easy online shopping with fast delivery. No matter where you are in Australia, we ensure your Panasonic air conditioning parts reach you promptly, so you can enjoy uninterrupted comfort. Shop confidently at Statewide Appliance Spares and unlock the full potential of your Panasonic air conditioner today!</p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "Blu Ray & DVD spare parts",
+    "tags": ["vhs"],
+    "url": "/blu-ray-dvd",
+    "vendor": "",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": ""
+  },
+  {
+    "title": "Oral healthcare toothbrush heads",
+    "tags": ["Electric Toothbrush", "Electric Toothbrushes"],
+    "url": "/oral-healthcare/toothbrush-head",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop toothbrush heads at Statewide. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Looking for replacement toothbrush heads? You're in the right place! Statewide Appliance Spares is your trusted source for toothbrush heads to keep your oral hygiene routine on point.</span></p><p dir="ltr"><span>We understand the importance of maintaining your dental health, which is why we offer a wide selection of toothbrush heads to fit your&nbsp;</span><a href=\"https://www.statewideapp.com.au/philips/oral-healthcare/toothbrush-head\"><span>Philips</span></a><span> toothbrush. Don't compromise on your oral health – shop for replacement toothbrush heads at Statewide Appliance Spares today. With our convenient online ordering and fast delivery, maintaining your dental hygiene has never been easier. Plus, our friendly customer care team is always here to assist you with any questions or concerns. Invest in your smile and browse our selection of toothbrush heads now!</span></p><p>&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "oral-healthcare",
+    "part_type": "toothbrush-head"
+  },
+  {
+    "title": "Air conditioner filters",
+    "tags": ["AC Filters", "AC Filter", "air con filter", "AC filters", "air conditioner filters",],
+    "url": "/air-conditioners/filter",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop air conditioner filters at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We offer an extensive range of air conditioning spare parts to ensure optimal performance and longevity for your appliance. Inspect your air conditioner filter regularly to ensure efficient operation and maintenance of good indoor air quality.&nbsp;</span></p><h2 dir="ltr"><span>Find your replacement air conditioner filters at Statewide</span></h2><p dir="ltr"><span>Statewide Appliance Spares have Australia’s biggest range of air conditioning&nbsp;</span><a href="https://www.statewideapp.com.au/air-conditioners"><span>spare parts</span></a><span>&nbsp;including&nbsp;</span><a href="https://www.statewideapp.com.au/air-conditioners/filter"><span>filters</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/remote-controls-air-conditioning"><span>remote controls</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/air-conditioners/fan-blower"><span>fans</span></a><span>&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/air-conditioners/sensor-thermistor-thermostat"><span>thermostats</span></a><span>. We offer competitively priced spares for all leading brands including&nbsp;</span><a href="https://www.statewideapp.com.au/daikin/air-conditioners"><span>Daikin</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fujitsu/air-conditioners"><span>Fujitsu</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/kelvinator-spares"><span>Kelvinator</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/lg-air-conditioner-parts"><span>LG</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/mitsubishi-electric/air-conditioners/remote-wall-control"><span>Mitsubishi Electric</span></a><span> and more, with fast Australia wide delivery.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "filters"
+  },
+  {
+    "title": "Coffee machine filters",
+    "tags": ["Coffee machines filter", "Coffee machine filter", "Coffee machines filters", "Coffee machine filters"],
+    "url": "/coffee-machines/filter",
+    "vendor": "",
+    "appliance_type": "coffee-machines",
+    "part_type": "filters"
+  },
+  {
+    "title": "Filters",
+    "tags": ["filter", "filters"],
+    "url": "/filter",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "filters"
+  },
+  {
+    "title": "Filter",
+    "tags": ["filter", "filter"],
+    "url": "/filter",
+    "vendor": "lg",
+    "appliance_type": "",
+    "part_type": "filters"
+  },
+  {
+    "title": "Air conditioner filters",
+    "tags": ["Air Con Pump", "AC pump"],
+    "url": "/air-conditioners/pump",
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "pump"
+  },
+  {
+    "title": "Pump",
+    "tags": ["Drain pump"],
+    "url": "/pump",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "pump"
+  },
+  {
+    "title": "Air conditioner hoses",
+    "tags": ["AC hose", "AC hoses"],
+    "url": "/air-conditioners/hose-pipe",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover our extensive range of air conditioner hoses. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Looking to maintain the quality and performance of your air conditioner? Look no further than Statewide Appliance Spares. Our extensive range of spare parts ensures that you can easily find the AC parts and hoses you need to keep your appliance running smoothly. <br><br>Shop with Statewide Appliance Spares and experience our easy-to-navigate website, making it a breeze to locate the exact part you're looking for. Our team of local experts are on hand to provide you with any assistance you may need, ensuring a seamless shopping experience from start to finish. With fast delivery, unbeatable prices, and the largest range of appliance parts in Australia, you can shop with confidence, knowing that you're getting the best value and service. Shop air conditioner hoses and spare parts from Statewide Appliance Spares today.</p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Air conditioner capacitors",
+    "tags": ["Air con capacitor", "Air con capacitors", "Air Conditioners capacitors", "Air con fuse", "Air con fuses"],
+    "url": "/air-conditioners/capacitor-fuse",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop air conditioner capacitors from Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With our easy-to-navigate website, finding the right capacitor for your air conditioner is a breeze. Simply refine your search using your appliance model number. Can't seem to locate the exact part you need? Don't worry, our team is here to assist you every step of the way. We take pride in offering expert guidance and advice to ensure you find the right spare parts for your appliance. Just give us a call on Free Call 1800 005 220, and let us help you get your air conditioner back in top-notch condition.</p><h2>Find all your air conditioner spare parts at Statewide spares at Statewide</h2><p>Our comprehensive range of air conditioner spare parts includes <a href="https://www.statewideapp.com.au/air-conditioners/filter">filters</a>, <a href="https://www.statewideapp.com.au/air-conditioners/remote-wall-control">remote controls</a>, <a href="https://www.statewideapp.com.au/air-conditioners/pcb-control-box">PCB's</a>, <a href="https://www.statewideapp.com.au/air-conditioners/compressor">compressors</a>, <a href="https://www.statewideapp.com.au/air-conditioners/fan-blower">fans</a>, <a href="https://www.statewideapp.com.au/air-conditioners/motor-gearbox-shaft">motors</a> and more.</p><p>Shop for <a href="https://www.statewideapp.com.au/daikin/air-conditioners">Daikin Air Conditioner spare parts</a>. We offer competitive pricing and fast, Australia wide delivery.</p><p>Shop for <a href="https://www.statewideapp.com.au/samsung/air-conditioners">Samsung Air Conditioners spare parts</a> at Statewide Appliance Spares. We stock an extensive range of air conditioner spare parts, including filters, remote controls, and PCB's to get your unit back to working order and provide you a better living and more comfortable environment.</p><p>Find your <a href="https://www.statewideapp.com.au/electrolux/air-conditioners">Electrolux Air Conditioner spare parts</a> at Statewide. We offer the biggest selection with fast, Australia wide delivery.</p><p>Need <a href="https://www.statewideapp.com.au/fisher-paykel/air-conditioners">Fisher Paykel Air Conditioner spare parts</a>? Find what you need, at Statewide.</p><p>Statewide Appliance Spares have Australia's biggest range of <a href="https://www.statewideapp.com.au/fujitsu/air-conditioners">Fujitsu Air Conditioner spare parts</a> and accessories. We ensure our most popular Fujitsu air conditioner parts are always in stock to get your unit back to working order and provide you a better living and more comfortable environment.</p><p>Shop for <a href="https://www.statewideapp.com.au/lg/air-conditioners">LG Air Conditioner spare parts</a> from Statewide – the market leaders in appliance spares.</p><p>Need <a href="https://www.statewideapp.com.au/mitsubishi-electric/air-conditioners">Mitsubishi Electric Air Conditioner spare parts</a>? Statewide offers the biggest selection at competitive prices.</p><p>Find your <a href="https://www.statewideapp.com.au/panasonic/air-conditioners">Panasonic Air Conditioner spare parts</a> at Statewide. We offer the biggest selection with fast, Australia wide delivery.</p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "capacitor-fuse"
+  },
+  {
+    "title": "Mother & child care breast pumps spare parts",
+    "tags": ["Breast pump parts"],
+    "url": "/mother-and-child-care/breast-pump-parts",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop breast pump spare parts and accessories at Statewide. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>We understand the importance of a reliable breast pump for nursing mothers, which is why we offer a comprehensive selection of replacement parts and accessories. Whether you need replacement valves, tubing, breast cushions, or storage lids, we have you covered. With our genuine Philips Avent breast pump parts, you can ensure optimal performance and comfort during your breastfeeding journey.</span></p><p dir=\"ltr\"><span></span><span>We make sure that our most popular Philips parts and accessories are always readily available with fast delivery across Australia and New Zealand. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of genuine Philips spare parts today.</span></p><p dir=\"ltr\">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "mother-child-care",
+    "part_type": "breast-pump-parts"
+  },
+  {
+    "title": "Mother & child care spare parts",
+    "url": "/mother-and-child-care",
+    "vendor": "",
+    "appliance_type": "mother-child-care",
+    "part_type": ""
+  },
+  {
+    "title": "Mother & child care baby food makers spare parts",
+    "url": "/mother-and-child-care/baby-food-maker-parts",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop baby food maker parts and accessories at Statewide. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">With our lowest price guarantee, you can shop confidently, as you always get great value for your money. Shop for baby food maker spare parts at Statewide Appliance Spares today. Experience convenience, reliability and exceptional quality with every purchase.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "mother-child-care",
+    "part_type": "baby-food-maker-parts"
+  },
+  {
+    "title": "Philips breast pump parts",
+    "tags": ["PHILIPS AVENT BREAST PUMP"],
+    "url": "/philips/breast-pump-parts",
+    "vendor": "philips",
+    "appliance_type": "",
+    "part_type": "breast-pump-parts"
+  },
+  {
+    "title": "Air conditioner spare parts",
+    "tags": ["Air conditioning", "Airconditioning", "conditioners", "Airconditioners"],
+    "url": "/air-conditioners",
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "LG CordZero spare parts",
+    "tags":["LG CordZero","LG Cord Zero","LgCordZero"],
+    "url": "/lg/cordzero-vacuum-cleanersr",
+    "vendor": "lg",
+    "appliance_type": "cordzero-vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Oven & cooktop elements",
+    "tags": ["Grill element", "Oven & Cooktop elements","Oven elements", "Oven and cooktop elements", "Oven element", "Cooktop elements", "Cook top elements", "Cooktop element", "Cook top element", "Induction elements", "Induction cooktop elements", "Solid elements", "Solid cooktop elements", "Stove elements", "Stove element", "Induction elements", "Induction cooktop elements", "Solid element", "Solid cooktop element", "Stove element", "Stove elements"],
+    "url": "/oven-cooktop-elements",
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Oven & cooktop handles",
+    "tags": ["Oven door handle"],
+    "url": "/ovens-cooktops/handle",
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "handle"
+  },
+  {
+    "title": "Oven & cooktop buttons & knobs",
+    "tags": ["cooktop knob", "Oven knob", "Oven knobs"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your kitchen running smoothly with new and replacement oven & cooktop buttons and knobs. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>When it's time to upgrade your kitchen essentials, trust Statewide Appliance Spares to deliver. Our extensive range of oven and cooktop buttons &amp; knobs ensures that you'll find exactly what you're looking for, effortlessly navigated on our user-friendly website.</span><b></b></p><p dir="ltr"><span>We have the largest selection of genuine parts and a wide range of universal fittings and affordable compatible spares. We're your go-to destination for all leading brands. Find the part you need and enjoy speedy delivery right to your doorstep.&nbsp;</span><b></b></p><p dir="ltr"><span>With our lowest price guarantee, you can shop confidently, as you always get great value for your money. Shop oven and cooktop knobs and buttons spare parts at Statewide Appliance Spares today. Experience convenience, reliability, and exceptional quality with every purchase.</span></p></div>`,
+    "url": "/ovens-cooktops/button-knob-lever",
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Oven & cooktop seals",
+    "tags": ["oven door seal", "oven seal", "oven seals", "oven door gasket"],
+    "url": "/ovens-cooktops/seal",
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "seal"
+  },
+  {
+    "title": "Ovens & Cooktops Shelf/Rack",
+    "tags": ["Oven shelves", "Oven rack", "oven tray", "Oven racks"],
+    "url": "/ovens-cooktops/shelf-rack",
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "shelf-rack"
+  },
+  {
+    "title": "Shelf/Rack",
+    "tags": ["Shelf", "shelves", "shelwes"],
+    "url": "/shelf-rack",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "shelf-rack"
+  },
+  {
+    "title": "Solenoid Coil/Valve",
+    "tags": ["Inlet valve", "Water inlet valve"],
+    "url": "/solenoid-coil-valve",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "solenoid-coil-valve"
+  },
+  {
+    "title": "Motor/Gearbox/Shaft",
+    "tags": ["fan motor"],
+    "url": "/motor-gearbox-shaft",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "motors"
+  },
+  {
+    "title": "Coffee machine seals",
+    "tags": ["Coffee machine seal"],
+    "url": "/coffee-machines/seal",
+    "vendor": "",
+    "appliance_type": "coffee-machines",
+    "part_type": "seal"
+  },
+  {
+    "title": "Oven & cooktop gas ignitors",
+    "tags": ["Gas ignitor", "Gas oven ignitor", "Gas ignitors", "Gas oven ignitors"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find the right gas ignitor for your oven or cooktop at Statewide. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We have the largest selection of genuine parts and a wide range of universal fittings and affordable compatible spares. We're your go-to destination for appliance spare parts for all the leading brands. Find the part you need and enjoy speedy delivery right to your doorstep.</span></p></div>`,
+    "url": "/ovens-cooktops/ignitor",
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "ignitor"
+  },
+  {
+    "title": "Keypad",
+    "tags": ["Keyboard", "Keyboards", "Keypads"],
+    "url": "/keypad",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "keypad"
+  },
+  {
+    "title": "LCD",
+    "tags": ["LCD panel", "TV panel"],
+    "url": "/lcd",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "lcd"
+  },
+  {
+    "title": "Genuine LG fridge water & air filters",
+    "tags": ["LG fridge filter", "LG fridge water filters", "LG fridge water filter", "LG fridge filters", "LG fridge water", "LG air filter", "LG refrigerator filter", "LG water filter", "LG fridge air filter", "LG genuine fridge water filter"],
+    "url": "/lg-water-filters",
+    "vendor": "lg",
+    "appliance_type": "fridge-parts",
+    "part_type": "filter"
+  },
+  { 
+    "title": "Genuine LG fridge water & air filters",
+    "tags": ["fridge filter", "fridge water filters", "fridge water filter", "fridge filters", "fridge water", "air filter", "refrigerator filter", "water filter", "fridge air filter", "genuine fridge water filter"],
+    "url": "/fridge-filters",
+    "vendor": "",
+    "appliance_type": "fridge-parts",
+    "part_type": "filter"
+  },
+  {
+    "title": "Save On genuine LG fridge water & air filters",
+    "url": "/save-on-fridge-water-filters-buy-today",
+    "vendor": "lg",
+    "appliance_type": "fridge-parts",
+    "part_type": "filter"
+  },
+  {
+    "title": "Fisher & Paykel water filters",
+    "tags": ["Fisher & Paykel water filters", "Fisher & Paykel filter", "Fisher & Paykel filters", "Fisher & Paykel refrigerator filter", "Fisher & Paykel water filterrrrrs", "Fisher & Paykel fridge filter", "Fisher & Paykel fridge filters", "Fisher & Paykel refrigerator filter", "F&P fridge filter", "Fisher & Paykel water filter", "Fisher & Paykel genuine fridge water filter"],
+    "url": "/fisher-paykel-water-filters",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridges-freezers",
+    "part_type": "filter"
+  },
+  {
+    "title": "Fisher & Paykel water filters",
+    "url": "/fisher-paykel-water-filter",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": "filter"
+  },
+  {
+    "title": "Fridge & freezer racks",
+    "tags": ["Freezer basket"],
+    "url": "/fridges-freezers/basket-rack",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "basket-rack"
+  },
+  {
+    "title": "LG fridge & freezer spare parts",
+    "tags": ["lg fridge shelf", "LG FRIDGE DOOR SHELF"],
+    "url": "/lg/fridges-freezers/shelf-rack",
+    "vendor": "lg",
+    "appliance_type": "fridges-freezers",
+    "part_type": "shelf-rack"
+  },
+  {
+    "title": "LG spare parts",
+    "tags": ["lg filter", "lg filters"],
+    "url": "/lg/filters",
+    "vendor": "lg",
+    "appliance_type": "",
+    "part_type": "filters"
+  },
+  {
+    "title": "Fridge & freezer Shelf/Rack",
+    "tags": ["Fridge shelf", "fridge shelves"],
+    "url": "/fridges-freezers/shelf-rack",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "shelf-rack"
+  },
+  {
+    "title": "Fridge & freezer Condenser/Evaporator",
+    "tags": ["Fridge Condensor"],
+    "url": "/fridges-freezers/condenser-evaporator",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "condenser-evaporator"
+  },
+  {
+    "title": "Air conditioner fans",
+    "tags": ["Air con fan", "AC fan"],
+    "url": "/air-conditioners/fan-blower",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find all your air conditioning spare parts and AC fans at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Is your air conditioner not keeping you cool despite being turned on? One common reason could be a malfunctioning fan. Fan blades can become bent, broken, or misaligned, which affects airflow efficiency. Fan blades can become bent, broken, or misaligned, hindering proper airflow. Debris such as dirt, leaves, or small objects can also get lodged in the fan, causing it to spin unevenly or not at all. <br><br>Find your replacement air conditioner fan at Statewide Appliance Spares. With fast Australia wide delivery and competitive prices, we make it easy for you to keep your air conditioner performing at its best. Don't let a faulty appliance disrupt your daily routine – shop your AC spare parts with confidence at Statewide Appliance Spares.</p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "fan-blower"
+  },
+  {
+    "title": "Floor Tool/Nozzle",
+    "tags": ["power nozzle", "crevice tool", "crevice tools", "crevice tool", "crevice tools", "Floor Tool/Nozzle"],
+    "url": "/floor-tool-nozzle",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "floor-tool-nozzle"
+  },
+  {
+    "title": "Foot/Leg",
+    "tags": ["feet"],
+    "url": "/foot-leg",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "foot-leg"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "tags": ["fisher paykel washing machines", "fisher washing machines", "fisher washing machine", "fisher paykel washing machine", "fisher paykel washing machines", "fisher washing machines", "fisher washing machine", "fisher paykel washing machine"],
+    "url": "/fisher-paykel/washing-machines",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover genuine Fisher & Paykel washing machine spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8">Finding the right Fisher & Paykel spare part is easy – simply refine your search using your washing machine's model number. If you need assistance or can't find the part you're looking for, our experienced team is here to help. Give us a call at 1800 005 220, and we'll provide expert guidance to ensure you find the perfect solution for your washing machine repair needs.</p><h2 class="contenthead" dir="ltr"><span>Diagnosing issues with your Fisher & Paykel washing machine</span></h2><p dir="ltr">If you're experiencing issues with your Fisher & Paykel washing machine, here are some steps you can take to diagnose the problem:</p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Check the power supply:</strong>&nbsp;Make sure that the washing machine is properly plugged in and that the outlet is functioning properly. If the washing machine is not receiving power, it will not work.</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Check the water supply:</strong>&nbsp;Make sure that the water supply to the washing machine is turned on and that there are no kinks in the hose. If the washing machine is not getting water, it will not work.</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Check the door/lid switch:</strong>&nbsp;If the washing machine is not starting, the door/lid switch may be faulty. Make sure that the door/lid is properly closed and that the switch is functioning properly.</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Check for error codes:</strong>&nbsp;Many Fisher & Paykel washing machines have built-in error codes that can help you diagnose the problem. Consult your owner's manual to learn how to access the error codes and what they mean.</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Check the pump filter:</strong>&nbsp;If the washing machine is not draining properly, the pump filter may be clogged. Consult your owner's manual to learn how to access the pump filter and clean it out.</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Check the hoses:</strong>&nbsp;If you notice that water is leaking from the washing machine, check the hoses for any cracks or damage. Replace any damaged hoses.</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Call for service:</strong>&nbsp;If you have tried all of the above steps and the problem persists, it may be time to call for professional service. Fisher & Paykel has a network of authorised service technicians who can diagnose and repair your washing machine.</p></li></ul><p dir="ltr" role="presentation">Don't let a malfunctioning washing machine disrupt your routine. Find the genuine Fisher & Paykel spare parts you need at Statewide Appliance Spares.</p></div>`,
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Hitachi washing machine spare parts",
+    "tags": ["hitachi washing machines", "hitachi washing machines", "hitachi washing machine", "hitachi washing machine", "hitachi washing machines", "hitachi washing machines", "hitachi washing machine", "hitachi washing machine"],
+    "url": "/hitachi/washing-machines",
+    "vendor": "hitachi",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel Dishwashers Motor/Gearbox/Shaft",
+    "tags": ["524922P FISHER & PAYKEL DISHDRAWER MOTOR ROTOR 608-DD60D DD60S"],
+    "url": "/fisher-paykel/motor",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": "motors"
+  },
+  {
+    "title": "LG washing machine spare parts",
+    "tags": ["lg washing machine", "lg washing machines", "lg stacking kit", "LG washing machine spare parts"],
+    "url": "/lg-washing-machine-parts",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Ensure optimal performance and reliability for your LG washing machine with genuine LG spare parts. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><p dir="ltr"><span>Renowned for their sleek design and reliability, LG washing machines offer a perfect blend of style and functionality, ensuring every load is washed with precision and care. As a globally trusted brand, LG is committed to excellence, consistently pushing boundaries to redefine the standards of home appliances.&nbsp;</span></p><h2 class="contenthead" dir="ltr"><span>Why choose genuine LG spare parts?</span></h2><p dir="ltr"><span>Genuine LG spare parts are manufactured to the same high standards as the original parts that came with your washing machine. They are designed to fit perfectly and function properly, ensuring that your washing machine works reliably and efficiently.</span></p><h2 class="contenthead" dir="ltr"><span>Buy Your Washing Machine Spare Parts Online at Statewide</span></h2><p dir="ltr"><span>Statewide Appliance Spares is Australia’s largest distributor of genuine parts and accessories for all leading brands of household appliances. With over 38 years of experience in the industry, Statewide Appliance Spares has developed a reputation for excellence in customer service. We offer fast delivery, ensuring our customers receive their parts quickly. Order online – All your genuine LG spares with the lowest prices, guaranteed.</span></p></p></div>`,
+    "vendor": "lg",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Washing machine parts",
+    "url": "/washing-machine-parts",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Ducted air conditioner spare parts",
+    "url": "/ducted",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Ducted air conditioning units provide central air conditioning to all rooms in a house. The system comprises of a compressor (or condenser), a central air conditioning unit and duct work hidden in the ceiling of a premise. Statewide specialise in supplying a specific range of ducted air conditioning spare parts from leading brands. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><p dir="ltr"><span>From replacement remotes, filters and even compressors, Statewide can supply you with spare parts to keep your unit running as good as new for a fraction of the price of replacing it.</span></p></p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "Portable air conditioner spare parts",
+    "url": "/portable",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Portable air conditioners provide a simple and flexible way to cool a single room in the home. Statewide specialises in supplying a wide range of portable air conditioning spare parts to keep you cool in summer at a fraction of the price of replacing it.</p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "Gas cooktop spare parts",
+    "url": "/gas",
+    "top_description": `<div class="landing-page-header"><div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p>Statewide specializes in supplying a wide range of gas cook top spare parts such as burners, drip trays and knobs for most leading brands.</p></div>`,
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": ""
+  },
+  {
+    "title": "Oven Spare Parts",
+    "url": "/oven",
+    "top_description": `<div class="landing-page-header"><div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p>Statewide Appliance Spares have Australia’s biggest range of oven parts and accessories for leading brands AEG, Bosch, Chef, Westinghouse and many more. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p>We ensure our most popular oven parts are always in stock – elements, racks, hinges, glass doors, knobs, and burners with fast Australia wide delivery an competitive prices. Statewide Appliance Spares are a market leader in the supply of appliance spare parts for over 35 years.</p><p>Our extensively stocked warehouse includes genuine parts and a large range of universal fitting and great value compatible, generic spare parts.</p></div>`,
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": ""
+  },
+  {
+    "title": "Wall oven spare parts",
+    "url": "/wall-oven",
+    "top_description": `<div class="landing-page-header"><div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p>Wall ovens can be electric or gas and although they are often built in to kitchen cabinetry they are designed to provide an excellent fit in any kitchen, no matter the layout or space restrictions. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p>Often they are partnered with a grill feature. Statewide specializes in supplying a wide range of wall oven spare parts such as elements, racks, hinges, glass doors, knobs and burners for most leading brands.</p></div>`,
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung water filters",
+    "tags": ["Samsung water filters", "Samsung fridge filter", "Samsung fridge filters", "Samsung refrigerator filter", "Samsung water filter", "Samsung genuine fridge water filter"],
+    "url": "/samsung-fridge-water-filters",
+    "vendor": "samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": "filter"
+  },
+  {
+    "title": "Fridge water & air filters",
+    "url": "/fridge-water-filters",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "filter"
+  },
+  {
+    "title": "Panasonic washing machine spare parts",
+    "tags": ["panasonic washing machine", "panasonic washing machines"],
+    "url": "/panasonic/washing-machines",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover genuine Panasonic washing machine spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8">As a trusted brand known for its commitment to quality and durability, Panasonic offers cutting-edge technology and advanced features to streamline your laundry routine. From energy efficiency to exceptional performance, Panasonic washing machines are designed to exceed expectations and deliver outstanding results with every wash cycle.</p><p dir="ltr">At Statewide Appliance Spares, we pride ourselves on offering the biggest range of appliance spares in Australia for all the major brands, including Panasonic. With a vast warehouse stocked with a comprehensive inventory, we ensure fast Australia-wide shipping, so you can get your Panasonic washing machine back up and running in no time. Our experienced team is always on hand to answer questions, offer guidance, and provide expert advice to ensure you find the right spare part for your needs.</p><p dir="ltr">Trust Statewide Appliance Spares to provide you with genuine Panasonic washing machine spare parts, backed by our commitment to quality and customer satisfaction.</p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Cable & cord",
+    "tags": ["Power cord", "Power cords", "power cable", "power cables"],
+    "url": "/cable-cord",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "cable-cord"
+  },
+  {
+    "title": "Washing machine spare parts",
+    "tags": ["Washing machine spare parts"],
+    "url": "/washing-machine",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Baumatic fridge & freezer spare parts",
+    "tags": ["Baumatic fridge & freezer spare parts"],
+    "url": "/baumatic/fridges-and-freezers",
+    "vendor": "baumatic",
+    "appliance_type": "fridges-and-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Toaster spare parts",
+    "tags": ["Toaster", "Toasters"],
+    "url": "/toasters",
+    "vendor": "",
+    "appliance_type": "toasters",
+    "part_type": ""
+  },
+  {
+    "title": "Ariston fridge & freezer spare parts",
+    "url": "/ariston/fridges-and-freezers",
+    "vendor": "ariston",
+    "appliance_type": "fridges-and-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Ariston washing machine spare parts",
+    "url": "/ariston/washing-machines",
+    "vendor": "ariston",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Fridge & freezer filters",
+    "tags": ["fridge water filters","fridge filter", "water filters", "water filter"],
+    "url": "/fridges-freezers/filter",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Discover filters from leading brands including </span><a href="https://www.statewideapp.com.au/bosch/fridges-freezers/filter"><span>Bosch</span></a><span>, </span><a href="https://www.statewideapp.com.au/samsung-fridge-water-filters"><span>LG</span></a><span>, </span><a href="https://www.statewideapp.com.au/samsung-fridge-water-filters"><span>Samsung</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel-water-filters"><span>Fisher &amp; Paykel</span></a><span>, and </span><a href="https://www.statewideapp.com.au/westinghouse/fridges-freezers/filter"><span>Westinghouse</span></a><span> – all in one convenient place.</span> <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container content-head col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><h2 class="contenthead" dir="ltr"><span>When should you replace your fridge water filter?</span></h2><p dir="ltr"><span>Generally, it's recommended to replace your filter every 6 months. However, if you use your fridge more frequently, you may need to change it more often. Look out for other indications such as an indicator light alerting you to replace the filter, low water flow, or unpleasant taste or odour in your water.</span></p><p dir="ltr"><span>Find the right replacement fridge water filter for your appliance at Statewide Appliance Spares. With the largest range of fridge water filters in stock, you can trust us to deliver your fridge water filter fast. Ensure your water remains clean and safe to drink with our quality filters.</span></p><p dir="ltr"><span>Shop now at Statewide Appliance Spares and experience the ease of finding all your spare parts, speedy delivery, and unbeatable prices. Don't wait – buy now and enjoy fresh, clean water straight from your fridge!</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "filter"
+  },
+  {
+    "title": "Fridge & freezer filters",
+    "url": "/fridge-parts/electrolux",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Extend the lifespan of your Electrolux fridge and freezer with genuine Electrolux spare parts from Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container content-head col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Electrolux is synonymous with innovation and quality, and we're proud to stock genuine Electrolux parts to ensure your fridge and freezer operate at their best. Our warehouse is fully stocked with genuine Electrolux parts, ensuring you find the parts you need.</span></p><p dir="ltr"><span>With over 38 years of experience, Statewide Appliance Spares has been a market leader in appliance spare parts. We're committed to simplifying your spare parts buying experience, offering fast Australia-wide delivery and competitive prices. Count on us to deliver high-quality Electrolux spare parts directly to your doorstep.</span></p><p dir="ltr"><span>Upgrade your Electrolux fridge and freezer today. Shop now at Statewide Appliance Spares and experience the convenience of finding genuine spare parts for your appliances.</span></p></div>`,
+    "vendor": "electrolux",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Lofra oven & cooktops spare parts",
+    "tags": ["Lofra oven & cooktops"],
+    "url": "/lofra/ovens-and-cooktops",
+    "vendor": "lofra",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": ""
+  },
+  {
+    "title": "Bosch spare parts",
+    "tags": ["Bocsh", "Boch", "Boshe", "Boshc", "Bossh", "Bosh"],
+    "url": "/bosch",
+    "vendor": "bosch",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Electrolux spare parts",
+    "tags": ["Electrolux", "Electroluxx", "Electro lux", "Electroluxe", "Electroluks", "Electrolix", "Electro lux", "Ellectrolux", "Electroluxs", "Elektralux", "Electorlux"],
+    "url": "/electrolux",
+    "vendor": "electrolux",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Electrolux fridges & freezers Solenoid Coil/Valve",
+    "tags": ["electrolux fridge solonoid valve"],
+    "url": "/electrolux/fridge-parts/solenoid-coil-valve",
+    "vendor": "electrolux",
+    "appliance_type": "fridge-parts",
+    "part_type": "solenoid-coil-valve"
+  },
+  {
+    "title": "Electrolux fridge & freezer spare parts",
+    "tags": ["electrolux fridge", "electrolux fridges"],
+    "url": "/electrolux/fridges-and-freezers",
+    "vendor": "electrolux",
+    "appliance_type": "fridge-parts",
+    "part_type": ""
+  },
+  {
+    "title": "Electrolux fridge & freezer spare parts",
+    "tags": ["electroluxfridge ese6977sc water valve"],
+    "url": "/electrolux/fridges-and-freezers?ModelNoId=ESE6977SC",
+    "vendor": "electrolux",
+    "appliance_type": "fridge-parts",
+    "part_type": ""
+  },
+  {
+    "title": "Electrolux hot water system spare parts",
+    "tags": ["electrolux hot water system", "hot water system electrolux", "electrolux hot water system"],
+    "url": "/electrolux/hot-water-systems",
+    "vendor": "electrolux",
+    "appliance_type": "hot-water-systems",
+    "part_type": ""
+  },
+  {
+    "title": "Miele spare parts",
+    "tags": ["Meile", "Milee", "Mielle", "Mieal", "Meel", "Meele", "Mieele", "Miel", "Miellee"],
+    "url": "/miele",
+    "vendor": "miele",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Philips spare parts",
+    "tags": ["Phillips", "Phillip", "Philps", "Philps", "Filips", "Philips multigroom"],
+    "url": "/philips",
+    "vendor": "philips",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Equipment & cooking accessories",
+    "tags": ["Pasta maker"],
+    "url": "/other-equipment-cooking-accessories",
+    "vendor": "",
+    "appliance_type": "other-equipment-cooking-accessories",
+    "part_type": ""
+  },
+  {
+    "title": "Philips equipment & cooking spare parts",
+    "tags": ["philips pasta maker", "Phillips pasta maker"],
+    "url": "/philips/other-equipment-cooking-accessories",
+    "vendor": "philips",
+    "appliance_type": "other-equipment-cooking-accessories",
+    "part_type": ""
+  },
+  {
+    "title": "Accessories",
+    "url": "/accessories",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "accessories"
+  },
+  {
+    "title": "Philips bowls",
+    "tags": ["Philips bowls", "Philips bowl"],
+    "url": "/philips/bowl-container-jug",
+    "vendor": "philips",
+    "appliance_type": "",
+    "part_type": "bowl-container-jug"
+  },
+  {
+    "title": "Philips Avent spare parts",
+    "tags": ["Philips pressure cooker", "Phillips multi cooker sealing ring"],
+    "url": "/philips-avent",
+    "vendor": "philips",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Philips Avent spare parts",
+    "tags": ["Philip 5000 beard trimmer charger"],
+    "url": "/philips-aventModelNoId=5000",
+    "vendor": "philips",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Fisher & Paykel",
+    "tags": ["Fisher and Paykel", "Fisher Paykel", "Fisher and Pakel", "Fisher and Paikel", "Fisher & Paekel", "Fisher and Paykal", "Fisher and Pykel", "Fisher and Pekel", "Ficher & Paykel", "Fisheer & Paykel"],
+    "url": "/fisher-and-paykel",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel fridge & freezer spare parts",
+    "tags": ["Fisher & Paykel refrigerator"],
+    "url": "/fisher-and-paykel/fridges-and-freezers",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridge-parts",
+    "part_type": ""
+  },
+  {
+    "title": "Haier fridge & freezer spare parts",
+    "tags": ["Haier Fridges & freezers"],
+    "url": "/haier/fridges-and-freezers",
+    "vendor": "haier",
+    "appliance_type": "fridge-parts",
+    "part_type": ""
+  },
+  {
+    "title": "LG fridge & freezer spare parts",
+    "tags": ["LG Fridge", "LG Fridges", "Lg refreshment centre", "pure n fresh"],
+    "url": "/lg/fridges-and-freezers",
+    "vendor": "lg",
+    "appliance_type": "fridge-parts",
+    "part_type": ""
+  },
+  {
+    "title": "LG fridge & freezer filter spare parts",
+    "tags": ["Pure N Fresh filter", "Lg pure n fresh", "LG Water filters"],
+    "url": "/lg/fridges-and-freezers/filter",
+    "vendor": "lg",
+    "appliance_type": "fridge-parts",
+    "part_type": "filter"
+  },
+  {
+    "title": "LG fridge & freezer spare parts",
+    "tags": ["LG FRIDGE WATER TUBE CONNECTOR"],
+    "url": "/lg/fridges-and-freezers/hose-pipe-tubing",
+    "vendor": "lg",
+    "appliance_type": "fridge-parts",
+    "part_type": "hoses-pipes-tubing"
+  },
+  {
+    "title": "LG fridge & freezer spare parts",
+    "tags": ["GC- L197NFS"],
+    "url": "/lg/fridges-and-freezers?ModelNoId=GC-L197NFS (GC-L207WTRA.CTIRGAP)",
+    "vendor": "lg",
+    "appliance_type": "fridge-parts",
+    "part_type": ""
+  },
+  {
+    "title": "Nilfisk sweeper spare parts",
+    "tags": ["nilfisk tyre", "nilfisk tyres"],
+    "url": "/nilfisk/sweeper",
+    "vendor": "nilfisk",
+    "appliance_type": "sweeper",
+    "part_type": ""
+  },
+  {
+    "title": "Nilfisk new equipment & spare parts",
+    "url": "/nilfisk-spares",
+    "vendor": "nilfisk",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "tags": ["Samsung fridge", "Samsung Fridges", "Samsung SRL322MW", "samsung SRF527DSLS"],
+    "url": "/samsung/fridges-and-freezers",
+    "vendor": "samsung",
+    "appliance_type": "fridge-parts",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "tags": ["Samsung SRF752DSS"],
+    "url": "/samsung/fridges-and-freezers?ModelNoId=SRF752DSS",
+    "vendor": "samsung",
+    "appliance_type": "fridge-parts",
+    "part_type": ""
+  },
+  {
+    "title": "Hisense spare parts",
+    "tags": ["Hisens", "Hesense", "Hysense", "Hesince", "Hisance", "Hisenze", "Hicense", "Hisenxe", "Hisenze", "Hisemse"],
+    "url": "/hisense",
+    "vendor": "hisense",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Mitsubishi Electric spare parts",
+    "tags": ["Mistubishi Electric", "Mitsibishi Electric", "Mitshubishi Electric", "Mitsubishi Elektric", "Mitsubishi Electrik", "Mitsubish Electric", "Mitsubishee Electric", "Mitsubish Electric", "Mitsubishi Electic", "Mitsibishi Electrik", "Mitsubish", "Mistubishi", "Mitsubichi", "Mitsibishi", "Mitshubishi", "Mitsubishu", "Mitsubishii", "Mitsubisho", "Mitsubishy", "Mitsubishu"],
+    "url": "/mitsubishi-electric",
+    "vendor": "mitsubishi-electric",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Haier spare parts",
+    "tags": ["Heair", "Haire", "Haer", "Hayr", "Hayer", "Hair", "Haar", "Haieru", "Hiar", "Hiare", "Haie"],
+    "url": "/haier",
+    "vendor": "haier",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Haier spare parts",
+    "url": "/haier-spares",
+    "vendor": "haier",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Speed Queen new equipment & spare parts",
+    "tags": ["Speedqueen", "Speed Quen", "Speed Qween", "Spead Queen", "Speeed Queen", "Spede Queen", "Speed Quene", "Sped Queen", "Sped Quen", "Speed Qeuen"],
+    "url": "/speed-queen",
+    "vendor": "speed-queen",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Speed Queen new equipment & spare parts",
+    "url": "/speedqueen",
+    "vendor": "speed-queen",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Tennant",
+    "tags": ["Tenent", "Tenant", "Tennet", "Tenannt", "Tennnat", "Tenat", "Tenentt", "Teneant", "Tennt", "Tannant", "Tennan"],
+    "url": "/tennant",
+    "vendor": "tennant",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Pacvac",
+    "tags": ["Packvac", "Pacvacc", "Pacvack", "Pakvac", "Pacvak", "Pacvax", "Pacvacc", "Pacvacc", "Paccvac", "Pecvac"],
+    "url": "/pacvac",
+    "vendor": "pacvac",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Vacuum cleaner spare parts",
+    "tags": ["wettheim vacuum cleaners",],
+    "url": "/vacuum-cleaner",
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Upright spare parts",
+    "tags": ["Upright",],
+    "url": "/upright",
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Bissell vacuum cleaner spare parts",
+    "tags": ["Bissell crosswave",],
+    "url": "/bissell/vacuum-cleaner",
+    "vendor": "bissell",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Vax spare parts",
+    "tags": ["vax", "vax commercial", "vax sukka"],
+    "url": "/vax",
+    "vendor": "vax",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Vax vacuum cleaner spare parts",
+    "url": "/vacuum-cleaner/vax",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Vax vacuum cleaner spares at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><p dir="ltr"><span>Shop for Vax vacuum cleaner parts from Statewide Appliance Spares. Statewide Appliance Spares have Australia’s biggest range of vacuum cleaner spare parts and accessories from all the leading brands including Vax. We ensure our most popular Vax vacuum cleaner parts are always in stock – including filters, hoses, cables, floor tools and vacuum bags and offer fast, Australia wide delivery at competitive prices.</span></p><h2 class="contenthead" dir="ltr"><span>Choose Statewide for your Vax vacuum cleaner spares</span></h2><p dir="ltr"><span>Statewide Appliance Spares is Australia’s biggest distributor of appliance spare parts and a VAX authorised spare parts distributor. Australian owned &amp; operated, we have been supplying spare parts for over 38 years.&nbsp;With our extensively stocked warehouse, we ensure our most popular Vax vacuum cleaner spare parts are always readily available and offer the convenience of fast, Australia wide delivery.</span></p><h2 class="contenthead" dir="ltr"><span>Buy genuine Vax spare parts online</span></h2><p dir="ltr"><span>Genuine Vax spare parts are designed to meet the brand's high standards, ensuring optimal suction power, performance, and longevity for your vacuum. Choose genuine Vax spare parts from Statewide Appliance Spares for reliable cleaning power that lasts.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "vax",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Dishwasher spare parts",
+    "tags": ["Dishwasher spare parts", "dish washer", "dish washers"],
+    "url": "/dishwasher",
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Polisher hoses",
+    "url": "/polishers/hose/tubing",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop polisher hoses at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares.</p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop polisher spare parts and hoses at Statewide Appliance Spares. With Australia's most extensive and biggest range of appliance spare parts, we're your one-stop solution for all your polisher needs.</p></div>`,
+    "vendor": "polishers",
+    "appliance_type": "",
+    "part_type": "hoses-pipes-tubing"
+  },
+  {
+    "title": "Dishwasher hinges",
+    "tags": ["Dishwasher hinge", "dishwasher hinges"],
+    "top_description": `<p class="landing-page-header-container" dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Our huge range of dishwasher spare parts ensures you'll find the perfect hinge for your appliance, allowing you to keep your dishwasher running smoothly and efficiently. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>At Statewide, we understand the frustration of searching for the right spare part, which is why we've made it easy for you to locate exactly what you need. Simply refine your search using your appliance model number, and you'll be on your way to finding the right hinge for your dishwasher. If you can't find the part you're looking for, reach out to our local team for expert guidance and assistance.</span><b></b></p><p dir="ltr"><span>Shop with confidence at Statewide Appliance Spares and experience the convenience of finding quality dishwasher hinges for all your repair needs. Upgrade your dishwashing experience today!</span></p></div>`,
+    "url": "/dishwashers/hinge",
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "hinge"
+  },
+  {
+    "title": "LG dishwasher spare parts",
+    "tags": ["lg dishwasher"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop LG dishwasher spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>LG is a name synonymous with cutting-edge technology, sleek design, and unmatched performance in the world of home appliances. Statewide Appliance Spares provides an extensive selection of genuine LG spare parts. Whether it's a replacement component for your refrigerator, washing machine, dishwasher, or dryer, we offer the essential parts to maintain your LG appliances' optimal performance.</span><b></b></p><p dir="ltr"><span>Our friendly and knowledgeable staff are here to assist you every step of the way. With their expertise and commitment to customer satisfaction, they'll ensure you find exactly what you need to keep your LG appliances operating at their peak.</span></p></div>`,
+    "url": "/dishwashers/lg",
+    "vendor": "lg",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Dishlex dishwasher spare parts",
+    "tags": ["dishlex dishwasher"],
+    "url": "/dishlex/dishwashers",
+    "vendor": "dishlex",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Dishlex spares",
+    "url": "/dishlex-spares",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">With the first Dishlex dishwashers being welcomed into Australian homes in 1980, the Dishlex name has been synonymous with excellent performance, reliability and great value. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Dishlex are stylishly designed for an easy and efficient clean Buy your Dishlex kitchen appliance spare parts from Statewide Appliance Spares. Dishlex branded appliances are part of the large Electrolux family. Electrolux Group of Companies trade worldwide under many brand names: <a href="https://www.statewideapp.com.au/aeg">AEG</a>,&nbsp;<a href="https://www.statewideapp.com.au/chef">Chef</a>,&nbsp;<a href="https://www.statewideapp.com.au/dishlex">Dishlex</a>,&nbsp;<a href="https://www.statewideapp.com.au/electrolux">Electrolux</a>,&nbsp;<a href="https://www.statewideapp.com.au/kelvinator-spares">Kelvinator</a>,&nbsp;<a href="https://www.statewideapp.com.au/malleys">Malleys</a>,&nbsp;<a href="https://www.statewideapp.com.au/simpson">Simpson&nbsp;</a>and&nbsp;<a href="https://www.statewideapp.com.au/westinghouse">Westinghouse</a>.&nbsp;Sometimes manufacturing use the same appliance parts making them suitable for multiple Electrolux Group appliance brands.</p><p dir="ltr">We have Australia’s biggest range of appliance spares and accessories. Statewide Appliance Spares are a market leader in the supply of appliance spare parts for over 35 years. We are committed to providing exceptional customer service and offer expert advice and guidance to make buying spare parts easier.</p></div>`,
+    "vendor": "dishlex",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Dishlex dishwasher spare parts",
+    "tags": ["dishlex DX203"],
+    "url": "/dishlex/dishwashers?ModelNoId=DX203SK (91151504003)",
+    "vendor": "dishlex",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Miele dishwasher spare parts",
+    "tags": ["Miele Dishwasher", "miele dishwashers", "miele dishwasher parts", "miele dishwasher part"],
+    "url": "/miele/dishwashers",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Don't settle for anything less than optimal performance for your Miele dishwasher. Shop genuine Miele spare parts from Statewide Appliance Spares today. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Find all your Miele spare parts at Statewide and discover the convenience, reliability and value that we're renowned for.</span><b></b></p><h2 class="contenthead" dir="ltr"><span>Find your Miele spare parts easily at Statewide Appliance Spares</span></h2><p dir="ltr"><b id="docs-internal-guid-00f62a62-7fff-bebf-9c42-a66c0ece0f4c"></b>Statewide Appliance Spares offer <a href="https://www.statewideapp.com.au/miele/dishwashers/basket-rack-parts">Miele basket/racks parts</a>&nbsp;for your Miele dishwasher.<br><br>Find your&nbsp;<a href="https://www.statewideapp.com.au/miele/dishwashers/cutlery-basket">Miele cutlery basket</a>&nbsp;at Statewide Appliance Spares. Shop securely online with 24/7 convenience.<br><br>Find&nbsp;<a href="https://www.statewideapp.com.au/miele/dishwashers/roller-wheel">Miele roller and wheel spares</a>&nbsp;for your Miele dishwasher at Statewide.<br><br>Shop for&nbsp;<a href="https://www.statewideapp.com.au/miele/dishwashers/spray-arm-nozzle">Miele spray arm and nozzle spares</a>&nbsp;at Statewide Appliance Spares. We can get you the spare part you need to get your dishwasher working at its best.<br><br>Looking for&nbsp;<a href="https://www.statewideapp.com.au/miele/dishwashers/pump">Miele drain pumps</a>? We can help you find the right pump for your Miele dishwasher.<br></p></div>`,
+    "vendor": "miele",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Miele dishwasher spare parts",
+    "tags": ["miele G1023U", "meile G1023U"],
+    "url": "/miele/dishwashers?ModelNoId=G1023",
+    "vendor": "miele",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Smeg dishwasher spare parts",
+    "tags": ["smeg Dishwasher", "smeg dishwashers", "smeg dishwasher parts", "smeg dishwasher part"],
+    "url": "/smeg/dishwashers",
+    "vendor": "smeg",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Bosch dishwasher spare parts",
+    "tags": ["Bosch Dishwasher", "Bosch dishwashers", "Bosch dishwasher parts", "Bosch dishwasher part"],
+    "url": "/bosch/dishwashers",
+    "vendor": "bosch",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Bosch fridge & freezer spare parts",
+    "url": "/bosch/fridges-and-freezers",
+    "vendor": "bosch",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Bosch dishwasher spare parts",
+    "url": "/bosch/dishwashers/roller-wheel",
+    "vendor": "bosch",
+    "appliance_type": "dishwashers",
+    "part_type": "wheel"
+  },
+  {
+    "title": "Bosch dishwasher spare parts",
+    "url": "/bosch/dishwashers/cutlery-basket",
+    "vendor": "bosch",
+    "appliance_type": "dishwashers",
+    "part_type": "cutlery-baskets"
+  },
+  {
+    "title": "Bosch dishwasher spare parts",
+    "url": "/bosch/dishwashers/basket-rack-parts",
+    "vendor": "bosch",
+    "appliance_type": "dishwashers",
+    "part_type": "basket-rack"
+  },
+
+  {
+    "title": "Bosch dishwasher spare parts",
+    "url": "/bosch/dishwashers/hose-pipe-tubing",
+    "vendor": "bosch",
+    "appliance_type": "dishwashers",
+    "part_type": "hoses-pipes-tubing"
+  },
+  {
+    "title": "Rangehood spare parts",
+    "tags": ["Rangehood spare parts"],
+    "url": "/rangehoods",
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Bosch rangehoods misc",
+    "tags": ["Bosch Handle Strip"],
+    "url": "/bosch/rangehoods/misc",
+    "vendor": "bosch",
+    "appliance_type": "rangehoods",
+    "part_type": "misc"
+  },
+  {
+    "title": "Hi Fi & Stereo spare parts",
+    "tags": ["hifi stereos"],
+    "url": "/hi-fi-stereos",
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": ""
+  },
+  {
+    "title": "Hi Fi & Stereo disk drives",
+    "tags": ["hi fi hard disk", "hi fi hard disks", "hi fi harddisk", "hi fi harddisks", "hi fi hard disk drive"],
+    "url": "/hi-fi-stereos/hdd/odd",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Hi Fi & Stereo disk drives. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our local warehouse is stocked with genuine parts alongside universal fitting and great value compatible options. We ensure our most sought-after parts are always available, delivering them to you swiftly with our fast Australia wide delivery.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": "hdd-odd"
+  },
+  {
+    "title": "AC Adapter/Charger",
+    "tags": [""],
+    "url": "/acadapter/charger",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Media player power cords",
+    "tags": [""],
+    "url": "/media-players/acadapter/charger",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your media player running smoothly with our range of power cords. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of media player cords and spare parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "media-players",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "LG media player spare parts",
+    "url": "/lg/media-players",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for LG media player spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're committed to providing quality service and convenience. Our extensive inventory of LG parts ensures fast Australia-wide delivery, so you can quickly get your LG media player back to its optimal performance.<br></p></div>`,
+    "vendor": "lg",
+    "appliance_type": "media-players",
+    "part_type": "",
+  },
+  {
+    "title": "Panasonic media player spare parts",
+    "url": "/panasonic/media-players",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore Statewide Appliance Spares for the biggest range of Panasonic media player spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Why settle for anything less than genuine parts at the lowest prices? Experience the convenience and quality of shopping with Statewide Appliance Spares. Don't let technical issues disrupt your entertainment experience. Take action now and choose Statewide Appliance Spares for all your media player spare parts needs.<br></p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "media-players",
+    "part_type": "",
+  },
+  {
+    "title": "Samsung media player spare parts",
+    "url": "/samsung/media-players",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Samsung media player spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance and advice to make buying spare parts easier.<br></p></div>`,
+    "vendor": "samsung",
+    "appliance_type": "media-players",
+    "part_type": "",
+  },
+  {
+    "title": "Media player DVD's",
+    "tags": [""],
+    "url": "/media-players/hdd/odd",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Media player DVD’s. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our local warehouse is stocked with genuine parts alongside universal fitting and great value compatible options. We ensure our most sought-after parts are always available, delivering them to you swiftly with our fast Australia wide delivery.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "media-players",
+    "part_type": "hdd-odd",
+  },
+  {
+    "title": "Hi Fi & Stereo remote controls",
+    "tags": ["Hi Fi Remote Control"],
+    "url": "/hi-fi-stereos/remote-control",
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Samsung spare parts",
+    "tags": ["samsung remote", "samsung tv remote"],
+    "url": "/samsung/remote-control",
+    "vendor": "samsung",
+    "appliance_type": "",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Computer spare parts",
+    "tags": ["pc"],
+    "url": "/computers",
+    "vendor": "",
+    "appliance_type": "computers",
+    "part_type": ""
+  },
+  {
+    "title": "Dryer spare parts",
+    "tags": ["Dryer", "Dryers"],
+    "url": "/dryers",
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Dryer capacitors",
+    "tags": ["dryer capacitors", "dryer capacitor"],
+    "url": "/dryers/capacitor-fuse",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop now at Statewide Appliance Spares and experience the convenience of finding dryer capacitors and spare parts easily. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Statewide Appliance Spares have Australia’s biggest range of dryer spare parts and accessories for leading brands including </span><a href=\"https://www.statewideapp.com.au/dryers/bosch\"><span>Bosch</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/dryers/electrolux\"><span>Electrolux</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/dryers/fisher-paykel\"><span>Fisher &amp; Paykel</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/dryers/lg\"><span>LG</span></a><span> and </span><a href=\"https://www.statewideapp.com.au/dryers/miele\"><span>Miele</span></a><span>.</span></p><p dir=\"ltr\"><span>A dryer capacitor, specifically a motor run capacitor, is an electrical component that assists in the operation of the dryer's motor. It provides an extra electrical boost during motor startup, helping the motor overcome initial resistance and start spinning. The capacitor also improves the running efficiency of the motor by maintaining stable voltage and current flow. Additionally, it aids in power factor correction, optimising power usage and promoting smoother motor performance.</span></p><h2 dir=\"ltr\"><span>Why replace the capacitor on your dryer</span></h2><p dir=\"ltr\"><span>You might need to replace the capacitor on your dryer if:</span></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Motor Starting Issues:</strong><span> If your dryer's motor is having difficulty starting or fails to start altogether, a faulty capacitor could be the cause. The capacitor provides the initial electrical boost required to overcome the resistance and start the motor. If the capacitor is malfunctioning or damaged, it may not provide the necessary starting power, leading to motor starting problems.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Motor Running Problems:</strong><span> A failing capacitor can also result in issues during the running operation of the dryer. You may experience motor stalling, intermittent motor operation, or the motor running at a slower speed than usual. These problems can affect the overall performance and efficiency of the dryer.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Electrical Malfunctions:</strong><span> Capacitors can degrade or fail over time due to wear and tear, electrical surges, or component aging. A faulty capacitor can lead to electrical malfunctions within the dryer, such as voltage fluctuations or improper current flow. These electrical issues can cause additional problems with other dryer components and may even pose a safety risk.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Troubleshooting Steps:</strong><span> If you have followed troubleshooting steps and identified that the capacitor is the likely culprit for your dryer's motor-related problems, replacing the capacitor is a logical next step.</span></p></li></ul><h2 dir=\"ltr\"><span>How to replace the capacitor on your dryer</span></h2><p dir=\"ltr\"><span>Replacing the capacitor in a dryer can be a challenging task and should be done with caution. If you're unfamiliar with electrical work or are unsure about your abilities, it's advisable to seek professional assistance.</span></p><h2 dir=\"ltr\"><span>Buy your dryer spare parts online at Statewide</span></h2><p dir=\"ltr\"><span>Statewide Appliance Spares have a wide range of dryer spares for all major brands, ready for fast delivery throughout Australia. Need some expert help? Our team has got you covered. They are on hand to answer all your questions and help you find what you need.</span></p></div>",
+
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": "capacitor-fuse"
+  },
+  {
+    "title": "Capacitor/Fuse",
+    "tags": ["thermal fuse"],
+    "url": "/capacitor-fuse",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "capacitor-fuse"
+  },
+  {
+    "title": "Dryer latches",
+    "tags": ["dryer latches", "dryer latch"],
+    "url": "/dryers/door-lid-latch",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Elevate the efficiency of your dryer with dryer latches and spare parts from Statewide Appliance Spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Statewide Appliance Spares have Australia's biggest range of dryer spare parts and accessories for leading brands including </span><a href=\"https://www.statewideapp.com.au/dryers/bosch\"><span>Bosch</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/dryers/electrolux\"><span>Electrolux</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/dryers/fisher-paykel\"><span>Fisher &amp; Paykel</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/dryers/lg\"><span>LG</span></a><span> and </span><a href=\"https://www.statewideapp.com.au/dryers/miele\"><span>Miele</span></a><span>.</span></p><p dir=\"ltr\"><span>A dryer latch, specifically a door latch, is a small mechanical component that serves an essential function in a dryer. It ensures that the door remains closed, preventing accidental opening while the dryer is running. The latch acts as a safety feature, containing heat, airflow, and potentially harmful substances inside the dryer drum. It may also play a role in starting and stopping the dryer's operation in some models. Additionally, a properly functioning latch enhances energy efficiency by minimizing air leakage.</span></p><h2 dir=\"ltr\"><span>How to replace a dryer latch</span></h2><p dir=\"ltr\"><strong>Safety First!</strong><span> Ensure that your dryer is unplugged or disconnected from its power source to prevent any electrical accidents.</span></p><ol><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><span>1. Locate the dryer latch, which is typically positioned on the dryer door or the corresponding frame on the dryer body.</span></p></li><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><span>2. Depending on the latch design, you may need to unscrew it or release any retaining clips or tabs to remove it. Use the appropriate tools, such as a screwdriver or pliers, as needed.</span></p></li><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><span>3. Take the new dryer latch and align it with the designated mounting holes or slots. Insert the latch and secure it in place using screws or by snapping it into position, depending on the specific latch design.</span></p></li><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><span>4. Close the dryer door and ensure that the new latch engages properly and holds the door securely closed. Open and close the door a few times to confirm that the latch functions smoothly.</span></p></li></ol><ol><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>5. If any panels or components were removed to access the latch, reattach them securely. Make sure all screws or clips are properly fastened.</span></p></li></ol><h2 dir=\"ltr\"><span>Buy your dryer spare parts online at Statewide</span></h2><p dir=\"ltr\"><span>Statewide Appliance Spares have a wide range of dryer spares for all major brands, ready for fast delivery throughout Australia. Need some expert help? Our team has got you covered. They are on hand to answer all your questions and help you find what you need.</span></p></div>",
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": "door-lid-latch"
+  },
+  {
+    "title": "Dryer rollers",
+    "tags": ["brush rollers", "brush roller"],
+    "url": "/dryers/brush-roller",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop our range of dryer rollers. We offer genuine and high-quality dryer parts, ensuring compatibility and reliability. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Statewide Appliance Spares, your go-to destination for all your dryer spare part needs.</span></p><h2 dir=\"ltr\"><span>How long do dryer rollers last?</span></h2><p dir=\"ltr\"><span>The lifespan of dryer rollers can vary depending on various factors, such as the quality of the rollers, frequency of use, and maintenance practices. On average, dryer rollers can last anywhere from 5 to 10 years. However, it's essential to note that this is just a general estimate, and the actual lifespan can differ.</span></p><p dir=\"ltr\"><span>Regular maintenance and care can significantly impact the longevity of dryer rollers. Here are some tips to help extend their lifespan:</span></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Periodically clean the dryer rollers to remove lint, debris, and any build-up that can affect their performance. Use a soft brush or cloth to wipe them down.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Some dryer rollers may require lubrication to ensure smooth rotation. Consult your dryer's user manual to determine if lubrication is necessary and follow the manufacturer's recommendations.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Overloading the dryer can place excessive strain on the rollers and other components. Follow the manufacturer's guidelines regarding load capacity to prevent unnecessary wear and tear.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Regularly inspect the dryer rollers for signs of wear, such as flat spots, cracks, or excessive looseness. If you notice any significant damage or deterioration, consider replacing the rollers promptly.</span></p></li></ul><h2 dir=\"ltr\"><span>How to tell if your dryer rollers need replacing</span></h2><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>If you notice excessive squeaking, grinding, or rumbling sounds coming from your dryer during operation, it may be a sign that the rollers are worn out or damaged. The rollers should rotate smoothly, and any abnormal noise could indicate that they are not functioning properly.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>If the drum of your dryer appears to be misaligned or wobbling during operation, it could be a sign of worn-out or faulty rollers. The rollers play a crucial role in supporting and guiding the drum, so any misalignment may indicate roller issues.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>When the dryer is in use, observe the rotation of the drum. If you notice that the drum spins unevenly or appears to be struggling to rotate smoothly, it could be due to worn-out or damaged rollers.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Worn-out rollers may cause increased friction between the drum and the dryer's interior, leading to excessive lint buildup. If you consistently find a significant amount of lint accumulating inside the dryer, it's worth checking the condition of the rollers.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Inspect the rollers visually for any signs of physical damage, such as cracks, flat spots, or excessive looseness. Any visible damage to the rollers is an indication that they need replacing.</span></p></li></ul><h2 dir=\"ltr\"><span>Find your genuine parts at Statewide</span></h2><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>To find the right </span><a href=\"https://www.statewideapp.com.au/dryers\"><span>dryer spares</span></a><span> you will need your appliance model number or part number.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>If unsure where to find your model number, check out our </span><a href=\"https://www.statewideapp.com.au/findyourmodel\"><span>guide</span></a><span>. Most manufacturers place the model number on the back exterior of the unit or on the inside of the door.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p role=\"presentation\" dir=\"ltr\"><span>Search on our website by brand and model number to find the correct part.</span></p></li></ul><h2 dir=\"ltr\"><span>Buy your dryer spare parts online at Statewide</span></h2><p dir=\"ltr\"><span>Statewide Appliance Spares have a wide range of dryer spares for your dryer, ready for fast delivery throughout Australia. Need some expert help? Our team has got you covered. They are on hand to answer all your questions and help you find what you need.</span></p></div>",
+
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": "brush-roller"
+  },
+  {
+    "title": "Dryer ducting",
+    "tags": ["Dryers Ducting", "Dryer Ducting", "Dryer ducting", "dryer venting kit"],
+    "url": "/dryers/ducting",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Elevate the efficiency of your dryer with dryer ducting and spare parts from Statewide Appliance Spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>When it comes to maintaining and repairing your dryer, choosing the right spare parts is crucial to ensure optimal performance and longevity. Statewide Appliance Spares offers an extensive selection of dryer spare parts, catering to a wide range of dryer brands and models. We stock genuine and high-quality </span><a href=\"https://www.statewideapp.com.au/dryers\"><span>dryer parts</span></a><span>, ensuring compatibility and reliability.</span></p><h2 dir=\"ltr\"><span>Why install dryer ducting</span></h2><p dir=\"ltr\"><span>By installing dryer ducting, you promote efficient drying, prevent moisture-related issues, dissipate heat, remove lint, and enhance safety.</span></p><h2 dir=\"ltr\"><span>Repairing dryer ducting with genuine spare parts</span></h2><p dir=\"ltr\"><span>Repairing dryer ducting may involve addressing issues such as leaks, damage, or obstructions. Here's a general guide on how to repair dryer ducting:</span></p><p dir=\"ltr\"><strong>Safety First!</strong><span> Ensure that your dryer is unplugged or disconnected from its power source before attempting any repairs.</span></p><ol><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Inspect the Ducting: Thoroughly examine the ducting for any signs of damage, such as holes, loose connections, or disconnected sections. Also, check for obstructions, such as lint build-up or foreign objects.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Patching Holes or Leaks: If you find any small holes or leaks in the ducting, you can repair them using foil duct tape or a high-temperature duct sealant. Clean the affected area, ensure it's dry, and apply the tape or sealant, following the manufacturer's instructions.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Reconnecting Disconnected Sections: If any sections of the ducting have become disconnected, reattach them using appropriate connectors or clamps. Ensure a secure and tight connection to prevent air leaks.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Replacing Damaged Sections: If a section of the ducting is severely damaged or cannot be repaired effectively, you may need to replace it. Measure the damaged section and purchase a suitable replacement ducting material. Cut the new ducting to the required length and secure it in place using connectors or clamps.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Clearing Obstructions: If you encounter obstructions such as lint buildup or foreign objects, carefully remove them using a vacuum cleaner with a narrow attachment, a lint brush, or a dryer vent cleaning kit. Ensure that the entire ducting is clear and free of blockages.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Perform a Test Run: After making the necessary repairs, reconnect the dryer and run it briefly to ensure proper airflow and check for any remaining issues. Verify that there are no air leaks, and the dryer is functioning as expected.</span></p></li></ol><p dir=\"ltr\"><span>Remember, specific repair procedures may vary based on the type of dryer ducting and the nature of the damage. It's always advisable to consult the dryer's user manual or seek professional assistance if you're unsure about the repair process or encounter significant damage. Additionally, regular maintenance and cleaning of the dryer ducting can help prevent issues and minimize the need for repairs.</span></p></div>",
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": "ducting"
+  },
+  {
+    "title": "Dryer heaters",
+    "tags": ["Dryers heaters", "dryer heater", "dryer heaters"],
+    "url": "/dryers/element-heater",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop our range of dryer heaters. We offer genuine and high-quality dryer parts, ensuring compatibility and reliability. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><h2 class=\"contenthead\" dir=\"ltr\"><span>What is the dryer element used for?</span></h2><p dir=\"ltr\"><span>The dryer element, also known as the heating element, is an essential component of an electric clothes dryer. Its primary purpose is to generate heat, which is necessary for drying clothes efficiently. Note that gas dryers utilise a gas burner or ignition system to generate heat.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>How to test your dryer element</span></h2><p dir=\"ltr\"><span>Testing the dryer element requires caution and should be done with the power disconnected. Here's a general guide on how to test your dryer element:</span></p><p dir=\"ltr\"><strong>Safety First!</strong><span> Unplug the dryer from the power source or disconnect it from the electrical circuit to ensure safety during testing.</span></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Access the Element:</strong><span> Depending on your dryer model, you may need to remove the back panel, front panel, or top panel to access the heating element. Refer to the dryer's user manual or follow manufacturer instructions for proper access.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Visual Inspection:</strong><span> Inspect the heating element visually for any signs of damage, such as visible breaks, discoloration, or burnt areas. If there are clear signs of damage, it is likely that the element needs to be replaced.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Continuity Test:</strong><span> If the heating element appears visually intact, you can perform a continuity test to check its electrical continuity. Set a multimeter to the resistance or continuity mode.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Disconnect Wires:</strong><span> Locate the wires connected to the heating element terminals. Disconnect these wires carefully, ensuring that they do not touch any other metal parts or the dryer casing.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Test for Continuity:</strong><span> With the multimeter probes, touch one probe to each terminal of the heating element. If the heating element is functioning properly, the multimeter should display a reading indicating continuity (usually a low resistance value). If the multimeter shows no continuity or a very high resistance value, it suggests a faulty heating element that needs to be replaced.</span></p></li></ul><p dir=\"ltr\"><span>If you're unsure about the results or encounter any difficulties during the testing process, it's recommended to consult the dryer's user manual or contact the manufacturer for specific guidance. Alternatively, you can seek assistance from a qualified technician.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>Why your dryer is not heating up</span></h2><p dir=\"ltr\"><span>This could be due to a number of reasons including:</span></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Heating Element:</strong><span> The heating element itself may be faulty or burned out. If the heating element is damaged or has no continuity when tested, it will need to be replaced.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Thermal Fuse:</strong><span> A thermal fuse is a safety device that protects the dryer from overheating. If the thermal fuse is blown or faulty, it can interrupt the power supply to the heating element. Check the thermal fuse with a multimeter to see if it has continuity. If not, it will need to be replaced.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Thermostat Issues:</strong><span> Dryers typically have multiple thermostats that regulate the temperature. If any of the thermostats are faulty or have tripped, they may prevent the heating element from functioning properly. Test each thermostat with a multimeter for continuity and replace any defective ones.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Igniter (Gas Dryers):</strong><span> If you have a gas dryer, it uses an igniter to ignite the gas and produce heat. If the igniter is faulty, it may not ignite the gas, resulting in no heat. The igniter can be tested for continuity using a multimeter and replaced if necessary.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Gas Supply (Gas Dryers):</strong><span> Ensure that the gas supply to the dryer is turned on and functioning properly. If there is no gas flow or a disruption in the gas supply, the dryer will not produce heat.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Electrical Issues:</strong><span> Check the electrical connections, power cord and circuit breaker to ensure they are in good condition and providing sufficient power to the dryer. A loose or faulty electrical connection can prevent the heating element from working.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Ventilation Issues:</strong><span> Poor ventilation or a clogged dryer vent can cause the dryer to overheat and trigger a safety mechanism that shuts off the heating element. Ensure that the dryer vent and exhaust system are clean and free from blockages.</span></p></li></ul><h2 class=\"contenthead\" dir=\"ltr\"><span>How to replace your dryer element</span></h2><p dir=\"ltr\"><span><strong>Safety First!</strong> Unplug the dryer or disconnect it from the power source to avoid electrical hazards.</span></p><ol><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><strong>Access the Element:</strong><span> Remove the back panel, front panel, or top panel of the dryer, depending on the model and design. Refer to the dryer's user manual or manufacturer instructions for specific guidance.</span></p></li><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><strong>Disconnect Wires:</strong><span> Take note of the wire connections on the old heating element. Carefully disconnect the wires from the terminals, ensuring they don't touch any other metal parts or the dryer casing.</span></p></li><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><strong>Remove Mounting Hardware:</strong><span> Locate the screws, brackets, or clips that secure the heating element in place. Remove them to free the old element from its housing.</span></p></li><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><strong>Install the New Element:</strong><span> Position the new heating element in the same orientation as the old one. Insert it into the housing or mounting brackets securely.</span></p></li><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><span><strong>Reattach Mounting Hardware:</strong> Use the screws, brackets, or clips you removed earlier to secure the new element in place. Ensure a tight and stable fit.</span></p></li><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><strong>Reconnect Wires:</strong><span> Take the wires you disconnected and reconnect them to the appropriate terminals on the new heating element. Double-check that the connections are secure.</span></p></li><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><strong>Reassemble the Dryer:</strong><span> Put the back panel, front panel, or top panel back in place according to the manufacturer's instructions. Make sure all screws or clips are properly tightened.</span></p></li><li dir=\"ltr\" aria-level=\"4\"><p dir=\"ltr\" role=\"presentation\"><strong>Test the Dryer:</strong><span> Plug the dryer back in or reconnect it to the power source. Turn on the dryer and select a heat setting to verify if the new element is functioning correctly. Observe the dryer for any unusual noises or issues during operation.</span></p></li></ol><p dir=\"ltr\"><span>Instructions may vary based on your dryer model. It’s always recommended to consult the dryer's user manual or follow manufacturer instructions for detailed guidance.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>How long does a dryer element last on average?</span></h2><p dir=\"ltr\"><span>The lifespan of a clothes dryer element can vary depending on several factors, including usage patterns, maintenance, and the quality of the element itself. On average, a clothes dryer element can last between 8 to 12 years. However, it's important to note that this is an estimate, and individual experiences may vary.</span></p><p dir=\"ltr\"><span>If your dryer is experiencing frequent issues with the heating element or if it fails before the estimated lifespan, it may be beneficial to have it inspected by a professional. A technician can assess the situation, identify any underlying problems and provide appropriate solutions.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>Find your dryer spares at Statewide</span></h2><p dir=\"ltr\"><span>To find the right </span><a href=\"https://www.statewideapp.com.au/dryers\"><span>dryer spare parts</span></a><span> you will need your appliance model number. If unsure where to find your model number, check out our </span><a href=\"https://www.statewideapp.com.au/findyourmodel\"><span>guide</span></a><span>. Most manufacturers place the model number on the back exterior of the unit or on the inside of the door.</span></p><p dir=\"ltr\"><span>Search on our website by brand and model number to find the correct part.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>Buy online at Statewide</span></h2><p dir=\"ltr\"><span>Statewide Appliance Spares have a wide range of genuine parts, ready for fast delivery throughout Australia. Need some expert help? Our team has got you covered. They are on hand to answer all your questions and help you find what you need.</span></p></div>",
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Element/Heater",
+    "tags": ["Element", "Elements", "elements", "Heating element"],
+    "url": "/element-heater",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Heater spare parts",
+    "tags": ["Heater"],
+    "url": "/heaters",
+    "vendor": "",
+    "appliance_type": "heaters",
+    "part_type": ""
+  },
+  {
+    "title": "IXL heater spare parts",
+    "tags": ["IXL sensation", "ixl hideaway"],
+    "url": "/ixl/heaters",
+    "vendor": "ixl",
+    "appliance_type": "heaters",
+    "part_type": ""
+  },
+  {
+    "title": "IXL parts",
+    "tags": ["IXL Tastic Spare Parts and IXL Sensation Spare Parts"],
+    "url": "/ixl-parts",
+    "vendor": "ixl",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Washer & dryer spare parts",
+    "tags": ["Washer & dryer", "washer dryer", "Washer dryer combo"],
+    "url": "/washers-dryers",
+    "vendor": "",
+    "appliance_type": "washers-and-dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel washer & dryer spare parts",
+    "url": "/fisher-and-paykel/washers-and-dryers",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washers-and-dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Washer & dryer spare parts",
+    "url": "/washers-dryers/door-handle-hinge-lid-parts",
+    "vendor": "",
+    "appliance_type": "washers-and-dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Washer & dryer spare parts",
+    "url": "/washers-and-dryers",
+    "vendor": "",
+    "appliance_type": "washers-and-dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Rangehood covers",
+    "tags": ["rangehood covers"],
+    "url": "/rangehoods/covers",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for rangehood covers at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr" class="contenthead"><meta charset="utf-8"><meta charset="utf-8"><h2 dir="ltr" class="contenthead"><span>The four main types of rangehoods include:</span></h2><ol><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Undermount rangehoods. These are usually found neatly tucked away in the kitchen cabinetry and help to improve air quality while carrying out all rangehood functions.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Slide out rangehoods are often installed into your kitchen cabinetry. These also feature a fan that switches on when you slide out and lights to brighten the cooktop surface.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Canopy rangehoods – Usually larger in size and made of stainless steel, they are extremely effective in capturing heat and steam due to their size.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Fixed rangehoods are often feature pieces and larger in size. They are set against the wall and have a large air collection area.</span><span><br></span></p></li></ol><h2 dir="ltr" class="contenthead"><span>What to look for when buying a rangehood cover</span></h2><ol><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the right cover for your rangehood, you will need your rangehood model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Most manufacturers will place the model number on the inner rim of the rangehood. You will most likely have to remove the filters to find your model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct rangehood filter.</span></p></li></ol><h2 dir="ltr" class="contenthead"><span>Cleaning and maintaining your rangehood</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Wipe the outside of your rangehood with a warm soapy water and a sponge. Be sure to use an anti-grease dish soap to really breakdown the dirt and grime.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Remove your filters and rub stains away from the interior of the hood. Use warm water with dishwashing soap and some baking soda. Gently scrub with a scrubbing brush.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Remove the filters to give them a thorough clean. Mesh filters can be popped into the dishwasher on a hot cycle. Alternatively fill as sink with hot water, degreasing dishwashing liquid and half a cup of baking soda. Place filters in the hot soapy solution and let soap. Then use a scrub brush to remove excess particles. Rinse with hot water and allow to completely air dry before replacing.</span></p></li></ul><h2 dir="ltr" class="contenthead"><span>What types of rangehood covers are available?</span></h2><p dir="ltr"><span>We have a wide range of rangehood covers available for all the leading brands including&nbsp;</span><a href="https://www.statewideapp.com.au/blanco/rangehoods/cover-facia-panel"><span>Blanco</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux/rangehoods/cover-facia-panel"><span>Electrolux</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fisher-paykel/rangehoods/cover-facia-panel"><span>Fisher &amp; Paykel</span></a><span>&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/smeg/rangehoods/cover-facia-panel"><span>Smeg</span></a><span>. We offer fast, Australia wide delivery so you can get your rangehood working at its best.</span></p><p dir="ltr"><span>Need some expert help? Our team delivers high quality service and advice to help you with all your appliance spare needs.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": "cover-facia-panel"
+  },
+  {
+    "title": "Fisher & Paykel rangehood filters",
+    "tags": ["Fisher & Paykel rangehood filters"],
+    "url": "/fisher-paykel-rangehood-filters",
+    "vendor": "fisher-paykel",
+    "appliance_type": "rangehoods",
+    "part_type": "filter"
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "tags": ["F&P filters"],
+    "url": "/fisher-paykel/filter",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": "filter"
+  },
+  {
+    "title": "Rangehood filters",
+    "tags": ["Range hood filter", "rangehood filter", "rangehoods filter", "rangehoods filters"],
+    "url": "/rangehood-filters",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your kitchen running smoothly with our extensive range of rangehood filters. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Rangehoods (also known as extractor hoods and stove hoods) are electric appliances that are mounted over the cooktop. The rangehood is an essential part of the kitchen and works to filter the air when cooking. A rangehood effectively reduces odours when cooking, minimises heat and smoke and helps to remove air borne grease particles.</span></p><h2 dir="ltr" class="contenthead"><span>The four main types of rangehoods include</span></h2><ol><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Undermount rangehoods are usually found neatly tucked away in the kitchen cabinetry.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Slide out rangehoods are often installed into your kitchen cabinetry. These also feature a fan that switches on when you slide out and lights to brighten the cooktop surface.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Canopy rangehoods – Usually larger in size and made of stainless steel, they are extremely effective in capturing heat and steam due to their size.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Fixed rangehoods are often feature pieces and larger in size. They are set against the wall and have a large air collection area.</span></p></li></ol><h2 dir="ltr" class="contenthead"><span>Cleaning your rangehood filter</span></h2><p dir="ltr"><span>Our step by step&nbsp;&nbsp;</span><a href="https://www.statewideapp.com.au/blogs/the-easiest-way-to-clean-your-rangehood-filters/"><span>guide</span></a><span>&nbsp;takes you through the easiest way to clean your rangehood filters.</span></p><p dir="ltr"><strong>Step 1:</strong>&nbsp; Remove your filters.</p><p dir="ltr"><strong>Step 2:</strong> Fill a sink or large baking dish or pot that is large enough for your filters to be completely immersed in with boiling water (the hotter the better!). Add a few drops of de-greasing dishwashing liquid. Add ½ cup of baking soda and give the solution a good mix.</p><p dir="ltr"><strong>Step 3:</strong> Place your filters in the hot, soapy solution. Let soak for approximately 15 minutes.</p><p dir="ltr"><strong>Step 4:</strong> Use your scrub brush to remove excess food particles and grease. Add extra dishwashing liquid to your brush if required.</p><p dir="ltr"><strong>Step 5:</strong> Rinse with hot water. Place on paper towels and allow to cool and dry completely. After they are dry, insert the filters back into your rangehood.</p><h2 dir="ltr" class="contenthead"><span>Charcoal rangehood filters vs mesh rangehood filters</span></h2><p dir="ltr"><span>Ductless or recirculating hoods use charcoal filters. Charcoal filters are made of carbon material that traps contaminants and neutralises odours. They are more suitable for ductless rangehoods as they clear the air from unwanted fumes from your kitchen.</span></p><p dir="ltr"><span>Mesh filters come in stainless steel and aluminium. This filter type comes with built-in technology that traps grease and slows down its accumulation. The mesh filter may come flat or level, which means the hood won’t have a grease trap.</span></p><p dir="ltr"><span>Upgrade your rangehood with confidence. Shop now at Statewide Appliance Spares and experience the difference with our wide range of spare parts and fast Australia wide delivery.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": "filter"
+  },
+  {
+    "title": "Rangehood fans",
+    "tags": ["rangehood fans", "rangehoods fans", "rangehood fan", "rangehoods fan", "rangehood blower", "rangehood blowers", "rangehoods blower", "rangehoods blowers", "rangehood fan blowers"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide offer Australia’s largest selection of rangehood fans to suit all the leading brands. Buy your rangehood fans online with fast, Australia-wide delivery. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>For rangehood fan replacement, you will need to find the right fan for your rangehood. First, you will need your rangehood model number. Most manufacturers will place the model number on the inner rim of the rangehood. You will most likely have to remove the filters to find your model number. Then simply search by brand and model number to find the correct rangehood fan for your needs.</span></p><h2 dir="ltr" class="contenthead"><span>Can you replace your rangehood fan or blower?</span></h2><p dir="ltr"><span>Yes! With some basic tools and a little know-how, you can replace your rangehood fan easily.</span></p><h2 dir="ltr" class="contenthead"><span>Maintaining high quality ventilation</span></h2><p dir="ltr"><span>Keep your air clean and healthy with a ducted rangehood. You can find new and replacement rangehood ducting parts </span><a href="https://www.statewideapp.com.au/rangehoods/ducting"><span>here</span></a><span>.</span></p><p dir="ltr"><span>At Statewide, we have the largest selection of genuine parts and a wide range of universal fittings and affordable compatible spares. We're your go-to destination for appliance spare parts for all the leading brands. Find the part you need and enjoy speedy delivery right to your doorstep.</span></p><p dir="ltr"><span>Statewide offer Australia’s largest selection of ducting to suit all the leading brands. Buy your rangehood ducting online with fast, Australia wide delivery.</span></p></div>`,
+    "url": "/rangehoods/fan-blower-spares",
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": "fan-blower"
+  },
+  {
+    "title": "Rangehood globes",
+    "tags": ["rangehoods globe", "rangehood globe", "ranghoods globes", "rangehood globes", "rangehood lamp", "rangehood lamps", "rangehoods lamp", "rangehoods lamps"],
+    "url": "/rangehoods/globe-lamp",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find the right globe for your rangehood at Statewide. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Rangehoods (also known as extractor hoods and stove hoods) are electric appliances that are mounted over the cooktop. The rangehood is an essential part of the kitchen and works to filter the air when cooking, effectively minimising odours, reducing heat and smoke, and improving air quality in the home while also providing necessary lighting during cooking.</span></p><h2 dir="ltr" class="contenthead"><span>Find the right rangehood globe for your rangehood</span></h2><p dir="ltr"><span>To find the right globe for your rangehood, you will first need your rangehood model number. Most manufacturers will place the model number on the inner rim of the rangehood, often requiring you to remove the filters. Then, search on our website by brand and model number to find the correct rangehood globe.</span></p><h2 dir="ltr" class="contenthead"><span>Can you replace your rangehood globe?</span></h2><p dir="ltr"><span>Yes! With some basic tools and a little know-how, you can replace your rangehood globe in minutes.</span></p><h2 dir="ltr" class="contenthead"><span>How long does a rangehood globe last?</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>LED lights last between 20,000 to 50,000 hours and are approximately 75% more energy-efficient than Halogen lights.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Halogen lights last about 2,000 hours.</span></p></li></ul><h2 dir="ltr" class="contenthead"><span>How to install your rangehood globe</span></h2><p dir="ltr"><span>Rangehood globes are easy to install. Follow our step-by-step guide:</span></p><p dir="ltr"><strong>Step 1:</strong><span> &nbsp;Switch off the fan and lighting. Disconnect the rangehood from the mains electrical supply before replacing the globe.</span></p><p dir="ltr"><strong>Step 2:</strong><span> &nbsp;If you cannot access your globe, you may need to remove your grease filter first by pulling the latch tabs to release the filters.</span></p><p dir="ltr"><strong>Step 3:</strong><span> &nbsp;To replace an LED light globe, unscrew the globe in an anti-clockwise direction or push in and twist one-quarter turn in an anti-clockwise direction. Remove the faulty globe and refit the new one by twisting clockwise until it locks into place. To replace a halogen light, use a flat head screwdriver to gently remove the halogen light glass cover, then, using gloves or a lint-free cloth, remove the old globe and insert the new one before replacing the glass cover. For an incandescent globe, unscrew it in an anti-clockwise direction or push in and twist one-quarter turn in an anti-clockwise direction, remove the faulty globe, and refit the new one by twisting clockwise until it locks into place.</span></p><p dir="ltr"><strong>Step 4:</strong><span> &nbsp;After the globe is installed, reconnect your rangehood and switch on the light to ensure it is working.</span></p><h2 dir="ltr" class="contenthead"><span>Guide to changing your rangehood globe</span></h2><p dir="ltr"><span>Watch our </span><a href="https://www.youtube.com/watch?v=1aaeB2NSxZc"><span>video</span></a><span> for easy install instructions.</span></p><h2 dir="ltr" class="contenthead"><span>Buy your rangehood globe online from Statewide</span></h2><p dir="ltr"><span>Purchase your rangehood globe conveniently from Statewide online. We provide the biggest range of rangehood globes for all the leading brands, ready for despatch from our well-stocked warehouse. Explore our selection of rangehood spare parts, including universal fittings and affordable compatible options, all competitively priced, with fast Australia-wide delivery to ensure your rangehood operates at its best. Count on our dedicated team for quality service and expert guidance for all your appliance spare part requirements.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Rangehood motors",
+    "tags": ["rangehoods motors", "rangehoods motor", "rangehood motors", "rangehood motor"],
+    "url": "/rangehoods/motors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop rangehood motors at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>To find the correct spare part for your rangehood, simply locate your model number using our </span><a href="https://statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Then, search our website by brand and model number to easily find the replacement part you need.</span></p><h2 dir="ltr" class="contenthead"><span>Can you replace your rangehood motor?</span></h2><p dir="ltr"><span>Yes! If you have a faulty or malfunctioning rangehood fan motor, it can be replaced.</span></p><h2 dir="ltr" class="contenthead"><span>When to replace your rangehood fan motor</span></h2><p dir="ltr"><span>When your rangehood fan stops working, the most common problems are a broken fan switch and a burnt-out fan motor. You can check to see if the motor bearings are worn out and if they are, you will need to replace your motor.</span></p><p dir="ltr"><span>Shop with confidence at Statewide Appliance Spares and experience the convenience of finding quality rangehood motors for all your repair needs. Upgrade your rangehood experience today!</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": "motors"
+  },
+  {
+    "title": "Rangehood brackets",
+    "tags": ["rangehood bracket", "rangehood brackets", "rangehoods brackets", "rangehoods bracket"],
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop for rangehood brackets at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<h2 class=\"contenthead\" dir=\"ltr\"><span>Find the right rangehood bracket for your rangehood</span></h2><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>To find the right bracket for your rangehood, you will need your rangehood model number.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>If unsure where to find your model number, check out our&nbsp;</span><a href=\"https://www.statewideapp.com.au/findyourmodel\"><span>guide</span></a><span>. Most manufacturers will place the model number on the inner rim of the rangehood. You will most likely have to remove the filters to find your model number.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Search on our website by brand and model number to find the correct rangehood motor.</span></p></li></ul><h2 class=\"contenthead\" dir=\"ltr\"><span>How to secure your rangehood to the wall using brackets</span></h2><p dir=\"ltr\"><span>If you are an expert DIYer you can secure your rangehood by following a series of guided steps. You may need a professional installer to measure, fit and install your appliance.</span><b></b></p><p dir=\"ltr\"><span>Experience the Statewide advantage – the biggest range in Australia, fast delivery, lowest price guarantee and expert guidance from our local team. At Statewide Appliance Spares, we make buying spares easier!</span></p>",
+    "url": "/rangehoods/brackets",
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": "bracket-guiderail-wallmount"
+  },
+  {
+    "title": "Electrolux rangehood spare parts",
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Discover the complete range of Electrolux rangehood spares at Statewide Appliance Spares, your trusted source for genuine Electrolux parts. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Electrolux offers a wide array of high-quality rangehoods designed to enhance your kitchen experience. From sleek designs to advanced features, Electrolux rangehoods combine functionality with style, making them a popular choice for homeowners and professional chefs alike.</span></p><p dir="ltr"><span>We understand the importance of maintaining your Electrolux appliance's peak performance. That's why we offer an extensive selection of Electrolux rangehood parts, ensuring you can easily find the exact part you need.</span></p><p dir="ltr"><span>As the leading supplier of rangehood spares in Australia, Statewide Appliance Spares stocks the largest range of genuine Electrolux spares. With our commitment to customer satisfaction, we prioritise prompt shipping across the country, so you can receive your parts quickly and get your appliance back to perfect working condition in no time.</span></p><p dir="ltr"><span>Shop now and ensure your Electrolux rangehood continues to deliver exceptional performance for years to come.</span></p></div>`,
+    "url": "/rangehoods/electrolux",
+    "vendor": "electrolux",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Euro rangehood spare parts",
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop genuine Euro rangehood parts at Statewide. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Euro is known for their premium selection of appliances with innovative features and stylish designs.</span><b></b></p><p dir="ltr"><span>You can find all your genuine Euro spare parts at Statewide.&nbsp;</span></p><p dir="ltr"><span>When you shop with Statewide, you can expect fast Australia wide delivery. Plus, we offer cost-effective shipping solutions and bulk buy discounts on selected products, ensuring you get your Euro parts quickly and affordably.</span><b></b></p><p dir="ltr"><span>Our expert and friendly team is on hand to help. We're passionate about making buying spares easier for our customers, so don't hesitate to reach out if you have any questions or need assistance.</span></p></div>`,
+    "url": "/rangehoods/euro",
+    "vendor": "euro",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel rangehood spare parts",
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Australia’s biggest range of genuine Fisher & Paykel rangehood spares. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Fisher &amp; Paykel is renowned for its innovative designs and reliable performance, making them a trusted choice for households worldwide. With our genuine Fisher &amp; Paykel parts, you can rest assured that you're getting the perfect fit and optimal performance for your Fisher &amp; Paykel rangehood.</span></p><p dir="ltr"><span>With fast Australia wide delivery and competitive prices, we make it easy for you to keep your Fisher &amp; Paykel appliances performing at their best.</span></p></div>`,
+    "url": "/fisher-paykel/rangehoods",
+    "vendor": "fisher-paykel",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Smeg rangehood spare parts",
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Find your Smeg rangehood spare parts at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Smeg has designed innovative household appliances for all everyday environments since 1948. </span><span>&nbsp;With our genuine Smeg parts, you can rest assured that you're getting the perfect fit and optimal performance for your Smeg rangehood.</span></p><p dir="ltr"><span>Statewide Appliance Spares is committed to making your spare parts buying experience as easy and convenient as possible. With genuine Smeg parts and competitive prices, we're here to help you keep your Smeg Find your Sharp fridge &amp; freezer spare parts at Statewide Appliance Spares. appliances performing at their best.</span></p></div>`,
+    "url": "/rangehoods/smeg",
+    "vendor": "smeg",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Technika rangehood spare parts",
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Keep your Technika rangehood running smoothly with genuine spare parts from Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Technika is a renowned brand in the realm of home appliances, recognised for their commitment to innovation, reliability, and stylish design. Catering to a diverse range of household needs, Technika offers an extensive array of products spanning from kitchen essentials to laundry appliances.</span></p><p dir="ltr"><span>Finding the right part for your Technika rangehood has never been easier with our user-friendly website. With fast Australia wide delivery, you can have your Technika appliance up and running in no time.</span><b></b></p><p dir="ltr"><span>Shop Technika rangehood parts from Statewide Appliance Spares today and experience the difference for yourself.</span></p></div>`,
+    "url": "/rangehoods/technika",
+    "vendor": "technika",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Westinghouse rangehood spare parts",
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Easily find all your Westinghouse rangehood spare parts at Statewide. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We’re committed to providing you with a comprehensive range of genuine Westinghouse spare parts, designed to keep your appliances performing at their peak. Whether it's a critical component for your refrigerator, oven, rangehood, or dishwasher, we have the parts you need to maintain your Westinghouse appliances with confidence.</span></p><p dir="ltr"><span>Shop for genuine Westinghouse rangehood spares at Statewide.&nbsp;</span></p><h2 class="contenthead" dir="ltr"><span>Find the right Westinghouse spare parts for your rangehood</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the right Westinghouse parts and accessories for your rangehood, you will need your rangehood model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>.&nbsp;</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct replacement part.</span></p></li></ul><p dir="ltr"><span>Buy with confidence anywhere in Australia as we are a Westinghouse nationally authorised spare parts distributor.</span></p></div>`,
+    "url": "/rangehoods/westinghouse",
+    "vendor": "westinghouse",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Miele rangehood spare parts",
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Genuine Miele rangehood spares to maintain your Miele rangehood’s peak performance. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide is your go-to destination for Miele rangehood spare parts. Miele is renowned worldwide for its commitment to excellence, offering appliances that are synonymous with quality, durability, and innovation. At Statewide, we're proud to provide genuine Miele rangehood parts to ensure your appliance continues to deliver top performance.</span></p><p dir="ltr"><span>Statewide's huge inventory of appliance spare parts includes a comprehensive selection of Miele rangehood components, from filters to motors, switches, lights, and more. We prioritise stocking the most popular Miele spare parts, ensuring they're readily available whenever you need them.</span></p><p dir="ltr"><span>Finding the right Miele spare part is simple – just refine your search using your rangehood model number. If you're having trouble locating the part you need, our knowledgeable team is here to offer expert guidance and assistance. Give us a call at 1800 005 220, and we'll help you find the perfect solution for your rangehood spare part needs.</span></p><p dir="ltr"><span>With over 35 years of experience as Australia's leading distributor of appliance spare parts, we're committed to providing exceptional service and convenience. Our extensively stocked warehouse ensures fast Australia wide delivery, so you can quickly get your rangehood back in working order.</span></p><p dir="ltr"><span>Experience the Statewide Appliance Spares difference – shop now!</span></p></div>`,
+    "url": "/rangehoods/miele",
+    "vendor": "miele",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Oven & cooktop gas burner spare parts",
+    "tags": ["oven gas burners", "oven burners", "oven burner"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for oven, cooktop and stove burner spare parts from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><h2 class="contenthead" dir="ltr"><span>Find the right gas burner for your stove</span></h2><p dir="ltr"><span>To find the right gas burner for your stove, you will need your cooktop or stove model number. If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Most manufacturers place the model number on the underside of the cooktop, which will be visible by either removing the cooktop or by getting underneath the unit. Then, search on our website by brand and model number to find the correct gas burner part.</span></p><h2 class="contenthead" dir="ltr"><span>How to clean your oven gas burner</span></h2><p dir="ltr"><strong>Step 1:</strong>&nbsp;&nbsp;&nbsp; Gather your cleaning supplies and start by removing the grates and burners from your cooktop. Wipe away any dry debris.</p><p dir="ltr"><strong>Step 2:</strong>&nbsp;&nbsp;&nbsp; Soak the burner heads, burner caps and gas stove grates in dishwashing soap and warm water. This will help loosen any debris. Let soak for 20 minutes.</p><p dir="ltr"><strong>Step 3:</strong>&nbsp;&nbsp;&nbsp; Gently scrub your burner heads and caps with a non-abrasive scrub pad or brush. Check the gas ports of the burners to see if they are clogged. Use a brush or straightened paper clip to gently remove any clogged debris.</p><p dir="ltr"><strong>Step 4:</strong>&nbsp;&nbsp;&nbsp; Rinse all parts under running water. Shake to get rid of excess water and dry with a soft, clean cloth. Allow to air dry completely.</p><p dir="ltr"><strong>Step 5:</strong>&nbsp;&nbsp;&nbsp; Give your gas stovetop a thorough clean. Scrub using a non-abrasive scrub or brush pad with a few drops of dishwashing detergent. Work in circular motions on enamel surfaces and with the grain on stainless steel surfaces. Then wipe away any residue with a damp cloth.</p><p dir="ltr"><strong>Step 6:</strong>&nbsp;&nbsp;&nbsp; Don’t forget your drip pans! Remove the pans from the stove and rinse thoroughly. Wash with warm soapy water. For stubborn stains, create a paste with one-part baking soda and one-part dishwashing detergent. Apply this mixture generously over the drip pans and place in zip lock bags. Allow to soak for approximately 30 minutes to one hour and rinse thoroughly.</p><p dir="ltr"><strong>Step 7:</strong>&nbsp;&nbsp;&nbsp; Once you have finished cleaning your gas stove burners, make sure all your parts are completely dry before reassembling your burners and grates.</p><h2 class="contenthead" dir="ltr"><span>The importance of maintenance</span></h2><p dir="ltr">We recommend a weekly deep clean, using the simple steps above. Need a non-caustic, powerful cleaner with active ingredients that lift away grease, grime and burnt food? Find what you need in our range of appliance <a href="https://www.statewideapp.com.au/cleaning-products">cleaning products</a>.</p></div>`,
+    "url": "/ovens-and-cooktops/gas-burner-spares",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "burner-gas"
+  },
+  {
+    "title": "Whirlpool ovens & cooktops Glass/Hob",
+    "tags": ["6AKz167/ix/01 lower door glass", "6AKz167/ix/01 lower door glass"],
+    "url": "/whirpool/ovens-and-cooktops/gas-burner-spares",
+    "vendor": "whirpool",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "glass-hob"
+  },
+
+  {
+    "title": "Oven & cooktop globes",
+    "tags": ["oven globe", "oven globe"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Australia’s biggest range of oven & cooktop globes at Statewide. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>When replacing a globe in your oven, it's essential to ensure that you choose a bulb specifically designed for oven use, as standard household bulbs may not be able to withstand the high temperatures generated inside the oven. Statewide Appliance Spares offer a huge selection of oven globes designed to withstand high temperatures, ensuring optimal performance and safety.</span></p><p dir="ltr"><span>It's essential to use the right size and wattage for your oven globe. Refer to your operating manual for guidance, or easily search by your oven brand and model number on our website to find the perfect match.</span></p><h2 class="contenthead" dir="ltr"><span>How to replace your oven globe</span></h2><ol><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Safety first: Ensure the oven is turned off and cool. Use oven mitts to handle the old globe if it's still warm.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Locate the globe. It's typically located in the back of the oven or inside the oven cavity.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Gently unscrew the old globe counter clockwise</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Install new globe: Screw in the new globe clockwise until snug. Avoid overtightening to prevent breakage.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Turn on the oven to check if the new globe illuminates.</span></p></li></ol><h2 class="contenthead" dir="ltr"><span>Handy tip!&nbsp;</span></h2><p dir="ltr"><span>When installing or removing your oven globe, avoid touching the surface or inside reflectors with your bare hands. Oils from your skin can lead to breakage or shorten the globe's lifespan. Use clean gloves or a lint-free cloth for safe installation.</span></p><p dir="ltr"><span>Our warehouse is stocked with genuine parts and a wide range of universal fittings and affordable compatible spares, ensuring you always find what you need. We offer fast and reliable delivery across Australia, with cost-effective shipping solutions and bulk buy discounts available on selected products.</span></p><p dir="ltr"><span>Shop oven and cooktop globes from Statewide Appliance Spares today.</span></p></div>`,
+    "url": "/ovens-and-cooktops/globe",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Chef oven & cooktop spare parts",
+    "tags": ["chef oven", "chef ovens", "chef cooktop"],
+    "url": "/chef/ovens-and-cooktops",
+    "vendor": "chef",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel oven & cooktop spare parts",
+    "tags": ["fisher and paykel oven", "fisher and paykel ovens", "fisher paykel ovens", "fisher and paykel cooktop", "fisher paykel cooktop", "fisher paykel cooktops"],
+    "url": "/fisher-and-paykel/ovens-and-cooktops",
+    "vendor": "fisher-paykel",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": ""
+  },
+  {
+    "title": "Burner (gas)",
+    "tags": ["burner cap"],
+    "url": "/burner-gas",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "burner-gas"
+  },
+  {
+    "title": "Oven hinges",
+    "tags": ["oven hinge", "oven hinges", "hinge for oven", "cooktop hinge", "cooktop hinges", "cooktop hinges"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Buy your oven door hinges at Statewide, with speedy delivery and the lowest prices guaranteed. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Oven door hinges are sturdy and designed to last. If you put too much weight on the door when it is open, you can spring the hinge. Over time, a worn-out door hinge may need replacing.</span></p><h2 class="contenthead" dir="ltr"><span>To change your oven door hinge</span></h2><h2 class="contenthead" dir="ltr"><span>First you will need to remove your oven door</span></h2><p dir="ltr"><span>1. Open the oven door to the fully opened position.</span><br><span>2. With the door fully open, you will see the metal door hinge locks in the bottom left and bottom right corner of your oven.</span><br><span>3. To disengage your hinge locks, you can flip up the hinge locks. In some instances, the hinges may be a little tight so you may need to use a flat head screwdriver to help flip the locks.</span><br><span>4. With the hinge locks disengaged, grab edges of your oven door firmly using two hands.</span><br><span>5. Now lift the door and lean it inward, then pull the oven door towards you to remove.</span><br><span>6. Set the oven door on a towel or work surface, with the oven door resting on its handle.</span><br><span>7. Open the oven door to the fully opened position.</span></p><h2 class="contenthead" dir="ltr"><span>Replace your oven hinges</span></h2><p dir="ltr"><span>1. Remove all screws that hold the inner and outer panels together</span><br><span>2. Depending on your oven model, you may need to remove the handle as well.</span><br><span>3. Unscrew and remove the hinges.</span><br><span>4. Install your new hinges and secure all screws into place.</span></p><h2 class="contenthead" dir="ltr"><span>How to install your oven door</span></h2><p dir="ltr">1. Grab the edges of your oven door using two hands at the midpoint mark and face the oven.<br>2. Locate the notches in your door hinge and ensure they align with the slots on each side of the oven cavity.<br>3. At a 45° angle, align door hinges with slots in lower front of oven cavity. Slowly insert door while maintaining a 45° angle. The oven door will be engaged in the slot when you feel a slight drop.<br>4. Next lower the oven door to fully open position.<br>5. Flip (or rotate) the door hinge locks all the way into place into the locked position.<br>6. Close the oven door.<br>7. Inspect to ensure that there is an even gap between your door and the control panel.<br></p></div>`,
+    "url": "/ovens-and-cooktops/hinges",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "hinge",
+  },
+
+  {
+    "title": "Miele washing machine hinges",
+    "tags": ["miele washer hinges", "miele washer hinge", "meile washer hinges", "meile washer hinge"],
+    "url": "/miele/washing-machines/hinges",
+    "vendor": "miele",
+    "appliance_type": "washing-machine",
+    "part_type": "hinge",
+  },
+  {
+    "title": "Miele dryer spare parts",
+    "tags": ["miele t230c", "meile t230c"],
+    "url": "/miele/dryer",
+    "vendor": "miele",
+    "appliance_type": "dryers",
+    "part_type": "",
+  },
+  {
+    "title": "Bosch dishwashers pump",
+    "tags": ["Bosch dishwasher motor"],
+    "url": "/bosch/dishwashers/pump",
+    "vendor": "bosch",
+    "appliance_type": "dishwashers",
+    "part_type": "pump",
+  },
+  {
+    "title": "Belling oven & cooktop spare parts",
+    "tags": ["belling ovens", "belling oven", "belling cooktop", "belling cooktops"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Experience the convenience of finding all your genuine Belling spare parts for your Belling oven and cooktop with ease and efficiency. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Belling ovens are renowned for their quality craftsmanship and innovative features, making them a staple in kitchens worldwide. With Statewide Appliance Spares, you can ensure that your Belling appliance remains in top condition for years to come.</span></p><p dir="ltr"><span>Maintenance is key to keeping your Belling oven running smoothly, and we're here to help you every step of the way. From giving your oven a thorough clean to removing built-up grime on your oven door and cleaning your oven door seal, we've got all the tips and know-how you need to keep your appliance in pristine condition. Check out our Statewide </span><a href="https://www.statewideapp.com.au/blogs"><span>blog</span></a><span>.</span></p><p dir="ltr"><span>Finding the right part for your Belling oven has never been easier with our user-friendly website. With fast Australia wide delivery, you can have your Belling appliance up and running in no time.</span></p><p dir="ltr"><span>Shop Belling oven and cooktop parts from Statewide Appliance Spares today and experience the difference for yourself.</span></p></div>`,
+    "url": "/belling/ovens-and-cooktops",
+    "vendor": "belling",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "",
+  },
+  {
+    "title": "Bosch oven & cooktop spare parts",
+    "tags": ["bosch ovens", "bosch oven", "bosch cooktops", "bosch cooktop", "Bosch hbn4752au"],
+    "url": "/bosch/ovens-and-cooktops",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore the extensive range of Bosch oven and cooktop spare parts available at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Bosch ovens are synonymous with precision engineering and exceptional performance, setting the standard for culinary excellence. As a brand known for its reliability and innovation, Bosch appliances are trusted by home chefs and professionals alike to deliver outstanding results every time.&nbsp;</span></p><p dir="ltr"><span>Maintaining your Bosch oven is essential to preserving its functionality and longevity. Our comprehensive maintenance&nbsp;</span><a href="https://www.statewideapp.com.au/blogs"><span>tips</span></a><span> provide you with the knowledge and resources needed to keep your oven operating at its best. From thorough cleaning techniques to addressing built-up grime and ensuring the integrity of your oven door seal, we've got you covered.</span></p><p dir="ltr"><span>Statewide Appliance Spares is Australia’s biggest distributor of appliance spare parts and a Bosch authorised spare parts distributor. Australian owned &amp; operated, we have been supplying spare parts for over 38 years. With our extensively stocked warehouse, we ensure our most popular Bosch oven and cooktop spare parts are always readily available and offer the convenience of fast, Australia wide delivery.</span></p></div>`,
+    "vendor": "bosch",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "",
+  },
+  {
+    "title": "Oven & cooktop doors",
+    "tags": ["oven cooktop doors", "oven doors cooktop", "cooktop oven doors", "oven door", "cooktop door", "oven doors", "cooktop doors", "oven doors", "oven door"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for replacement oven doors and oven door glass panels from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Over time, wear and tear take their toll on your oven door. Whether it's due to excessive force, broken hinge springs or faulty hinges, a dysfunctional door can disrupt your cooking experience.</span><b></b></p><p dir="ltr"><span>Get your oven performing at its best with replacement oven doors, springs and glass panels from Statewide.</span><b></b></p><p dir="ltr"><span>Our warehouse is stocked with genuine parts and a vast selection of universal fittings and affordable compatible spares. With our commitment to keeping popular parts in stock, you'll always find what you need.&nbsp; Shop oven doors from Statewide Appliance Spares today</span></p></div>`,
+    "url": "/ovens-and-cooktops/oven-doors",
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "door-lid-latch",
+  },
+  {
+    "title": "Dishwasher cutlery baskets",
+    "tags": ["dishwasher basket", "dishwasher baskets", "Cutlery tray", "Cutlery trays"],
+    "url": "/dishwashers/cutlery-baskets",
+    "top_description": `<p class="landing-page-header-container dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Find your dishwasher cutlery baskets at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Sharp cutlery, cracks, wear and tear can cause damage to your cutlery basket. A damaged or cracked basket can impact the cleaning results of your cutlery. Buy your replacement cutlery baskets at Statewide.</span><b></b></p><h2 class="contenthead" dir="ltr"><span>Match a cutlery part to your dishwasher</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If you are looking for a basket replacement, you will first need your dishwasher model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Most manufacturers will place the model number either on the inner side of the dishwasher door, along the inner base of the dishwashing unit or along the side depending on the manufacturer.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct dishwasher part.</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>Buy your dishwasher spares and accessories from Statewide</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>We have a huge range of genuine dishwasher&nbsp;</span><a href="https://www.statewideapp.com.au/dishwashers"><span>spare parts</span></a><span>&nbsp;for a wide range of brands.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Our extensively stocked warehouse includes genuine parts and a large range of great value compatible non-genuine dishwasher spare parts.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>We offer fast, Australia wide delivery so you can get your appliance working at its best.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Our team delivers high quality service and expert advice to help you with all your appliance spare needs.</span></p></li></ul></div>`,
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "cutlery-baskets",
+  },
+  {
+    "title": "Dishwasher covers",
+    "tags": ["Dishwasher covers", "Dishwasher cover"],
+    "url": "/dishwashers/cover-facia-panel",
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "cover-facia-panel",
+  },
+  {
+    "title": "Dishwasher filters",
+    "tags": ["dishwasher filter", "dishwasher filters"],
+    "url": "/dishwashers/filters",
+    "top_description": `<p class="landing-page-header-container" dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Discover easy dishwasher maintenance with replacement filters at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>With our easy-to-navigate website, finding the perfect filter for your dishwasher is a breeze. Simply refine your search using your appliance model number. You'll have access to a comprehensive selection of high-quality dishwasher filters.</span></p><p dir="ltr"><span>Can't seem to locate the exact part you need? Don't worry, our team is here to assist you every step of the way. We take pride in offering expert guidance and advice to ensure you find the right spare parts for your appliance. Just give us a call on Free Call 1800 005 220, and let us help you get your dishwasher back in top-notch condition.</span></p><p dir="ltr"><span>At Statewide Appliance Spares, we're committed to providing you with the best selection of dishwasher filters and spare parts from all the major brands, including </span><a href="https://www.statewideapp.com.au/dishlex/dishwashers"><span>Dishlex</span></a><span>, </span><a href="https://www.statewideapp.com.au/bosch/dishwashers"><span>Bosch</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/dishwashers"><span>Fisher &amp; Paykel</span></a><span>, </span><a href="https://www.statewideapp.com.au/dishwashers/electrolux"><span>Electrolux</span></a><span> and more. Shop with us today and experience the convenience of finding quality spare parts for your dishwasher.</span></p><h2 class="contenthead" dir="ltr"><span>Where is the filter located in your dishwasher?</span></h2><p dir="ltr"><span>The dishwasher filter is located at the bottom of your dishwasher, under the bottom rack.</span></p><h2 class="contenthead" dir="ltr"><span>How often should you clean your dishwasher filter?</span></h2><p dir="ltr"><span>Your dishwasher filter needs to be cleaned on a regular basis. We recommend monthly to keep your dishwasher performing at its best. The filter works to trap loose food particles and debris from being redeposited onto your dishes.</span></p><h2 class="contenthead" dir="ltr"><span>How to remove your dishwasher filter</span></h2><p dir="ltr"><span>Some dishwashers have 1 filter. Newer model filters tend to have 2 types of filters – an upper filter (cylinder shaped) and lower filter (flat filter that is positioned underneath the upper filter). To remove the upper filter, twist in an anti-clockwise position to unlock it, then pull up gently to remove it. If you have a secondary filter, this can be removed by pulling up.</span></p><h2 class="contenthead" dir="ltr"><span>How to clean your dishwasher filter</span></h2><p dir="ltr"><span>Step 1:&nbsp;&nbsp;&nbsp; Remove your filters.</span></p><p dir="ltr"><span>Step 2:&nbsp;&nbsp;&nbsp; Rinse under running water, then use a soft bristled brush and detergent to remove any debris.</span></p><p dir="ltr"><span>Step 3:&nbsp;&nbsp;&nbsp; Before replacing your filter, check if there are any food particles in the filter housing and clean.</span></p><p dir="ltr"><span>Step 4:&nbsp;&nbsp;&nbsp; Replace filters. The upper filter usually needs to be turned counter-clockwise to lock it into place.</span></p><p dir="ltr"><span>Dishwashers are subject to the build-up of limescale deposits. If you live in an area with hard water, it is important to descale your dishwasher regularly. Descaling will remove limescale and grime and improve your unit’s efficiency. We recommend&nbsp;Aktivo Dishwashing + Washing Machine Descaler.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "filter",
+  },
+  {
+    "title": "Dishwasher racks",
+    "tags": ["dishwasher rack", "dishwasher racks", "dishwasher basket", "dishwasher baskets"],
+    "url": "/dishwashers/racks",
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "basket-rack",
+  },
+  {
+    "title": "Dishwasher hoses",
+    "tags": ["dishwasher hoses", "dishwasher hose"],
+    "url": "/dishwashers/hoses",
+    "top_description": `<p class="landing-page-header-container" dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Repair your dishwasher easily with dishwasher hoses from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Discover the ultimate solution for your dishwasher needs at Statewide Appliance Spares, with Australia’s biggest selection of dishwasher spare parts.</span><b></b></p><p dir="ltr"><span>As the largest distributor of appliance spare parts in Australia, Statewide Appliance Spares boasts over 38 years of industry expertise. Australian owned and operated, we take pride in delivering spare parts for all the big brands and unparalleled service.</span><b></b></p><p dir="ltr"><span>Browse our selection of dishwasher hoses today and enjoy the convenience fast shipping and the lowest prices guaranteed.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "hoses-pipes-tubing",
+  },
+  {
+    "title": "Hoses",
+    "url": "/hoses",
+    "top_description": `<p class="landing-page-header-container" dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Shop for hoses from Statewide Appliance Spares. We offer universal and genuine internal/external hoses, water inlet hoses for your washing machine and dishwasher and washing machine water drain hoses. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance and advice to make buying spare parts easier.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "hoses-pipes-tubing",
+  },
+  {
+    "title": "Dishwasher motors",
+    "tags": ["dishwasher motors", "dishwasher motor"],
+    "url": "/dishwashers/motors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Upgrade your dishwasher with new and replacement motors from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Shop confidently knowing you'll find dishwasher parts for all leading brands including </span><a href="https://www.statewideapp.com.au/dishlex/dishwashers"><span>Dishlex</span></a><span>, </span><a href="https://www.statewideapp.com.au/bosch/dishwashers"><span>Bosch</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/dishwashers"><span>Fisher &amp; Paykel</span></a><span>, </span><a href="https://www.statewideapp.com.au/dishwashers/electrolux"><span>Electrolux</span></a><span> and more.</span><b></b></p><p dir="ltr"><span>Looking for a dishwasher motor? At Statewide, we pride ourselves on offering an extensive selection of high quality dishwasher motors to ensure your appliance runs smoothly and efficiently.</span><b></b></p><p dir="ltr"><span>We understand the importance of getting your appliance back up and running quickly. That's why we offer fast, Australia wide delivery from our extensively stocked warehouse</span><b></b></p><p dir="ltr"><span>Our most popular dishwasher spare parts are always in stock, so you can count on us to deliver your order promptly. Find dishwasher </span><a href="https://www.statewideapp.com.au/dishwashers/gasket-seal"><span>seals</span></a><span>, </span><a href="https://www.statewideapp.com.au/dishwashers/filter"><span>filters</span></a><span>, </span><a href="https://www.statewideapp.com.au/dishwashers/cutlery-basket"><span>cutlery baskets</span></a><span>, </span><a href="https://www.statewideapp.com.au/dishwashers/brush-roller"><span>rollers</span></a><span>, </span><a href="https://www.statewideapp.com.au/dishwashers/spray-arm-nozzle"><span>spray arms</span></a><span> and more. Shop with confidence knowing that you're getting the best quality parts and service for your dishwasher.</span><b></b></p><p dir="ltr"><span>Don't let a faulty dishwasher motor disrupt your routine. Shop now at Statewide Appliance Spares and experience the convenience of finding the right spare part, every time.</span></p><h2 class="contenthead" dir="ltr"><span>When to replace your dishwasher motor?</span></h2><p dir="ltr"><span>Your dishwasher’s pump and motor assembly control the motion and water release. Over time, these can start to show problems such as a leak or drainage issue. If your once quiet dishwasher starts making a loud noise, it is a good time to investigate all the internal parts to make sure they are working correctly. Spray arms should freely spin, seals and bearing rings should be in place. If the noise continues, it may be time to look at your </span><a href="https://www.statewideapp.com.au/dishwashers/pump"><span>pump</span></a><span> and </span><a href="https://www.statewideapp.com.au/dishwashers/motor/gearbox"><span>motor</span></a><span>.</span></p><h2 class="contenthead" dir="ltr"><span>Find the right motor for your dishwasher</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the right part for your dishwasher, you will need your dishwasher model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If unsure where to find your model number, check out our </span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Most manufacturers will place the model number either on the inner side of the dishwasher door, along the inner base of the dishwashing unit or along the side, depending on the manufacturer.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct dishwasher motor.</span></p></li></ul></div>`,
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "motors",
+  },
+  {
+    "title": "Dishwasher rollers",
+    "tags": ["dishwasher roller", "dishwasher rollers"],
+    "url": "/dishwashers/rollers",
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "brush-roller",
+  },
+  {
+    "title": "Dishwasher rollers",
+    "url": "/dishwasher/rollers",
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "brush-roller",
+  },
+  {
+    "title": "Dishwasher racks",
+    "url": "/dishwasher/racks",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Extend the lifespan of your dishwasher with new and replacement racks from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>The plastic coating on dishwasher racks are especially prone to wear and tear, exposing the metal frame to rust. Dishwasher racks can become damaged if they are not treated with care.</span><b></b></p><p dir="ltr"><span>Whether you're in need of a replacement rack for your dishwasher or searching for dishwasher parts to keep your appliance running smoothly, Statewide has you covered.&nbsp;</span><b></b></p><p dir="ltr"><span>Our user-friendly search feature allows you to effortlessly find the perfect rack for your dishwasher by simply inputting your appliance model number. And if you can't locate the part you need, our local team is here to provide expert guidance and support, ensuring an easy shopping experience.</span><b></b></p><p dir="ltr"><span>Trust Statewide Appliance Spares to deliver the highest quality parts for all your dishwasher needs and experience the convenience of finding the right spare part with ease.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "basket-rack",
+  },
+  {
+    "title": "Fridge & freezer doors",
+    "tags": ["fridge door", "fridge doors"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for fridge & freezer doors at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We have a huge selection of fridge &amp; freezer spares including </span><a href="https://www.statewideapp.com.au/fridges-freezers/thermostat-thermistor" data-mce-href="https://www.statewideapp.com.au/fridges-freezers/thermostat-thermistor"><span>thermostats</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/seal-gasket" data-mce-href="https://www.statewideapp.com.au/fridges-freezers/seal-gasket"><span>door gaskets</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/shelf-rack" data-mce-href="https://www.statewideapp.com.au/fridges-freezers/shelf-rack"><span>shelves</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/globe-bulb" data-mce-href="https://www.statewideapp.com.au/fridges-freezers/globe-bulb"><span>globes</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/pcb" data-mce-href="https://www.statewideapp.com.au/fridges-freezers/pcb"><span>PCB’s</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/hinge-parts" data-mce-href="https://www.statewideapp.com.au/fridges-freezers/hinge-parts"><span>hinges</span></a><span> and </span><a href="https://www.statewideapp.com.au/fridges-freezers/crisper-drawer-parts" data-mce-href="https://www.statewideapp.com.au/fridges-freezers/crisper-drawer-parts"><span>drawers</span></a><span>.</span></p><p dir="ltr"><span>For over 38 years, Statewide Appliance Spares has been at the forefront of supplying appliance spare parts, earning the trust of countless customers. Our dedicated customer service team is here to provide expert guidance and advice, ensuring your spare parts shopping experience is easy.</span></p><h2 class="contenthead" dir="ltr"><span>How to replace doors on a fridge or freezer</span></h2><p dir="ltr"><span>Safety first! Refrigerators are heavy appliances. Have help on hand to tackle this task. Always switch off the power from the power source before you start any refrigerator repairs. If in doubt, call a qualified service technician.</span></p><h2 class="contenthead" dir="ltr"><span>To remove the fridge door:</span></h2><p dir="ltr"><span><strong>Step 1:</strong> To replace your refrigerator door you will need to empty the contents of your refrigerator and switch off the power from the power source.</span><span><strong> Step 2:</strong> Next you will need to remove the kick plate and the bottom hinge, using a screwdriver to remove the screws.</span><span><strong> Step 3:</strong> Disconnect the waterline and disconnect the water tube.</span><span><strong> Step 4:</strong> Locate the door hinge at the top of the refrigerator and remove the screws.</span><span><strong> Step 5:</strong> Next you will lift the door off the bottom pivot. Seek assistance for this step as the doors can be heavy.</span></p><h2 class="contenthead" dir="ltr"><span>To replace the fridge door:</span></h2><p dir="ltr"><span><strong>Step 1:</strong> Position your water dispenser correctly and connect to the water line. Make sure the connection is tight.</span><span><strong> Step 2:</strong> Place door on bottom pivot then reattach the top of the door to the hinge. Ensure the door is level then tighten all screws.</span><span><strong> Step 3:</strong> Position and reattach the kickplate.</span></p><h2 class="contenthead" dir="ltr"><span>How to adjust fridge doors</span></h2><p dir="ltr"><span>If your fridge or freezer door is sagging or misaligned it can cause cool air to escape. To adjust your fridge door, just take off the hinge cap and loosen the hinge screws. Next, align the door correctly so it lines up with the top of the fridge. For upper doors, adjust the top hinge only. For lower doors, adjust the middle hinge.</span></p><h2 class="contenthead" dir="ltr"><span>Maintenance tips for your fridge &amp; freezer</span></h2><h2 class="contenthead" dir="ltr"><span>Check your fridge door seal</span></h2><p dir="ltr"><span>The seal around your refrigerator or freezer door seals in cold air. This ensures your food stays fresh and maintains safe temperatures. Be sure to wipe down the seal regularly with warm soapy water and a sponge (you can also use an old toothbrush to give it a light scrub). Then wipe down with a damp cloth.</span></p><p dir="ltr"><span>Regularly check your seal for any signs of wear and tear or damage. Replacing a door seal is simple. You can find the right fridge door seal for your fridge </span><a href="https://www.statewideapp.com.au/fridges-freezers/seal" data-mce-href="https://www.statewideapp.com.au/fridges-freezers/seal"><span>here</span></a><span>.</span></p><h2 class="contenthead" dir="ltr"><span>Clean the refrigerator coils</span></h2><p dir="ltr"><span>Over time, dust and dirt accumulate on your refrigerator coil. To reduce your energy bill and extend the lifespan of your fridge, give the coils a regular clean.</span></p><p dir="ltr"><span>Before you start, switch off the power supply. Your fridge coils may be located at the rear of your refrigerator (on the outside), underneath the fridge or inside the fridge behind a panel. Once located, use a brush (or coil brush) to remove lint build up, dirt and dust. Make this job even easier with a small nozzle vacuum to effectively suck up any residue before plugging your refrigerator back in.</span></p><h2 class="contenthead" dir="ltr"><span>Find the right door for your fridge or freezer</span></h2><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>To find the right </span><a href="https://www.statewideapp.com.au/fridge-parts" data-mce-href="https://www.statewideapp.com.au/fridge-parts"><span>fridge spare parts</span></a><span> for your fridge, you will need your model number.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>If unsure where to find your model number, check out our </span><a href="https://www.statewideapp.com.au/findyourmodel" data-mce-href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Most manufacturers will not make you have to pull your fridge out to obtain model information on the back of it. Although it may be on the back, there is most likely a second copy (simpler version) on the inside of the fridge. If it is not located on the side of the door once you open it, look for it on the front edge of the fridge/freezer cabinet.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Search on our website by brand and model number to find the correct replacement part.</span></p></li></ul></div>`,
+    "url": "/fridge-parts/doors",
+    "vendor": "",
+    "appliance_type": "fridge-parts",
+    "part_type": "door-lid-latch",
+  },
+  {
+    "title": "Westinghouse fridge & freezer spare parts",
+    "tags": ["westinghouse fridge"],
+    "url": "/fridge-parts/westinghouse",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Westinghouse is synonymous with quality, innovation, and design. At Statewide Appliance Spares, we offer genuine Westinghouse parts to ensure your fridge runs in peak condition. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide's extensive range of appliance spare parts includes everything you need for your Westinghouse fridge and freezer, from </span><span>&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/fridges-freezers/sensor-thermistor-thermostat"><span>thermostats</span></a><span>, &nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/fridges-freezers/gasket-seal"><span>door gaskets</span></a><span> and&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/fridges-freezers/shelf-rack"><span>shelves</span></a><span>, to&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/fridges-freezers/globe-lamp"><span>globes</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/fridges-freezers/pcb"><span>PCB’s</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/fridges-freezers/hinge"><span>hinges</span></a><span>&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/fridges-freezers/crisper-bin-drawer"><span>drawers</span></a><span>.&nbsp; We prioritise stocking the most popular Westinghouse spare parts to ensure they're always available when you need them.</span></p><p dir="ltr"><span>Finding the right Westinghouse spare part is easy – simply refine your search using your appliance model number. Can't find what you're looking for? Our experienced team is here to provide expert guidance and assistance. Just give us a call at 1800 005 220, and we'll help you find the perfect solution for your appliance repair needs.</span></p><p dir="ltr"><span>Statewide Appliance Spares is committed to making your spare parts buying experience as easy and convenient as possible. With genuine Westinghouse parts and competitive prices, we're here to help you keep your Westinghouse appliances performing at their best.</span></p></div>`,
+    "vendor": "westinghouse",
+    "appliance_type": "fridge-parts",
+    "part_type": "",
+  },
+  {
+    "title": "Westinghouse oven & cooktop spare parts",
+    "tags": ["westinghouse cooktop", "westinghouse cooktops", "westinghouse ovens and cooktops", "westinghouse oven and cooktops", "westinghouse oven and cooktop"],
+    "url": "/westinghouse/ovens-and-cooktops",
+    "vendor": "westinghouse",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "",
+  },
+  {
+    "title": "Westinghouse oven & cooktop spare parts",
+    "tags": ["westinghouse cooktop", "westinghouse cooktops"],
+    "url": "/westinghouse/ovens-and-cooktops/hinge",
+    "vendor": "westinghouse",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "hinge",
+  },
+  {
+    "title": "Westinghouse oven & cooktop spare parts",
+    "tags": ["westinghouse cooktop", "westinghouse cooktops"],
+    "url": "/westinghouse/ovens-cooktops",
+    "vendor": "westinghouse",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "",
+  },
+  {
+    "title": "Westinghouse oven & cooktop spare parts",
+    "tags": ["westinghouse cooktop", "westinghouse cooktops"],
+    "url": "/westinghouse/ovens-cooktops/hinge",
+    "vendor": "westinghouse",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "hinge",
+  },
+  {
+    "title": "Westinghouse kitchen appliance spare parts",
+    "url": "/westinghouse/kitchen-appliances/elementheater",
+    "vendor": "westinghouse",
+    "appliance_type": "kitchen-appliances",
+    "part_type": "element-heater",
+  },
+  {
+    "title": "Westinghouse fridge & freezer spare parts",
+    "tags": ["Westinghouse fridge and freezers"],
+    "url": "/westinghouse/fridges-and-freezers",
+    "vendor": "westinghouse",
+    "appliance_type": "fridge-parts",
+    "part_type": "",
+  },
+  {
+    "title": "Fridge & freezer hoses",
+    "tags": ["fridge hose", "fridge hoses"],
+    "url": "/fridge-parts/hoses-pipes-tubing",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Upgrade your fridge and freezer hoses at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>While your fridge hose should last for many years, if you notice any leaks, it's time for a replacement. Unsure if all hose connection kits fit your fridge? Consult your owner's manual or the manufacturer's website for recommended sizes and types.&nbsp;</span><b></b></p><p dir="ltr"><span>Finding the right spare part for your fridge or freezer is simple with Statewide Appliance Spares. Just locate your model number, then search our website by brand and model number to find the correct replacement part.</span></p><p dir="ltr"><span>Upgrade your fridge and freezer with confidence. Shop now at Statewide Appliance Spares and experience the difference with our wide range of spare parts and fast Australia wide delivery.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "fridge-parts",
+    "part_type": "hoses-pipes-tubing",
+  },
+  {
+    "title": "Fridge & freezer seals",
+    "tags": ["fridge seal", "fridge seals", "Fridge door gasket"],
+    "url": "/fridge-parts/seals",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Elevate the efficiency of your refrigerator and freezer with high quality seals and gaskets from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Explore our extensive selection, featuring parts and accessories for all major brands including </span><a href="https://www.statewideapp.com.au/fridge-parts/electrolux"><span>Electrolux</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers"><span>Fisher &amp; Paykel</span></a><span>, </span><a href="https://www.statewideapp.com.au/kelvinator/fridges-freezers"><span>Kelvinator</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridge-parts/lg"><span>LG</span></a><span>, </span><a href="https://www.statewideapp.com.au/samsung/fridges-freezers"><span>Samsung</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridge-parts/westinghouse"><span>Westinghouse</span></a><span> and more.</span></p><p dir="ltr"><b></b></p><p dir="ltr"><span>With over 38 years of industry expertise, Statewide Appliance Spares stands as a market leader in appliance spare parts. Our warehouse boasts a vast inventory of genuine parts alongside a wide range of universal fitting and value-packed compatible options. Experience seamless shopping with fast Australia wide delivery and competitive prices.</span></p><p dir="ltr"><b></b></p><h2 class="contenthead" dir="ltr"><span>When should I replace my fridge door seal?</span></h2><p dir="ltr"><span>If you notice signs of wear and tear, such as hardness or brittleness, it's time for a replacement. Ensure your food stays fresh and at a safe temperature by regularly checking for any damage to your door seal.</span></p><p dir="ltr"><b></b></p><h2 class="contenthead" dir="ltr"><span>How to change your fridge door seal</span></h2><ol><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Remove the old seal by pulling from the bottom corner and peeling off.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Press the new seal firmly into place, starting from the top corners and working your way around the door.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Close the fridge door to ensure a snug fit and proper closure.</span></p></li></ol><p dir="ltr"><b></b></p><p dir="ltr"><span>Finding the right replacement seal is easy with Statewide Appliance Spares. Simply locate your model number, then search our website by brand and model number to find the correct replacement part.</span></p><p dir="ltr"><b></b></p><p dir="ltr"><span>Upgrade your fridge and freezer parts with confidence at Statewide – Australia’s leading spare parts distributor.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "fridge-parts",
+    "part_type": "seal",
+  },
+  {
+    "title": "Pressure cooker seals",
+    "tags": ["Pressure cooker seal"],
+    "url": "/pressure-cookers/seals",
+    "vendor": "",
+    "appliance_type": "pressure-cookers",
+    "part_type": "seal",
+  },
+  {
+    "title": "Tefal pressure cooker spare parts",
+    "tags": ["Tefal clipso pressure cooker 8l rubber ring"],
+    "url": "/tefal/pressure-cookers",
+    "vendor": "tefal",
+    "appliance_type": "pressure-cookers",
+    "part_type": "",
+  },
+  {
+    "title": "Pressure cooker spare parts",
+    "tags": ["cooker", "cookers", "cookers"],
+    "url": "/pressure-cookers",
+    "vendor": "",
+    "appliance_type": "pressure-cookers",
+    "part_type": "",
+  },
+  {
+    "title": "Hoover washing machine spare parts",
+    "tags": ["dxc 27/1 aus"],
+    "url": "/hoover/washing-machines",
+    "vendor": "hoover",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Miele vacuum cleaners Wand/Rod",
+    "tags": ["miele wand", "telescopic miele", "miele vac", "meile wand", "telescopic meile", "meile vac", "miele wand", "telescopic miele", "miele vac", "meile wand", "telescopic meile", "meile vac"],
+    "url": "/miele/vacuum-cleaners/wand-rod",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "wand-rod",
+  },
+  {
+    "title": "Backpack vacuum spare parts & accessories",
+    "url": "/backpack",
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "",
+  },
+  {
+    "title": "LG vacuum cleaner spare parts",
+    "tags": ["lg vacuum", "lg vacuum cleaners", "Lg a9", "LG Cordzero A9"],
+    "url": "/lg/vacuum-cleaners",
+    "vendor": "lg",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "",
+  },
+  {
+    "title": "Philips mother & child care spare parts",
+    "tags": ["Philips Breast pumps"],
+    "url": "/philips/mother-child-care/breast-pump-parts",
+    "vendor": "philips",
+    "appliance_type": "mother-child-care",
+    "part_type": "breast-pump-parts"
+  },
+  {
+    "title": "Philips Mother & child care spare parts",
+    "url": "/philips/mother-child-care",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Your trusted source for Philips Mother and Child Care spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide Appliance Spares is proud to offer a comprehensive selection of genuine Philips Mother and Child Care spare parts. As a leading health technology company, Philips is dedicated to improving lives through innovative products, ranging from medical equipment to personal health solutions.</span><b></b></p><h2 class="contenthead" dir="ltr"><span>Genuine parts for your Mother &amp; Child Care products</span></h2><p dir="ltr"><span>We have a comprehensive range of genuine Philips spare parts to ensure the optimal performance and longevity of your essential Mother and Child Care devices.</span><b></b></p><h2 class="contenthead" dir="ltr"><span>Why Choose Statewide Appliance Spares for Your Philips Parts?</span><b></b></h2><p dir="ltr"><strong>Genuine Philips Parts:</strong><span> We source directly from Philips, guaranteeing authenticity and compatibility with your devices.</span><b></b></p><p dir="ltr"><strong>Expert Guidance:</strong><span> Not sure which part you need? Our knowledgeable team is here to assist you in finding the right spare part for your specific Philips Mother and Child Care product.</span><b></b></p><p dir="ltr"><strong>Fast Nationwide Delivery:</strong><span><strong> </strong>Get your Philips spare parts delivered quickly and conveniently to your doorstep.</span></p><p dir="ltr"><b id="docs-internal-guid-e37a5e06-7fff-bf25-8061-7c075062d1df"></b>Join our community of&nbsp;<b id="docs-internal-guid-e37a5e06-7fff-bf25-8061-7c075062d1df"><a href="https://www.statewideapp.com.au/reviews"><span>satisfied customers</span></a></b> who trust us for exceptional service and genuine Philips spare parts. <b id="docs-internal-guid-e37a5e06-7fff-bf25-8061-7c075062d1df"><span>&nbsp;</span></b>Shop Philips spare parts at Statewide Appliance Spares.<br></p></div>`,
+    "vendor": "philips",
+    "appliance_type": "mother-child-care",
+    "part_type": ""
+  },
+  {
+    "title": "LG vacuum cleaner spare parts",
+    "tags": ["lg roboking"],
+    "url": "/lg/vacuum-cleaners?ModelNoId=VR66800VWP (VR6640LV.ABORLAP)",
+    "vendor": "lg",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "",
+  },
+
+  {
+    "title": "Miele Vacuum cleaners",
+    "tags": ["Miele s4582"],
+    "url": "/miele/vacuum-cleaners?ModelNoId=S4582",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "",
+  },
+  {
+    "title": "Washing machine hoses",
+    "tags": ["washer hose", "washing machine hose"],
+    "url": "/washing-machines/hose-pipe-tubing",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Buy your washing machine hoses at Statewide Appliance Spares, with speedy delivery and the lowest prices guaranteed. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>At Statewide Appliance Spares, we've got all your washing machine spare parts, including a comprehensive selection of washing machine hoses to keep your appliances in top shape.</span></p><h2 class="contenthead" dir="ltr"><span>Why replace your washing machine hose?</span></h2><p dir="ltr"><span>Over time, washing machine hoses can deteriorate, leading to cracks, leaks, or even bursts. This poses a serious risk of flooding in your home, potentially causing extensive damage to your floors, walls, and belongings. Replacing your hose helps prevent these disasters.</span></p><p dir="ltr"><span>Old, worn-out hoses can also impact the efficiency of your washing machine. Leaks or blockages in the hose can restrict water flow, resulting in longer wash cycles and higher water bills. By replacing your hose, you can ensure optimal performance and energy efficiency.</span></p><p dir="ltr"><span>With our huge range of appliance spares, keeping your laundry room safe and efficient has never been easier. We understand the importance of getting your appliances back up and running quickly. That's why we offer fast, reliable shipping Australia wide, so you can get your new hose delivered straight to your door.&nbsp;</span></p><p dir="ltr"><span>Don't let a faulty hose slow you down. Upgrade to a quality washing machine hose from Statewide Appliance Spares today.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "hoses-pipes-tubing",
+  },
+  {
+    "title": "Hose/Pipe/Tubing",
+    "tags": ["Drain hose", "Hc040s hose", "hose", "Inlet hose"],
+    "url": "/hose-pipe-tubing",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "hoses-pipes-tubing",
+  },
+  {
+    "title": "LG microwave spare parts",
+    "tags": ["Lg microwave"],
+    "url": "/lg/microwaves",
+    "vendor": "lg",
+    "appliance_type": "microwaves",
+    "part_type": "",
+  },
+  {
+    "title": "Samsung microwave parts",
+    "url": "/samsung-microwave-parts",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><span>Samsung. Inspire the world, create the future.</span><span> We ensure our most popular microwave parts are always in stock – including glass plates, rollers, gloves, with fast Australia wide delivery and competitive prices. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><span>Shop securely online with 24/7 convenience – just refine your search for your Samsung Microwaves below</span><br><br><span>Buy your Samsung Microwaves spare parts from Statewide Appliance Spares.</span></p></div>`,
+    "vendor": "samsung",
+    "appliance_type": "microwaves",
+    "part_type": "",
+  },
+  {
+    "title": "Panasonic microwave spare parts",
+    "tags": ["Panasonic microwave"],
+    "url": "/panasonic/microwaves",
+    "vendor": "panasonic",
+    "appliance_type": "microwaves",
+    "part_type": "",
+  },
+  {
+    "title": "Panasonic microwave spare parts",
+    "tags": ["PANASONIC ne1856"],
+    "url": "/panasonic/microwaves?ModelNoId=NE-1856",
+    "vendor": "panasonic",
+    "appliance_type": "microwaves",
+    "part_type": "",
+  },
+  {
+    "title": "Panasonic microwave spare parts",
+    "tags": ["panasonic NN-CD987W"],
+    "url": "/panasonic/microwaves?ModelNoId=NN-CD987W",
+    "vendor": "panasonic",
+    "appliance_type": "microwaves",
+    "part_type": "",
+    "model": "NN-CD987W"
+  },
+  {
+    "title": "Panasonic bread maker parts",
+    "url": "/panasonic-bread-maker-parts",
+    "vendor": "panasonic",
+    "appliance_type": "breadmakers",
+    "part_type": "",
+  },
+  {
+    "title": "Panasonic bread maker parts",
+    "url": "/panasonic-microwave-spares",
+    "vendor": "panasonic",
+    "appliance_type": "microwaves",
+    "part_type": "",
+  },
+
+  {
+    "title": "PCB",
+    "url": "/pcb",
+    "tags": ["PCB", "PCB's", "PCBS"],
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "pcb",
+  },
+  {
+    "title": "Microwave Plate/Tray",
+    "tags": ["Microwave plate"],
+    "url": "/microwaves/plate-tray",
+    "vendor": "",
+    "appliance_type": "microwaves",
+    "part_type": "plate-tray",
+  },
+  {
+    "title": "Microwave Shelf/Rack",
+    "tags": ["Microwave rack"],
+    "url": "/microwaves/shelf-rack",
+    "vendor": "",
+    "appliance_type": "microwaves",
+    "part_type": "shelf-rack",
+  },
+  {
+    "title": "Bosch washing machine spare parts",
+    "tags": ["washing machine bosch", "bosch washing machines", "bosch washing machine", "washing machines bosch"],
+    "url": "/bosch/washing-machines",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find all your genuine Bosch washing machine spare parts at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8">Bosch is renowned worldwide for its commitment to excellence in home appliances, and we're proud to offer a comprehensive range of genuine Bosch parts to ensure your washing machine remains in top condition.</p><p>Statewide's extensive inventory includes a huge selection of Bosch washing machine spare parts, including drum seals, door handles, pumps, and more. We understand the importance of keeping your washing machine operating smoothly, which is why we prioritise stocking the most essential Bosch spare parts to ensure they're readily available when you need them.</p><p>Finding the right Bosch spare part is simple – just refine your search using your washing machine's model number. If you require assistance or can't locate the part you're looking for, our knowledgeable team is here to help. Give us a call at 1800 005 220, and we'll provide expert guidance to ensure you find the perfect solution for your washing machine repair needs.</p></div>`,
+    "vendor": "bosch",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "LG washing machine spare parts",
+    "tags": ["washing machine bosch", "bosch washing machines", "bosch washing machine", "washing machines bosch"],
+    "url": "/lg/washing-machines",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover genuine LG washing machine spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "vendor": "lg",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8">Renowned for their sleek design and reliability, LG washing machines offer a perfect blend of style and functionality, ensuring every load is washed with precision and care. As a globally trusted brand, LG is committed to excellence, consistently pushing boundaries to redefine the standards of home appliances.</p><h2 class="contenthead" dir="ltr"><span>Why choose genuine LG spare parts?</span></h2><p dir="ltr">Genuine LG spare parts are manufactured to the same high standards as the original parts that came with your washing machine. They are designed to fit perfectly and function properly, ensuring that your washing machine works reliably and efficiently.</p><h2 class="contenthead" dir="ltr"><span>Buy Your Washing Machine Spare Parts Online at Statewide</span></h2><p dir="ltr">Statewide Appliance Spares is Australia’s largest distributor of genuine parts and accessories for all leading brands of household appliances. With over 38 years of experience in the industry, Statewide Appliance Spares has developed a reputation for excellence in customer service. We offer fast delivery, ensuring our customers receive their parts quickly. Order online – All your genuine LG spares with the lowest prices, guaranteed.</p></div>`,
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Electrolux washing machine spare parts",
+    "tags": ["electrolux washing machine", "washing machine electrolux", "electrolux washing machines", "washing machines electrolux"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Maintain the peak performance of your washing machine with genuine Electrolux parts. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8">Electrolux washing machines combine advanced technology with sleek design, offering a superior laundry experience. Renowned for their reliability and efficiency, Electrolux washers are equipped with innovative features to ensure thorough cleaning while conserving energy and water.</p><h2 class="contenthead" dir="ltr"><span>Why choose genuine Electrolux spare parts?</span></h2><p dir="ltr">Genuine Electrolux spare parts are made to the same standards as the original parts that came with your machine, so you can be sure that they will fit and function correctly. Genuine Electrolux spare parts are made to last, which means you will have to replace them less frequently than non-genuine parts.&nbsp;</p><h2 class="contenthead" dir="ltr"><span>Find the right Electrolux spares for your washing machine</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the right&nbsp;</span><a href="https://www.statewideapp.com.au/washing-machines"><span>washing machine spare part</span></a><span>&nbsp;you will need your appliance model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Most manufacturers place the model number on the control panel near the buttons &amp; lights. Some front load washing machines may have it on the door or where the door closes if it's not visible on the control panel.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct part.</span></p><p dir="ltr"><span>Experience fast delivery across Australia, coupled with our lowest price guarantee. Our team is on hand, ready to offer expert guidance and advice when you need it. Shop Electrolux washing machine spare parts at Statewide Appliance Spares today.&nbsp;</span></p></li></ul></div>`,
+    "url": "/electrolux/washing-machines",
+    "vendor": "electrolux",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Electrolux oven & cooktop spare parts",
+    "tags": ["electrolux cooktop", "electrolux oven"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Experience the convenience of finding all your genuine Electrolux spare parts for your Electrolux oven and cooktop at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Electrolux is synonymous with innovation and reliability in the kitchen. Renowned for their sleek designs and cutting-edge technology, Electrolux ovens deliver exceptional cooking performance, making them a staple in households worldwide.</span></p><p dir="ltr"><span>Check out our huge selection of<strong>&nbsp;</strong></span><strong>Electrolux oven parts</strong><span>&nbsp;and&nbsp;</span><strong>Electrolux cooktop parts</strong><span>&nbsp;at Statewide. Our range of genuine&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux" data-mce-href="https://www.statewideapp.com.au/electrolux"><span>Electrolux spare parts</span></a><span>&nbsp;includes door&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/gasket-seal" data-mce-href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/gasket-seal"><span>seals</span></a><span>, door&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/hinge" data-mce-href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/hinge"><span>hinges</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/globe-lamp" data-mce-href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/globe-lamp"><span>globes</span></a><span>&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/shelf-rack" data-mce-href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/shelf-rack"><span>racks</span></a><span>&nbsp;for your oven, plus cooktop essentials such as&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/sensor-thermistor-thermostat" data-mce-href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/sensor-thermistor-thermostat"><span>thermostats</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/element-heater" data-mce-href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/element-heater"><span>elements</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/button-knob-lever" data-mce-href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/button-knob-lever"><span>knobs</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/burner-gas-" data-mce-href="https://www.statewideapp.com.au/electrolux/ovens-cooktops/burner-gas-"><span>burners</span></a><span> and more. We have the part you need to get your kitchen appliance working at its best.</span></p><h2 dir="ltr"><span>Find the right Electrolux spare parts for your oven</span></h2><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>To find the right Electrolux parts and accessories for your oven, you will need your oven model number.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel" data-mce-href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Most manufacturers will place the model number on the inside of the door along the bottom sill of the inside of the oven.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Search on our website by brand and model number to find the correct replacement part.</span></p></li></ul><h2 dir="ltr"><span>Buy your Electrolux genuine parts online at Statewide</span></h2><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>We have a wide range of&nbsp;</span><a href="https://www.statewideapp.com.au/ovens-cooktops" data-mce-href="https://www.statewideapp.com.au/ovens-cooktops"><span>spare parts</span></a><span>&nbsp;for your compact oven, built-in ovens and multifunction ovens.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>We offer fast, Australia wide delivery so you can get your appliance working at its best.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Our team delivers high quality service and expert advice to help you with all your appliance spare needs.</span></p></li></ul></div>`,
+    "url": "/electrolux/ovens-and-cooktops",
+    "vendor": "electrolux",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "",
+  },
+  {
+    "title": "Washing machine seals",
+    "tags": ["Washer seal", "washer seals", "gasket washing machine", "washing machine gaskets", "seal washing machines", "washing machines seal"],
+    "url": "/washing-machines/seal",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "seal",
+  },
+  {
+    "title": "Washing machine hinges",
+    "tags": ["washing machine hinges", "washing machine hinge"],
+    "url": "/washing-machines/hinge",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "hinge",
+  },
+  {
+    "title": "Hinge",
+    "tags": ["door hinge", "door hinges", "hinges", "hinge"],
+    "url": "/hinge",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "hinge",
+  },
+  {
+    "title": "Washing machine filters",
+    "tags": ["washing machine lint filter"],
+    "url": "/washing-machines/lint-filter",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Buy your washing machine filters at Statewide, with speedy delivery and the lowest prices guaranteed. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide Appliance Spares offer filters for your washing machine. To find the filter for your washing machine, locate your washing machine&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>model number</span></a><span>&nbsp;first. Need assistance? Call our dedicated customer service team on free call 1800 005 220.</span></p><h2 class="contenthead" dir="ltr"><span>How to clean washing machine filters</span></h2><p dir="ltr"><span>Just like your other home appliances your washing machine needs care and attention to operate efficiently.</span></p><h2 class="contenthead" dir="ltr"><span>To clean your removable lint filter</span></h2><p dir="ltr"><span>1. First you will need to locate the filter and remove it. It can usually be located in the front of the washer behind a small hatch. If unsure, check your owner’s manual.<br>2. Next remove the filter and soak it in hot water with a few drops of liquid dishwashing detergent. This will help to loosen trapped dirt and residue.<br>3. Clean the areas where the filter is housed using a small brush and paper towel. You can even use a toothbrush to reach tiny crevices.<br>4. Thoroughly rinse and dry your soaked filter before replacing it in its housing.</span></p><h2 class="contenthead" dir="ltr"><span>What happens if you don’t clean your washing machine filter?</span></h2><p dir="ltr"><span>Some signs your lint filter needs cleaning:</span></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Lint deposits on your clothes</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Washing machine doesn’t drain</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Drum doesn’t spin</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>How often should you change your washing machine filter?</span></h2><p dir="ltr"><span>It is important to clean your filter regularly. If you see signs of wear and tear or damage on your filter, you should replace it. Find your replacement filter&nbsp;</span><a href="https://www.statewideapp.com.au/washing-machines/lint-filter"><span>here</span></a><span>.</span></p><p dir="ltr"><b>Buy your washing machine filter and washing machine&nbsp;<a href="https://www.statewideapp.com.au/washers-dryers"><span>spare parts</span></a>&nbsp;at Statewide Appliance Spares with fast Australia wide delivery.</b></p></div>`,
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "lint-filter",
+  },
+  {
+    "title": "Washing machine door handles",
+    "tags": ["washing handle", "washing machine handle"],
+    "url": "/washing-machines/handle",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for washing machine door handles at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><p dir="ltr"><span>We have Australia’s biggest range of washing machine spare parts and accessories for leading brands including&nbsp;</span><a href="https://www.statewideapp.com.au/bosch/washing-machines"><span>Bosch</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/lg-washing-machine-parts"><span>LG</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fisher-and-paykel/washing-machines"><span>Fisher &amp; Paykel</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/haier/washing-machines"><span>Haier</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/simpson/washing-machines"><span>Simpson</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/speed-queen/washing-machines"><span>Speed Queen</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/washing-machines"><span>Westinghouse</span></a><span>.</span></p><h2 class="contenthead" dir="ltr"><span>How to replace your washing machine door handle</span></h2><p dir="ltr"><span>Over time, your washing machine door handle is susceptible to wear and tear. Fortunately, replacing your door handle is an easy DIY task. Check out our YouTube video where we show you&nbsp;</span><a href="https://youtu.be/ppqM_pCEFLM"><span>how to replace your washing machine door handle</span></a><span>.</span></p><h2 class="contenthead" dir="ltr"><span>Find the right handle for your washing machine</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the right spare part for your washing machine, you will need your model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct replacement&nbsp;</span><a href="https://www.statewideapp.com.au/washers-dryers"><span>part</span></a><span>.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>We offer fast, Australia-wide delivery so you can get your appliance working at its best.</span></p></li></ul><p dir="ltr"><span>Need some expert help? Our team has got you covered. They are on hand to answer all your questions and help you find what you need.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "handle",
+  },
+  {
+    "title": "Washing machine door latches",
+    "tags": ["washing machine door", "washing machine lid", "washing machine latch"],
+    "url": "/washing-machines/door-lid-latch",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Upgrade your washing machine with new latches from Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We have Australia’s biggest range of washing machine spare parts and accessories for leading brands including&nbsp;</span><a href="https://www.statewideapp.com.au/bosch/washing-machines"><span>Bosch</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/lg-washing-machine-parts"><span>LG</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fisher-and-paykel/washing-machines"><span>Fisher Paykel</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/haier/washing-machines"><span>Haier</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/simpson/washing-machines"><span>Simpson</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/speed-queen/washing-machines"><span>Speed Queen</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/washing-machines"><span>Westinghouse</span></a><span>.</span></p><h2 class="contenthead" dir="ltr"><span>How to replace your washing machine latch</span></h2><p dir="ltr"><span>Over time, your washing machine door handle is susceptible to wear and tear. Fortunately, replacing your door handle is an easy DIY task. Check out our YouTube video where we show you&nbsp;</span><a href="https://youtu.be/ppqM_pCEFLM"><span>how to replace your washing machine door handle</span></a><span>.</span></p><h2 class="contenthead" dir="ltr"><span>Find the right door latch for your washing machine</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the right spare parts for your washing machine, you will need your model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct replacement&nbsp;</span><a href="https://www.statewideapp.com.au/washers-dryers"><span>part</span></a><span>.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>We offer fast, Australia wide delivery so you can get your appliance working at its best.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Our team delivers high quality service and expert advice to help you with all your appliance spare needs.</span></p></li></ul><p dir="ltr"><span>Shop now at Statewide Appliance Spares and experience the ease of finding genuine spare parts for your washing machine to keep it performing at its best.&nbsp;</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "door-lid-latch",
+  },
+  {
+    "title": "Washing machine motors",
+    "tags": ["Washer motor", "washing machine motor", "washing machine gearbox", "washing machines motor", "washing machines gearbox"],
+    "url": "/washing-machines/motor/gearbox",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide offers Australia’s largest selection of washing machine motors, ensuring optimal performance. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We have Australia’s biggest range of washing machine spare parts and accessories for leading brands including&nbsp;</span><a href="https://www.statewideapp.com.au/bosch/washing-machines"><span>Bosch</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/lg-washing-machine-parts"><span>LG</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fisher-and-paykel/washing-machines"><span>Fisher Paykel</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/haier/washing-machines"><span>Haier</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/simpson/washing-machines"><span>Simpson</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/speed-queen/washing-machines"><span>Speed Queen</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/washing-machines"><span>Westinghouse</span></a><span>.</span></p><h2 class="contenthead" dir="ltr"><span>How do you know if your washing machine motor is broken or burnt out?</span></h2><p dir="ltr"><span>There are a couple of signs that a washing machine motor is burnt out. These can include:</span></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Burning smell</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>A screeching sound caused by worn out bearings. The friction can put a lot of stress on the motor</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Drum stops moving, especially if it is accompanied by a strong burning smell</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>Find your motor replacement at Statewide</span></h2><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>To find your&nbsp;</span><a href="https://www.statewideapp.com.au/washing-machine"><span>washing machine spares</span></a><span>, you will need your model number.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Search on our website by brand and model number to find the correct replacement&nbsp;</span><a href="https://www.statewideapp.com.au/washers-dryers"><span>part</span></a><span>.</span></p></li></ul><p dir="ltr"><span>We offer fast, Australia wide delivery so you can get your appliance working at its best. Our team delivers high quality service and expert advice to help you with all your appliance spare needs.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "motors",
+  },
+  {
+    "title": "Washing machine pumps",
+    "tags": ["washing machine pump", "washing machine pumps"],
+    "url": "/washing-machines/pump",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find all your washing machine pump replacement parts easily at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Learn how to test and replace your washing machine pump with our detailed guide.</p> <h2 class="contenthead" dir="ltr"><span>How to test your washing machine pump</span></h2> <p dir="ltr"><span><strong>Step 1:</strong> You will need a few towels and a bucket for this task. You will find a service hatch at the bottom of your machine on the front panel. Look for an emergency drain hose. Place your towels underneath and pinch the hose while you remove the plug from the end. Water will start to rush out, so have your bucket ready. You may need a few buckets on hand until all the water is cleared.</span></p> <p dir="ltr"><span><strong>Step 2:</strong> Now that the machine is fully drained, you can inspect your pump. Put on some rubber gloves and inspect the pump for any obstructions. Remove any obstructions. If there is a filter, this is a good time to remove and clean it under running water. Using a damp cloth, give the interior a clean. Wipe the cap clean and reattach the filter, hose, and lid.</span></p> <h2 class="contenthead" dir="ltr"><span>How to replace the washing machine pump</span></h2> <p dir="ltr"><span>Safety first! Unplug your washing machine from the power source before attempting any repairs or maintenance.</span></p> <p dir="ltr"><span><strong>Step 1: Drain the water</strong><br>You will find a service hatch at the bottom of your machine on the front panel. Look for an emergency drain hose. Place your towels underneath and pinch the hose while you remove the plug from the end. Water will start to rush out, so have your bucket ready.</span></p> <p dir="ltr"><span><strong>Step 2: Remove the panels</strong><br>Using a screwdriver, remove the top and back panels. Carefully put the appliance on its side. Seek some help when moving your washer.</span></p> <p dir="ltr"><span><strong>Step 3: Remove the old pump</strong><br>You will need to disconnect the wires and remove the hose and clamp. With the help of pliers, lower the clamp so that the drain hose moves away from the pump.</span></p> <p dir="ltr"><span><strong>Step 4: Fit the pump</strong><br>Lastly, you will need to fit the replacement pump following the steps above.</span></p> <p dir="ltr"><span>With over 38 years of experience, Statewide Appliance Spares leads the market in appliance spare parts. Count on our dedicated customer service team for expert guidance and advice, making your spare parts shopping experience a breeze. We also offer fast, Australia-wide delivery, so you can get your appliance up and running in no time. Shop confidently for your washing machine spare parts today!</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "pump",
+  },
+  {
+    "title": "Washing machine agitators",
+    "tags": ["washing machine agitators", "washing machine agitator", "washing agitator", "washing agitators"],
+    "url": "/washing-machines/agitator",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for washing machine agitators at Statewide Appliance Spares, ensuring smooth washing cycles for your appliance. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide Appliance Spares have Australia’s biggest range of washing machine spare parts and accessories for leading brands including&nbsp;</span><a href="https://www.statewideapp.com.au/bosch/washing-machines"><span>Bosch</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/lg-washing-machine-parts"><span>LG</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fisher-and-paykel/washing-machines"><span>Fisher &amp; Paykel</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/haier/washing-machines"><span>Haier</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/simpson/washing-machines"><span>Simpson</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/speed-queen/washing-machines"><span>Speed Queen</span></a><span>&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/washing-machines"><span>Westinghouse</span></a><span>.</span><b></b></p><h2 class="contenthead" dir="ltr"><span>The difference between agitators and impellers</span></h2><p dir="ltr"><span>You can find both agitators and impellers on top loading washing machines. Agitators are central columns that twist and turn during a wash cycle to create friction and loosen dirt and stains from clothing. These are best suited for tough dirt and grime but can increase wear on your clothing fabrics over time. Impellers are disc or cone shaped devices that spin clothing in a circular motion. The clothes rug against each other to loosen stains. A washer that has an impeller uses less motion and water than a washer with an agitator.</span></p><h2 class="contenthead" dir="ltr"><span>Are washing machines with agitators better?</span></h2><p dir="ltr"><span>Top loading washing machines are traditionally designed with an agitator to effectively clean your clothing. Some washer models can feature low-profile agitators that work in the same way but place less friction on clothing. Newer models are designed with ‘smart features’ to offer better cleaning results and protect clothing fibres from damage.</span></p><p dir="ltr"><span>Buy your washing machine agitator and spare parts at Statewide Appliance Spares with fast Australia wide delivery.</span><b></b></p><p dir="ltr"><span>Looking for&nbsp;</span><a href="https://www.statewideapp.com.au/washing-machines/seal-gasket"><span>seals and gaskets</span></a><span> for your washing machine? Your washing machine's door seal provides an airtight seal between the tub and the door. If you notice water leaks, it could be a result of a damaged door seal. Replacing the seal is easy and ensures your washer is performing at their best.</span><b></b></p><p dir="ltr"><span>If you need a&nbsp;</span><a href="https://www.statewideapp.com.au/washing-machines/hose"><span>washing machine hose</span></a><span>, shop from our extensive collection at Statewide. Washer hoses are inexpensive and easy to replace. Replacing hoses periodically ensures that your washing machine continues to work at its best.</span></p><p dir="ltr"><span>Statewide Appliance Spares can supply you with a full range of </span><a href="https://www.statewideapp.com.au/washing-machines/lint-filter"><span>lint filters</span></a><span> for your washing machine. Filters protect small objects from getting to the pump. Regular cleaning and replacing of damaged or worn filters is recommended.</span><b></b></p><p dir="ltr"><span>Shop for washing machine&nbsp;</span><a href="https://www.statewideapp.com.au/washing-machines/pump"><span>pumps</span></a><span>&nbsp;at Statewide Appliance Spares.</span></p><h2 dir="ltr"><span>Statewide Appliance Spares have the biggest range of washing machine spare parts for all the leading brands</span></h2><p dir="ltr"><span>Shop for&nbsp;</span><a href="https://www.statewideapp.com.au/aeg/washing-machines"><span>AEG washing machine parts</span></a><span> from Statewide Appliance Spares.</span><b></b></p><p dir="ltr"><span>Search for Ariston washing machine spare parts&nbsp;</span><a href="https://www.statewideapp.com.au/ariston/washing-machines"><span>here</span></a><span>.</span><b></b></p><p dir="ltr"><span>Search for&nbsp;</span><a href="https://www.statewideapp.com.au/baumatic/washing-machines"><span>Baumatic washing machine parts</span></a><span> at Statewide.</span><b></b></p><p dir="ltr"><span>Shop for&nbsp;</span><a href="https://www.statewideapp.com.au/beko/washing-machines"><span>Beko washing machine parts</span></a><span> and accessories from Statewide Appliance Spares.</span><span><br></span></p><p dir="ltr"><span>Find your&nbsp;</span><a href="https://www.statewideapp.com.au/blanco/washing-machines"><span>Blanco washing machine parts</span></a><span> and accessories from Statewide Appliance Spares.</span><span><br></span></p><p dir="ltr"><span>Shop the biggest range of&nbsp;</span><a href="https://www.statewideapp.com.au/bosch/washing-machines"><span>Bosch washing machine parts</span></a><span>.</span><b></b></p><p dir="ltr"><span>Need&nbsp;</span><a href="https://www.statewideapp.com.au/electrolux/washing-machines"><span>Electrolux washing machine parts</span></a><span>? Shop online with competitive prices and fast, Australia wide delivery.</span></p><p dir="ltr"><span>Shop for&nbsp;</span><a href="https://www.statewideapp.com.au/euro/washing-machines"><span>Euro washing machine parts</span></a><span> and accessories here.</span><b></b></p><p dir="ltr"><span>Find&nbsp;</span><a href="https://www.statewideapp.com.au/euromaid/washing-machines"><span>Euromaid washing machine parts</span></a><span> at competitive prices.</span><b></b></p><p>Shop for Australia’s biggest range of&nbsp;</span><a href="https://www.statewideapp.com.au/fisher-paykel/washing-machines"><span>Fisher Paykel washing machine parts</span></a><span>&nbsp;and accessories from Statewide Appliance Spares.</p><p dir="ltr"><span>Looking for&nbsp;</span><a href="https://www.statewideapp.com.au/haier/washing-machines"><span>Haier washing machine parts</span></a><span>? Find the part you need at Statewide.</span><b></b></p><p dir="ltr"><span>Find&nbsp;</span><a href="https://www.statewideapp.com.au/hitachi/washing-machines"><span>Hitachi washing machine parts</span></a><span> at Statewide.</span><b></b></p><p dir="ltr"><span>Shop for&nbsp;</span><a href="https://www.statewideapp.com.au/hoover/washing-machines"><span>Hoover washing machine parts</span></a><span> and accessories from Statewide Appliance Spares.</span><b></b></p><p dir="ltr"><span>Statewide Appliance Spares have Australia’s biggest range of washing machine spare parts and accessories for&nbsp;</span><a href="https://www.statewideapp.com.au/kelvinator/washing-machines"><span>Kelvinator</span></a><span>.</span></p><p dir="ltr"><span>Shop for&nbsp;</span><a href="https://www.statewideapp.com.au/kleenmaid/washing-machines"><span>Kleenmaid washing machine parts</span></a><span> and accessories from Statewide Appliance Spares.</span><b></b></p><p dir="ltr"><span>Shop for&nbsp;</span><a href="https://www.statewideapp.com.au/lg-washing-machine-parts"><span>LG washing machine parts</span></a><span> from Statewide Appliance Spares. We have Australia’s biggest range with fast Australia wide delivery.</span><span><br></span></p><p dir="ltr"><span>Shop for&nbsp;</span><a href="https://www.statewideapp.com.au/maytag/washing-machines"><span>Maytag washing machine parts</span></a><span> here.</span><b></b></p><p dir="ltr"><span>Statewide Appliance Spares have Australia’s biggest range of washing machine spare parts and accessories for&nbsp;</span><a href="https://www.statewideapp.com.au/miele/washing-machines"><span>Miele</span></a><span>.</span><span><br></span></p><p dir="ltr"><span>Shop for&nbsp;</span><a href="https://www.statewideapp.com.au/panasonic-washing-machine-spares"><span>Panasonic washing machine parts</span></a><span> at competitive prices.</span><b></b></p><p dir="ltr"><span>Statewide Appliance Spares have Australia’s biggest range of washing machine spare parts and accessories for&nbsp;</span><a href="https://www.statewideapp.com.au/samsung-washing-machine-parts"><span>Samsung</span></a><span>.</span><span><br></span></p><p dir="ltr"><span>Shop for&nbsp;</span><a href="https://www.statewideapp.com.au/simpson/washing-machines"><span>Simpson washing machine parts</span></a><span> and accessories from Statewide Appliance Spares.</span><span><br></span></p><p dir="ltr"><span>Find&nbsp;</span><a href="https://www.statewideapp.com.au/speed-queen/washing-machines"><span>Speed Queen washing machine parts</span></a><span> here.</span><span><br></span></p><p dir="ltr"><span>We ensure our most popular&nbsp;</span><a href="https://www.statewideapp.com.au/westinghouse/washing-machines"><span>Westinghouse washing machine spare parts</span></a><span> are always in stock, with fast Australia wide delivery and competitive prices.</span><span><br></span></p><p dir="ltr"><span>Shop for&nbsp;</span><a href="https://www.statewideapp.com.au/whirlpool/washing-machines"><span>Whirlpool washing machine parts</span></a><span>&nbsp;and accessories from Statewide Appliance Spares.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "agitator",
+  },
+  {
+    "title": "Agitator",
+    "tags": ["agitators", "agitator", "agittors"],
+    "url": "/agitator",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "agitator",
+  },
+  {
+    "title": "Fridge & freezer drawers",
+    "tags": ["fridge drawer", "freezer drawer", "fridge drawers", "freezer drawers"],
+    "url": "/fridge-parts/drawers",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for fridge & freezer drawers at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We have a huge selection of fridge &amp; freezer spares including </span><a href="https://www.statewideapp.com.au/fridges-freezers/door-handle-hinge-lid-parts"><span>refrigerator doors</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/thermostat-thermistor"><span>thermostats</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/shelf-rack"><span>shelves</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/globe-bulb"><span>globes</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/pcb"><span>PCB’s</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/hinge-parts"><span>hinges</span></a><span> and </span><a href="https://www.statewideapp.com.au/fridges-freezers/crisper-drawer-parts"><span>drawers</span></a><span>.</span></p><h2 class="contenthead" dir="ltr"><span>How to maintain your fridge drawers</span></h2><p dir="ltr"><span>Crisper drawers extend the life of your fruits and vegetables by controlling airflow around them via the vents. Don’t overfill your drawer – they are designed to be around two-thirds full for optimal air flow. Regularly cleaning your fridge crisper drawers will keep germs away. Inspect and wipe down once a week and deep clean every 4-6 weeks by washing in the sink with warm soapy water, light scrubbing, and ensuring thorough drying before replacing.</span></p><h2 class="contenthead" dir="ltr"><span>Choosing the right size fridge drawer</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the correct size drawer for your fridge or freezer, you will need your model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If unsure where to find your model number, check out our </span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Most manufacturers will place a copy inside the fridge, on the side of the door, or on the front edge of the fridge/freezer cabinet.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct replacement part.</span></p></li></ul><p dir="ltr"><span>With over 38 years of experience, Statewide Appliance Spares leads the market in appliance spare parts. Count on our dedicated customer service team for expert guidance and advice, making your spare parts shopping easier.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "fridge-parts",
+    "part_type": "crisper-bin-drawer",
+  },
+  {
+    "title": "Fridge & freezer globes",
+    "tags": ["fridge globe", "freezer globe", "fridge globes", "freezer globes"],
+    "url": "/fridge-parts/globe-lamp",
+    "vendor": "",
+    "appliance_type": "fridge-parts",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Globes",
+    "tags": ["globe", "globes"],
+    "url": "/globes",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Fridge & freezer handles",
+    "tags": ["fridge handle", "freezer handle", "fridge handles", "freezer handles", "Fridge door handle"],
+    "url": "/fridge-parts/handles",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Upgrade your fridge and freezer with new handles from Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Shop confidently knowing you'll find parts and accessories for all leading brands, including </span><a href="https://www.statewideapp.com.au/fridge-parts/electrolux"><span>Electrolux</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers"><span>Fisher &amp; Paykel</span></a><span>, </span><a href="https://www.statewideapp.com.au/kelvinator/fridges-freezers"><span>Kelvinator</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridge-parts/lg"><span>LG</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridge-parts/samsung"><span>Samsung</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridge-parts/westinghouse"><span>Westinghouse</span></a><span> and more.</span></p><h2 class="contenthead" dir="ltr"><span>How to replace your fridge door handle</span></h2><p dir="ltr"><span>Your refrigerator handles experience a lot of use in their lifetime. Occasionally, they can become loose or can be subject to damage if forcefully opened. Replacing your door fridge door handle is a simple task with easy installation.</span></p><p dir="ltr"><span>For fridge door handles that are secured with screws, just loosen the screws to remove the old handle and reinstall the new one. Some screws may be concealed by a small removable panel.</span></p><h2 class="contenthead" dir="ltr"><span>Replacing handles with plastic brackets</span></h2><p dir="ltr"><span>If your fridge door handle is secured with a plastic bracket, you will need to press on the tab and hold it down against the door while lifting the door handle up to release the bracket. The new handle can then be placed into the brackets and locked into place.</span></p><p dir="ltr"><span>Do check your operating manual or manufacturers website if you need more detailed instructions.</span></p><h2 class="contenthead" dir="ltr"><span>Why choose Statewide Appliance Spares?</span></h2><p dir="ltr"><span>With over 38 years of industry expertise, Statewide Appliance Spares leads the market in appliance spare parts. Our warehouse is stocked with genuine parts and a vast selection of universal fitting and value-packed compatible options, making buying spare parts easier than ever. Enjoy fast Australia wide delivery and competitive prices.</span></p><h2 class="contenthead" dir="ltr"><span>Find the right handle for your fridge or freezer</span></h2><p dir="ltr"><span>Not sure which handle your fridge or freezer needs? No problem. Simply locate your model number using our </span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Then, search our website by brand and model number to find the correct replacement part hassle-free.</span></p><h2 class="contenthead" dir="ltr"><span>Experience the Statewide advantage</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Wide range of genuine spare parts for all the big brands</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Fast shipping throughout Australia</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Expert advice and high-quality service from our dedicated team</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>Upgrade with Statewide Appliance Spares</span></h2><p dir="ltr"><span>Upgrade your fridge and freezer handles with Statewide Appliance Spares today.&nbsp;</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "fridge-parts",
+    "part_type": "handle",
+  },
+  {
+    "title": "Fridge & freezer ice & water",
+    "tags": ["fridge ice", "fridge dispenser", "ice bucket", "ice tray", "ice cube tray"],
+    "url": "/fridge-parts/ice-water-dispenser-spares",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop for fridge & freezer ice & water spare parts at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>At Statewide, you can find parts and accessories for all the major brands including&nbsp;</span><a href=\"https://www.statewideapp.com.au/fridge-parts/electrolux\"><span>Electrolux</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/fisher-paykel/fridges-freezers\"><span>Fisher &amp; Paykel</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/kelvinator/fridges-freezers\"><span>Kelvinator</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/fridge-parts/lg\"><span>LG</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/samsung/fridges-freezers\"><span>Samsung</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/fridge-parts/westinghouse\"><span>Westinghouse</span></a><span>&nbsp;and more.</span></p><p dir=\"ltr\"><span>Our warehouse is fully stocked with genuine parts and a wide range of universal fitting and cost-effective compatible options, ready for despatch. We're dedicated to making your spare parts buying experience easy, with fast Australia wide delivery and competitive prices.</span></p><p dir=\"ltr\"><span>Discover the right ice and water spare parts for your refrigerator from our extensive range. Whether you need to replace faulty or damaged ice trays, dispensers, icemakers, tanks, or more, we have you covered.</span></p><p dir=\"ltr\"><span>To find the correct spare part for your fridge, simply locate your model number using our </span><a href=\"https://statewideapp.com.au/findyourmodel\"><span>guide</span></a><span>. Then, search our website by brand and model number to easily find the replacement part you need.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>Experience the Statewide advantage:</span></h2><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Wide range of genuine spare parts</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Fast Australia wide delivery to get your appliance working at its best</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>High-quality service and expert advice from our dedicated team</span></p></li></ul><p dir=\"ltr\"><span>Upgrade your refrigerator's ice and water parts with Statewide Appliance Spares today. Shop now and experience the difference!</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "fridge-parts",
+    "part_type": "ice-water-dispenser-spares",
+  },
+  {
+    "title": "Ice/Water",
+    "tags": ["ice maker"],
+    "url": "/ice-water",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "ice-water-dispenser-spares",
+  },
+  {
+    "title": "AC Adapter/Charger",
+    "tags": ["Power adapter", "Power adapers", "Power charger", "Power chargers", "Power adapters", "AC Adapter/Charger", "AC Adapter Charger", "AC Adapter Chargers"],
+    "url": "/ac-adapter-charger",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Mother & child care baby bottle spare parts",
+    "tags": ["baby bottles", "bottle parts", "Mother & Child Care baby bottle", "Mother & Child Care baby bottle spare parts"],
+    "url": "/mother-and-child-care/baby-bottle-parts",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop for Mother Child Care baby bottle and accessories from Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">We have an extensive range of Philips Avent mother and child care parts and accessories for <a href=\"https://www.statewideapp.com.au/mother-child-care/steam-steriliser-parts\">electric steam sterilisers</a>, <a href=\"https://www.statewideapp.com.au/mother-child-care/baby-food-maker-parts\">baby food makers</a>, <a href=\"https://www.statewideapp.com.au/mother-child-care/breast-pump-parts\">breast pumps</a>, <a href=\"https://www.statewideapp.com.au/mother-child-care/baby-bottle-parts\">baby bottles</a> and more.<br><br>Statewide Appliance Spares are a market leader in the supply of appliance spare parts for over 38 years. Our dedicated customer service team can offer expert guidance and advice to make buying spare parts easier.</p></div>`,
+    "vendor": "",
+    "appliance_type": "mother-child-care",
+    "part_type": "baby-bottle-parts",
+  },
+  {
+    "title": "Philips mother & child care spare parts",
+    "tags": ["philips bottle parts"],
+    "url": "/philips/baby-bottle-parts",
+    "vendor": "philips",
+    "appliance_type": "",
+    "part_type": "baby-bottle-parts",
+  },
+  {
+    "title": "Philips Avent mother & child care spare parts",
+    "tags": ["Avent bottles", "Philips Avent mother & child care", "Philips Avent mother & child care spare parts"],
+    "url": "/philips-avent/mother-child-care/baby-bottle-parts",
+    "vendor": "philips",
+    "appliance_type": "mother-child-care",
+    "part_type": "baby-bottle-parts",
+  },
+  {
+    "title": "Vacuum cleaner bag holders",
+    "tags": ["Vacuum cleaner bag holders", "Vacuum cleaner bag holder", "Bag holder", "Vacuum bag holder", "Vacuum bag holders", "Dust bag holders", "Dust bag holder"],
+    "url": "/vacuum-cleaners/bag-holder",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop bag holders at Statewide Appliance Spares – Home to Australia’s biggest range of vacuum cleaner spare parts and accessories. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We have Australia’s biggest range of vacuum parts and accessories for all your floor care including&nbsp;<a href="https://www.statewideapp.com.au/backpack"><span>backpack vacuums</span></a>,&nbsp;<a href="https://www.statewideapp.com.au/vacuum-cleaner"><span>barrel vacuums</span></a>,&nbsp;<a href="https://www.statewideapp.com.au/vacuum-cleaner"><span>canister vacuums</span></a>,&nbsp;<a href="https://www.statewideapp.com.au/vacuum-cleaner"><span>rechargeable vacuums</span></a>,&nbsp;<a href="https://www.statewideapp.com.au/vacuum-cleaner"><span>robotic vacuums</span></a>&nbsp;and&nbsp;<a href="https://www.statewideapp.com.au/upright"><span>upright vacuums</span></a>. We also stock an extensive collection of&nbsp;<a href="https://www.statewideapp.com.au/vacuum-cleaners/bag"><span>vacuum cleaner bags</span></a>,&nbsp;<a href="https://www.statewideapp.com.au/vacuum-cleaners/filter"><span>filters</span></a>&nbsp;and&nbsp;<a href="https://www.statewideapp.com.au/vacuum-cleaners/misc"><span>vacuum accessories</span></a>.<br><h2 class="contenthead" dir="ltr"><span>How do I open the bag holder on my vacuum cleaner?</span></h2><p dir="ltr"><span>The process of opening the bag holder on a vacuum cleaner can vary depending on the specific model and design. Generally, to open the bag holder on your vacuum cleaner:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Turn off and unplug the vacuum cleaner for safety.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Locate the bag holder on the main body of the vacuum cleaner.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Identify the opening mechanism, such as a lever, button, or latch.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Operate the opening mechanism to release the bag holder.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Gently open the compartment door, lid, or cover.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Empty the bag's contents into a rubbish bag or replace the bag entirely.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Close and secure the bag holder by aligning and locking the door, lid, or cover.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Ensure it is tightly sealed to prevent dust or debris from escaping.</span></p></li></ul><p dir="ltr"><span>For detailed instructions, consult the user manual or manufacturer’s instructions.</span></p><h2 class="contenthead" dir="ltr"><span>Can I use a bagless vacuum cleaner without the bag holder?</span></h2><p dir="ltr"><span>You cannot use a bagless vacuum cleaner without the bag holder. Bagless vacuum cleaners typically rely on a dust collection container or chamber to store the dirt and debris that is suctioned up. This container is an integral part of the vacuum cleaner's design and function. It is responsible for collecting the dirt, separating it from the airflow, and allowing for easy disposal or emptying. Removing or using the vacuum cleaner without the bag holder or collection container would result in the dirt and debris being released directly into the vacuum cleaner's internal components, potentially causing damage and impairing its performance.</span></p><h2 class="contenthead" dir="ltr"><span>Find your vacuum cleaner spares at Statewide</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the right spare parts for your&nbsp;</span><a href="https://www.statewideapp.com.au/vacuum-cleaner"><span>vacuum cleaner</span></a><span>&nbsp;will need your appliance model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Most manufacturers place the model number on the base of the vacuum cleaner or at the back of the vacuum cleaner.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct part.</span></p></li></ul><p dir="ltr"><span>Statewide Appliance Spares offer Australia’s biggest range of spare parts for all home appliances. Find the part your need, hassle free! Shop online with secure transactions and fast, Australia wide shipping options. Your spare parts are only a few clicks away.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "bag-holder",
+  },
+  {
+    "title": "Vacuum cleaner spare parts",
+    "url": "/barrel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Buy your vacuum cleaner spare parts from Statewide Appliance Spares. We have Australia’s biggest range of vacuum parts and accessories for all your floor care including backpack vacuums, barrel vacuums, canister vacuums, rechargeable vacuums, robotic vacuums and upright vacuums. We also stock an extensive collection of vacuum cleaner bags, filters and vacuum accessories. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares are a market leader in appliance spare parts for over 35 years. We offer competitively priced spares for all leading brands including Electrolux, LG, Miele, Vax and Volta, backed by our lowest price guarantee. Statewide Appliance Spares are authorised distributors for more than 100 major brands. Our extensively stocked warehouse includes genuine parts and a large range of universal fitting and great value compatible non-genuine and generic spare parts. We ensure our most popular parts are always in stock and get you the spare part you need, with fast, Australia wide delivery. Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance and advice to make buying spare parts easier.</p></div>`,
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "",
+  },
+  {
+    "title": "Vacuum cleaner belts",
+    "tags": ["vacuum cleaner belt", "vacuum cleaner belts"],
+    "url": "/vacuum-cleaners/belts",
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "belt-chain",
+  },
+  {
+    "title": "Enzyme Wizard cleaning products",
+    "url": "/enzyme-wizard",
+    "vendor": "enzyme-wizard",
+    "appliance_type": "",
+    "part_type": "",
+  },
+  {
+    "title": "Tasman Chemicals cleaning products",
+    "url": "/tasman-chemicals",
+    "vendor": "tasman-chemicals",
+    "appliance_type": "",
+    "part_type": "",
+  },
+  {
+    "title": "Home phone spare parts",
+    "tags": ["Home Phones"],
+    "url": "/home-phones",
+    "vendor": "",
+    "appliance_type": "home-phones",
+    "part_type": "",
+  },
+  {
+    "title": "GPS system spare parts",
+    "tags": ["Home Phones"],
+    "url": "/gps-systems",
+    "vendor": "",
+    "appliance_type": "gps-systems",
+    "part_type": "",
+  },
+  {
+    "title": "Vacuum cleaner filters",
+    "tags": ["vacuum cleaner filters", "vacuum cleaner filter"],
+    "url": "/vacuum-cleaners/filter",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Enhance your vacuum's performance and ensure a healthier living environment with our vacuum cleaner filters. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We stock a comprehensive collection of filters suitable for various vacuum types and brands, including&nbsp;<a href="https://www.statewideapp.com.au/vacuum-cleaners/filter"><span>Bosch</span></a>,&nbsp;<a href="https://www.statewideapp.com.au/lg/cordzero-vacuum-cleaners/ac-adapter-charger"><span>LG CordZero</span></a>,&nbsp;<a href="https://www.statewideapp.com.au/VAX/vacuum-cleaners/ac-adapter-charger"><span>VAX</span></a>&nbsp;and&nbsp;<a href="https://www.statewideapp.com.au/electrolux/vacuum-cleaners/ac-adapter-charger"><span>Electrolux</span></a>, ready for fast Australia wide delivery.</p><h2 class="contenthead" dir="ltr"><span>How do I clean or replace the filter on my vacuum cleaner?</span></h2><p dir="ltr"><span>Proper maintenance of your vacuum cleaner filter is crucial to ensure optimum performance. Cleaning your filter is a simple yet effective way to maintain suction, airflow and filtration efficiency.</span></p><p dir="ltr"><strong>Safety first!</strong><span>&nbsp;Always disconnect your vacuum from the power source before performing any maintenance.</span></p><p dir="ltr"><strong>Step 1: Locate the filter</strong><br><span>Filters are typically found in different areas depending on your vacuum model. Refer to your vacuum's manual to find the exact location.</span></p><p dir="ltr"><strong>Step 2: Remove the filter</strong><br><span>Gently detach the filter from its housing.</span></p><p dir="ltr"><strong>Step 3: Shake off excess debris</strong><br><span>Take the filter outdoors and give it a gentle shake to remove loose dust and dirt.</span></p><p dir="ltr"><strong>Step 4: Wash (if applicable)</strong><br><span>Some filters, like foam filters, can be washed. Rinse them under running water until the water runs clear. Allow the filter to dry completely before reinserting it.</span></p><p dir="ltr"><strong>Step 5: Replace the filter</strong><br><span>Once the filter is clean and dry, carefully place it back into its housing.</span></p><p dir="ltr"><strong>Step 6: Reassemble your vacuum cleaner</strong><br><span>Put everything back together and ensure it's properly secured.</span></p><h2 class="contenthead" dir="ltr"><span>Replacing your vacuum cleaner filter</span></h2><p dir="ltr"><span>In some cases, filters may become damaged or reach the end of their lifespan. Here's how to replace them:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Find the right filter for your vacuum cleaner model and brand</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Turn off and unplug your vacuum cleaner from the power source</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Remove the old filter. Follow the same steps as in cleaning to access and remove the filter</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Install the new filter. Carefully insert the new filter into the housing, ensuring it fits snugly</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Reassemble your vacuum cleaner</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>How often do I need to clean or replace the filter on my vacuum cleaner?</span></h2><p dir="ltr"><span>The frequency of cleaning or replacing your vacuum cleaner filter depends on several factors:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Usage:</strong><span>&nbsp;If you vacuum frequently or have a large household with pets, you may need to clean or replace the filter more often</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Filter Type:</strong><span>&nbsp;Different filter materials have varying lifespans. HEPA filters tend to last longer than foam or bagless filters</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Model:</strong><span><strong>&nbsp;</strong>Some vacuum models have indicators or warnings that signal when it's time to clean or replace the filter</span></p></li></ul><p dir="ltr"><span>As a general guideline:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Foam Filters:</strong><span>&nbsp;Clean every 3-6 months and replace every 6-12 months</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>HEPA Filters:</strong><span>&nbsp;Clean every 6-12 months and replace every 2-3 years</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Bagless Filters:</strong><span>&nbsp;Empty the dustbin regularly and replace the filter as needed, usually every 6-12 months</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>Can I wash the filter on my vacuum cleaner?</span></h2><p dir="ltr"><span>Washing your vacuum cleaner filter is an excellent way to extend its lifespan and maintain performance, but not all filters can be washed. It depends on the filter material and your vacuum model.</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>HEPA Filters:</strong><span>&nbsp;Usually cannot be washed and should be replaced when dirty.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Foam Filters:</strong><span>&nbsp;Typically washable; rinse under running water until clean and dry thoroughly before reinstallation.</span></p></li></ul><p dir="ltr"><span>Check your vacuum cleaner's manual or the filter itself for washing instructions, and always ensure the filter is completely dry before reusing it.</span></p><h2 class="contenthead" dir="ltr"><span>How do I know if the filter on my vacuum cleaner needs to be cleaned or replaced?</span></h2><p dir="ltr"><span>Maintaining optimal suction, performance and efficiency in your vacuum cleaner relies on keeping the filter in good condition. Here are some indicators that it's time to clean or replace your filter:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If you notice a decrease in suction power, it's a clear sign that your filter may be clogged with dirt and needs cleaning.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your vacuum is releasing dust or odours into the air, it's likely due to a dirty or worn-out filter.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Regularly inspect your filter for visible dirt buildup. If it's visibly dirty, it's time for maintenance.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Some vacuums come equipped with filter indicator lights that illuminate when it's time to clean or replace the filter. Refer to your vacuum's manual for guidance.</span></p></li></ul><p dir="ltr"><span>Don't wait for your vacuum cleaner to show signs of reduced performance. Regularly checking and maintaining your filter will help keep your vacuum running at its best.</span></p><h2 class="contenthead" dir="ltr"><span>Buy online with fast shipping</span></h2><p dir="ltr"><span>Statewide Appliance Spares is your one-stop shop for vacuum cleaner filters in Australia. With our easy-to-use website, you can browse our extensive selection of filters, choose the one that matches your vacuum model and brand, and have it delivered to your doorstep quickly. We understand the importance of prompt delivery, so you can enjoy a cleaner and healthier home in no time. Shop online with secure transactions and fast, Australia wide shipping options. Your spare parts are only a few clicks away!</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "filter",
+  },
+  {
+    "title": "Vacuum cleaner floor tools",
+    "tags": ["vacuum floor tool", "vacuum floor tools"],
+    "url": "/vacuum-cleaners/floor-tool-nozzle",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop our extensive range of vacuum floor tools for all the leading brands. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><h2 class="contenthead" dir="ltr"><span>How do I attach or detach the floor tool on my vacuum cleaner?</span></h2><p dir="ltr"><span>Attaching and detaching the floor tool on your vacuum cleaner is a straightforward process.</span></p><p dir="ltr"><strong>Attaching the Floor Tool</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Locate the Floor Tool Slot:</strong><span>&nbsp;Find the floor tool slot on your vacuum cleaner. It's typically at the end of the vacuum's hose or wand.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Align and Insert:</strong><span>&nbsp;Align the floor tool's fitting with the floor tool slot and gently push it in until it clicks or securely attaches.</span></p></li></ul><p dir="ltr"><strong>Detaching the Floor Tool</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Release Any Latches or Locks:</strong><span>&nbsp;Some vacuum cleaners have latches or locks that secure the floor tool in place. Find and release these mechanisms.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Twist and Pull:</strong><span>&nbsp;In some cases, you may need to twist the floor tool slightly to detach it. Once unlocked, pull the floor tool away from the vacuum.</span></p></li></ul><p dir="ltr"><span>Always refer to your vacuum cleaner's manual for model-specific instructions on attaching and detaching the floor tool.</span></p><h2 class="contenthead" dir="ltr"><span>How do I know which floor tool to use for different surfaces?</span></h2><p dir="ltr"><span>Selecting the right floor tool for different surfaces is crucial for efficient and effective cleaning. Here's a guide to help you choose the appropriate floor tool:</span></p><p dir="ltr"><strong>Carpeted Surfaces</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Turbo Brush:</strong><span>&nbsp;Ideal for low to medium-pile carpets. It has a rotating brush roll that agitates and lifts dirt from carpet fibres.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Power Brush:</strong><span>&nbsp;Designed for deep cleaning of high-pile or plush carpets. It has a motorised brush roll for thorough cleaning.</span></p></li></ul><p dir="ltr"><strong>Hardwood and Tile Floors</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Hard Floor Brush:</strong><span>&nbsp;Features soft bristles to prevent scratching and effectively picks up dust and debris on hard surfaces.</span></p></li></ul><p dir="ltr"><strong>Combination Tools</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Combination Floor Tool:</strong><span>&nbsp;Designed with retractable brushes, this tool is versatile for both carpets and hard floors. It's suitable for daily cleaning tasks.</span></p></li></ul><p dir="ltr"><strong>Other Tools</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Crevice Tool:</strong><span>&nbsp;Ideal for reaching tight corners, edges, and crevices.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Dusting Brush:</strong><span>&nbsp;Equipped with soft bristles for delicate surfaces, such as furniture and curtains.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Upholstery Tool:</strong><span>&nbsp;Designed for cleaning upholstered furniture and mattresses.</span></p></li></ul><p dir="ltr"><span>Choosing the right floor tool based on your specific floor type and cleaning needs will help you achieve optimal results and protect your surfaces.</span></p><h2 class="contenthead" dir="ltr"><span>Can I use the floor tool on my vacuum cleaner to clean furniture or other above-floor surfaces?</span></h2><p dir="ltr"><span>While it's primarily designed for floors, many floor tools are versatile enough to tackle other surfaces such as furniture, curtains, and more. Here's how to use the floor tool for above-floor cleaning:</span></p><p dir="ltr"><strong>Upholstered Furniture</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Attach the floor tool to the hose or wand extension and gently run it over the upholstery, using a gentle back-and-forth motion. Be sure to use the appropriate floor tool attachment, such as the upholstery tool or dusting brush, for the best results.</span></p></li></ul><p dir="ltr"><strong>Curtains and Drapes</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Use the floor tool with an extension wand to reach high-up curtains and drapes. The soft bristles on the tool can effectively remove dust and debris without causing damage.</span></p></li></ul><p dir="ltr"><strong>Shelves and Tabletops</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>For cleaning shelves, tabletops or other flat surfaces, attach the floor tool to the hose or wand extension and use it as a handheld tool. It's a convenient way to remove dust and dirt from various surfaces.</span></p></li></ul><p dir="ltr"><span>Remember to adjust the suction power on your vacuum cleaner as needed to prevent damage to delicate surfaces during above-floor cleaning.</span></p><h2 class="contenthead" dir="ltr"><span>How do I clean or maintain the floor tool on my vacuum cleaner?</span></h2><p dir="ltr"><span>Proper cleaning and maintenance of your vacuum cleaner floor tool are essential to ensure its longevity and effectiveness. Follow these steps for regular upkeep:</span></p><p dir="ltr"><strong>Step 1: Unplug and Disconnect</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Before performing any maintenance, ensure your vacuum cleaner is turned off and unplugged from the power source to prevent accidents.</span></p></li></ul><p dir="ltr"><strong>Step 2: Remove Debris</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Inspect the floor tool's brush roll and nozzle for any debris or tangled hair. Use scissors or a brush to gently remove any clogs or obstructions.</span></p></li></ul><p dir="ltr"><strong>Step 3: Wash the Floor Tool</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Some floor tools, especially hard floor brushes and combination tools, can be washed with warm, soapy water. Ensure the tool is completely dry before reattaching it to your vacuum cleaner.</span></p></li></ul><p dir="ltr"><strong>Step 4: Check for Wear</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Regularly inspect the floor tool for signs of wear, such as frayed bristles or loose fittings. Replace any worn or damaged parts promptly to maintain cleaning efficiency.</span></p></li></ul><p dir="ltr"><strong>Step 5: Store Properly</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Store your floor tool in a dry and clean location when not in use to prevent dust and dirt buildup.</span></p></li></ul><p dir="ltr"><span>By following these maintenance steps, you can ensure that your floor tool continues to perform at its best, prolonging its lifespan and maintaining efficient cleaning.</span></p><h2 class="contenthead" dir="ltr"><span>How do I know if the floor tool on my vacuum cleaner needs to be replaced?</span></h2><p dir="ltr"><span>Recognising when it's time to replace your vacuum cleaner floor tool is essential to maintain efficient and effective cleaning. Here are some indicators that your floor tool may need replacement:</span></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Check the floor tool for visible signs of wear, such as cracked or broken parts, frayed bristles, or a damaged nozzle.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>If your floor tool is no longer picking up dirt and debris effectively, it may indicate wear or damage.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>If the brush roll no longer rotates properly or is making unusual noises, it may be time for a replacement.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>If you've upgraded your vacuum cleaner or its attachments, ensure that the floor tool is compatible with your current vacuum model.</span></p></li></ul><p dir="ltr"><span>Regular maintenance and cleaning can extend the floor tool's lifespan, but when you notice any of these signs, it's a good indication that it's time for a replacement to maintain optimal suction and cleaning efficiency.</span></p><p dir="ltr"><span>Discover the convenience of online shopping with Statewide Appliance Spares. Our user-friendly website provides easy access to our extensive selection of vacuum cleaner floor tools. With our commitment to fast shipping, you can count on prompt delivery to your doorstep anywhere in Australia.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "floor-tool-nozzle",
+  },
+  {
+    "title": "Vacuum cleaner hoses",
+    "tags": ["vacuum cleaner hose", "vacuum cleaner hoses"],
+    "url": "/vacuum-cleaners/hose-pipe",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Enhance your vacuum's performance and ensure a healthier living environment with our range of vacuum cleaner hoses. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><p dir="ltr"><span>There are various types of vacuum cleaner hoses designed to suit different vacuum models, types, and brands. Understanding the right hose type for your vacuum is crucial for optimal performance. Here are some common types of vacuum cleaner hoses:</span></p><p dir="ltr"><strong>Flexible Hoses</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Standard Flexible Hoses:</strong><span>&nbsp;These hoses are versatile and compatible with a wide range of vacuum cleaners, making them suitable for everyday cleaning tasks.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Stretch Hoses:</strong><span>&nbsp;Stretch hoses are designed to extend and retract, providing extra reach without the need for extension wands.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Rigid Hoses:</strong><span>&nbsp;These hoses have a sturdy, non-collapsible construction, often used in industrial or heavy-duty vacuum cleaners.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Electric Hoses:</strong><span>&nbsp;Electric hoses are equipped with wires for power-driven brush rolls or accessories. They are commonly found in some upright or canister vacuum models.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Central Vacuum Hoses:</strong><span>&nbsp;Central vacuum systems have unique hoses designed for central vacuum installations in homes.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>High-Pressure Hoses:</strong><span>&nbsp;Used in specific applications where high-pressure suction is required.</span></p></li></ul><p dir="ltr"><span>When choosing a replacement hose for your vacuum cleaner, consider your vacuum's brand and model to ensure compatibility. Statewide Appliance Spares offers a wide selection of hoses for various vacuum types, so you can find the perfect fit for your cleaning needs</span></p><h2 class="contenthead" dir="ltr"><span>How do I attach or detach the hose on my vacuum cleaner?</span></h2><p dir="ltr"><span>Attaching and detaching the hose on your vacuum cleaner is a straightforward process, but it's essential to do it correctly for efficient cleaning.</span></p><p dir="ltr"><strong>Attaching the Hose</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Locate the Hose Port:</strong><span>&nbsp;Look for the hose port on your vacuum cleaner. It's typically located on the front or back of the machine.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Align and Insert:</strong><span>&nbsp;Align the hose's fitting with the hose port and gently push it in until you hear a click or feel it securely attach.</span></p></li></ul><p dir="ltr"><strong>Detaching the Hose</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Release Any Latches or Locks:</strong><span>&nbsp;Some vacuum cleaners have latches or locks that secure the hose in place. Find and release these mechanisms.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Twist and Pull:</strong><span>&nbsp;In some cases, you may need to twist the hose slightly to detach it. Once unlocked, pull the hose away from the hose port.</span></p></li></ul><p dir="ltr"><span>Remember to refer to your vacuum cleaner's manual for model-specific instructions on attaching and detaching the hose.</span></p><h2 class="contenthead" dir="ltr"><span>How do I fix a clogged hose on my vacuum cleaner?</span></h2><p dir="ltr"><span>A clogged hose can significantly impact your vacuum cleaners' suction, performance, and efficiency. Here's how to fix a clogged hose:</span></p><p dir="ltr"><strong>Step 1: Power Off and Unplug</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Ensure your vacuum cleaner is turned off and unplugged from the power source to prevent accidents.</span></p></li></ul><p dir="ltr"><strong>Step 2: Locate the Clog</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Determine where the clog is by inspecting the hose and any visible openings, like the hose port and nozzle attachments.</span></p></li></ul><p dir="ltr"><strong>Step 3: Remove the Clog</strong><span><br></span><span>There are several methods to remove a clog from your vacuum cleaner hose:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Use a Straightened Wire Hanger:</strong><span>&nbsp;Straighten a wire hanger and gently push it through the hose to dislodge the clog. Be careful not to damage the hose.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Use a Flexible Brush:</strong><span>&nbsp;A flexible brush with long bristles can help loosen and remove debris from the hose.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Use Compressed Air:</strong><span>&nbsp;If you have access to compressed air, use it to blow the clog out of the hose.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Reverse Suction:</strong><span>&nbsp;Some vacuum cleaners have a hose attachment that allows you to reverse the suction flow, which can help dislodge clogs.</span></p></li></ul><p dir="ltr"><strong>Step 4: Reattach the Hose</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Once the clog is removed, reattach the hose to your vacuum cleaner.</span></p></li></ul><p dir="ltr"><span>If you encounter persistent clogs or have difficulty removing one, it may be necessary to seek professional assistance.</span></p><h2 class="contenthead" dir="ltr"><span>Can I extend the length of the hose on my vacuum cleaner?</span></h2><p dir="ltr"><span>Extending the length of your vacuum cleaner hose can be a practical solution for reaching high or distant areas. However, it's essential to use compatible and safe methods to extend the hose:</span></p><p dir="ltr"><strong>Option 1: Extension Wands</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Extension wands are accessories designed to increase the reach of your vacuum cleaner. They can be attached to the hose or directly to the nozzle, allowing you to clean higher or farther places without compromising suction or airflow.</span></p></li></ul><p dir="ltr"><strong>Option 2: Hose Extensions</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Some vacuum cleaner models offer hose extension kits or additional hose segments that can be connected to the existing hose. These extensions are designed to maintain proper airflow and suction, ensuring efficient cleaning.</span></p></li></ul><p dir="ltr"><span>Before extending your hose, check your vacuum cleaner's compatibility with extension wands or hose extensions, and always follow the manufacturer's recommendations to maintain optimal performance.</span></p><h2 class="contenthead" dir="ltr"><span>How do I know if the hose on my vacuum cleaner needs to be replaced?</span></h2><p dir="ltr"><span>Recognising when it's time to replace your vacuum cleaner hose is essential to maintain efficient cleaning. Here are some indicators that your hose may need replacement:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Check the hose for visible signs of wear, such as cracks, holes, or splits.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your vacuum's suction has noticeably decreased, it may be due to a damaged or clogged hose.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your hose frequently becomes clogged, it could indicate wear or damage.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Inspect the hose ends for fraying or damage that may affect its ability to attach securely to the vacuum and accessories.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Over time, hoses can degrade due to regular use and exposure to dust and debris. If your vacuum is several years old, it may be time to consider a replacement.</span></p></li></ul><p dir="ltr"><span>Experience the convenience of online shopping with Statewide Appliance Spares. Our user-friendly website allows you to explore our extensive selection of vacuum hoses, ensuring you find the perfect fit for your vacuum cleaner brand and model. With our commitment to fast shipping, you can count on prompt delivery to your doorstep anywhere in Australia.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "hoses-pipes-tubing",
+  },
+  {
+    "title": "Bosch vacuum cleaner spare parts",
+    "tags": ["bosch vacuum cleaner", "bosch vacuum cleaners"],
+    "url": "/vacuum-cleaner/bosch",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your one-stop destination for all your <a href="https://www.statewideapp.com.au/bosch">Bosch</a> vacuum cleaner spare part needs. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><h2 class="contenthead" dir="ltr"><span>How do I choose the right spare parts for my Bosch vacuum cleaner?</span></h2><p dir="ltr"><span>Selecting the right spare parts for your Bosch vacuum cleaner is easy.</span></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>To find the right&nbsp;spare part for your Bosch vacuum cleaner, you will need your model number. If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Search on our website by brand and model number to find the correct replacement part.</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>How do I install or replace spare parts on my Bosch vacuum cleaner?</span></h2><p dir="ltr"><span>Replacing spare parts on your Bosch vacuum cleaner is a manageable task. Here are some general steps to guide you:</span></p><p dir="ltr"><strong>Safety first!</strong><span>&nbsp;Ensure the vacuum cleaner is unplugged and turned off before starting any repairs or replacements.</span></p><p dir="ltr"><strong>Refer to the user manual</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Consult your Bosch vacuum cleaner's user manual for specific instructions on replacing spare parts. It may include diagrams and step-by-step guidance.</span></p></li></ul><p dir="ltr"><strong>Gather necessary tools</strong></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><span>Collect the tools you'll need for the job, such as screwdrivers or pliers, to make the process smoother.</span></p></li></ul><p dir="ltr"><strong>Follow instructions</strong><br><span>If you're uncertain about any step, don't hesitate to contact a professional technician for guidance.</span></p><h2 class="contenthead" dir="ltr"><span>How do I know if I need to replace a spare part on my Bosch vacuum cleaner?</span></h2><p dir="ltr"><span>Recognising the signs that indicate the need for spare part replacement in your Bosch vacuum cleaner is crucial. Here are some common indications:</span></p><ul><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Loss of Suction:</strong><span>&nbsp;If your vacuum cleaner isn't picking up dirt and debris as effectively as before, it may be time to replace the filter or check for clogs in the hose.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Unusual Noises:</strong><span>&nbsp;Grinding or squealing noises can be a sign of a malfunctioning motor or brush roll.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Belt Wear and Tear:</strong><span>&nbsp;If the brush roll isn't spinning correctly, it might be due to a worn-out belt that needs replacement.</span></p></li><li aria-level="1" dir="ltr"><p role="presentation" dir="ltr"><strong>Visible Damage:</strong><span>&nbsp;Inspect the spare parts visually for any visible damage or wear.</span></p></li></ul><p dir="ltr"><span>Regular maintenance and prompt replacement of worn or damaged parts can extend the life of your Bosch vacuum cleaner and keep it running smoothly.</span></p><p dir="ltr">Statewide Appliance Spares offer an extensive range of Bosch vacuum cleaner&nbsp;<a href="https://www.statewideapp.com.au/vacuum-cleaner/bosch">parts</a>&nbsp;to cater to your every need. Whether you're looking for Bosch vacuum cleaner&nbsp;<a href="https://www.statewideapp.com.au/bosch/vacuum-cleaners/battery">batteries</a>,&nbsp;<a href="https://www.statewideapp.com.au/bosch/vacuum-cleaners/filter">filters</a>,&nbsp;<a href="https://www.statewideapp.com.au/bosch/vacuum-cleaners/hose-pipe-tubing">hoses</a>,&nbsp;<a href="https://www.statewideapp.com.au/bosch/vacuum-cleaners/floor-tool-nozzle">floor tools</a>&nbsp;or more, we've got you covered.</p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "bosch",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "",
+  },
+  {
+    "title": "Electrolux vacuum cleaner spare parts",
+    "tags": ["electrolux vacuum cleaner", "electrolux vacuum cleaner"],
+    "url": "/vacuum-cleaner/electrolux",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your one-stop destination for all your <a href="https://www.statewideapp.com.au/electrolux">Electrolux</a> vacuum cleaner spare part needs. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><p dir="ltr"><span>We understand the frustration of a malfunctioning vacuum cleaner, and that's why we're here to assist you in finding the right&nbsp;</span><a href="https://statewideapp.com.au/electrolux"><span>Electrolux</span></a><span>&nbsp;vacuum cleaner spare part to keep your vacuum running at its best.</span></p><h2 class="contenthead" dir="ltr"><span>Where can I find Electrolux vacuum cleaner spare parts?</span></h2><p dir="ltr"><span>Experience the convenience of online shopping with Statewide Appliance Spares. Our user-friendly website allows you to explore our extensive selection of Electrolux vacuum parts, ensuring you find the perfect fit for your vacuum cleaner brand and model.</span></p><h2 class="contenthead" dir="ltr"><span>How do I choose the right spare parts for my Electrolux vacuum cleaner?</span></h2><p dir="ltr"><span>Selecting the right spare parts for your Electrolux vacuum cleaner is easy.</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the right&nbsp;spare part for your Electrolux vacuum cleaner, you will need your model number. If unsure where to find your model number, check out our&nbsp;</span><a href="https://statewideapp.com.au/findyourmodel"><span>guide</span></a><span>.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct replacement part.</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>Why Choose Statewide Appliance Spares?</span></h2><p dir="ltr"><strong>Wide range of Electrolux vacuum parts</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>We stock an extensive selection of Electrolux vacuum cleaner spare parts to ensure you find exactly what you need.</span></p></li></ul><p dir="ltr"><strong>Quality assurance</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Our parts are genuine Electrolux products, ensuring durability and outstanding performance.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Buy with confidence - Statewide Appliance Spares is a nationally authorised spare parts distributor for Electrolux.</span></p></li></ul><p dir="ltr"><strong>Fast shipping across Australia</strong></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>We offer fast and reliable shipping across Australia, so you can get your spare parts delivered right to your doorstep.</span></p></li></ul><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "electrolux",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "",
+  },
+  {
+    "title": "Miele vacuum cleaner spare parts",
+    "tags": ["miele vacuum cleaner", "miele vacuum cleaner", "Miele vacuum", "miele vacuum cleaners"],
+    "url": "/vacuum-cleaner/miele",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">The biggest range of genuine Miele vacuum cleaner spares, ready for fast nationwide delivery. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><p dir="ltr"><span>Keep your Miele vacuum cleaner performing at its best with genuine Miele vacuum cleaner spares.</span></p><h2 class="contenthead" dir="ltr"><span>Where can I find Miele vacuum cleaner spare parts?</span></h2><p dir="ltr"><span>When it comes to sourcing Miele vacuum cleaner spare parts, convenience and reliability are key. At Statewide Appliances, we offer a wide range of genuine Miele vacuum cleaner parts, ensuring you have easy access to everything you need.</span></p><p dir="ltr"><strong>Miele Vacuum Filters:</strong><span>&nbsp;Maintain optimal air quality by replacing your vacuum's&nbsp;</span><a href="https://statewideapp.com.au/miele/vacuum-cleaners/filter"><span>filter</span></a><span>&nbsp;when needed.</span></p><p dir="ltr"><strong>Miele Vacuum Hoses:</strong><span>&nbsp;Restore suction power with a new&nbsp;</span><a href="https://statewideapp.com.au/miele/vacuum-cleaners/hose-pipe-tubing"><span>hose</span></a><span>&nbsp;if yours is damaged or clogged.</span></p><p dir="ltr"><strong>Miele Vacuum Motors:</strong><span>&nbsp;Replace a malfunctioning&nbsp;</span><a href="https://statewideapp.com.au/miele/vacuum-cleaners/motor-gearbox-shaft"><span>motor</span></a><span>&nbsp;to ensure your vacuum operates at peak performance.</span></p><p dir="ltr"><strong>Miele Vacuum Brush/Roller:</strong><span>&nbsp;Upgrade your vacuum's cleaning efficiency with a new&nbsp;</span><a href="https://statewideapp.com.au/miele/vacuum-cleaners/brush-roller"><span>brush/roller</span></a><span>.</span></p><p dir="ltr"><strong>Miele Vacuum Nozzles:</strong><span>&nbsp;Enhance your vacuum's versatility with a replacement&nbsp;</span><a href="https://statewideapp.com.au/miele/vacuum-cleaners/floor-tool-nozzle"><span>nozzle</span></a><span>.</span></p><p dir="ltr"><strong>Miele Vacuum Crevice Tools:</strong><span>&nbsp;Reach tight spaces effortlessly with a new&nbsp;</span><a href="https://statewideapp.com.au/miele/vacuum-cleaners/floor-tool-nozzle"><span>crevice tool</span></a><span>.</span></p><p dir="ltr"><strong>Miele Vacuum Dustbins:</strong><span>&nbsp;Keep your vacuum cleaner tidy by replacing a damaged or worn&nbsp;</span><a href="https://statewideapp.com.au/miele/vacuum-cleaners/dust-bin"><span>dustbin</span></a><span>.</span></p><p dir="ltr"><strong>Miele Vacuum Batteries:</strong><span>&nbsp;Extend your vacuum's runtime with a new&nbsp;</span><a href="https://statewideapp.com.au/miele/vacuum-cleaners/battery"><span>battery</span></a><span>.</span></p><p dir="ltr"><strong>Miele Vacuum Power Cords:</strong><span>&nbsp;Ensure a steady power supply with a replacement&nbsp;</span><a href="https://statewideapp.com.au/miele/vacuum-cleaners/cable-cord"><span>power cord</span></a><span>.</span></p><p dir="ltr"><strong>Miele Vacuum Extension Wands:</strong><span>&nbsp;Reach high or low areas with ease using an extension&nbsp;</span><a href="https://statewideapp.com.au/miele/vacuum-cleaners/wand-rod"><span>wand</span></a><span>.</span></p><p dir="ltr">Statewide Appliances offers Australia’s biggest range of appliance spare parts. With our wide range of genuine <a href="https://statewideapp.com.au/miele"><span>Miele</span></a><span>&nbsp;</span>parts, fast shipping and easy returns, we're here to help you keep your Miele vacuum cleaner performing at its best. Invest in genuine Miele vacuum parts today to ensure a clean and healthy living environment.</p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "",
+  },
+  {
+    "title": "Miele spare parts",
+    "tags": ["MIELE SGSK3", "SGSK3"],
+    "url": "/miele?ModelNoId=SGSK3",
+    "vendor": "miele",
+    "appliance_type": "",
+    "part_type": "",
+  },
+  {
+    "title": "Vacuum cleaner bags",
+    "tags": ["vacuum bag", "vacuum bags", "Dust bags", "Dust bag", "Paper bags", "Paper bag", "Dustbag", "Dustbags", "Vacuum cleaner bags", "Vacuum cleaner bags"],
+    "url": "/vacuum-cleaners/bag",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop our extensive range of vacuum cleaner bags at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Discover Australia’s most extensive range of vacuum parts and accessories, tailored for every floor care need. From versatile backpack and barrel vacuums to cutting-edge robotic models, we’ve got you covered. For over 38 years, Statewide Appliance Spares has been at the forefront of appliance spare parts, offering competitively priced solutions for leading brands like Electrolux, LG, Miele, Vax, and Volta.&nbsp;</p><h2 class="contenthead" dir="ltr"><span>What type of bag do I need for my vacuum cleaner?</span></h2><p dir="ltr"><span>The type of bag you need for your vacuum cleaner depends on the specific model and brand of your vacuum cleaner. Different vacuum cleaners utilise different types of bags and it's important to use the appropriate bag recommended by the manufacturer to ensure proper performance and compatibility.</span></p><p dir="ltr"><span>Here are a few common types of vacuum cleaner bags:</span></p><ol><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Paper Bags:</strong><span>&nbsp;These bags are made of paper material and are commonly used in many traditional upright and canister vacuum cleaners. They are generally disposable and should be replaced when full or when suction power decreases.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Cloth Bags:</strong><span>&nbsp;Some vacuum cleaners use cloth or fabric bags that can be washed and reused. These bags are typically more durable and environmentally friendly. They require regular cleaning to maintain their performance.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>HEPA Bags:</strong><span>&nbsp;High-Efficiency Particulate Air (HEPA) bags are designed to trap and contain fine particles, allergens, and pollutants, providing improved air filtration. They are often used in vacuum cleaners for people with allergies or asthma. HEPA bags are available in both paper and cloth varieties.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Bagless Systems:</strong><span>&nbsp;Some vacuum cleaners feature a bagless design, eliminating the need for disposable bags. These models use filters or collection containers that can be emptied and cleaned after use. However, it's important to clean and maintain the filters regularly for optimal performance.</span></p></li></ol><h2 class="contenthead" dir="ltr"><span>How do I change the bag in my vacuum cleaner?</span></h2><p dir="ltr"><span>The process of changing the bag in a vacuum cleaner can vary slightly depending on the specific model and brand. However, here are general steps to guide you through the process:</span></p><ol><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Ensure that you have a replacement bag that is compatible with your vacuum cleaner model. Refer to the manufacturer's instructions or user manual for the correct bag type and size.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Turn off and unplug your vacuum cleaner to ensure safety during the bag changing process.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Locate the Bag Compartment: Depending on the design of your vacuum cleaner, the bag compartment may be located on the front, rear, or side of the unit. Look for a latch, door, or release mechanism that provides access to the bag compartment.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Open the Bag Compartment. Use the latch, release button, or other mechanisms to open the bag compartment. This may involve lifting a cover, sliding a door, or removing a panel.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Once the bag compartment is open, carefully remove the full bag from the vacuum cleaner. Some models may have a bag retaining clip or strap to hold the bag in place, so release or unhook it if necessary.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If you're using disposable bags, seal the full bag and dispose of it properly according to your local waste disposal guidelines. If you have a reusable bag, empty its contents into a garbage bag or rubbish bin.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Take the new bag and prepare it according to the manufacturer's instructions. Some bags may require unfolding or attaching specific clips or adapters.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Insert the new bag into the bag compartment, ensuring it is properly aligned and fitted. Follow any specific instructions provided by the manufacturer.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Close and secure the bag compartment door, latch, or cover until it clicks or locks into place. Ensure that it is properly sealed to prevent dust and debris from escaping.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Take a moment to clean any debris or dust that may have accumulated around the bag compartment or in other accessible parts of the vacuum cleaner. This will help maintain the cleanliness and performance of the unit.</span></p></li></ol><h2 class="contenthead" dir="ltr"><span>Can I use a generic bag instead of the brand specific one?</span></h2><p dir="ltr"><span>It is generally recommended to use the vacuum bags suggested by the manufacturer.</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Brand-specific vacuum cleaner bags</strong><span>&nbsp;are designed to fit the specific dimensions and attachments of your vacuum cleaner model. Generic bags may not have the same fit, which can lead to issues such as improper sealing, reduced suction power, or even damage to the vacuum cleaner.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Vacuum cleaner bags play a crucial role in filtration and dust containment. Brand-specific bags are often designed to provide optimal filtration and dust retention, ensuring that the vacuum cleaner operates efficiently and effectively. Generic bags may not have the same level of filtration or dust containment capabilities, which can impact the cleaning performance and air quality.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Specific bags are typically manufactured to meet the quality standards and specifications set by the vacuum cleaner manufacturer. They undergo testing to ensure durability and reliability. Generic bags may vary in quality, and some may not be as durable or long-lasting, potentially leading to premature failure or the need for more frequent replacements.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Using non-brand-specific bags may void the warranty provided by the manufacturer. In case of any issues or malfunctions, the manufacturer may not provide support or cover any damages resulting from the use of generic bags.</span></p></li></ul><p dir="ltr"><span>Experience the Statewide advantage – the biggest range in Australia, fast delivery, lowest price guarantee and expert guidance from our local team. At Statewide Appliance Spares, we make buying spares easier!</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "bag",
+  },
+  {
+    "title": "Upright",
+    "url": "/upright",
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "",
+  },
+  {
+    "title": "Vacuum cleaner chargers",
+    "tags": ["vacuum charger", "vacuum chargers"],
+    "url": "/vacuum-cleaners/ac-adapter-charger",
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Philips AC Adapter/Charger",
+    "tags": ["philips charger"],
+    "url": "/philips/ac-adapter-charger",
+    "vendor": "philips",
+    "appliance_type": "",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Philips air fryer spare parts",
+    "tags": ["Philips Airfryer xxl", "Phillips air fryer", "philips airfryer", "philips air fryer", "philips airfryer", "Phillips air fryer", "philips air fryer"],
+    "url": "/philips/airfryers",
+    "vendor": "philips",
+    "appliance_type": "airfryers",
+    "part_type": "",
+  },
+
+  {
+    "title": "Other commercial unclassified brands spare parts",
+    "tags": ["Other floor care"],
+    "url": "/other-commercial-unclassified-brands",
+    "vendor": "other-commercial-unclassified-brands",
+    "appliance_type": "",
+    "part_type": ""
+  },
+
+  {
+    "title": "Philips air fryer spare parts",
+    "tags": ["hd 9630-21"],
+    "url": "/philips/airfryers?ModelNoId=HD9630/21",
+    "vendor": "philips",
+    "appliance_type": "airfryers",
+    "part_type": "",
+  },
+  {
+    "title": "Air fryer spare parts",
+    "tags": ["Air fryer"],
+    "url": "/airfryers",
+    "vendor": "",
+    "appliance_type": "airfryers",
+    "part_type": "",
+  },
+  {
+    "title": "Vacuum cleaner batteries",
+    "tags": ["vacuum battery", "vacuum batteries"],
+    "url": "/vacuum-cleaners/battery",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your vacuum cleaner running smoothly with our extensive range of vacuum cleaner batteries. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Get the power you need for your vacuum cleaner with genuine replacement batteries from Statewide Appliance Spares. We offer a comprehensive range of vacuum cleaner batteries for all major brands, ensuring your cleaning routine never misses a beat. At Statewide Appliance Spares, we understand the importance of a reliable vacuum cleaner battery. That's why we stock a wide selection of genuine replacement batteries to keep your vacuum running at its best.</p><h2 class="contenthead" dir="ltr"><span>How do I change the battery on my cordless vacuum cleaner?</span></h2><p dir="ltr"><span>Note that this process may vary depending on the model and brand of your vacuum cleaner.</span></p><p dir="ltr"><span>Make sure that the vacuum cleaner is turned off and unplugged from the power source to prevent any accidents or electrical shocks.</span></p><ol><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Identify the battery compartment on the vacuum cleaner. It is usually located near the handle or at the base of the unit.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Remove the Old Battery. Depending on the design, the battery may be held in place by a latch, clip, or screws. Follow the manufacturer's instructions to safely remove the old battery from the compartment. Use any necessary tools, such as a screwdriver, to loosen and remove screws if required.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Disconnect the Battery. If the battery has a connector or wiring, disconnect it from the vacuum cleaner. Take note of how the battery is connected before detaching it to ensure proper reconnection of the new battery.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Take the new battery that is compatible with your vacuum cleaner model and carefully insert it into the battery compartment. Ensure that it is properly aligned and fits securely.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If there are any connectors or wiring, reconnect them to the new battery as per the manufacturer's instructions. Double-check that the connections are secure and properly aligned.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If there were any latches, clips, or screws holding the battery in place, secure them back in position to ensure the battery remains fixed within the compartment.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>After installing the new battery, close the battery compartment securely. Turn on the vacuum cleaner and test its functionality to ensure that the new battery is working properly.</span></p></li></ol><h2 class="contenthead" dir="ltr"><span>How long does the battery last on my cordless vacuum cleaner?</span></h2><p dir="ltr"><span>The battery life of a cordless vacuum cleaner can vary depending on several factors, including the model, battery type, usage patterns, and the specific cleaning settings used. Here are some general guidelines:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Battery Type:</strong><span>&nbsp;Cordless vacuum cleaners typically use rechargeable lithium-ion batteries, which offer good performance and longer life compared to other battery types. Lithium-ion batteries can provide consistent power output throughout their use.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Run Time:</strong><span>&nbsp;The run time of a cordless vacuum cleaner refers to the duration it can operate on a single charge. Entry-level models may offer run times of around 15-30 minutes, while more advanced models can provide up to 60 minutes or even longer. However, it's important to note that higher power settings or using additional cleaning attachments can reduce the run time.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Battery Capacity:</strong><span>&nbsp;The battery capacity is measured in milliampere-hours (mAh) or watt-hours (Wh) and indicates the amount of charge the battery can hold. Higher-capacity batteries generally provide longer run times. Vacuum cleaner models with interchangeable or higher-capacity batteries may offer the flexibility to extend cleaning time by swapping batteries.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Charging Time:</strong><span>&nbsp;The time required to charge the battery fully also varies depending on the model and charger. Some cordless vacuum cleaners can be fully charged within a few hours, while others may take several hours. The charging time should be indicated in the user manual or provided by the manufacturer.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Cleaning Conditions:</strong><span>&nbsp;The battery life can be affected by the cleaning conditions and the type of surface being cleaned. Vacuuming thicker carpets or using higher power settings can consume more battery power and reduce the run time. Cleaning on lower power settings or on hard floors typically allows for longer battery life.</span></p></li></ul><p dir="ltr"><span>It's important to note that the battery life of cordless vacuum cleaners tends to decrease over time as the battery ages and undergoes regular charging cycles. Additionally, battery performance can vary between different vacuum cleaner models and brands.</span></p><p dir="ltr"><span>Don't let a drained battery slow down your cleaning efforts. Shop for genuine vacuum cleaner batteries at Statewide Appliance Spares today and experience the difference in quality and performance!</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "battery",
+  },
+  {
+    "title": "Battery",
+    "tags": ["Batteries", "Battery"],
+    "url": "/battery",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "battery",
+  },
+  {
+    "title": "LG spare parts",
+    "tags": ["LG battery"],
+    "url": "/lg/battery",
+    "vendor": "lg",
+    "appliance_type": "",
+    "part_type": "battery",
+  },
+  {
+    "title": "Philips shaver & trimmer spare parts",
+    "tags": ["Philips one blade", "Philips shaver", "one blade", "PHILLIPS SHAVER", "4222 036 32711"],
+    "url": "/philips/shavers-trimmers",
+    "vendor": "philips",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "",
+  },
+  {
+    "title": "Shaver & trimmer spare parts",
+    "url": "/shavers-trimmers",
+    "vendor": "",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "",
+  },
+  {
+    "title": "Personal care parts & accessories",
+    "url": "/personal-care",
+    "vendor": "",
+    "appliance_type": "personal-care",
+    "part_type": "",
+  },
+  {
+    "title": "Hair removal spare parts & accessories",
+    "url": "/hair-removal",
+    "vendor": "",
+    "appliance_type": "hair-removal",
+    "part_type": "",
+  },
+  {
+    "title": "Skin care spare parts",
+    "url": "/skin-care",
+    "vendor": "",
+    "appliance_type": "skin-care",
+    "part_type": "",
+  },
+  {
+    "title": "Philips Shaver & trimmer spare parts",
+    "tags": ["Philips shaver head", "Philips shaver heads"],
+    "url": "/philips/shavers-trimmers/blade-disc-head",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop for shaver & trimmer blades from Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Revitalise your grooming routine with Statewide Appliance Spares' selection of premium shaver and trimmer blades. When it comes to achieving a precise and smooth shave, quality blades are essential for optimal grooming results.&nbsp;</span></p><p dir="ltr"><span>At Statewide, we recognise the importance of sharp and reliable blades for your shaver and trimmer. That's why we offer a wide range of replacement blades designed to deliver a comfortable and effective grooming experience. Whether you need to replace worn-out blades or upgrade to achieve a closer shave, we have the perfect solution for you. Our comprehensive inventory includes blades for a variety of shaver and trimmer brands, ensuring compatibility with popular models such as </span><a href="https://www.statewideapp.com.au/philips/shavers-trimmers/blade-disc-head"><span>Philips</span></a><span> and </span><a href="https://www.statewideapp.com.au/panasonic/shavers-trimmers/blade-disc-head"><span>Panasonic</span></a><span>.&nbsp;</span></p><p dir="ltr"><span><p dir="ltr"><span>Finding the right blade for your shaver or trimmer is easy – browse our selection online. If you need assistance or have questions about compatibility, our knowledgeable team is here to help. Contact us at 1800 005 220, and we'll provide expert guidance to ensure you find the ideal blade for your specific shaver.</span></p><p dir="ltr"><span>With over 38 years of experience as Australia's leading distributor of appliance spare parts, we are committed to delivering exceptional quality and convenience. Our vast inventory ensures fast Australia-wide delivery, so you can achieve a smooth and precise shave without delay.</span></p><p dir="ltr"><span>Revamp your grooming routine with Statewide Appliance Spares' premium shaver and trimmer blades. Shop now and experience the difference in your grooming experience!</span></p><p>&nbsp;</p></div>`,
+    "vendor": "philips",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "blade-disc-head",
+  },
+  {
+    "title": "Shaver & trimmer blades",
+    "tags": ["Shaver blades", "Shaver blade"],
+    "url": "/shavers-trimmers/blade-disc-head",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop for shaver &amp; trimmer blades from Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Revitalise your grooming routine with Statewide Appliance Spares' selection of premium shaver and trimmer blades. When it comes to achieving a precise and smooth shave, quality blades are essential for optimal grooming results.&nbsp;</span><b></b></p><p dir="ltr"><span>At Statewide, we recognise the importance of sharp and reliable blades for your shaver and trimmer. That's why we offer a wide range of replacement blades designed to deliver a comfortable and effective grooming experience. Whether you need to replace worn-out blades or upgrade to achieve a closer shave, we have the perfect solution for you. Our comprehensive inventory includes blades for a variety of shaver and trimmer brands, ensuring compatibility with popular models such as </span><a href="https://www.statewideapp.com.au/philips/shavers-trimmers/blade-disc-head"><span>Philips</span></a><span> and </span><a href="https://www.statewideapp.com.au/panasonic/shavers-trimmers/blade-disc-head"><span>Panasonic</span></a><span>.&nbsp;</span></p><p dir="ltr"><span><p dir="ltr"><span>Finding the right blade for your shaver or trimmer is easy – browse our selection online. If you need assistance or have questions about compatibility, our knowledgeable team is here to help. Contact us at 1800 005 220, and we'll provide expert guidance to ensure you find the ideal blade for your specific shaver.</span><b></b></p><p dir="ltr"><span>With over 38 years of experience as Australia's leading distributor of appliance spare parts, we are committed to delivering exceptional quality and convenience. Our vast inventory ensures fast Australia-wide delivery, so you can achieve a smooth and precise shave without delay.</span></p><p dir="ltr"><span>Revamp your grooming routine with Statewide Appliance Spares' premium shaver and trimmer blades. Shop now and experience the difference in your grooming experience!</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "blade-disc-head",
+  },
+  {
+    "title": "Shaver & trimmer chargers",
+    "url": "/shavers-trimmers/acadapter/charger",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find your shaver & trimmer chargers at Statewide. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><span style="font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;">Statewide Appliance Spares is committed to making your spare parts buying experience as easy and convenient as possible. With genuine&nbsp;</span><a href="https://www.statewideapp.com.au/panasonic/shavers-trimmers/ac-adapter-charger" style="font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;">Panasonic</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;"> and </span><a href="https://www.statewideapp.com.au/philips/shavers-trimmers/ac-adapter-charger" style="font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;">Philips</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;"> shaver parts and competitive prices, we're here to help you keep your shaver &amp; trimmer performing at their best.</span></p><p>&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Shaver & trimmer docs",
+    "url": "/shavers-trimmers/dock/cradle",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find your shaver & trimmer docks at Statewide. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your go-to destination for all your shaver & trimmer parts. We offer competitively priced spares, backed by our lowest price guarantee.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "dock-cradle",
+  },
+  {
+    "title": "Panasonic shaver & trimmer spare parts",
+    "url": "/shavers-trimmers/panasonic",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Genuine Panasonic parts for your shaver & trimmer. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide Appliance Spares is pleased to offer a wide selection of genuine Panasonic Shaver &amp; Trimmer spare parts. Panasonic is renowned for its advanced precision tools, delivering exceptional performance and superior technology. From wet dry shavers to trimmers designed for hard-to-reach areas, Panasonic products are trusted worldwide for their innovation and reliability.</span></p><p dir="ltr"><span>We understand the importance of maintaining the performance and longevity of your Panasonic grooming devices. That's why we provide authentic Panasonic spare parts, ensuring that your shaver or trimmer continues to deliver the precise and comfortable grooming experience you expect.</span></p><p dir="ltr"><span>Find the perfect spare part for your Panasonic grooming device and maintain its exceptional performance.</span></p><p>&nbsp;</p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "",
+  },
+  {
+    "title": "Philips shaver & trimmer spare parts",
+    "url": "/shavers-trimmers/philips",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Genuine Philips parts for your shaver & trimmer. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Elevate your grooming experience with Statewide Appliance Spares' range of premium Philips shaver and trimmer spare parts. When it comes to achieving a precise and comfortable shave, trust in the renowned quality and innovation of Philips shavers.</span></p><p dir="ltr"><span>Philips shavers are designed to provide a smooth and efficient grooming experience, with advanced features such as precision blades, ergonomic designs, and powerful motors. Whether you need replacement blades, shaving heads, or trimmer attachments, Statewide offers a comprehensive selection to keep your Philips shaver or trimmer performing at its best.</span></p><p dir="ltr"><span>Finding the right spare part for your Philips shaver or trimmer is simple – explore our selection or refine your search using your shaver or trimmer’s model number. If you need assistance or have questions about compatibility, our knowledgeable team is here to help. Contact us at 1800 005 220, and we'll provide expert guidance to ensure you find the perfect spare part for your grooming needs.</span></p><p dir="ltr"><span>Experience the precision and comfort of Philips shavers with Statewide Appliance Spares' genuine spare parts. Shop now and enjoy a superior grooming experience!</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "philips",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "",
+  },
+  {
+    "title": "Television brackets",
+    "tags": ["TV Bracket", "TV Brackets", "Television brackets"],
+    "url": "/televisions/bracket-guiderail-wallmount",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Buy your television brackets and wall mounts from Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">At Statewide Appliance Spares, we're dedicated to helping you create the perfect viewing setup for your home. Discover our wide range of Television brackets and wall mounts, designed to enhance your space and elevate your TV experience.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": "bracket-guiderail-wallmount",
+  },
+  {
+    "title": "LG television spare parts",
+    "url": "/lg-tv-parts",
+    "vendor": "lg",
+    "appliance_type": "televisions",
+    "part_type": "",
+  },
+  {
+    "title": "Television Speaker/Microphone",
+    "tags": ["TV Bracket", "TV Brackets", "Television brackets", "TV speaker", "TV speakers"],
+    "url": "/televisions/speaker-microphone",
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": "speaker-microphone",
+  },
+  {
+    "title": "Television PCB's",
+    "tags": ["Television PCB"],
+    "url": "/televisions/pcb",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Discover the heart of your television's functionality with our extensive collection of TV PCB’s. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Buy your TV PCB’s from Statewide Appliance Spares.</span></p><p dir=\"ltr\"><h2 class=\"contenthead\">Quality you can trust</h2></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Our TV PCBs are sourced from reputable manufacturers, ensuring reliability and performance.</span></p></li></ul><p dir=\"ltr\"><h2 class=\"contenthead\">Expert guidance</h2></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Unsure which PCB is right for your TV model? Our knowledgeable team is here to assist you every step of the way.</span></p></li></ul><p dir=\"ltr\"><h2 class=\"contenthead\">Fast delivery across Australia</h2></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Get your TV back up and running in no time with our swift nationwide delivery.</span></p></li></ul><p dir=\"ltr\"><span>Explore our collection of TV PCB’s and bring new life to your television. Whether you're a DIY enthusiast or a professional repairer, Statewide Appliance Spares has the quality parts you need.</span></p><p dir=\"ltr\">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": "pcb",
+  },
+  {
+    "title": "Vacuum cleaner rollers",
+    "tags": ["Dusting brush", "Vacuum cleaner rollers"],
+    "url": "/vacuum-cleaners/brush-roller",
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "brush-roller",
+  },
+  {
+    "title": "Ducting",
+    "tags": ["ducting", "dryer vent"],
+    "url": "/ducting",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "ducting",
+  },
+  {
+    "title": "Hoover dryer spare parts",
+    "tags": ["hoover clothes dryer bearings"],
+    "url": "/hoover/dryers",
+    "vendor": "hoover",
+    "appliance_type": "dryers",
+    "part_type": "",
+  },
+  {
+    "title": "Dust Bin",
+    "tags": ["dustbin", "dustbins", "Dust Bin"],
+    "url": "/dust-bin",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "dust-bin",
+  },
+  {
+    "title": "HDD/ODD",
+    "tags": ["hard disk", "hard disks", "harddisk", "harddisks"],
+    "url": "/hdd-odd",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "hdd-odd",
+  },
+  {
+    "title": "Computer disk drives",
+    "tags": ["Computer disk drives"],
+    "url": "/computers/hdd/odd",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Computer disk drives. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our local warehouse is stocked with genuine parts alongside universal fitting and great value compatible options. We ensure our most sought-after parts are always available, delivering them to you swiftly with our fast Australia wide delivery.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "computers",
+    "part_type": "hdd-odd",
+  },
+  {
+    "title": "Fridge & freezer hinges",
+    "tags": ["fridge door hinge", "fridge door hinges", "harddisk", "harddisks"],
+    "url": "/fridges-freezers/hinge",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "hinge",
+  },
+  {
+    "title": "Top mounted freezer refrigerator spare parts",
+    "url": "/top-mount",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">A top mounted freezer refrigerator is the most common traditional refrigerator in the home. The bottom 2/3 of the appliance is actually a refrigerator, with temperatures suitable for fruits and vegetables, meat, cold drinks and leftovers. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">The top third of the appliance is a freezer, which is kept significantly colder than the lower refrigerator. Statewide specializes in supplying a wide range of spare parts for most major brands of top mount refrigerators including thermostats, door gaskets, water filters, shelves, globes, crisper bins, even replacement doors.<br><br>Keep your top mount refrigerator running as good as new for a fraction of the price of replacing it.</p></div>`,
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "",
+  },
+  {
+    "title": "Daikin spare parts",
+    "url": "/daikin/fan-blade",
+    "vendor": "daikin",
+    "appliance_type": "",
+    "part_type": "fan-blower",
+  },
+  {
+    "title": "Daikin spare parts",
+    "url": "/daikin/remote",
+    "vendor": "daikin",
+    "appliance_type": "",
+    "part_type": "remote-control",
+  },
+  {
+    "title": "Gasket/seal",
+    "tags": ["DOOR SEAL", "Boot Seal"],
+    "url": "/gasket-seal",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "seal"
+  },
+  {
+    "title": "Condenser/Evaporator",
+    "tags": ["Condenser", "Heat exchanger"],
+    "url": "/condenser-evaporator",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "condenser-evaporator"
+  },
+  {
+    "title": "Haier washing machine spare parts",
+    "tags": ["Haier washing machine", "haier washing machines"],
+    "url": "/haier-washing-machine-parts",
+    "vendor": "Haier",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Top load washing machine spare parts",
+    "url": "/top-load",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Top loading machines have been the standard washing machine in most Australian homes for the last 50 years. One hinged lid on the top of the washing machine body gives access to the washing tub and agitator. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Statewide specialises in supplying an extensive range of top load washing machine spare parts for many leading brands. Common spare parts include solenoid valves, lids, knobs and motors.</span></p><p dir=\"ltr\"><span>Shop genuine Samsung parts at Statewide.</span></p></div>",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung washing machine spare parts",
+    "tags": ["Samsung washing machine", "samsung washing machines"],
+    "url": "/samsung-washing-machine-parts",
+    "vendor": "samsung",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop our biggest range of Samsung washing machine spare parts at Statewide Appliance Spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>With a commitment to quality craftsmanship and customer satisfaction, Samsung washing machines embody excellence, providing users with unparalleled performance, durability, and style.</span></p><p dir=\"ltr\"><span>We understand the urgency of getting your Samsung washing machine back in working order. That's why we offer swift delivery services across Australia, so you can enjoy the convenience of quick repairs.</span></p><p dir=\"ltr\"><span>Shop genuine Samsung parts at Statewide.</span></p></div>",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Panasonic fridge & freezer spare parts",
+    "url": "/panasonic/fridges-freezers/thermostat-thermistor",
+    "vendor": "panasonic",
+    "appliance_type": "fridges-freezers",
+    "part_type": "sensor-thermistor-thermostat"
+  },
+  {
+    "title": "Panasonic air conditioner spare parts",
+    "url": "/panasonic/air-conditioners/remote-wall-control",
+    "vendor": "panasonic",
+    "appliance_type": "air-conditioners",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Panasonic air conditioner spare parts",
+    "url": "/panasonic/air-conditioners/compressor-parts",
+    "vendor": "panasonic",
+    "appliance_type": "air-conditioners",
+    "part_type": "compressor"
+  },
+  {
+    "title": "Air conditioner filter spare parts",
+    "url": "/air-conditioner/filter",
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "filter"
+  },
+  {
+    "title": "Blu Ray & DVD brackets",
+    "url": "/blu-ray-dvd/bracket-guiderail-wallmount",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Buy your Blu Ray / DVD brackets from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide understands the importance of a fully functioning Blu Ray / DVD, which is why we offer a huge range of spare parts including brackets, ready for fast shipping.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "bracket-guiderail-wallmount"
+  },
+  {
+    "title": "Blu Ray & DVD power cords",
+    "url": "/blu-ray-dvd/acadapter/charger",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Blu Ray / DVD power cords. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of Blu Ray / DVD cords and spare parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "ac-adapter-charger"
+  },
+  {
+    "title": "LG Blu Ray & DVD spare parts",
+    "url": "/lg/blu-ray-dvd",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for LG Blu Ray / DVD spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're committed to providing quality service and convenience. Our extensive inventory of LG parts ensures fast Australia-wide delivery, so you can quickly get your LG Blu Ray / DVD system back to its optimal performance.<br></p></div>`,
+    "vendor": "lg",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": ""
+  },
+  {
+    "title": "Panasonic Blu Ray & DVD spare parts",
+    "url": "/panasonic/blu-ray-dvd",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore Statewide Appliance Spares for the biggest range of Panasonic Blu Ray / DVD spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop now at Statewide Appliance Spares and experience the ease of finding all your Panasonic spare parts, speedy delivery, and unbeatable prices.<br></p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung Blu Ray & DVD spare parts",
+    "url": "/samsung/blu-ray-dvd",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Samsung Blu Ray / DVD spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance and advice to make buying spare parts easier.<br></p></div>`,
+    "vendor": "samsung",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": ""
+  },
+  {
+    "title": "Sharp Blu Ray & DVD spare parts",
+    "url": "/sharp/blu-ray-dvd",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore Statewide Appliance Spares for your Sharp Blu Ray / DVD spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Find all your Sharp Blu Ray / DVD spares at Statewide Appliance Spares. We have a big selection of Blu Ray / DVD spare parts, ensuring that you can maintain your equipment with ease. Experience the Statewide Appliance Spares difference – shop now!<br></p></div>`,
+    "vendor": "sharp",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": ""
+  },
+  {
+    "title": "Oral healthcare travel cases",
+    "url": "/oral-healthcare/travel-case",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find your oral healthcare travel cases at Statewide. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide Appliance Spares is your go-to destination for all your oral healthcare parts. We offer competitively priced spares, backed by our lowest price guarantee.</p></div>`,
+    "vendor": "",
+    "appliance_type": "oral-healthcare",
+    "part_type": "travel-case"
+  },
+  {
+    "title": "Panasonic oral healthcare spare parts",
+    "url": "/oral-healthcare/panasonic",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Genuine Panasonic parts for your oral healthcare. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide Appliance Spares is pleased to offer a wide selection of genuine Panasonic Oral healthcare spare parts. We understand the importance of maintaining the performance and longevity of your Panasonic oral health products. </span><span>That's why we provide authentic Panasonic spare parts, ensuring that your appliance continues to perform at its best.</span></p><p dir="ltr">With our extensively stocked warehouse, we ensure our most popular&nbsp;Panasonic oral health products and spare parts are always readily available and offer the convenience of fast, Australia wide delivery.<br></p><p>&nbsp;</p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "oral-healthcare",
+    "part_type": ""
+  },
+  {
+    "title": "Philips oral healthcare spare parts",
+    "url": "/oral-healthcare/philips",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Genuine Philips parts for your oral healthcare. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Philips is dedicated to improving oral health worldwide, offering advanced solutions for healthier smiles. From electric toothbrushes to interdental cleaners, Philips products are designed to make oral care easier and more effective. With a focus on innovation and quality, Philips continues to lead the way in oral healthcare technology. Statewide Appliance Spares offers a comprehensive selection of genuine Philips spare parts and accessories to keep your oral care routine efficient and effective.</p><p dir="ltr">Ensure the longevity and performance of your oral healthcare products with genuine Philips parts. Find the correct Philips parts to enhance the functionality and effectiveness of your Philips oral healthcare products. Experience the Philips difference with Statewide Appliance Spares.<br></p></div>`,
+    "vendor": "philips",
+    "appliance_type": "oral-healthcare",
+    "part_type": ""
+  },
+  {
+    "title": "Kelvinator air conditioner spare parts",
+    "url": "/kelvinator/air-conditioners/remote-wall-control",
+    "vendor": "kelvinator",
+    "appliance_type": "air-conditioners",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Kelvinator spare parts",
+    "url": "/kelvinator-spares",
+    "vendor": "kelvinator",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Kelvinator air conditioner spare parts",
+    "url": "/kelvinator-spares/air-conditioners",
+    "vendor": "kelvinator",
+    "appliance_type": "air-conditioners",
+    "part_type": ""
+  },
+  {
+    "title": "Kelvinator washing machine spare parts",
+    "url": "/kelvinator-spares/washing-machines",
+    "vendor": "kelvinator",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Kelvinator fridge & freezer spare parts",
+    "url": "/kelvinator/fridges-freezers/basket-parts",
+    "vendor": "kelvinator",
+    "appliance_type": "fridges-and-freezers",
+    "part_type": "basket-rack"
+  },
+  {
+    "title": "Kelvinator washing machine spare parts",
+    "url": "/kelvinator/washing-machines",
+    "vendor": "kelvinator",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Kelvinator fridge & freezer spare parts",
+    "url": "/kelvinator/fridges-and-freezers",
+    "vendor": "kelvinator",
+    "appliance_type": "fridges-and-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Kelvinator fridge & freezer spare parts",
+    "url": "/kelvinator/fridges-freezers/seal-gasket",
+    "vendor": "kelvinator",
+    "appliance_type": "fridges-freezers",
+    "part_type": "seal"
+  },
+  {
+    "title": "Garden & power tool blades",
+    "url": "/power-tools/blade-disc-head",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop for Garden and Power tool blades at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Finding the right part for your garden and power tools is easy – explore our selection or refine your search using your device's model number. If you need assistance or have questions about compatibility, our knowledgeable team is here to help. Contact us at 1800 005 220, and we'll provide expert guidance to ensure you find the ideal part for your needs.<br></p>",
+    "vendor": "",
+    "appliance_type": "power-tools",
+    "part_type": "blade-disc-head"
+  },
+  {
+    "title": "Milwaukee power tool spare parts",
+    "url": "/power-tools/milwaukee",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Your hub for Milwaukee power tool spare parts <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Step into the world of premier power tools with Milwaukee, a brand trusted by professional tradespeople and DIY enthusiasts alike. Since 1924, Milwaukee Tools has been synonymous with durability, technological innovation, and user-friendly design. Discover the unmatched performance and reliability that Milwaukee brings to every project.</span></p><p dir="ltr"><span>Not sure which Milwaukee part is right for your tool? Our knowledgeable team is here to help you find the exact spare part for your specific Milwaukee power tool model.</span></p><p dir="ltr"><span>Get your Milwaukee spare parts delivered swiftly and conveniently to your doorstep, anywhere in Australia. Don't let a broken tool slow you down – we'll get you back to work in no time!</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "milwaukee",
+    "appliance_type": "power-tools",
+    "part_type": ""
+  },
+  {
+    "title": "Homelite power tool spare parts",
+    "url": "/power-tools/homelite",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Genuine Homelite garden &amp; power tool spare parts at Statewide <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide Appliance Spares proudly offers a wide range of genuine Homelite power tool spare parts. For nearly seven decades, homeowners have trusted Homelite to deliver quality outdoor tools at unbeatable value. From mowers to hedge trimmers, generators to pressure washers, Homelite has everything you need to maintain your yard without breaking the bank.</span></p><p dir="ltr"><span>Shop genuine Homelite spare parts at Statewide. Our Homelite spare parts are competitively priced, ensuring you get the best value for your replacement parts.&nbsp;</span><span>&nbsp;</span><span>Get your Homelite spare parts delivered quickly and conveniently to your doorstep, no matter where you are in Australia.</span></p><p dir="ltr"><span>Discover the perfect spare part to keep your Homelite power tools in peak condition and ready to tackle any task.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "homelite",
+    "appliance_type": "power-tools",
+    "part_type": ""
+  },
+  {
+    "title": "Ryobi power tool spare parts",
+    "url": "/power-tools/ryobi",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Your hub for genuine Ryobi power tool spare parts <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Unlock the full potential of your projects with Ryobi power tools. Ryobi is a brand dedicated to empowering DIY enthusiasts and professionals alike with reliable, high-performance tools. Whether you're tackling a home improvement project or working on a professional job site, Ryobi tools offer the versatility, durability, and precision you need to get the job done right.</span></p><p dir="ltr"><span>At Statewide Appliance Spares, we are proud to offer a comprehensive range of Ryobi power tool spare parts. Our user-friendly website makes it easy to find the exact part you need for your Ryobi tool. With the biggest range of power tool spares in Australia, including Ryobi, we ensure you can quickly get back to work with minimal downtime. Our vast warehouse is stocked with a huge inventory ready for fast Australia-wide shipping, ensuring your projects stay on track.</span><b></b></p><p dir="ltr"><strong>Shop Ryobi power tool spare parts today</strong></p><p dir="ltr"><span>Don't let a broken tool slow you down. Trust Statewide Appliance Spares to provide you with genuine Ryobi power tool spare parts.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "ryobi",
+    "appliance_type": "power-tools",
+    "part_type": ""
+  },
+  {
+    "title": "Garden & power tool spare parts",
+    "url": "/power-tools",
+    "vendor": "",
+    "appliance_type": "power-tools",
+    "part_type": ""
+  },
+  {
+    "title": "Garden & power tool handles",
+    "url": "/power-tools/handle",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Get your new garden and power tool handles delivered quickly and conveniently to your doorstep, anywhere in Australia. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><span>Statewide Appliance Spares offers a wide selection of sturdy handles for both garden and power tools. Whether you're a weekend gardener or a professional tradesperson, we have the handles you need to tackle your projects with comfort and precision.&nbsp;</span></p><p dir=\"ltr\"><span>We carry handles for leading brands such as&nbsp;</span><span>&nbsp;</span><a href=\"https://www.statewideapp.com.au/aeg/power-tools\"><span>AEG</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/power-tools/homelite\"><span>Homelite</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/milwaukee/power-tools\"><span>Milwaukee</span></a><span>&nbsp;and&nbsp;</span><a href=\"https://www.statewideapp.com.au/ryobi/power-tools\"><span>Ryobi</span></a><span>. </span><span>No matter which brand of tools you use, we have the compatible handles to keep you working comfortably.</span></p><p dir=\"ltr\"><span>Get a grip on your projects. shop garden and power tool handles at Statewide Appliance Spares.</span></p><p dir=\"ltr\">&nbsp;</p>",
+    "vendor": "",
+    "appliance_type": "power-tools",
+    "part_type": "handle"
+  },
+  {
+    "title": "Garden & Power Tool motors",
+    "url": "/power-tools/motor-gearbox-shaft",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Discover our range of garden and power tool motors <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><span>We stock garden and power tool spare parts and motors from all the big brands including </span><a href=\"https://www.statewideapp.com.au/ryobi/power-tools/motor-gearbox-shaft\"><span>Ryobi</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/milwaukee/power-tools/motor-gearbox-shaft\"><span>Milwaukee,</span></a><span> </span><a href=\"https://www.statewideapp.com.au/homelite/power-tools/motor-gearbox-shaft\"><span>Homelite</span></a><span> and </span><a href=\"https://www.statewideapp.com.au/panasonic/power-tools/motor-gearbox-shaft\"><span>Panasonic</span></a><span>.&nbsp;</span></p><p dir=\"ltr\"><span>With our fast and easy online ordering process, you can find the right motor for your tools and have it delivered right to your doorstep. Don't let a worn-out motor slow you down. Power up your projects with confidence and shop garden and power tool motors at Statewide Appliance Spares today!</span></p><p dir=\"ltr\">&nbsp;</p>",
+    "vendor": "",
+    "appliance_type": "power-tools",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Garden & Power Tool regulators",
+    "url": "/power-tools/regulator",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop Garden &amp; Power tool regulators <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of Garden &amp; Power tool spare parts today.<br></p>",
+    "vendor": "",
+    "appliance_type": "power-tools",
+    "part_type": "regulator"
+  },
+  {
+    "title": "Garden & Power Tool switches",
+    "url": "/power-tools/switch-relay",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop our range of garden &amp; power tool switches. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">We offer fast delivery across Australia and New Zealand, ensuring you receive your spare parts promptly. With the lowest prices guaranteed and Australia's largest range of power tool and garden tool spare parts, you can trust us to have the most popular parts in stock and ready to ship. Shop with us today and experience the convenience of finding the right parts for your tools at unbeatable prices!<br></p>",
+    "vendor": "",
+    "appliance_type": "power-tools",
+    "part_type": "switch-relay"
+  },
+  {
+    "title": "Philips spare parts",
+    "url": "/philips/brush-nozzle-floor-tool",
+    "vendor": "philips",
+    "appliance_type": "",
+    "part_type": "brush-roller"
+  },
+  {
+    "title": "Philips shaver & trimmer spare parts",
+    "url": "/philips/shaver",
+    "vendor": "philips",
+    "appliance_type": "",
+    "part_type": "shavers-trimmers"
+  },
+  {
+    "title": "Oven & cooktop elements",
+    "url": "/ovens-cooktops/element-heater",
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Oven & cooktop globes",
+    "url": "/ovens-cooktops/globe",
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Oven & cooktop elements",
+    "url": "/ovens-cooktops/hinge",
+    "vendor": "",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "hinge"
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "url": "/fisher-paykel/basket-bin-crisper-drawer-rack-parts",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": "crisper-bin-drawer"
+  },
+  {
+    "title": "Fisher & Paykel fridge & freezer spare parts",
+    "url": "/fisher-paykel/fridges-freezers/crisper-drawer-parts",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridges-freezers",
+    "part_type": "crisper-bin-drawer"
+  },
+  {
+    "title": "Fridge & freezer drawers",
+    "url": "/fridges-freezers/crisper-drawer-parts",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "crisper-bin-drawer"
+  },
+  {
+    "title": "Fridge & freezer doors",
+    "url": "/fridges-freezers/door-handle-hinge-lid-parts",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Fridge & freezer globes",
+    "url": "/fridges-freezers/globe-bulb",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Fridge & freezer hinges",
+    "url": "/fridges-freezers/hinge-parts",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "hinge"
+  },
+  {
+    "title": "Fridge & freezer seals",
+    "url": "/fridges-freezers/seal-gasket",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "seal"
+  },
+  {
+    "title": "Fridge & freezer Thermostat/Thermistor",
+    "url": "/fridges-freezers/thermostat-thermistor",
+    "vendor": "",
+    "appliance_type": "fridges-freezers",
+    "part_type": "sensor-thermistor-thermostat"
+  },
+  {
+    "title": "Fisher & Paykel washer & dryer spare parts",
+    "url": "/fisher-paykel/washers-and-dryers",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washers-and-dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel fridge & freezer spare parts",
+    "url": "/fisher-paykel/fridges-freezers/hinge-parts",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridges-freezers",
+    "part_type": "hinge"
+  },
+  {
+    "title": "Fisher & Paykel fridge & freezer spare parts",
+    "url": "/fisher-paykel/fridges-freezers/seal-gasket",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridges-freezers",
+    "part_type": "seal"
+  },
+  {
+    "title": "Fisher & Paykel fridge & freezer spare parts",
+    "url": "/fisher-paykel/fridges-freezers/thermostat-thermistor",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridges-freezers",
+    "part_type": "sensor-thermistor-thermostat"
+  },
+  {
+    "title": "Fisher & Paykel fridge & freezer spare parts",
+    "url": "/fisher-paykel/fridges-freezers/water-filter",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridges-freezers",
+    "part_type": "water-filter"
+  },
+  {
+    "title": "Fisher & Paykel fridge & freezer spare parts",
+    "url": "/fisher-paykel/fridges-freezers/globe-bulb",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridges-freezers",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Fisher & Paykel dryer spare parts",
+    "url": "/fisher-paykel/dryers/door-latch-parts",
+    "vendor": "fisher-paykel",
+    "appliance_type": "dryers",
+    "part_type": "door-lid-latch"
+  },
+  {
+    "title": "Fisher & Paykel dryer spare parts",
+    "url": "/fisher-paykel/dryers/wall-mount-bracket",
+    "vendor": "fisher-paykel",
+    "appliance_type": "dryers",
+    "part_type": "bracket-guiderail-wallmount"
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "url": "/fisher-paykel/door-handle-hinge-lid-parts",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "url": "/fisher-paykel/burner-gas-parts",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": "burner-gas"
+  },
+  {
+    "title": "Fisher & Paykel dishwasher spare parts",
+    "url": "/fisher-paykel/dishwashers/cutlery-basket",
+    "vendor": "fisher-paykel",
+    "appliance_type": "dishwashers",
+    "part_type": "cutlery-baskets"
+  },
+  {
+    "title": "Fisher & Paykel dishwasher spare parts",
+    "url": "/fisher-paykel/dishwashers/hose",
+    "vendor": "fisher-paykel",
+    "appliance_type": "dishwashers",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Fisher & Paykel dishwasher spare parts",
+    "url": "/fisher-paykel/dishwashers/roller-wheel",
+    "vendor": "fisher-paykel",
+    "appliance_type": "dishwashers",
+    "part_type": "wheel"
+  },
+  {
+    "title": "Fisher & Paykel dishwasher spare parts",
+    "url": "/fisher-paykel/dishwashers/basket-rack-parts",
+    "vendor": "fisher-paykel",
+    "appliance_type": "dishwashers",
+    "part_type": "basket-rack"
+  },
+  {
+    "title": "Air conditioner spare parts",
+    "url": "/air-conditioners/pcb-control-box",
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "pcb"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machines/agitator",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "agitator"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machines/drum-parts",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "drum"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machines/hose",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machines/lint-filter",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Buy your washing machine filters at Statewide Appliance Spares, with speedy delivery and the lowest prices guaranteed. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares offer filters for your washing machine. To find the filter for your washing machine, locate your washing machine <a href="https://www.statewideapp.com.au/findyourmodel">model number</a> first. Need assistance? Call our dedicated customer service team on free call 1800 005 220. Just like your other home appliances, your washing machine needs care and attention to operate efficiently. To clean your removable lint filter: 1. First, you will need to locate the filter and remove it. It can usually be located in the front of the washer behind a small hatch. If unsure, check your owner’s manual. 2. Next, remove the filter and soak it in hot water with a few drops of liquid dishwashing detergent. This will help to loosen trapped dirt and residue. 3. Clean the areas where the filter is housed using a small brush and paper towel. You can even use a toothbrush to reach tiny crevices. 4. Thoroughly rinse and dry your soaked filter before replacing it in its housing. Some signs your lint filter needs cleaning include lint deposits on your clothes, the washing machine not draining, and the drum not spinning. It is important to clean your filter regularly. If you see signs of wear and tear or damage on your filter, you should replace it. Find your replacement filter <a href="https://www.statewideapp.com.au/washing-machines/lint-filter">here</a>. Buy your washing machine filter and washing machine <a href="https://www.statewideapp.com.au/washers-dryers">spare parts</a> at Statewide Appliance Spares with fast Australia-wide delivery.</p></div>`,
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "lint-filter"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machines/motor-gearbox-shaft",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machines/pump",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "pump"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machines/seal-gasket",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "seal"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machine/agitator",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "agitator"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machine/hose",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machine/lint-filter",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "lint-filter"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machine/motor-gearbox-shaft",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machine/pump",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "pump"
+  },
+  {
+    "title": "Washing machine spare parts",
+    "url": "/washing-machine/pump",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find all your washing machine pump replacement parts easily at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><h2 class="contenthead" dir="ltr"><strong>How to test your washing machine pump</strong></h2><p dir="ltr"><span>Step 1:&nbsp;&nbsp;&nbsp; You will need a few towels and a bucket for this task. You will find a service hatch at the bottom of your machine on the front panel. Look for an emergency drain hose. Place your towels underneath and pinch the hose while you remove the plug from the end. Water will start to rush out so have your bucket ready. You may need a few buckets on hand until all the water is cleared.</span></p><p dir="ltr"><span>Step 2:&nbsp;&nbsp;&nbsp; Now that the machine is fully drained, you can inspect your pump. Put on some rubber gloves and inspect the pump for any obstructions. Remove any obstructions. If there is a filter, this is a good time to remove and clean it under running water. Using a damp cloth give the interior a clean. Wipe the cap clean and reattach filter, hose and lid.</span></p><h2 class="contenthead" dir="ltr"><strong>How to replace the washing machine pump</strong></h2><p dir="ltr"><span>Safety first! Unplug your washing machine from the power source before attempting any repairs or maintenance.</span></p><p dir="ltr"><span><strong>Step 1:</strong> Drain the water<br>You will find a service hatch at the bottom of your machine on the front panel. Look for an emergency drain hose. Place your towels underneath and pinch the hose while you remove the plug from the end. Water will start to rush out so have your bucket ready.</span></p><p dir="ltr"><span><strong>Step 2:</strong> Remove the panels<br>Using a screwdriver, remove the top and back panels. Carefully put the appliance on its side. Do seek some help when moving your washer.</span></p><p dir="ltr"><span><strong>Step 3:</strong> Remove the old pump<br>You will need to disconnect the wires and remove the hose and clamp. With the help of pliers, lower the clamp so that the drain hose moves away from the pump.</span></p><p dir="ltr"><span><strong>Step 4:</strong> Fit the pump<br>Lastly you will need to fit the replacement pump following the steps above.</span></p><p dir="ltr"><span>With over 38 years of experience, Statewide Appliance Spares leads the market in appliance spare parts. Count on our dedicated customer service team for expert guidance and advice, making your spare parts shopping experience a breeze.</span></p><p>&nbsp;</p></p></div>`,
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "pump"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machine/seal-gasket",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "seal"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-paykel/washing-machine/drum-parts",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": "drum"
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-and-paykel/washing-machines",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel washing machine spare parts",
+    "url": "/fisher-and-paykel/washing-machine",
+    "vendor": "fisher-paykel",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung air conditioner spare parts",
+    "url": "/samsung/air-conditioners/motor-gearbox-shaft",
+    "vendor": "samsung",
+    "appliance_type": "air-conditioners",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Samsung air conditioner spare parts",
+    "url": "/samsung/air-conditioners/remote-wall-control",
+    "vendor": "samsung",
+    "appliance_type": "air-conditioners",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Samsung air conditioner spare parts",
+    "url": "/samsung/air-conditioners/pcb-control-box",
+    "vendor": "samsung",
+    "appliance_type": "air-conditioners",
+    "part_type": "pcb"
+  },
+  {
+    "title": "Samsung television spare parts",
+    "url": "/samsung/televisions/stand-parts",
+    "vendor": "samsung",
+    "appliance_type": "televisions",
+    "part_type": "stand"
+  },
+  {
+    "title": "Samsung dishwasher spare parts",
+    "url": "/samsung/dishwashers/cutlery-basket",
+    "vendor": "samsung",
+    "appliance_type": "dishwashers",
+    "part_type": "cutlery-basket"
+  },
+  {
+    "title": "Samsung dishwasher spare parts",
+    "url": "/samsung/dishwashers/gasket-seal",
+    "vendor": "samsung",
+    "appliance_type": "dishwashers",
+    "part_type": "gasket-seal"
+  },
+  {
+    "title": "Dishwasher seals",
+    "tags": ["Dishwasher seals", "Dishwasher seal"],
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Elevate the efficiency of your dishwasher with high quality seals and gaskets from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>One of the most common causes of dishwasher leaks is a faulty door seal. Simply open your dishwasher door and check the door seal. If you see tears, cracks or damage, it’s a good sign that your door seal (also called a gasket) needs replacing.</span><b></b></p><p dir="ltr"><span>To find the right replacement seal for your dishwasher, first locate your dishwasher model number. Most manufacturers will place the model number either on the inner side of the dishwasher door or along the inner base of the dishwasher. </span><span>&nbsp;Then, search our website by brand and model number to find the correct replacement part hassle-free.</span><b></b></p><p dir="ltr"><span>Experience the Statewide advantage – the biggest range in Australia, fast delivery, lowest price guarantee and expert guidance from our local team. At Statewide Appliance Spares, we make buying spares easier!</span></p></div>`,
+    "url": "/dishwashers/gasket/seal",
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "gasket-seal"
+  },
+  {
+    "title": "Samsung dishwasher spare parts",
+    "url": "/samsung/dishwashers/hose-pipe-tubing",
+    "vendor": "samsung",
+    "appliance_type": "dishwashers",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Samsung dishwasher parts",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Samsung. Inspire the world, create the future. We ensure our most popular dishwasher spare parts are always in stock – including hoses, cutlery baskets, rollers and replacement trays. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Shop securely online with 24/7 convenience – just refine your search for your Samsung Dishwashers below. Buy your Samsung Dishwashers spare parts from Statewide Appliance Spares.</span><b></b></p><p dir="ltr"><span>To find the right replacement seal for your dishwasher, first locate your dishwasher model number. Most manufacturers will place the model number either on the inner side of the dishwasher door or along the inner base of the dishwasher. </span><span>&nbsp;Then, search our website by brand and model number to find the correct replacement part hassle-free.</span><b></b></p><p dir="ltr"><span>Experience the Statewide advantage – the biggest range in Australia, fast delivery, lowest price guarantee and expert guidance from our local team. At Statewide Appliance Spares, we make buying spares easier!</span></p></div>`,
+    "url": "/samsung-dishwasher-parts",
+    "vendor": "samsung",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Panasonic washing machine spare parts",
+    "url": "/panasonic/washing-machines/lint-filter",
+    "vendor": "panasonic",
+    "appliance_type": "washing-machine",
+    "part_type": "lint-filter"
+  },
+  {
+    "title": "Panasonic washing machine spare parts",
+    "url": "/panasonic/washing-machines/pump",
+    "vendor": "panasonic",
+    "appliance_type": "washing-machine",
+    "part_type": "pump"
+  },
+  {
+    "title": "Baumatic washing machine spare parts",
+    "tags": ["Baumatic washing machine"],
+    "url": "/baumatic/washing-machines",
+    "vendor": "baumatic",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Beko washing machine spare parts",
+    "tags": ["Beko washing machine"],
+    "url": "/beko/washing-machines",
+    "vendor": "beko",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Miele spare parts",
+    "url": "/miele/refrigerator",
+    "vendor": "miele",
+    "appliance_type": "refrigerator",
+    "part_type": ""
+  },
+  {
+    "title": "AEG power tool spare parts",
+    "url": "/power-tools/aeg",
+    "top_description": "<p dir=\"ltr\"><span>Genuine AEG power tool spare parts at Statewide</span><span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><span>At Statewide Appliance Spares, we understand the demands of heavy-duty applications. That's why we proudly offer a comprehensive selection of genuine AEG power tool spare parts. AEG power tools are renowned for their rugged durability and superior performance, making them the go-to choice for professionals and DIY enthusiasts alike.</span></p><p dir=\"ltr\">Shop with confidence knowing that our AEG spare parts are competitively priced and backed by our lowest price guarantee. Get the best value for your money at Statewide Appliance Spares.&nbsp;&nbsp;Shop AEG Power Tool Parts at Statewide Appliance Spares.<br></p>",
+    "vendor": "aeg",
+    "appliance_type": "power-tools",
+    "part_type": ""
+  },
+  {
+    "title": "AEG power tool spare parts",
+    "url": "/aeg-power-tools",
+    "vendor": "aeg",
+    "appliance_type": "power-tools",
+    "part_type": ""
+  },
+  {
+    "title": "AEG washing machine spare parts",
+    "url": "/aeg/washing-machines",
+    "vendor": "aeg",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Garden & Power Tool batteries",
+    "url": "/power-tools/battery",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8">Power up your tools with batteries and spare parts at Statewide Appliance Spares <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<p dir="ltr"><span>Statewide Appliance Spares is your ultimate destination for batteries for both garden and power tools. Whether you're a dedicated DIY enthusiast or a professional tradesperson, we have the battery you need to keep your projects running smoothly.</span><b></b></p><h2 class="contenthead" dir="ltr">Why Choose Statewide Appliance Spares for Your Batteries?</h2><p dir="ltr"><strong>Genuine Quality:</strong><span> We understand the importance of reliable power for your tools, whether you're trimming hedges or drilling into tough materials. That's why we stock only genuine, high quality batteries to ensure optimal performance and longevity.</span></p><p dir="ltr"><strong>Wide Range of Brands:</strong><span> From </span><a href="https://www.statewideapp.com.au/ryobi/power-tools/battery"><span>Ryobi</span></a><span> to </span><a href="https://www.statewideapp.com.au/aeg/power-tools/battery"><span>AEG</span></a><span>, we carry batteries for all major garden and power tool brands. Find the perfect match for your equipment with ease.</span></p><p dir="ltr"><strong>Expert Advice:</strong><span> Not sure which battery is right for your tool? Our knowledgeable team is here to provide guidance and assistance, ensuring you get the right battery for your specific needs.</span></p><p dir="ltr"><strong>Fast Nationwide Delivery:</strong><span> Get your new garden and power tool batteries delivered quickly and conveniently to your doorstep, anywhere in Australia.</span></p><p dir="ltr"><span>Discover the perfect battery to power up your tools and tackle your projects with confidence.</span></p><p>&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "power-tools",
+    "part_type": "battery"
+  },
+  {
+    "title": "Garden & Power Tool pads",
+    "url": "/power-tools/pads",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop our range of sander and polisher pads. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><span>Experience hassle-free shopping with our secure online platform, accessible 24/7, or reach out to our dedicated customer care team at Free Call 1800 005 220 for expert guidance and personalised assistance.</span></p><p dir=\"ltr\"><span>We offer fast delivery across Australia and New Zealand, ensuring you receive your spare parts promptly. With the lowest prices guaranteed and Australia's largest range of power tool and garden tool spare parts, you can trust us to have the most popular parts in stock and ready to ship. Shop with us today and experience the convenience of finding the right parts for your tools at unbeatable prices!</span></p><p dir=\"ltr\">&nbsp;</p>",
+    "vendor": "",
+    "appliance_type": "power-tools",
+    "part_type": "pads"
+  },
+  {
+    "title": "Panasonic power tool spare parts",
+    "url": "/power-tools/panasonic",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Your hub for Panasonic power tool spare parts <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8">At Statewide Appliance Spares, we pride ourselves on offering the biggest range of garden and power tool spares in Australia for all the major brands, including Panasonic. With a vast warehouse stocked with a comprehensive inventory, we ensure fast Australia-wide shipping, so you can get your Panasonic power tool back up and running in no time. Our experienced team is always on hand to answer questions, offer guidance, and provide expert advice to ensure you find the right spare part for your needs.</p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "power-tools",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel rangehood spare parts",
+    "url": "/fisher-and-paykel/rangehood",
+    "vendor": "fisher-paykel",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Rangehood spare parts",
+    "url": "/rangehood",
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel fridge & freezer spare parts",
+    "url": "/fisher-and-paykel/fridges-freezers/water-filter",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridges-and-freezers",
+    "part_type": "water-filter"
+  },
+  {
+    "title": "Fridge & freezer spare parts",
+    "url": "/bottom-mount",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares have Australia’s biggest range of fridge and freezer spare parts and accessories for leading brands Electrolux, Fisher Paykel, Kelvinator, LG, Westinghouse, Samsung and more. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><p dir="ltr"><p dir="ltr"><meta charset="utf-8"><span>We ensure our most popular fridge and freezer spare parts are always in stock – including&nbsp;</span><a href="https://oldsite.statewideapp.com.au/fridges-freezers/thermostat-thermistor">thermostats</a><span>,&nbsp;</span><a href="https://oldsite.statewideapp.com.au/fridges-freezers/seal-gasket">door gaskets</a><span>,&nbsp;</span><a href="https://oldsite.statewideapp.com.au/fridges-freezers/shelf-rack">shelves</a><span>,&nbsp;</span><a href="https://oldsite.statewideapp.com.au/fridges-freezers/globe-bulb">globes</a><span>,&nbsp;</span><a href="https://oldsite.statewideapp.com.au/fridges-freezers/pcb">PCB’s</a><span>,&nbsp;</span><a href="https://oldsite.statewideapp.com.au/fridges-freezers/hinge-parts">hinges</a><span>&nbsp;and&nbsp;</span><a href="https://oldsite.statewideapp.com.au/fridges-freezers/crisper-drawer-parts">drawers</a><span>.</span><br><br><span>Statewide Appliance Spares are a market leader in appliance spare parts for over 35 years. Our extensively stocked warehouse includes genuine parts and a large range of universal fitting and great value compatible non-genuine and generic spare parts. We make buying spare parts easier, with fast Australia wide delivery and competitive prices.</span><span></span></p><p dir="ltr"><span><meta charset="utf-8">Need&nbsp;<a href="https://oldsite.statewideapp.com.au/ariston/fridges-freezers">Ariston fridge parts</a>? We ensure are most popular Ariston parts are always in stock with fast Australia wide delivery.<br><br>Looking for&nbsp;<a href="https://oldsite.statewideapp.com.au/bosch/fridges-freezers">Bosch fridge parts</a>? Find the spare part for your Bosch refrigerator at Statewide.<br><br>Shop for&nbsp;<a href="https://oldsite.statewideapp.com.au/electrolux/fridges-freezers">Electrolux fridge parts</a>&nbsp;at Statewide. We ensure our most popular Electrolux fridge and freezer spare parts are always in stock, with Australia wide delivery.<br><br>Shop Australia’s biggest collection of&nbsp;<a href="https://oldsite.statewideapp.com.au/fisher-and-paykel/fridges-and-freezers">Fisher Paykel fridge spares</a>&nbsp;here.<br><br>Looking for&nbsp;<a href="https://oldsite.statewideapp.com.au/kelvinator/fridges-freezers">Kelvinator fridge parts</a>? Statewide have the spare parts you need to get your fridge back in working order.<br><br>Australia’s biggest range of&nbsp;<a href="https://oldsite.statewideapp.com.au/lg/fridges-freezers">LG fridge parts</a>&nbsp;are here at Statewide. We offer the spare part you need, with competitive pricing and fast, Australia wide delivery.<br><br>Shop for&nbsp;<a href="https://oldsite.statewideapp.com.au/westinghouse/fridges-freezers">Westinghouse LG fridge parts</a>&nbsp;here. Statewide are market leaders in appliance spare parts for more than 35 years.<br><br>Find all your&nbsp;<a href="https://oldsite.statewideapp.com.au/whirlpool/fridges-freezers">Whirlpool fridge parts</a>&nbsp;at Statewide.</span></p></p></div>`,
+    "vendor": "",
+    "appliance_type": "fridges-and-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Nilfisk vacuum cleaner spare parts",
+    "url": "/vacuum-cleaner/nilfisk",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Genuine Nilfisk vacuum cleaner spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><p dir="ltr"><span>Nilfisk stands as a leading name in premium consumer cleaning products, offering a wide range of high-quality solutions including high pressure washers, wet &amp; dry vacuums, and vacuum cleaners. Nilfisk’s range of commercial vacuum cleaners provides cleaning professionals with the right solution for every task.&nbsp;</span></p><h2 class="contenthead" dir="ltr"><span>Choose Statewide for your Nilfisk vacuum cleaner spares</span></h2><p dir="ltr"><span>Experience quick and reliable delivery services across Australia. No matter where you are, we ensure your Nilfisk vacuum cleaner parts reach you promptly, so you can get back to cleaning with ease.</span></p><p dir="ltr"><span>Need help finding the right Nilfisk spare part for your vacuum cleaner? Our local team is on hand and ready to help! Get in touch – Free Call 1800 005 220.</span></p><h2 class="contenthead" dir="ltr"><span>Buy genuine Nilfisk spare parts online</span></h2><p dir="ltr"><span>Genuine Nilfisk spare parts are designed to meet the brand's high standards, ensuring optimal performance, suction power, and durability for your vacuum. Don't compromise – choose genuine Nilfisk spare parts from Statewide Appliance Spares for reliable cleaning power.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "nilfisk",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Mitsubishi Electric",
+    "url": "/mitsubishi-electric/fridges-freezers/crisper-drawer-parts",
+    "vendor": "mitsubishi-electric",
+    "appliance_type": "fridges-freezers",
+    "part_type": "crisper-bin-drawer"
+  },
+  {
+    "title": "TV mounting brackets",
+    "url": "/mounting-brackets-tv",
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": "bracket-guiderail-wallmount"
+  },
+  {
+    "title": "Mitsubishi Electric",
+    "url": "/mitsubishi-electric/fridges-freezers/globe-bulb",
+    "vendor": "mitsubishi-electric",
+    "appliance_type": "fridges-freezers",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Mitsubishi Electric",
+    "tags": ["Mitsubishi remote for air conditioner"],
+    "url": "/mitsubishi-electric/air-conditioner/remote-control",
+    "vendor": "mitsubishi-electric",
+    "appliance_type": "air-conditioners",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Mitsubishi Electric air conditioner spare parts",
+    "url": "/mitsubishi-electric/air-conditioners/remote-wall-control",
+    "vendor": "mitsubishi-electric",
+    "appliance_type": "air-conditioners",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Mitsubishi Electric fridge & freezer spare parts",
+    "url": "/mitsubishi-electric/fridges-freezers/water-filter",
+    "vendor": "mitsubishi-electric",
+    "appliance_type": "fridges-freezers",
+    "part_type": "water-filter"
+  },
+  {
+    "title": "Speed television spare parts",
+    "url": "/speed/televisions/wall-mount-bracket",
+    "vendor": "speed",
+    "appliance_type": "televisions",
+    "part_type": "bracket-guiderail-wallmount"
+  },
+  {
+    "title": "Tennant vacuum cleaner spare parts",
+    "url": "/vacuum-cleaner/tennant",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find your genuine Tennant vacuum cleaner spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><p dir="ltr"><span>Tennant offers a comprehensive range of upright, backpack, and canister vacuum cleaners, enabling efficient cleaning in nearly any setting. With options ranging from heavy-duty to lightweight, single motor to dual motor, wet-dry to wide-area vacuum cleaners, Tennant ensures durability and versatility. With a vision aimed at becoming a global leader in sustainable cleaning innovation, Tennant empowers customers to revolutionise the way they clean.&nbsp;</span></p><p dir="ltr"><span>Statewide Appliance Spares is your destination for Tennant vacuum cleaner spare parts. We offer a comprehensive range of genuine Tennant parts to ensure your vacuum cleaner remains in top condition.&nbsp; Finding the right Tennant spare part is simple – just refine your search using your vacuum cleaner’s model number. If you require assistance or can't locate the part you're looking for, our knowledgeable team is here to help. Give us a call at 1800 005 220, and we'll provide expert guidance to ensure you find the perfect solution for your washing machine repair needs.</span></p><p dir="ltr"><span>With genuine Tennant parts at competitive prices, we're here to assist you in maintaining the peak performance of your Tennant vacuum cleaner. Experience the Statewide Appliance Spares difference – shop now!</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "tennant",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Pacvac vacuum cleaner spare parts",
+    "url": "/vacuum-cleaner/pacvac",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Power up your cleaning with genuine Pacvac vacuum cleaner spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><p dir="ltr"><span>Pacvac is a powerhouse in the world of professional cleaning equipment, offering a wide range of high-quality solutions for both commercial and residential cleaning needs. From backpack vacuums to canister models, Pacvac provides powerful and efficient cleaning tools trusted by professionals worldwide.</span></p><h2 class="contenthead" dir="ltr"><span>Choose Statewide for your Pacvac vacuum cleaner spares</span></h2><p dir="ltr"><span>Statewide Appliance Spares is Australia’s biggest distributor of appliance spare parts and a Specialised Pacvac authorised spare parts distributor. Australian owned &amp; operated, we have been supplying spare parts for over 38 years.&nbsp;With our extensively stocked warehouse, we ensure our most popular Pacvac vacuum cleaner spare parts are always readily available and offer the convenience of fast, Australia wide delivery.</span></p><h2 class="contenthead" dir="ltr"><span>Buy genuine Pacvac spare parts online</span></h2><p dir="ltr"><span>Genuine Pacvac spare parts are designed to meet the brand's high standards, ensuring optimal suction power, performance, and longevity for your vacuum. Choose genuine Pacvac spare parts from Statewide Appliance Spares for reliable cleaning power that lasts.</span></p><p dir="ltr"><span>Enhance your Pacvac vacuum cleaner with genuine spare parts – Shop now.</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "pacvac",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Vacuum cleaner seals",
+    "url": "/vacuum-cleaners/gasket-seal",
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "gasket-seal"
+  },
+  {
+    "title": "Vax carpet extractor spare parts",
+    "url": "/vax/carpet-extractors/hose-pipe-tubing",
+    "vendor": "vax",
+    "appliance_type": "carpet-extractors",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Carpet extractor doors",
+    "url": "/carpet-extractors/door-lid-latch",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your carpet extractor running smoothly with our range of carpet extractor doors and spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">You can trust Statewide Appliance Spares to meet all your carpet extractor spare part needs. Experience unparalleled service and expert advice from our dedicated team. Shop carpet extractor spare parts from Statewide Appliance Spares today.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-extractors",
+    "part_type": "door-lid-latch"
+  },
+  {
+    "title": "Carpet extractor filters",
+    "url": "/carpet-extractors/filters",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your carpet extractor running smoothly with our range of carpet extractor filters. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our extensively stocked warehouse features genuine parts alongside a range of universal fitting and value-packed compatible options. Count on us to swiftly deliver the spare part you need, wherever you are in Australia, ensuring minimal downtime for your appliance.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-extractors",
+    "part_type": "filters"
+  },
+  {
+    "title": "Vacuum cleaner Misc",
+    "url": "/vacuum-cleaners/misc",
+    "vendor": "misc",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Miele dishwasher spare parts",
+    "url": "/miele/dishwashers/basket-rack-parts",
+    "vendor": "miele",
+    "appliance_type": "dishwashers",
+    "part_type": "basket-rack"
+  },
+  {
+    "title": "Miele dishwasher spare parts",
+    "url": "/miele/dishwashers/cutlery-basket",
+    "vendor": "miele",
+    "appliance_type": "dishwashers",
+    "part_type": "cutlery-baskets"
+  },
+  {
+    "title": "Miele dishwasher spare parts",
+    "url": "/miele/dishwashers/hose-pipe-tubing",
+    "vendor": "miele",
+    "appliance_type": "dishwashers",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Miele dishwasher spare parts",
+    "url": "/miele/dishwashers/roller-wheel",
+    "vendor": "miele",
+    "appliance_type": "dishwashers",
+    "part_type": "wheel"
+  },
+  {
+    "title": "Miele microwave spare parts",
+    "url": "/miele/microwaves/globe-bulb",
+    "vendor": "miele",
+    "appliance_type": "microwaves",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Miele microwave spare parts",
+    "url": "/miele/microwave",
+    "vendor": "miele",
+    "appliance_type": "microwaves",
+    "part_type": ""
+  },
+  {
+    "title": "Microwave spare parts",
+    "url": "/microwave",
+    "vendor": "",
+    "appliance_type": "microwaves",
+    "part_type": ""
+  },
+  {
+    "title": "Euromaid spare parts",
+    "url": "/euromaid",
+    "vendor": "euromaid",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Euromaid washing machine spare parts",
+    "url": "/euromaid/washing-machines",
+    "vendor": "euromaid",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Euromaid dishwasher spare parts",
+    "url": "/euromaid/dishwashers/basket-rack",
+    "vendor": "euromaid",
+    "appliance_type": "dishwashers",
+    "part_type": "basket-rack"
+  },
+  {
+    "title": "Euromaid oven & cooktop spare parts",
+    "url": "/euromaid/ovens-cooktops/burner-gas",
+    "vendor": "euromaid",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "burner-gas"
+  },
+
+  {
+    "title": "Euro washing machine spare parts",
+    "url": "/euro/washing-machines",
+    "vendor": "euro",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Euro oven & cooktop spare parts",
+    "url": "/euro/ovens-and-cooktops/knob-button",
+    "vendor": "euro",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Miele oven & cooktop spare parts",
+    "url": "/miele/ovens-and-cooktops/door-parts",
+    "vendor": "miele",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "door-lid-latch"
+  },
+  {
+    "title": "Miele oven & cooktop spare parts",
+    "url": "/miele/ovens-and-cooktops/element",
+    "vendor": "miele",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Miele oven & cooktop spare parts",
+    "url": "/miele/ovens-and-cooktops/shelf-rack-tray",
+    "vendor": "miele",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "shelf-rack-tray"
+  },
+  {
+    "title": "Miele vacuum cleaner spare parts",
+    "url": "/miele/vacuum-cleaners/hose",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Miele vacuum cleaner spare parts",
+    "url": "/miele/vacuum-cleaner",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Cable/Cord",
+    "url": "/cord-cable",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "cable-cord"
+  },
+  {
+    "title": "Miele vacuum cleaner spare parts",
+    "url": "/miele/vacuum-cleaners/cord-cable",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "cable-cord"
+  },
+  {
+    "title": "Miele vacuum cleaner spare parts",
+    "url": "/miele/vacuum-cleaners/floor-tool-brush-nozzle",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "brush-roller"
+  },
+  {
+    "title": "Miele vacuum cleaner spare parts",
+    "url": "/miele/vacuum-cleaners/hose-pipe-tubing",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Miele vacuum cleaner spare parts",
+    "url": "/miele/vacuum-cleaners/motor-gearbox-shaft",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Vacuum cleaner motors",
+    "url": "/vacuum-cleaners/motor-gearbox-shaft",
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Smeg dishwasher spare parts",
+    "url": "/smeg/dishwashers/basket-rack-parts",
+    "vendor": "smeg",
+    "appliance_type": "dishwashers",
+    "part_type": "basket-rack"
+  },
+  {
+    "title": "Smeg spare parts",
+    "url": "/smeg/knob-button",
+    "vendor": "smeg",
+    "appliance_type": "",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Smeg dishwasher spare parts",
+    "url": "/smeg/dishwashers/roller-wheel",
+    "vendor": "smeg",
+    "appliance_type": "dishwashers",
+    "part_type": "wheel"
+  },
+  {
+    "title": "Technika oven & cooktop spare parts",
+    "url": "/technika/ovens-and-cooktops/element",
+    "vendor": "technika",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Technika washing machine spare parts",
+    "url": "/technika/washing-machines",
+    "vendor": "technika",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Technika oven & cooktop spare parts",
+    "url": "/technika/ovens-and-cooktops/globe-bulb",
+    "vendor": "technika",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Technika oven & cooktop spare parts",
+    "url": "/technika/ovens-and-cooktops/seal-gasket",
+    "vendor": "technika",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "seal"
+  },
+  {
+    "title": "Oven & cooktop seals",
+    "url": "/ovens-and-cooktops/gasket/seal",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your kitchen running smoothly with oven door seals from Statewide. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Over time, seals can wear out, become brittle, or develop cracks, leading to heat loss, uneven cooking, and potential safety hazards. Ensure your kitchen remains efficient and safe by replacing worn-out seals promptly.</span></p><p dir="ltr"><span>Shop for high quality oven seals at Statewide Appliance Spares and experience the difference. Our easy-to-navigate website makes finding your part a breeze, so you can get back to enjoying hassle-free cooking in no time.</span></p><p dir="ltr"><span>We understand the urgency of repairing and maintaining your oven. That's why we offer fast Australia wide delivery, ensuring you receive your parts promptly.</span></p><p dir="ltr"><span>Don't let faulty seals compromise the performance of your appliances any longer. Shop seals from Statewide Appliance Spares today and enjoy a more efficient and safer kitchen.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "seal"
+  },
+  {
+    "title": "Technika oven & cooktop spare parts",
+    "url": "/technika/ovens-and-cooktops/knob-button",
+    "vendor": "technika",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Technika oven & cooktop spare parts",
+    "url": "technika/rangehoods/globe-bulb",
+    "vendor": "technika",
+    "appliance_type": "rangehoods",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Smeg fridge & freezer spare parts",
+    "url": "/smeg/fridges-freezers/globe",
+    "vendor": "smeg",
+    "appliance_type": "fridges-freezers",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Smeg fridge & freezer spare parts",
+    "url": "/smeg/fridges-freezers/crisper-drawer-parts",
+    "vendor": "smeg",
+    "appliance_type": "fridges-freezers",
+    "part_type": "crisper-bin-drawer"
+  },
+  {
+    "title": "Smeg microwave spare parts",
+    "url": "/smeg/microwaves/globe-bulb",
+    "vendor": "smeg",
+    "appliance_type": "microwaves",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Smeg microwave spare parts",
+    "url": "/smeg/microwaves/tray-plate",
+    "vendor": "smeg",
+    "appliance_type": "microwaves",
+    "part_type": "tray-plate"
+  },
+  {
+    "title": "Smeg oven & cooktop spare parts",
+    "url": "/smeg/ovens-and-cooktops/element",
+    "vendor": "smeg",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Smeg oven & cooktop spare parts",
+    "url": "/smeg/ovens-and-cooktops/door-parts",
+    "vendor": "smeg",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "door-lid-latch"
+  },
+  {
+    "title": "Smeg oven & cooktop spare parts",
+    "url": "/smeg/ovens-and-cooktops/shelf-rack-tray",
+    "vendor": "smeg",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "shelf-rack-tray"
+  },
+  {
+    "title": "Smeg oven & cooktop spare parts",
+    "url": "/smeg/ovens-and-cooktops/burner-burner-parts",
+    "vendor": "smeg",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "burner-gas"
+  },
+  {
+    "title": "Smeg oven & cooktop spare parts",
+    "url": "/smeg/ovens-and-cooktops/burner-gas-parts",
+    "vendor": "smeg",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "burner-gas"
+  },
+  {
+    "title": "Smeg oven & cooktop spare parts",
+    "url": "/smeg/ovens-and-cooktops/knob-button",
+    "vendor": "smeg",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Smeg oven & cooktop spare parts",
+    "url": "/smeg/ovens-and-cooktops/element-heater",
+    "vendor": "smeg",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Smeg washing machine spare parts",
+    "url": "/smeg/washing-machines",
+    "vendor": "smeg",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Dishwasher hoses",
+    "url": "/dishwashers/hose-pipe-tubing",
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Bosch fridge & freezer spare parts",
+    "url": "/bosch/fridges-freezers/water-filter",
+    "vendor": "bosch",
+    "appliance_type": "fridges-freezers",
+    "part_type": "water-filter"
+  },
+  {
+    "title": "Bosch vacuum cleaner spare parts",
+    "url": "/bosch/vacuum-cleaners/hose-pipe-tubing",
+    "vendor": "bosch",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Ilve spare parts",
+    "url": "/ilve/coffee-machine",
+    "vendor": "ilve",
+    "appliance_type": "coffee-machines",
+    "part_type": ""
+  },
+  {
+    "title": "Ilve fridge & freezer spare parts",
+    "url": "/ilve/fridges-freezers",
+    "vendor": "ilve",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Iron & garment care spare parts",
+    "url": "/irons-and-garment-care",
+    "vendor": "",
+    "appliance_type": "irons-garment-care",
+    "part_type": ""
+  },
+  {
+    "title": "Wheel Spare Parts",
+    "tags": ["Wheel", "wheels", "weel"],
+    "url": "/wheel",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "wheel"
+  },
+  {
+    "title": "Dishwashers Cutlery Basket",
+    "url": "/dishwashers/cutlery-basket",
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "cutlery-baskets"
+  },
+  {
+    "title": "Rangehood brackets",
+    "url": "/rangehoods/bracket-guiderail-wallmount",
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": "bracket-guiderail-wallmount"
+  },
+  {
+    "title": "Hi Fi & Stereo power cords",
+    "url": "/hi-fi-stereos/acadapter-charger",
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": "ac-adapter-charger"
+  },
+  {
+    "title": "Hi Fi & Stereo power cords",
+    "url": "/hi-fi-stereos/acadapter/charger",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Hi Fi & Stereo power cords. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of Hi Fi & Stereo cords and spare parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": "ac-adapter-charger"
+  },
+  {
+    "title": "Hi Fi & Stereo brackets",
+    "url": "/hi-fi-stereos/bracket-guiderail-wallmount",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Hi Fi & Stereo brackets and holders. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Looking to keep your Hi Fi & Stereo system running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including Hi Fi & Stereo brackets and holders.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": "bracket-guiderail-wallmount"
+  },
+  {
+    "title": "LG Hi Fi & Stereo spare parts",
+    "url": "/hi-fi-stereos/lg",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for LG Hi Fi & Stereo spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're committed to providing quality service and convenience. Our extensive inventory of LG parts ensures fast Australia-wide delivery, so you can quickly get your LG Hi Fi & Stereo system back to its optimal performance.<br></p></div>`,
+    "vendor": "lg",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": ""
+  },
+  {
+    "title": "Sharp Hi Fi & Stereo spare parts",
+    "url": "/hi-fi-stereos/sharp",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore Statewide Appliance Spares for your Sharp Hi Fi & Stereo spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Find all your Sharp Hi Fi & Stereo spares at Statewide Appliance Spares. We have a big selection of Hi Fi & Stereo spare parts, ensuring that you can maintain your equipment with ease. Experience the Statewide Appliance Spares difference – shop now!<br></p></div>`,
+    "vendor": "sharp",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": ""
+  },
+  {
+    "title": "Panasonic Hi Fi & Stereo spare parts",
+    "url": "/hi-fi-stereos/panasonic",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore Statewide Appliance Spares for the biggest range of Panasonic Hi Fi & Stereo spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Why settle for anything less than genuine parts at the lowest prices? Experience the convenience and quality of shopping with Statewide Appliance Spares. Don't let technical issues disrupt your entertainment experience. Take action now and choose Statewide Appliance Spares for all your Hi Fi & Stereo spare parts needs.<br></p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung Hi Fi & Stereo spare parts",
+    "url": "/hi-fi-stereos/samsung",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Samsung Hi Fi & Stereo spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance and advice to make buying spare parts easier.<br></p></div>`,
+    "vendor": "samsung",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": ""
+  },
+  {
+    "title": "Heater elements",
+    "tags": ["heater elements", "elements heater", "heater element", "element heater"],
+    "url": "/heaters/element/heater",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find your heater elements and spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our warehouse is stocked with genuine parts and a vast selection of universal fittings and affordable compatible spares. With our commitment to keeping popular parts in stock, you'll always find what you need. Shop heater elements from Statewide Appliance Spares today.</p></div>`,
+    "vendor": "",
+    "appliance_type": "heaters",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Heater fans",
+    "url": "/heaters/fan-blower",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find all your heater spare parts and heater fans at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We have Australia’s largest selection of genuine parts and a wide range of universal fittings and affordable compatible spares. We're your go-to destination for appliance spare parts for all the leading brands. Find the part you need and enjoy speedy delivery right to your doorstep.</p></div>`,
+    "vendor": "",
+    "appliance_type": "heaters",
+    "part_type": "fan-blower"
+  },
+  {
+    "title": "Rangehood globes",
+    "url": "/rangehoods/globe",
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Chef oven & cooktop spare parts",
+    "url": "/chef/ovens-cooktops/element-heater",
+    "vendor": "chef",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Delonghi oven & cooktop spare parts",
+    "url": "/de-longhi/ovens-and-cooktops",
+    "vendor": "de-longhi",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": ""
+  },
+  {
+    "title": "Delonghi oven & cooktop spare parts",
+    "url": "/delonghi/ovens-and-cooktops/knob-button",
+    "vendor": "delonghi",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Delonghi oven & cooktop spare parts",
+    "url": "/delonghi/ovens-and-cooktops-and-cooktops",
+    "vendor": "delonghi",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel washer & dryer spare parts",
+    "url": "/fisher-and-paykel/dryer",
+    "vendor": "fisher-paykel",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel dryer spare parts",
+    "url": "/fisher-and-paykel/dryers",
+    "vendor": "fisher-paykel",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "url": "/fisher-and-paykel/element",
+    "vendor": "fisher-paykel",
+    "appliance_type": "element",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "url": "/fisher-and-paykel/seal",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": "seal"
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "url": "/fisher-and-paykel/pcb",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": "pcb"
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "url": "/fisher-and-paykel/knob",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "url": "/fisher-and-paykel/",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "url": "/fisher-and-paykel/fan",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fan",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel spare parts",
+    "url": "/fisher-and-paykel/filter",
+    "vendor": "fisher-paykel",
+    "appliance_type": "",
+    "part_type": "filter"
+  },
+  {
+    "title": "Fisher & Paykel fridge & freezer spare parts",
+    "url": "/fisher-and-paykel/freezers",
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridge-parts",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel dishwasher spare parts",
+    "url": "/fisher-and-paykel/dishwashers",
+    "vendor": "fisher-paykel",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Burner (Gas)",
+    "tags": ["burner cap"],
+    "url": "/burner-gas-",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "burner-gas"
+  },
+  {
+    "title": "Washing machine bearings",
+    "url": "/washing-machines/bearing",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "bearing",
+  },
+  {
+    "title": "Washer & Dryer belts",
+    "url": "/washing-machines/belt-chain",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "belt-chain",
+  },
+  {
+    "title": "Washer & dryer belts",
+    "url": "/washing-machines/belt",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "belt-chain",
+  },
+  {
+    "title": "Washing machine latches",
+    "url": "/washing-machines/door-handle-hinge-lid-parts",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Washing machine latches",
+    "url": "/washing-machines/door-lid-parts",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "door-lid-latch",
+  },
+  {
+    "title": "Washing machine elements",
+    "url": "/washing-machines/element",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "element-heater",
+  },
+  {
+    "title": "Washing machine seals",
+    "url": "/washing-machines/gasket-seal",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "gasket-seal",
+  },
+  {
+    "title": "Washing machine hoses",
+    "url": "/washing-machines/hose",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "hose-pipe-tubing",
+  },
+  {
+    "title": "Washing machine valves",
+    "url": "/washing-machines/solenoid-coil-valve",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "solenoid-coil-valve",
+  },
+  {
+    "title": "Washing machine suspension",
+    "url": "/washing-machines/suspension",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "suspension",
+  },
+  {
+    "title": "Miele dryer spare parts",
+    "url": "/miele/dryer/element",
+    "vendor": "miele",
+    "appliance_type": "dryers",
+    "part_type": "element-heater",
+  },
+  {
+    "title": "Dryer covers",
+    "tags": ["Dryer Grille"],
+    "url": "/dryers/cover-facia-panel",
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": "cover-facia-panel",
+  },
+  {
+    "title": "Westinghouse microwave spare parts",
+    "url": "/westinghouse/microwaves/globe-bulb",
+    "vendor": "westinghouse",
+    "appliance_type": "microwaves",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Westinghouse microwave spare parts",
+    "url": "/westinghouse/microwaves/tray-plate",
+    "vendor": "westinghouse",
+    "appliance_type": "microwaves",
+    "part_type": "tray-plate",
+  },
+  {
+    "title": "Westinghouse microwave spare parts",
+    "url": "/westinghouse/microwaves/roller-ring-shaft",
+    "vendor": "westinghouse",
+    "appliance_type": "microwaves",
+    "part_type": "roller-ring-shaft",
+  },
+  {
+    "title": "Whirlpool washing machine spare parts",
+    "url": "/whirlpool/washing-machines/motor-gearbox-shaft",
+    "vendor": "whirlpool",
+    "appliance_type": "washing-machine",
+    "part_type": "motor-gearbox-shaft",
+  },
+  {
+    "title": "Whirlpool washing machine spare parts",
+    "url": "/whirlpool/washing-machines",
+    "vendor": "whirlpool",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Westinghouse oven & cooktop spare parts",
+    "url": "/westinghouse/ovens-and-cooktops/door-parts",
+    "vendor": "westinghouse",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "door-lid-latch",
+  },
+  {
+    "title": "Westinghouse oven & cooktop spare parts",
+    "url": "/westinghouse/ovens-and-cooktops/knob-button",
+    "vendor": "westinghouse",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "button-knob-lever",
+  },
+  {
+    "title": "Westinghouse oven & cooktop spare parts",
+    "url": "/westinghouse/ovens-and-cooktops/element-heater",
+    "vendor": "westinghouse",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "element-heater",
+  },
+  {
+    "title": "Oven & cooktop doors",
+    "url": "/ovens-and-cooktops/door-lid-latch",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "door-lid-latch",
+  },
+  {
+    "title": "Westinghouse rangehood spare parts",
+    "url": "/westinghouse/rangehoods/globe-bulb",
+    "vendor": "westinghouse",
+    "appliance_type": "rangehoods",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Westinghouse washing machine spare parts",
+    "url": "/westinghouse/washing-machines",
+    "vendor": "westinghouse",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Panasonic washing machine spare parts",
+    "url": "/panasonic-washing-machine-spares",
+    "vendor": "Panasonic",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Westinghouse washing machine spare parts",
+    "url": "/westinghouse/washing-machines/agitator",
+    "vendor": "westinghouse",
+    "appliance_type": "washing-machine",
+    "part_type": "agitator",
+  },
+  {
+    "title": "Westinghouse washing machine spare parts",
+    "url": "/westinghouse/washing-machines/hose",
+    "vendor": "westinghouse",
+    "appliance_type": "washing-machine",
+    "part_type": "hose-pipe-tubing",
+  },
+  {
+    "title": "Westinghouse washing machine spare parts",
+    "url": "/westinghouse/washing-machines/lint-filter",
+    "vendor": "westinghouse",
+    "appliance_type": "washing-machine",
+    "part_type": "lint-filter",
+  },
+  {
+    "title": "Westinghouse washing machine spare parts",
+    "url": "/westinghouse/washing-machines/pcb",
+    "vendor": "westinghouse",
+    "appliance_type": "washing-machine",
+    "part_type": "pcb",
+  },
+  {
+    "title": "Westinghouse dishwasher spare parts",
+    "url": "/westinghouse/dishwashers/roller-wheel",
+    "vendor": "westinghouse",
+    "appliance_type": "dishwashers",
+    "part_type": "wheel",
+  },
+  {
+    "title": "Westinghouse dishwasher spare parts",
+    "url": "/westinghouse/dishwashers/hose-pipe-tubing",
+    "vendor": "westinghouse",
+    "appliance_type": "dishwashers",
+    "part_type": "hose-pipe-tubing",
+  },
+  {
+    "title": "Westinghouse dishwasher spare parts",
+    "url": "/westinghouse/dishwashers",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop genuine Westinghouse dishwasher spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide, we're committed to providing you with a comprehensive range of genuine Westinghouse spare parts, designed to keep your appliances performing at their peak. Whether it's a critical component for your refrigerator, oven, cooktop, or dishwasher, we have the parts you need to maintain your Westinghouse appliances with confidence.<br><br>For over 38 years, we've led the market in supplying appliance spare parts, earning the trust of countless customers. Inside our warehouse, you'll find not only genuine Westinghouse parts but also a vast array of universal fitting and value-packed compatible alternatives.</p></div>`,
+    "vendor": "westinghouse",
+    "appliance_type": "dishwashers",
+    "part_type": ""
+  },
+  {
+    "title": "Westinghouse oven & cooktop spare parts",
+    "url": "/westinghouse/ovens-and-cooktops/element",
+    "vendor": "westinghouse",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "element-heater",
+  },
+  {
+    "title": "Westinghouse dryer spare parts",
+    "url": "/westinghouse/dryers/element",
+    "vendor": "westinghouse",
+    "appliance_type": "dryers",
+    "part_type": "element-heater",
+  },
+  {
+    "title": "Westinghouse oven & cooktop spare parts",
+    "url": "/westinghouse/ovens-and-cooktops/shelf-rack-tray",
+    "vendor": "westinghouse",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "shelf-rack-tray",
+  },
+  {
+    "title": "Oven & cooktop covers",
+    "url": "/ovens-cooktops/cover-facia-panel",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "cover-facia-panel",
+  },
+  {
+    "title": "Oven & cooktop fans",
+    "url": "/ovens-cooktops/fan-blower",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "fan-blower",
+  },
+  {
+    "title": "Oven & cooktop seals",
+    "url": "/ovens-cooktops/gasket-seal",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "gasket-seal",
+  },
+  {
+    "title": "Oven & cooktop globes",
+    "url": "/ovens-cooktops/globe-bulb",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Oven & cooktop globes",
+    "url": "/ovens-cooktops/globe-lamp",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Oven & cooktop gas ignitors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find the right gas ignitor for your oven or cooktop at Statewide. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We have the largest selection of genuine parts and a wide range of universal fittings and affordable compatible spares. We're your go-to destination for appliance spare parts for all the leading brands. Find the part you need and enjoy speedy delivery right to your doorstep.</span></p></div>`,
+    "url": "/ovens-cooktops/ignitor-gas",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "ignitor",
+  },
+  {
+    "title": "Oven & cooktop gas ignitors",
+    "url": "/ovens-cooktops/ignitor-gas-",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "ignitor",
+  },
+  {
+    "title": "Oven & cooktop Knob/Lever",
+    "url": "/ovens-cooktops/knob-lever",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "button-knob-lever",
+  },
+  {
+    "title": "Oven & cooktop sensors",
+    "url": "/ovens-cooktops/sensor-thermistor-thermostat",
+    "vendor": "",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "sensor-thermistor-thermostat",
+  },
+  {
+    "title": "Westinghouse fridge & freezer spare parts",
+    "url": "/westinghouse/fridges-freezers/bulb",
+    "vendor": "westinghouse",
+    "appliance_type": "fridges-freezers",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Westinghouse fridge & freezer spare parts",
+    "url": "/westinghouse/fridges-freezers/gasket-seal",
+    "vendor": "westinghouse",
+    "appliance_type": "fridges-freezers",
+    "part_type": "gasket-seal",
+  },
+  {
+    "title": "Westinghouse fridge & freezer spare parts",
+    "url": "/westinghouse/fridges-freezers/globe-lamp",
+    "vendor": "westinghouse",
+    "appliance_type": "fridges-freezers",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Westinghouse fridge & freezer spare parts",
+    "url": "/westinghouse/fridges-freezers/water-filter",
+    "vendor": "westinghouse",
+    "appliance_type": "fridges-freezers",
+    "part_type": "water-filter",
+  },
+  {
+    "title": "Hose spare parts",
+    "url": "/hose",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "hoses-pipes-tubing",
+  },
+  {
+    "title": "Pressure cooker seals",
+    "url": "/pressure-cookers/gasket-seal",
+    "vendor": "",
+    "appliance_type": "pressure-cookers",
+    "part_type": "gasket-seal",
+  },
+  {
+    "title": "Pressure cooker doors",
+    "url": "/pressure-cookers/door-lid-latch",
+    "vendor": "",
+    "appliance_type": "pressure-cookers",
+    "part_type": "door-lid-latch",
+  },
+  {
+    "title": "Miele vacuum cleaner spare parts",
+    "url": "/miele/vacuum-cleaners/handle-parts",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "hose-pipe-tubing",
+  },
+  {
+    "title": "Miele vacuum cleaner spare parts",
+    "url": "/miele/vacuum-cleaners/switch",
+    "vendor": "miele",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "switch",
+  },
+  {
+    "title": "Microwave doors",
+    "url": "/microwaves/door-handle-hinge-lid-parts",
+    "vendor": "",
+    "appliance_type": "microwaves",
+    "part_type": "",
+  },
+  {
+    "title": "Microwave globes",
+    "url": "/microwaves/globe-lamp",
+    "vendor": "",
+    "appliance_type": "microwaves",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Panasonic microwave spare parts",
+    "url": "/panasonic/microwaves/globe-bulb",
+    "vendor": "panasonic",
+    "appliance_type": "microwaves",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Panasonic microwave spare parts",
+    "url": "/panasonic/microwaves/roller-ring-shaft",
+    "vendor": "panasonic",
+    "appliance_type": "microwaves",
+    "part_type": "roller-ring-shaft",
+  },
+  {
+    "title": "Bosch washing machine spare parts",
+    "url": "/bosch/washing-machines/motor-gearbox-shaft",
+    "vendor": "bosch",
+    "appliance_type": "washing-machine",
+    "part_type": "motor-gearbox-shaft",
+  },
+  {
+    "title": "Electrolux washing machine spare parts",
+    "url": "/electrolux/washing-machines/lint-filter",
+    "vendor": "electrolux",
+    "appliance_type": "washing-machine",
+    "part_type": "lint-filter",
+  },
+  {
+    "title": "Electrolux oven & cooktop spare parts",
+    "url": "/electrolux/ovens-and-cooktops/burner-gas-",
+    "vendor": "electrolux",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "burner-gas-",
+  },
+  {
+    "title": "Fridge & freezer globes",
+    "tags": ["fridge globe lamps lighting", "freezer globe lamps lighting", "freezer globes lamps lighting"],
+    "url": "/fridge-parts/globes-lamps-lighting",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Brighten up your fridge and freezer with ease by shopping for globes at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><h2 class="contenthead" dir="ltr"><span>How to replace your fridge globe</span></h2><p dir="ltr"><span>If your fridge light globe no longer lights up, it’s time to change it. This is a quick DIY task with easy install. Be sure to replace with a globe that is specifically designed for a refrigerator (usually incandescent or LED) – they can handle lower temperatures and are shatterproof.</span></p><h3 dir="ltr"><span>Safety first!</span>&nbsp;<span>Before you get started switch off the power from the main power source and unplug your fridge.</span></h3><p dir="ltr"><strong>Step 1:</strong>&nbsp;&nbsp;Remove the fridge bulb cover. This can be gently pulled off. If this is held in place with screws, simply unscrew it.<br><strong>Step 2:</strong>&nbsp;&nbsp;Remove the old bulb and screw the new one into place.<br><strong>Step 3:</strong>&nbsp;&nbsp;Refit the bulb cover.<br><strong>Step 4:</strong>&nbsp;&nbsp;Plug your power back in and check that your globe is working.</p><h2 class="contenthead" dir="ltr"><span>Checking if your fridge globe is at fault</span></h2><p dir="ltr"><span>If your refrigerator light is not coming on, a burnt-out light globe is the likely culprit. Sometimes other factors cause your fridge globe to stop working. These include:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>A power interruption such as a power outage or tripped circuit breaker</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Faulty door switch</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>Finding the right globe for your refrigerator is simple:</span></h2><ol><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Locate your model number: Check our </span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span> for assistance if you're unsure where to find it. Most manufacturers provide a simpler version of the model number inside the fridge, near the door's front edge.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website: Enter your brand and model number to discover the correct replacement globe effortlessly.</span></p></li></ol><p dir="ltr"><span>Experience the Statewide advantage – the biggest range in Australia, fast delivery, lowest price guarantee, and expert guidance from our local team. At Statewide Appliance Spares, we make buying spares easier!</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "fridge-parts",
+    "part_type": "globe-lamp",
+  },
+  {
+    "title": "Vacuum cleaner belts",
+    "url": "/vacuum-cleaners/belt",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your vacuum cleaner running smoothly with our extensive range of vacuum cleaner belts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Buy your vacuum cleaner spare parts from Statewide Appliance Spares. We understand that maintaining your vacuum cleaner is essential to keep your home clean and healthy and we offer Australia’s biggest range of vacuum parts and accessories for all your floor care. Enhance your vacuum's performance and ensure a healthier living environment with our genuine vacuum cleaner belts, ready for fast delivery.</p><h2 class="contenthead" dir="ltr"><span>How do I know if the belt on my vacuum cleaner needs replacement?</span></h2><p dir="ltr"><span>Understanding when to replace your vacuum cleaner's belt is essential for maintaining optimal suction, performance and efficiency. Here are some key indicators that it's time for a belt change:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Loss of Suction:</strong><span>&nbsp;If your vacuum cleaner is no longer picking up debris effectively, it may indicate a worn or stretched belt.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Reduced Cleaning Performance:</strong><span>&nbsp;A decrease in cleaning efficiency, such as leaving behind visible dirt or debris, could signal a worn belt.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Unusual Noises:</strong><span>&nbsp;Grinding or squeaking noises while the vacuum is in operation might point to a belt that's seen better days.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Belt Appearance:</strong><span>&nbsp;Inspect the belt for visible signs of wear, such as fraying or stretching.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><strong>Owner's Manual:</strong><span>&nbsp;Some vacuums have indicator lights or warnings that signal when the belt needs replacement. Consult your vacuum's manual for guidance.</span></p></li></ul><h2 class="contenthead" dir="ltr"><span>How do I change the belt on my vacuum cleaner?</span></h2><p dir="ltr"><span>Changing the belt on your vacuum cleaner is a simple task that can breathe new life into your cleaning experience. Follow these steps for a hassle-free belt replacement:</span></p><p dir="ltr"><strong>Step 1: Gather Your Tools</strong><span>&nbsp;Before you begin, make sure you have the following tools and materials:</span></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Replacement&nbsp;</span><a href="https://www.statewideapp.com.au/vacuum-cleaners/belt"><span>Belt</span></a><span>&nbsp;- Ensure it's compatible with your vacuum cleaner's brand, model, and size.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Screwdriver</span></p></li></ul><p dir="ltr"><strong>Safety first!</strong><span><strong>&nbsp;</strong>Unplug your vacuum cleaner from the power source to prevent accidents during the replacement process.</span></p><p dir="ltr"><strong>Step 2: Access the Belt Area</strong><span><br></span><span>Refer to your owner's manual to access the belt area, which may involve removing a cover or access panel.</span></p><p dir="ltr"><strong>Step 3: Remove the Old Belt</strong><span><br></span><span>To remove the old belt, release the tension by either moving the belt lifter or loosening the belt from the motor shaft. Slide the old belt off the motor shaft and the brush roll.</span></p><p dir="ltr"><strong>Step 4: Install the New Belt</strong><span><br></span><span>Slide the new belt onto the motor shaft and the brush roll, ensuring it's a proper fit for your vacuum's brand and model.</span></p><p dir="ltr"><strong>Step 5: Test the Belt<br></strong><span>Before reassembling the vacuum, manually rotate the brush roll to ensure the belt is correctly aligned. This step prevents damage during operation.</span></p><p dir="ltr"><strong>Step 6: Reassemble the Vacuum</strong><span><br></span><span>Securely reattach the cover or access panel, plug in your vacuum cleaner, and enjoy its enhanced performance.</span></p><p dir="ltr"><span>Now that your belt is successfully changed, your vacuum cleaner is ready to tackle cleaning tasks with renewed efficiency and power.</span></p><h2 class="contenthead" dir="ltr"><span>Buy online with fast shipping</span></h2><p dir="ltr"><span>Experience the convenience of online shopping with Statewide Appliance Spares. Our user-friendly website allows you to explore our extensive selection of vacuum belts, ensuring you find the perfect fit for your vacuum cleaner brand and model. With our commitment to fast shipping, you can count on prompt delivery to your doorstep anywhere in Australia.</span></p><p>&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "belt-chain",
+  },
+  {
+    "title": "Philips Vacuum cleaner spare parts",
+    "url": "/philips/vacuum-cleaner",
+    "vendor": "philips",
+    "appliance_type": "vacuum-cleaners",
+    "part_type": "",
+  },
+  {
+    "title": "Why replace your LG water filter?",
+    "tags": ["Why replace your LG water filter"],
+    "url": "/why-replace-your-lg-water-filter",
+    "vendor": "lg",
+    "appliance_type": "",
+    "part_type": "",
+  },
+  {
+    "title": "Philips Shaver & trimmer spare parts",
+    "url": "/philips/shavers",
+    "vendor": "philips",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "",
+  },
+  {
+    "title": "Television power cords",
+    "url": "/televisions/acadapter/charger",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Explore our range of television power cords. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Whether you've misplaced your cord or need a replacement for your television, we've got you covered with a wide selection of high-quality power cords to keep your entertainment setup running smoothly.</span></p><p dir=\"ltr\"><span>At Statewide, we understand the frustration of a missing or damaged power cord, which is why we offer a comprehensive range of television power cords for various makes and models.</span></p><p dir=\"ltr\"><span>Finding the perfect power cord for your television is easy – simply browse our selection or refine your search using your television's brand and model number. If you need assistance or can't find the specific cord you're looking for, our friendly and knowledgeable team is here to help. Give us a call at 1800 005 220, and we'll guide you to the right solution.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>Why choose Statewide for your television power cords?</span><span>&nbsp;</span></h2><p dir=\"ltr\"><span>With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're committed to delivering great service and convenience. Our extensive inventory of parts and fast Australia-wide delivery means you can quickly get your television back up and running.</span></p><p dir=\"ltr\"><span>Don't let a missing power cord disrupt your viewing experience – shop our selection of television power cords today.</span></p><p dir=\"ltr\">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Television fans",
+    "url": "/televisions/fan/blower",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop television fans at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Looking to keep your television running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including a comprehensive selection of television fans to keep your appliances in top shape.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": "fan-blower",
+  },
+  {
+    "title": "Haier washing machine spare parts",
+    "url": "/haier/washing-machines",
+    "vendor": "Haier",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung oven & cooktop spare parts",
+    "url": "/samsung/ovens-cooktops/element-heater",
+    "vendor": "Samsung",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Samsung oven & cooktop spare parts",
+    "url": "/samsung/ovens-cooktops/gasket-seal",
+    "vendor": "Samsung",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "gasket-seal"
+  },
+  {
+    "title": "Samsung oven & cooktop spare parts",
+    "url": "/samsung/ovens-cooktops/sensor-thermistor-thermostat",
+    "vendor": "Samsung",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "sensor-thermistor-thermostat"
+  },
+  {
+    "title": "Sharp fridge & freezer spare parts",
+    "url": "/sharp/fridges-freezers/gasket-seal",
+    "vendor": "sharp",
+    "appliance_type": "fridges-freezers",
+    "part_type": "gasket-seal"
+  },
+  {
+    "title": "Sharp fridge & freezer spare parts",
+    "url": "/sharp/fridges-freezers/globe-lamp",
+    "vendor": "sharp",
+    "appliance_type": "fridges-freezers",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Samsung washing machine spare parts",
+    "url": "/samsung/washing-machines/element",
+    "vendor": "Samsung",
+    "appliance_type": "washing-machine",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Samsung washing machine spare parts",
+    "url": "/samsung/washing-machines/agitator",
+    "vendor": "Samsung",
+    "appliance_type": "washing-machine",
+    "part_type": "agitator"
+  },
+  {
+    "title": "Samsung washing machine spare parts",
+    "url": "/samsung/washing-machines",
+    "vendor": "Samsung",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung washing machine spare parts",
+    "url": "/samsung/washing-machines/door-lid-parts",
+    "vendor": "Samsung",
+    "appliance_type": "washing-machine",
+    "part_type": "door-lid-latch"
+  },
+  {
+    "title": "Scrubber hoses",
+    "url": "/scrubbers/hose-pipe-tubing",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Explore a selection of scrubber hoses at Statewide Appliance Spares – your trusted source for quality appliance spare parts. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p><meta charset=\"utf-8\">Looking to keep your appliance running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including a comprehensive selection of scrubber hoses to keep your appliances in top shape.</p></div>",
+    "vendor": "",
+    "appliance_type": "scrubbers",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Scrubber seals",
+    "url": "/scrubbers/gasket/seal",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop scrubber seals and gaskets at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p><meta charset=\"utf-8\">Statewide Appliance Spares is your go-to destination for all your floor care spare parts. We offer competitively priced spares for all leading brands, backed by our lowest price guarantee.</p></div>",
+    "vendor": "",
+    "appliance_type": "scrubbers",
+    "part_type": "seal"
+  },
+  {
+    "title": "Cleanstar scrubber spare parts",
+    "url": "/scrubbers/cleanstar",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your Cleanstar scrubber running smoothly with our range of Cleanstar spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide Appliance Spares, we proudly offer a wide selection of Cleanstar scrubber spare parts. With over 100 years of combined experience in servicing the cleaning industry, Cleanstar has become the trusted brand that professionals rely on. <br><br> With fast Australia wide delivery, your essentials will reach you in no time, backed by our lowest price guarantee. Experience the convenience of shopping with Statewide Appliance Spares.</p></div>`,
+    "vendor": "cleanstar",
+    "appliance_type": "scrubbers",
+    "part_type": ""
+  },
+  {
+    "title": "Imop scrubber spare parts",
+    "url": "/scrubbers/imop",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Imop scrubber spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Imop is more than just a brand—it's a commitment to greener, safer, and smarter cleaning solutions. With a passion for innovation, Imop develops and distributes cutting-edge products that revolutionise the cleaning industry. <br><br> At Statewide Appliance Spares, we are proud to offer a comprehensive selection of genuine Imop scrubber parts, ensuring that your cleaning equipment performs at its best. Whether you need cleaning pads, brushes, or battery accessories, we have you covered. Shopping with us is easy, offering effortless online browsing and fast Australia-wide delivery. Plus, our team of experts is always ready to offer guidance and support, making your Imop cleaning experience seamless and efficient.</p></div>`,
+    "vendor": "imop",
+    "appliance_type": "scrubbers",
+    "part_type": ""
+  },
+  {
+    "title": "Kerrick scrubber spare parts",
+    "url": "/scrubbers/kerrick",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover genuine Kerrick scrubber spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your trusted distributor for genuine Kerrick scrubber spare parts. With our extensive selection and easy shopping experience, keeping your floor care equipment in top condition has never been easier! <br><br> At Statewide Appliance Spares, we stock a wide range of genuine Kerrick scrubber spare parts to ensure your equipment operates at peak efficiency. We have everything you need to maintain and repair your Kerrick scrubber.</p></div>`,
+    "vendor": "kerrick",
+    "appliance_type": "scrubbers",
+    "part_type": ""
+  },
+  {
+    "title": "Nilfisk scrubber spare parts",
+    "url": "/scrubbers/nilfisk",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover genuine Nilfisk scrubber spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Nilfisk walk-behind scrubber dryers are expertly crafted to enhance productivity while reducing your overall cleaning costs. Designed for ease of use, these scrubber dryers effectively utilise water and detergent, making them the dependable choice for your cleaning needs. <br><br> Find all your Nilfisk scrubber spares at Statewide Appliance Spares. We have a big selection of genuine Nilfisk scrubber spare parts, ensuring that you can maintain your equipment with ease. From scrubber pads and hoses to squeegees to motors, we have everything you need to keep your Nilfisk scrubber running smoothly. <br><br> Finding the right Nilfisk spare part is simple – just refine your search using your scrubber model number. If you require assistance or cannot find the part you're looking for, our friendly and knowledgeable team is here to help. Give us a call at 1800 005 220, and we'll help you find the perfect solution for your scrubber repair needs. Experience the Statewide Appliance Spares difference – shop now!</p></div>`,
+    "vendor": "nilfisk",
+    "appliance_type": "scrubbers",
+    "part_type": ""
+  },
+  {
+    "title": "Polivac scrubber spare parts",
+    "url": "/scrubbers/polivac",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop now for genuine Polivac scrubber spares and keep your scrubber performing at its best. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>The Polivac range of scrubbers offer legendary long life and reliability.&nbsp; All Australian designed and built, these robust, powerful and versatile machines offer fast and effective cleaning solutions for every floor type.</span><b></b></p><p dir="ltr"><span>Statewide's huge range of parts includes genuine Polivac scrubber parts, ensuring that you can easily maintain your equipment for optimal performance. From </span><a href="https://www.statewideapp.com.au/polivac/scrubbers/wheel"><span>wheels</span></a><span> and </span><a href="https://www.statewideapp.com.au/polivac/scrubbers/brush-roller"><span>brushes</span></a><span> to </span><a href="https://www.statewideapp.com.au/polivac/scrubbers/handle"><span>handles</span></a><span> and </span><a href="https://www.statewideapp.com.au/polivac/scrubbers/squeegee"><span>squeegees</span></a><span>, we have everything you need to keep your Polivac scrubber running smoothly.</span><b></b></p><p dir="ltr"><span>Don't settle for anything less than the best – trust Statewide Appliance Spares for all your Polivac scrubber spare part needs.&nbsp;</span></p></div>`,
+    "vendor": "polivac",
+    "appliance_type": "scrubbers",
+    "part_type": ""
+  },
+  {
+    "title": "Taski scrubber spare parts",
+    "url": "/scrubbers/taski",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop now for genuine Taski scrubber spares and keep your scrubber performing at its best. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We understand the importance of maintaining the performance and efficiency of your floor care equipment. That's why we offer a comprehensive range of genuine Taski scrubber spare parts to ensure your scrubber performs at its best.&nbsp;</span><b></b></p><p dir="ltr"><span>We stock only Taski spare parts, ensuring the highest quality and compatibility with your Taski scrubber machines.&nbsp; We understand the urgency of getting your cleaning machines back up and running. With our fast Australia-wide delivery, you'll have your Taski scrubber spare parts in no time.</span><b></b></p><h2 dir="ltr"><span>Shop now and keep your Taski scrubber running smoothly</span><b></b></h2><p dir="ltr"><span>Don't let a malfunctioning scrubber slow down your cleaning operations. Browse our selection of Taski scrubber spare parts now and experience the Statewide Appliance Spares difference. With genuine parts, expert guidance and fast delivery, we're here to help you keep your scrubber in top condition. Order now and ensure uninterrupted cleaning performance with Statewide Appliance Spares.</span></p></div>`,
+    "vendor": "taski",
+    "appliance_type": "scrubbers",
+    "part_type": ""
+  },
+  {
+    "title": "Tennant scrubber spare parts",
+    "url": "/scrubbers/tennant",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop now for genuine Tennant scrubber spares and keep your scrubber performing at its best. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Discover the power of Tennant floor scrubbers with Statewide Appliance Spares. When it comes to maintaining clean, hygienic floors, Tennant scrubbers are the trusted choice for facilities of all sizes. Designed for frequent and thorough scrubbing, Tennant floor scrubbers offer high-quality construction that can handle even the toughest environments.</span><b></b></p><p dir="ltr"><span>At Statewide, we stock a wide range of genuine Tennant scrubber parts to keep your equipment running smoothly. From </span><a href="https://www.statewideapp.com.au/tennant/scrubbers/battery"><span>batteries</span></a><span> and scrubber </span><a href="https://www.statewideapp.com.au/tennant/scrubbers/brush-roller"><span>brushes</span></a><span>, to </span><a href="https://www.statewideapp.com.au/tennant/scrubbers/filter"><span>filters</span></a><span> and scrubber </span><a href="https://www.statewideapp.com.au/tennant/scrubbers/squeegee"><span>squeegee’s</span></a><span>, we have everything you need to ensure your Tennant scrubber performs at its best.</span><b></b></p><p dir="ltr"><span>With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're dedicated to providing exceptional service and convenience. Our extensive stock ensures fast Australia-wide delivery, so you can get your Tennant scrubber back to work in no time.</span></p></div>`,
+    "vendor": "tennant",
+    "appliance_type": "scrubbers",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung washing machine spare parts",
+    "url": "/samsung/washing-machines/lint-filter",
+    "vendor": "Samsung",
+    "appliance_type": "washing-machine",
+    "part_type": "lint-filter"
+  },
+  {
+    "title": "Samsung washing machine spare parts",
+    "url": "/samsung/washing-machines/seal-gasket",
+    "vendor": "Samsung",
+    "appliance_type": "washing-machine",
+    "part_type": "seal"
+  },
+  {
+    "title": "Samsung washing machine spare parts",
+    "url": "/samsung/washing-machines/drum-parts",
+    "vendor": "Samsung",
+    "appliance_type": "washing-machine",
+    "part_type": "drum"
+  },
+  {
+    "title": "Washing machine drums",
+    "url": "/washing-machines/drum",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "drum"
+  },
+  {
+    "title": "Washing machine filters",
+    "url": "/washing-machines/filter",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "filter"
+  },
+  {
+    "title": "Washing machine pulley",
+    "url": "/washing-machines/pulley",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "pulley"
+  },
+  {
+    "title": "Washing machine pulley",
+    "url": "/washing-machines/seal-gasket",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": "seal"
+  },
+  {
+    "title": "Samsung washing machine spare parts",
+    "url": "/samsung/washing-machines/hose",
+    "vendor": "Samsung",
+    "appliance_type": "washing-machine",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Samsung washing machine spare parts",
+    "url": "/samsung/washing-machines/pump",
+    "vendor": "Samsung",
+    "appliance_type": "washing-machine",
+    "part_type": "pump"
+  },
+
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "url": "/samsung/fridges-freezers/gasketseal",
+    "vendor": "Samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": "seal"
+  },
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "url": "/samsung/fridges-freezers/globe-bulb",
+    "vendor": "Samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "url": "/samsung/fridges-freezers/globe-lamp",
+    "vendor": "Samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": "globe-lamp"
+  },
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "url": "/samsung/fridges-freezers/hinge-parts",
+    "vendor": "Samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": "hinge"
+  },
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "url": "/samsung/fridges-freezers/seal-gasket",
+    "vendor": "Samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": "seal"
+  },
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "url": "/samsung/fridges-freezers/crisper-drawer-parts",
+    "vendor": "Samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": "crisper-bin-drawer"
+  },
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "url": "/samsung/fridges-freezers/gasket-seal",
+    "vendor": "Samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": "gasket-seal"
+  },
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "url": "/samsung/fridges-freezers/thermostat-thermistor",
+    "vendor": "Samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": "sensor-thermistor-thermostat"
+  },
+  {
+    "title": "Samsung fridge & freezer spare parts",
+    "url": "/samsung/fridges-freezers/water-filter",
+    "vendor": "Samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": "water-filter"
+  },
+  {
+    "title": "Simpson washing machine spare parts",
+    "tags": ["Simpson washing machine", "simpson washing machines", "simpson washer", "simpson washers"],
+    "url": "/simpson/washing-machines",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>With Simpson’s reputation for durability, reliability and efficiency, you’ll enjoy the peace of mind that comes with over 150 years of experience. Buy your Simpson washing machine parts and accessories from Statewide Appliance Spares. Statewide Appliance Spares have a wide range of spares and accessories for all leading brands including Simpson.</span></p><p dir=\"ltr\"><span>Get your Simpson washing machine working at its best with a replacement part from Statewide. We ensure our most popular washing machine spare parts for your Simpson washing machine are in stock, ready for fast delivery. You can find washing machine </span><a href=\"https://www.statewideapp.com.au/washing-machines/gasket-seal\"><span>seals</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/washing-machines/handle\"><span>door handles</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/electrolux/washing-machines/lint-filter\"><span>lint filters</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/washing-machines/hose-pipe-tubing\"><span>hoses</span></a><span>,&nbsp;</span><a href=\"https://www.statewideapp.com.au/washing-machines/drum\"><span>drums</span></a><span>&nbsp;and so much more.</span></p><p dir=\"ltr\"><span>Trust Statewide Appliance Spares to provide you with genuine Simpson washing machine spare parts, backed by our commitment to quality and customer satisfaction.</span></p></div>",
+    "vendor": "simpson",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Simpson washing machine spare parts",
+    "url": "/simpson/washing-machines/hose",
+    "vendor": "Simpson",
+    "appliance_type": "washing-machine",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Simpson spare parts",
+    "url": "/simpson/fan",
+    "vendor": "Simpson",
+    "appliance_type": "",
+    "part_type": "fan-blower"
+  },
+  {
+    "title": "Simpson washing machine spare parts",
+    "url": "/simpson/washing-machines/elements",
+    "vendor": "Simpson",
+    "appliance_type": "washing-machine",
+    "part_type": "elements"
+  },
+  {
+    "title": "Washing machine spare parts",
+    "url": "/washing-machines",
+    "vendor": "",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Elements",
+    "tags": ["elements"],
+    "url": "/elements",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Simpson washing machine spare parts",
+    "url": "/simpson/washing-machines/pump",
+    "vendor": "Simpson",
+    "appliance_type": "washing-machine",
+    "part_type": "pump"
+  },
+  {
+    "title": "Simpson washing machine spare parts",
+    "url": "/simpson/washing-machines/lint-filter",
+    "vendor": "Simpson",
+    "appliance_type": "washing-machine",
+    "part_type": "lint-filter"
+  },
+  {
+    "title": "Simpson oven & cooktop spare parts",
+    "url": "/simpson/ovens-cooktops/element-heater",
+    "vendor": "Simpson",
+    "appliance_type": "ovens-cooktops",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Simpson dryer spare parts",
+    "tags": ["Simpson dryer", "Simpson dryers"],
+    "url": "/simpson/dryers",
+    "vendor": "Simpson",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Simpson dryer spare parts",
+    "url": "/simpson/dryers/door-latch-parts",
+    "vendor": "Simpson",
+    "appliance_type": "dryers",
+    "part_type": "door-lid-latch"
+  },
+  {
+    "title": "Bosch dryer spare parts",
+    "url": "/dryers/bosch",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop genuine Bosch dryer spare parts at Statewide Appliance Spares and keep your dryer running smoothly. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Statewide Appliance Spares is your one-stop destination for genuine Bosch dryer spare parts. We specialise in providing authentic Bosch spare parts to ensure your appliances run smoothly and efficiently for years to come.</span></p><p dir=\"ltr\"><span>Genuine Bosch spare parts are crafted to integrate seamlessly with your appliance, ensuring optimal performance, safety, and longevity. We understand the urgency of repair needs, which is why our local warehouse is stocked with a wide range of Bosch dryer spare parts, ensuring popular components are readily available when you need them most.</span></p><p dir=\"ltr\"><span>Enjoy competitive pricing on all Bosch spare parts, backed by our lowest price guarantee, ensuring you receive the best value every time.</span></p></div>",
+    "vendor": "bosch",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Electrolux dryer spare parts",
+    "url": "/dryers/electrolux",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Keep your Electrolux dryer running smoothly with genuine Electrolux dryer spares from Statewide Appliance Spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>When it comes to repairing your Electrolux dryer, authenticity is paramount. Genuine Electrolux spare parts are meticulously designed to seamlessly integrate with your appliance, guaranteeing optimal performance, safety, and longevity.</span></p><p dir=\"ltr\"><span>Electrolux is a renowned global brand known for its commitment to innovation, quality, and sustainability. With a legacy spanning over a century, Electrolux continues to set industry standards with cutting-edge appliances designed to simplify and enhance everyday life. Trusted by millions of households worldwide, Electrolux products are synonymous with durability, efficiency, and superior performance.</span></p><p dir=\"ltr\"><span>Our friendly and knowledgeable staff are here to assist you every step of the way. With their expertise and commitment to customer satisfaction, they'll ensure you find exactly what you need to keep your Electrolux appliances operating at their peak. Find all your Electrolux spare parts at Statewide and discover the convenience, reliability, and value that we're renowned for.</span></p></div>",
+    "vendor": "electrolux",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel dryer spare parts",
+    "url": "/dryers/fisher-paykel",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop Fisher & Paykel dryer spare parts from Statewide Appliance Spares today and keep your dryer performing at its best. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>We're dedicated to providing you with a huge selection of Fisher &amp; Paykel spare parts to keep your appliances running like new. Whether it's a replacement part for your </span><a href=\"https://www.statewideapp.com.au/fisher-paykel/fridges-freezers\"><span>refrigerator</span></a><span>, </span><a href=\"https://statewideapp.com.au/fisher-paykel/dishwashers\"><span>dishwasher</span></a><span>, </span><a href=\"https://statewideapp.com.au/fisher-paykel/ovens-and-cooktops\"><span>oven</span></a><span> or </span><a href=\"https://statewideapp.com.au/fisher-paykel/washing-machines\"><span>washing machine</span></a><span>, we've got you covered.</span></p><p dir=\"ltr\"><span>Genuine Fisher &amp; Paykel spare parts are meticulously designed to seamlessly integrate with your appliance, ensuring optimal performance, safety, and longevity. Don't let a broken dryer disrupt your daily routine. Trust Statewide for all your Fisher &amp; Paykel dryer spare part needs and experience the difference that quality, reliability, and exceptional service can make. Shop now and discover why countless customers rely on Statewide for their appliance repair needs.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>Find all your Fisher &amp; Paykel spares at Statewide</span></h2><p dir=\"ltr\"><span>Statewide Appliance Spares offers a range of </span><a href=\"https://www.statewideapp.com.au/fisher-paykel/dryers/belt\"><span>Fisher Paykel belts</span></a><span>.</span></p><p dir=\"ltr\">Shop our selection of <a href=\"https://www.statewideapp.com.au/fisher-paykel/dryers/door-latch-parts\">Fisher Paykel door / latch spare parts</a> at Statewide Appliance Spares.<br>Looking for <a href=\"https://www.statewideapp.com.au/fisher-paykel/dryers/lint-filter\">Fisher Paykel lint filters</a>? Your dryer lint filter prevents fibres from circulating within your dryer’s system. Regular cleaning ensures safe operation, and worn filters can be easily replaced.<br>Statewide Appliance Spares also offers a range of <a href=\"https://www.statewideapp.com.au/fisher-paykel/dryers/wall-mount-bracket\">Fisher Paykel wall mount brackets</a> for your dryer.</p></div>",
+    "vendor": "fisher-paykel",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Fisher & Paykel fridge & freezer spare parts",
+    "url": "/fisher-paykel/fridges-freezers",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop genuine Fisher & Paykel fridge and freezer spare parts. We understand the importance of keeping your appliances running smoothly, which is why we pride ourselves on stocking a comprehensive range of high-quality parts for your Fisher & Paykel refrigerator and freezer. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": `<div class="landing-page-header-container content-head col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Fisher &amp; Paykel is renowned for its innovative designs and reliable performance, making them a trusted choice for households worldwide. With our genuine Fisher &amp; Paykel parts, you can rest assured that you're getting the perfect fit and optimal performance for your fridge and freezer. Our Fisher Paykel fridge and freezer spares include fridge water </span><a href="https://www.statewideapp.com.au/fisher-paykel-water-filters"><span>filters</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/thermostat-thermistor"><span>thermostats</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/seal-gasket"><span>door gaskets</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/shelf-rack"><span>shelves</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/globe-bulb"><span>globes</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/pcb"><span>PCB's</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/hinge-parts"><span>hinges</span></a><span> and </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/crisper-drawer-parts"><span>drawers</span></a><span>.</span></p><p dir="ltr"><span>Don't let a malfunctioning appliance disrupt your daily routine – shop our selection of Fisher &amp; Paykel fridge and freezer spare parts today and keep your appliances running smoothly for years to come. Experience the Statewide Appliance Spares difference – order now!</span></p><h2 class="contenthead" dir="ltr"><span>Find your Fisher &amp; Paykel spare parts for your fridge and freezer at Statewide</span></h2><p dir="ltr"><span>Shop </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/seal-gasket"><span>Fisher Paykel seals and gaskets</span></a><span>.</span></p><p dir="ltr"><span>Need a replacement </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/crisper-drawer-parts"><span>Fisher Paykel crisper drawer</span></a><span>? Let us help you find the right drawer for your Fisher Paykel fridge.</span></p><p dir="ltr"><span>Statewide Appliance Spares have an extensive range of </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/water-filter"><span>fridge water filters</span></a><span> for your Fisher Paykel refrigerator. Keep your water and ice fresh and contaminant free with a new fridge water filter. To achieve optimum water quality, change your fridge water filter every 6 months. This ensures you are drinking the purest filtered water, reducing contaminants like iron, particulates, and chlorine in your drinking water and ice cubes. Keep an eye on your fridge water filter indicator light to know when it needs to be replaced. Changing your fridge water filter is quick and easy. Ask us about bulk buy purchase of your water filters for great savings.</span></p><p dir="ltr"><span>We supply a range of </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/globe-bulb"><span>globes</span></a><span> to suit your Fisher Paykel fridge.</span></p><p dir="ltr"><span>Statewide Appliance Spares offer an extensive range of Fisher Paykel </span><a href="https://www.statewideapp.com.au/fisher-paykel/fridges-freezers/shelf-rack"><span>fridge shelves and racks</span></a><span>.</span></p><p dir="ltr"><span>Find your genuine Fisher &amp; Paykel fridge and freezer spare parts at Statewide Appliance Spares today.</span></p></div>`,
+    "vendor": "fisher-paykel",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Bosch dryer spare parts",
+    "url": "/dryers/haier",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Discover genuine Haier spare parts at Statewide Appliance Spares to keep your appliances running smoothly. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Haier is a globally recognised brand renowned for its innovative, high-quality home appliances. Haier dryers are known for their efficiency, durability, and advanced features designed to simplify your life.</span></p><p dir=\"ltr\"><span>Statewide is your trusted source for genuine Haier dryer spare parts. Whether you're a dedicated DIY enthusiast or an experienced repairer, we understand the importance of reliable components to keep your Haier appliances running smoothly. Explore our selection of genuine Haier spare parts and ensure your dryer performs at its best for years to come.</span></p><p dir=\"ltr\"><span>Experience hassle-free repairs with our fast shipping services across Australia. No matter where you are, we ensure your Haier dryer parts arrive promptly, so you can get back to enjoying efficient drying. Enjoy competitive pricing on all our Haier spare parts, backed by our lowest price guarantee. We believe in offering unbeatable value without compromising on quality, ensuring you get the best deal every time.</span></p><p dir=\"ltr\"><span>Shop easily at Statewide Appliance Spares and unlock the full potential of your Haier dryer today.</span></p></div>",
+    "vendor": "haier",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "LG dryer spare parts",
+    "url": "/dryers/lg",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Explore the biggest range of genuine LG appliance spares and LG dryer parts at Statewide Appliance Spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>LG is a name synonymous with cutting-edge technology, sleek design, and unmatched performance in the world of home appliances. As a proud owner of LG appliances, you know the value of keeping them operating at their best.</span></p><p dir=\"ltr\"><span>At Statewide, we're committed to providing an extensive selection of genuine LG spare parts to ensure your appliances continue to deliver exceptional results. Whether it's a replacement part for your </span><a href=\"https://www.statewideapp.com.au/fridge-parts/lg\"><span>refrigerator</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/lg-washing-machine-parts\"><span>washing machine</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/dishwashers/lg\"><span>dishwasher</span></a><span>, or </span><a href=\"https://www.statewideapp.com.au/dryers/lg\"><span>dryer</span></a><span>, we have what you need to keep your LG appliances running smoothly.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>Buy your LG genuine parts online at Statewide</span></h2><p dir=\"ltr\"><span>If you have it, you can also search for the exact LG dryer part with your model number. Need assistance finding the right LG part for your dryer? Our friendly and knowledgeable staff are here to assist you every step of the way. With their expertise and commitment to customer satisfaction, they'll ensure you find exactly what you need to keep your LG appliances operating at their peak.</span></p><p dir=\"ltr\"><span>Shop LG dryer parts from Statewide Appliance Spares today and experience unparalleled quality and service.</span></p></div>",
+    "vendor": "lg",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Miele dryer spare parts",
+    "url": "/dryers/miele",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Discover all your genuine Miele dryer spare parts right here at Statewide Appliance Spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Looking to maintain the quality and performance of your Miele dryer? Look no further than Statewide Appliance Spares. Our extensive range of Miele dryer spares ensures that you can easily find the parts you need to keep your appliance running smoothly.</span></p><p dir=\"ltr\"><span>Renowned for their durability, Miele dryers offer innovative features that ensure optimal drying results while being gentle on clothes. Their advanced technology allows for precise control over drying settings, catering to various fabric types and preferences. Moreover, Miele's attention to detail extends to energy efficiency, helping users save on utility costs while minimising environmental impact. With sleek design and intuitive interfaces, Miele delivers convenience and reliability.</span></p><p dir=\"ltr\"><span>Shop with Statewide Appliance Spares and experience our easy-to-navigate website, making it a breeze to locate the exact part you're looking for. Our team of local experts is on hand to provide you with any assistance you may need, ensuring a seamless shopping experience from start to finish. With fast delivery, unbeatable prices, and the largest range of appliance parts in Australia, you can shop with confidence, knowing that you're getting the best value and service.</span></p><p dir=\"ltr\"><span>Don't let a malfunctioning dryer disrupt your daily routine. Shop Miele dryer spare parts from Statewide Appliance Spares today.</span></p></div>",
+    "vendor": "miele",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Simpson dryer spare parts",
+    "url": "/dryers/simpson",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find your genuine Simpson dryer spares at Statewide Appliance Spares and keep your dryer performing at its best. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Looking to maintain the quality and performance of your Simpson dryer? Look no further than Statewide Appliance Spares. Our extensive range of Simpson dryer spares means you can easily find the parts you need to keep your appliance running smoothly.</span></p><p dir=\"ltr\"><span>With Simpson’s reputation for durability, reliability, and efficiency, you’ll enjoy the peace of mind that comes with over 150 years of experience.</span></p><p dir=\"ltr\"><span>Shop with Statewide Appliance Spares and experience our easy-to-navigate website, making it a breeze to locate the exact part you're looking for. Our team of local experts is on hand to provide you with any guidance you may need, ensuring a seamless shopping experience from start to finish. Our warehouse is packed with genuine Simpson spares. Shop Simpson dryer spare parts from Statewide Appliance Spares today.</span></p></div>",
+    "vendor": "simpson",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Speed Queen dryer spare parts",
+    "url": "/speed-queen/dryers",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find your genuine Speed Queen dryer spares at Statewide. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>At Statewide, we offer a huge range of Speed Queen spare parts to ensure optimal performance and longevity for your Speed Queen dryer.</span></p><p dir=\"ltr\"><span>Discover a wide range of genuine Speed Queen dryer spares designed to seamlessly integrate with your appliance, guaranteeing a perfect fit and reliable operation. With our easy-to-use website, finding the right part for your Speed Queen dryer has never been easier. Our dedicated customer support team is also here to assist you every step of the way, ensuring a hassle-free shopping experience.</span></p><p dir=\"ltr\"><span>Explore our collection of Speed Queen dryer spare parts today and restore your appliance to its peak performance.</span></p></div>",
+    "vendor": "speed-queen",
+    "appliance_type": "dryers",
+    "part_type": ""
+  },
+  {
+    "title": "Simpson dryer spare parts",
+    "url": "/simpson/dryers/element",
+    "vendor": "Simpson",
+    "appliance_type": "dryers",
+    "part_type": "element-heater"
+  },
+  {
+    "title": "Speed Queen washing machine spare parts",
+    "tags": ["Speed Queen washing machine", "speed queen washing machines"],
+    "url": "/speed-queen/washing-machines",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Ensure optimal performance and reliability for your Speed Queen washing machine with genuine Speed Queen spare parts. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Speed Queen is known for its durability and high performance. Speed Queen washing machines are designed to handle heavy loads and frequent use, making them a popular choice for commercial laundry facilities as well as for households.&nbsp;</span></p><p dir=\"ltr\"><span>Navigate our comprehensive website to find your Speed Queen spare parts with ease. Plus, enjoy the convenience of fast, Australia-wide delivery to ensure your Speed Queen appliance operates at its best in no time.</span></p><p dir=\"ltr\"><span>Can’t find the Speed Queen spare part you’re after? We love to help our customers and offer expert guidance and advice to make buying spare parts easier. Call us on 1800 005 220. Shop Speed Queen washing machine parts online today and save.</span></p></div>",
+    "vendor": "speed-queen",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Speed Queen washing machine spare parts",
+    "url": "/speed-queen-washing-machines",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Speed Queen Laundry equipment is commercial grade equipment sold for residential use that is specially manufactured to operate under even the toughest conditions. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Offering both top load and front load washing machines, Speed Queen have supplied the Australian commercial laundry market for over 20 years, and continue to provide the industry with reliable washing machines and dryers.Buy your Speed Queen washing machine spare parts from Statewide Appliance Spares. We stock Australia’s biggest range of appliance spare parts with the lowest prices guaranteed.</span></p><p dir=\"ltr\"><span>Navigate our comprehensive website to find your Speed Queen spare parts with ease. Plus, enjoy the convenience of fast, Australia-wide delivery to ensure your Speed Queen appliance operates at its best in no time.</span></p><p dir=\"ltr\"><span>Can’t find the Speed Queen spare part you’re after? We love to help our customers and offer expert guidance and advice to make buying spare parts easier. Call us on 1800 005 220. Shop Speed Queen washing machine parts online today and save.</span></p></div>",
+    "vendor": "speed-queen",
+    "appliance_type": "washing-machine",
+    "part_type": "",
+  },
+  {
+    "title": "Robotic spare parts",
+    "url": "/robotic",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Robot vacuums are increasingly becoming popular. Their clever use of onboard cameras and software technology effectively analysis your home, maps a detailed path and efficiently goes about cleaning your floor space with ease. Statewide can supply the most commonly needed spare parts for most leading brands of robot vacuum equipment.</p></div>",
+    "vendor": "",
+    "appliance_type": "other-electronic-appliances",
+    "part_type": "",
+  },
+  {
+    "title": "Miele washing machine spare parts",
+    "tags": ["Miele washing machine", "miele washing machines"],
+    "url": "/miele/washing-machines",
+    "vendor": "miele",
+    "appliance_type": "washing-machine",
+    "part_type": ""
+  },
+  {
+    "title": "Air conditioner compressor",
+    "tags": ["AC Compressor", "Air con compressor"],
+    "url": "/air-conditioners/compressor",
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "compressor"
+  },
+  {
+    "title": "Dryer bearings",
+    "tags": ["Dryer bearings", "dryer bearing", "bearing dryer"],
+    "url": "/dryers/bearing",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Statewide Appliance Spares offers an extensive selection of dryer bearing spare parts, catering to a wide range of dryer brands and models. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>When it comes to maintaining and repairing your dryer, choosing the right spare parts is crucial to ensure optimal performance and longevity. Statewide Appliance Spares offers an extensive selection of dryer bearing spare parts, catering to a wide range of dryer brands and models. We stock genuine and high-quality </span><a href=\"https://www.statewideapp.com.au/dryers/bearing\"><span>dryer parts</span></a><span>, ensuring compatibility and reliability.</span></p><p dir=\"ltr\"><span>With fast and reliable Australia-wide shipping, we ensure that you receive your dryer bearing spare parts promptly, minimizing downtime and allowing you to get your dryer up and running quickly.</span></p><h2 dir=\"ltr\"><span>How to replace dryer bearings</span></h2><ol><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>First, unplug the dryer or turn off its electrical supply to ensure your safety.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Locate and remove the dryer's front panel. This may involve removing screws or releasing spring clips. Refer to your dryer's user manual for specific instructions.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Once the front panel is removed, you should have access to the dryer's drum. Look for the drum support rollers or bearings, usually located at the back of the drum on the dryer's rear bulkhead.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Remove the belt from the dryer drum. You may need to release the tension by pulling on the idler pulley or motor bracket. Take note of the belt's configuration or refer to your dryer's user manual for guidance.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Once the belt is detached, carefully lift and remove the drum from the dryer. Place it aside on a soft surface to prevent scratching.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Inspect the drum support rollers or bearings. If they are worn, damaged, or making squeaking noises, it's time to replace them.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Using the appropriate tools, remove the old bearings from their housing or shaft. This may involve loosening retaining clips, screws, or bolts.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Install the new bearings into the housing or shaft, following the reverse order of the removal process. Ensure they fit securely and rotate smoothly.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>If necessary, inspect the drum glides or slides located on the front bulkhead and replace them if worn or damaged. These components provide support and smooth movement for the drum.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Apply lubricating oil or grease to the new bearings and drum glides/slides. Follow the manufacturer's instructions for the specific type of lubricant you're using.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Reassemble the dryer by reversing the steps you followed to disassemble it. Make sure to reconnect the belt properly and ensure it is correctly tensioned.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Plug in the dryer or restore its electrical supply. Test the dryer to ensure it's operating smoothly and that the new bearings have resolved any issues.</span></p></li></ol><p dir=\"ltr\"><strong>Note:</strong><span> The above steps are a general guide and the specific process may vary depending on your dryer model. Always consult your dryer's user manual for detailed instructions and safety precautions. If you're unsure, it's best to seek professional assistance from a qualified technician.</span></p><h2 dir=\"ltr\"><span>How to check if your dryer bearings need replacing</span></h2><p dir=\"ltr\"><span>If you suspect that the bearings in your dryer may need replacing, here are some signs to look out for:</span></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Unusual noises:</strong><span> Pay attention to any unusual noises coming from your dryer during operation. Squeaking, grinding, or rumbling sounds can indicate worn-out bearings.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Drum wobbling or misalignment:</strong><span> If you notice that the dryer drum is wobbling or not spinning smoothly, it could be a sign that the bearings are worn and no longer providing proper support.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Difficulty rotating the drum:</strong><span> Try manually spinning the dryer drum with your hand when the dryer is off. If it feels stiff, doesn't rotate smoothly, or has resistance, it may indicate a problem with the bearings.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Excessive heat or burning smell:</strong><span> Faulty bearings can cause increased friction, leading to overheating. If you notice excessive heat around the dryer or detect a burning smell, it's crucial to investigate further, as this could be a sign of bearing issues.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Visible wear or damage:</strong><span> Inspect the drum support rollers or bearings for visible signs of wear, damage, or rust. Excessive wear, flat spots, or loss of lubrication are indications that the bearings may need replacement.</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><strong>Uneven drying:</strong><span> If your clothes are not drying evenly or taking longer to dry than usual, it could be due to the drum not spinning properly because of worn-out bearings.</span></p></li></ul><p dir=\"ltr\"><span>Consult your dryer's user manual for specific troubleshooting steps and instructions.</span></p><p dir=\"ltr\">Statewide Appliance Spares are Australia’s largest distributor of genuine parts and accessories for all leading brands of household appliances. We offer fast and reliable shipping, ensuring our customers receive their parts quickly. Shop <a href=\"https://www.statewideapp.com.au/washers-dryers\">washer and dryer spares</a> with the lowest prices, guaranteed.</p></div>",
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": "bearing"
+  },
+  {
+    "title": "Dryer belts",
+    "tags": ["Dryer belt", "Dryer belts"],
+    "url": "/dryers/belt-chain",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop dryer belts at Statewide Appliance Spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Statewide Appliance Spares, your go-to destination for all your dryer spare part needs. With the largest range of appliance spare parts in Australia, we take pride in being your trusted source for all washer and dryer spares.</p><p dir=\"ltr\">We understand the importance of having your dryer working at its best. That's why we ensure our most popular spare parts are always in stock. Experience the convenience of fast, Australia-wide delivery at competitive prices.</p></div>",
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": "belt-chain"
+  },
+  {
+    "title": "Dryer brackets",
+    "tags": ["Dryer brackets", "dryer bracket"],
+    "url": "/dryers/bracket-guiderail-wallmount",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find dryer brackets and mounting kits at Statewide. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>When it comes to maintaining and repairing your dryer, choosing the right spare parts is crucial to ensure optimal performance and longevity. Statewide Appliance Spares offers an extensive selection of dryer brackets and spare parts, catering to a wide range of dryer brands and models. We stock genuine and high-quality </span><a href=\"https://www.statewideapp.com.au/dryers\" data-mce-href=\"https://www.statewideapp.com.au/dryers\"><span>dryer parts</span></a><span>, ensuring compatibility and reliability.</span></p><p dir=\"ltr\"><span>A dryer guide rail, also known as a drum support roller or drum glide, is a component that helps support and guide the drum of a dryer during operation. It typically consists of a wheel or roller that rotates on a shaft or a strip of material that provides a smooth surface for the drum to glide on.</span></p><h2 dir=\"ltr\"><span>A guide rail can help with:</span></h2><ul><li aria-level=\"1\" dir=\"ltr\"><p role=\"presentation\" dir=\"ltr\"><strong>Drum Support:</strong><span> The guide rail plays a crucial role in supporting the weight of the dryer drum. It helps distribute the load evenly, preventing excessive strain on other components and ensuring the smooth rotation of the drum.</span></p></li><li aria-level=\"1\" dir=\"ltr\"><p role=\"presentation\" dir=\"ltr\"><strong>Drum Alignment:</strong><span> The guide rail helps keep the dryer drum properly aligned. It ensures that the drum spins in a straight and balanced manner, minimizing vibrations and potential damage to the drum and other parts of the dryer.</span></p></li><li aria-level=\"1\" dir=\"ltr\"><p role=\"presentation\" dir=\"ltr\"><strong>Reduced Friction:</strong><span> The guide rail reduces friction between the drum and other dryer components. This helps prevent excessive wear and tear on both the drum and the supporting structure, extending the lifespan of your dryer.</span></p></li><li aria-level=\"1\" dir=\"ltr\"><p role=\"presentation\" dir=\"ltr\"><strong>Quiet Operation:</strong><span> A properly functioning guide rail helps reduce noise generated by the dryer. By providing smooth and stable support, it minimizes rattling, squeaking, or grinding sounds that can occur when the drum rubs against other surfaces.</span></p></li><li aria-level=\"1\" dir=\"ltr\"><p role=\"presentation\" dir=\"ltr\"><strong>Protection of Clothes:</strong><span> The guide rail's smooth surface prevents clothes from getting caught or snagged between the drum and the dryer's interior. It helps maintain the integrity of your garments and prevents damage during the drying process.</span></p></li></ul><h2 dir=\"ltr\"><span>How to wall mount your dryer</span></h2><ul><li><span>Choose a suitable location on the wall near a power outlet and vent.</span></li><li role=\"presentation\" dir=\"ltr\"><span>Verify that your dryer is designed for wall mounting and check the manufacturer's instructions.</span></li><li role=\"presentation\" dir=\"ltr\"><span>Purchase a wall mounting kit compatible with your dryer model.</span></li><li role=\"presentation\" dir=\"ltr\"><span>Prepare the wall by ensuring it is sturdy and can support the weight of the dryer.</span></li><li role=\"presentation\" dir=\"ltr\"><span>Attach the mounting brackets to the back of the dryer according to the kit's instructions.</span></li><li role=\"presentation\" dir=\"ltr\"><span>Lift the dryer and align the mounting brackets with the corresponding holes or slots on the wall.</span></li><li role=\"presentation\" dir=\"ltr\"><span>Secure the dryer to the wall using the provided screws or fasteners.</span></li><li role=\"presentation\" dir=\"ltr\"><span>Connect the power cord and any necessary venting to the dryer.</span></li><li role=\"presentation\" dir=\"ltr\"><span>Double-check all connections and test the dryer to ensure proper operation.</span></li></ul><p dir=\"ltr\"><br></p><p dir=\"ltr\"><span>Remember to consult your dryer's user manual and the instructions provided with the mounting kit for specific details and guidelines.</span></p><h2 dir=\"ltr\"><span>Find replacement brackets and all your washer and dryer spares at Statewide</span></h2><ul><li aria-level=\"1\" dir=\"ltr\"><p role=\"presentation\" dir=\"ltr\"><span>To find the right </span><a href=\"https://www.statewideapp.com.au/dryers\" data-mce-href=\"https://www.statewideapp.com.au/dryers\"><span>dryer spares</span></a><span> you will need your appliance model number.</span></p></li><li aria-level=\"1\" dir=\"ltr\"><p role=\"presentation\" dir=\"ltr\"><span>If unsure where to find your model number, check out our </span><a href=\"https://www.statewideapp.com.au/findyourmodel\" data-mce-href=\"https://www.statewideapp.com.au/findyourmodel\"><span>guide</span></a><span>. Most manufacturers place the model number on the back exterior of the unit or on the inside of the door.</span></p></li><li aria-level=\"1\" dir=\"ltr\"><p role=\"presentation\" dir=\"ltr\"><span>Search on our website by brand and model number to find the correct part.</span></p></li></ul><p dir=\"ltr\"><span>Shop replacement dryer brackets </span><a href=\"https://www.statewideapp.com.au/dryers/bracket-guiderail-wallmount\" data-mce-href=\"https://www.statewideapp.com.au/dryers/bracket-guiderail-wallmount\"><span>here</span></a><span>. We stock dryer brackets for all leading brands including </span><a href=\"https://www.statewideapp.com.au/bosch/dryers/bracket-guiderail-wallmount\" data-mce-href=\"https://www.statewideapp.com.au/bosch/dryers/bracket-guiderail-wallmount\"><span>Bosch</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/electrolux/dryers/bracket-guiderail-wallmount\" data-mce-href=\"https://www.statewideapp.com.au/electrolux/dryers/bracket-guiderail-wallmount\"><span>Electrolux</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/lg/dryers/bracket-guiderail-wallmount\" data-mce-href=\"https://www.statewideapp.com.au/lg/dryers/bracket-guiderail-wallmount\"><span>LG</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/simpson/dryers/bracket-guiderail-wallmount\" data-mce-href=\"https://www.statewideapp.com.au/simpson/dryers/bracket-guiderail-wallmount\"><span>Simpson</span></a><span> and </span><a href=\"https://www.statewideapp.com.au/fisher-paykel/dryers/bracket-guiderail-wallmount\" data-mce-href=\"https://www.statewideapp.com.au/fisher-paykel/dryers/bracket-guiderail-wallmount\"><span>Fisher &amp; Paykel</span></a><span>.</span></p><h2 dir=\"ltr\"><span>Buy your dryer spare parts online at Statewide</span></h2><p dir=\"ltr\"><span>Statewide Appliance Spares have a wide range of dryer spares for your dryer, ready for fast Australia-wide delivery. Need some expert help? Our team has got you covered. They are on hand to answer all your questions and help you find what you need.</span></p></div>",
+    "vendor": "",
+    "appliance_type": "dryers",
+    "part_type": "bracket-guiderail-wallmount"
+  },
+  {
+    "title": "Philips coffee machine spare parts",
+    "url": "/philips/coffee-machines/gasket-seal",
+    "vendor": "philips",
+    "appliance_type": "coffee-machines",
+    "part_type": "gasket-seal"
+  },
+  {
+    "title": "Home theatre spare parts",
+    "tags": ["the", "home theatres"],
+    "url": "/home-theatres",
+    "vendor": "",
+    "appliance_type": "home-theatres",
+    "part_type": ""
+  },
+  {
+    "title": "Home theatre power cords",
+    "tags": ["Home theatre power cords"],
+    "url": "/home-theatres/acadapter/charger",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Home theatre power cords and spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Looking to keep your home theatre system running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including home theatre power cords.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "home-theatres",
+    "part_type": "ac-adapter-charger"
+  },
+  {
+    "title": "Kitchenaid spare parts",
+    "tags": ["Kitchen aid"],
+    "url": "/kitchenaid",
+    "vendor": "kitchenaid",
+    "appliance_type": "",
+    "part_type": ""
+  },
+  {
+    "title": "Cleaning products",
+    "url": "/cleaning-products",
+    "vendor": "",
+    "appliance_type": "",
+    "part_type": "cleaning-products",
+    "description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Miele Vacuum Bags at Statewide Appliance Spares. Statewide offer genuine Miele GN &amp; Miele FJM dustbags that are perfectly designed to fit your Miele Vacuum Cleaner.<br><br>Miele Vacuum Bags feature:</p><ul><li dir="ltr"><p dir="ltr">AirClean filter system that filters more than 99.9% of all fine dust particles</p></li><li dir="ltr"><p dir="ltr">Active HEPA filter. The HEPA AirClean Filter filters even fine dust and allergens – ideal for those with house dust allergies.</p></li><li dir="ltr"><p dir="ltr">Active AirClean filters that help to neutralise unpleasant odours – ideal for pet owners or households with smokers.</p></li></ul><p>To search vacuum bags / filters for other brands, click&nbsp;<a href="/vacuum-cleaner">here</a></p></div>`,
+  },
+  {
+    "title": "Dishwasher filters",
+    "url": "/dishwasher/filters",
+    "top_description": `<p class="landing-page-header-container" dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Discover easy dishwasher maintenance with replacement filters at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>With our easy-to-navigate website, finding the perfect filter for your dishwasher is a breeze. Simply refine your search using your appliance model number. You'll have access to a comprehensive selection of high-quality dishwasher filters.</span></p><p dir="ltr"><span>Can't seem to locate the exact part you need? Don't worry, our team is here to assist you every step of the way. We take pride in offering expert guidance and advice to ensure you find the right spare parts for your appliance. Just give us a call on Free Call 1800 005 220, and let us help you get your dishwasher back in top-notch condition.</span></p><p dir="ltr"><span>At Statewide Appliance Spares, we're committed to providing you with the best selection of dishwasher filters and spare parts from all the major brands, including </span><a href="https://www.statewideapp.com.au/dishlex/dishwashers"><span>Dishlex</span></a><span>, </span><a href="https://www.statewideapp.com.au/bosch/dishwashers"><span>Bosch</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/dishwashers"><span>Fisher &amp; Paykel</span></a><span>, </span><a href="https://www.statewideapp.com.au/dishwashers/electrolux"><span>Electrolux</span></a><span> and more. Shop with us today and experience the convenience of finding quality spare parts for your dishwasher.</span></p><h2 class="contenthead" dir="ltr"><span>Where is the filter located in your dishwasher?</span></h2><p dir="ltr"><span>The dishwasher filter is located at the bottom of your dishwasher, under the bottom rack.</span></p><h2 class="contenthead" dir="ltr"><span>How often should you clean your dishwasher filter?</span></h2><p dir="ltr"><span>Your dishwasher filter needs to be cleaned on a regular basis. We recommend monthly to keep your dishwasher performing at its best. The filter works to trap loose food particles and debris from being redeposited onto your dishes.</span></p><h2 class="contenthead" dir="ltr"><span>How to remove your dishwasher filter</span></h2><p dir="ltr"><span>Some dishwashers have 1 filter. Newer model filters tend to have 2 types of filters – an upper filter (cylinder shaped) and lower filter (flat filter that is positioned underneath the upper filter). To remove the upper filter, twist in an anti-clockwise position to unlock it, then pull up gently to remove it. If you have a secondary filter, this can be removed by pulling up.</span></p><h2 class="contenthead" dir="ltr"><span>How to clean your dishwasher filter</span></h2><p dir="ltr"><span>Step 1:&nbsp;&nbsp;&nbsp; Remove your filters.</span></p><p dir="ltr"><span>Step 2:&nbsp;&nbsp;&nbsp; Rinse under running water, then use a soft bristled brush and detergent to remove any debris.</span></p><p dir="ltr"><span>Step 3:&nbsp;&nbsp;&nbsp; Before replacing your filter, check if there are any food particles in the filter housing and clean.</span></p><p dir="ltr"><span>Step 4:&nbsp;&nbsp;&nbsp; Replace filters. The upper filter usually needs to be turned counter-clockwise to lock it into place.</span></p><p dir="ltr"><span>Dishwashers are subject to the build-up of limescale deposits. If you live in an area with hard water, it is important to descale your dishwasher regularly. Descaling will remove limescale and grime and improve your unit’s efficiency. We recommend&nbsp;Aktivo Dishwashing + Washing Machine Descaler.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "filters",
+  },
+  {
+    "title": "Heater switches",
+    "url": "/heaters/switch-relay",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop heater switches at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We offer an extensive range of air conditioning spare parts to ensure optimal performance and longevity for your appliance. Inspect your air conditioner filter regularly to ensure efficient operation and maintenance of good indoor air quality.&nbsp;</span></p><h2 dir="ltr"><span>Find your replacement air conditioner switches at Statewide</span></h2><p>Statewide Appliance Spares have Australia’s biggest range of air conditioning&nbsp;<a href="https://www.statewideapp.com.au/air-conditioners">spare parts</a>&nbsp;including&nbsp;<a href="https://www.statewideapp.com.au/air-conditioners/filter">filters</a>,&nbsp;<a href="https://www.statewideapp.com.au/remote-controls-air-conditioning">remote controls</a>,&nbsp;<a href="https://www.statewideapp.com.au/air-conditioners/fan-blower">fans</a>&nbsp;and&nbsp;<a href="https://www.statewideapp.com.au/air-conditioners/sensor-thermistor-thermostat">thermostats</a>. We offer competitively priced spares for all leading brands including&nbsp;<a href="https://www.statewideapp.com.au/daikin/air-conditioners">Daikin</a>,&nbsp;<a href="https://www.statewideapp.com.au/fujitsu/air-conditioners">Fujitsu</a>,&nbsp;<a href="https://www.statewideapp.com.au/kelvinator-spares">Kelvinator</a>,&nbsp;<a href="https://www.statewideapp.com.au/lg-air-conditioner-parts">LG</a>,&nbsp;<a href="https://www.statewideapp.com.au/mitsubishi-electric/air-conditioners/remote-wall-control">Mitsubishi Electric</a>&nbsp;and more, with fast Australia wide delivery.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "heaters",
+    "part_type": "switch-relay"
+  },
+  {
+    "title": "Dishwasher motors",
+    "url": "/dishwasher/motors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Upgrade your dishwasher with new and replacement motors from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Shop confidently knowing you'll find dishwasher parts for all leading brands including </span><a href="https://www.statewideapp.com.au/dishlex/dishwashers"><span>Dishlex</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/bosch/dishwashers"><span>Bosch</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/fisher-paykel/dishwashers"><span>Fisher &amp; Paykel</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/dishwashers/electrolux"><span>Electrolux</span></a><span> and more.</span><b></b></p><p dir="ltr"><span>Looking for a dishwasher motor? At Statewide, we pride ourselves on offering an extensive selection of high quality dishwasher motors to ensure your appliance runs smoothly and efficiently.</span><b></b></p><p dir="ltr"><span>We understand the importance of getting your appliance back up and running quickly. That's why we offer fast, Australia wide delivery from our extensively stocked warehouse</span><b></b></p><p dir="ltr"><span>Our most popular dishwasher spare parts are always in stock, so you can count on us to deliver your order promptly. Find dishwasher </span><a href="https://www.statewideapp.com.au/dishwashers/gasket-seal"><span>seals</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/dishwashers/filter"><span>filters</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/dishwashers/cutlery-basket"><span>cutlery baskets</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/dishwashers/brush-roller"><span>rollers</span></a><span>,&nbsp; </span><a href="https://www.statewideapp.com.au/dishwashers/spray-arm-nozzle"><span>spray arms</span></a><span> and more. Shop with confidence knowing that you're getting the best quality parts and service for your dishwasher.</span><b></b></p><p dir="ltr"><span>Don't let a faulty dishwasher motor disrupt your routine. Shop now at Statewide Appliance Spares and experience the convenience of finding the right spare part, every time.</span></p><h2 class="contenthead" dir="ltr"><span>When to replace your dishwasher motor?</span></h2><p dir="ltr"><span>Your dishwasher’s pump and motor assembly control the motion and water release. Over time, these can start to show problems such as a leak or drainage issue. If your once quiet dishwasher starts making a loud noise, it is a good time to investigate all the internal parts to make sure they are working correctly. Spray arms should freely spin, seals and bearing rings should be in place. If the noise continues, it may be time to look at your&nbsp;</span><a href="https://www.statewideapp.com.au/dishwashers/pump"><span>pump</span></a><span>&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/dishwashers/motor/gearbox"><span>motor</span></a><span>.</span></p><h2 class="contenthead" dir="ltr"><span>Find the right motor for your dishwasher</span></h2><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>To find the right part for your dishwasher, you will need your dishwasher model number.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If unsure where to find your model number, check out our&nbsp;</span><a href="https://www.statewideapp.com.au/findyourmodel"><span>guide</span></a><span>. Most manufacturers will place the model number either on the inner side of the dishwasher door, along the inner base of the dishwashing unit or along the side, depending on the manufacturer.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Search on our website by brand and model number to find the correct dishwasher motor.</span></p></li></ul></div>`,
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Heater covers",
+    "url": "/heaters/cover-facia-panel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop heater spare parts and covers at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With our easy-to-navigate website, finding the right heater spare parts is a breeze. Simply refine your search using your appliance model number. Can't seem to locate the exact part you need? Don't worry, our team is happy to help! Just give us a call on Free Call 1800 005 220, and let us help you get your heater back in top-notch condition.</p></div>`,
+    "vendor": "",
+    "appliance_type": "heaters",
+    "part_type": "cover-facia-panel"
+  },
+  {
+    "title": "IXL heater spare parts",
+    "url": "/heaters/ixl",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Genuine IXL parts available with fast delivery. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Discover genuine spare parts for your ILX heater at Statewide Appliance Spares. We stock genuine ILX parts, ensuring fast Australia-wide delivery and competitive prices for all your heating needs. <br><br>IXL stands as a leader and innovator in heat, light, and ventilation products. With a rich history spanning over 165 years, IXL is proudly Australian-owned, with roots firmly planted in Geelong, VIC. As a trusted family-owned company, IXL continues to deliver exceptional products designed to enhance your home environment. <br><br>At Statewide Appliance Spares, we're committed to providing you with the best in ILX heater spare parts. Our extensively stocked warehouse includes genuine ILX parts. We make it easy to find the exact part you need, ensuring your ILX heater operates at optimal efficiency.<br><br>Elevate your ILX heater's performance with genuine spare parts from Statewide Appliance Spares. Buy with confidence and ensure your home stays warm and comfortable throughout the seasons. Shop now and experience the Statewide Appliance Spares difference</p></div>`,
+    "vendor": "ixl",
+    "appliance_type": "heaters",
+    "part_type": ""
+  },
+  {
+    "title": "Vulcan heater spare parts",
+    "url": "/heaters/vulcan",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Vulcan heater spare parts from Statewide. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Discover genuine Vulcan heater spare parts at Statewide Appliance Spares. We offer the largest range of appliance spares in Australia. Our genuine parts ensure optimal performance for your Vulcan heater. Experience fast Australia wide delivery, expert guidance, and unbeatable prices.</p></div>`,
+    "vendor": "vulcan",
+    "appliance_type": "heaters",
+    "part_type": ""
+  },
+  {
+    "title": "Heater buttons & knobs",
+    "url": "/heaters/button-knob-lever",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop heater buttons & knobs at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop for heater buttons & knobs parts at Statewide Appliance Spares today and experience the difference of quality, reliability, and exceptional service. Your satisfaction is our priority, and we're here to make buying spare parts easier! Get in touch now and let us help you keep your heater running smoothly.</p></div>`,
+    "vendor": "",
+    "appliance_type": "heaters",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Ventilation remote controls",
+    "url": "/ventilation/remote-control",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop ventilation remote controls at Statewide Appliance Spares for the best selection. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With our easy-to-navigate website, finding the right ventilation spare parts is a breeze. Simply refine your search using your appliance model number. Can't seem to locate the exact part you need? Don't worry, our team is happy to help! Just give us a call on Free Call 1800 005 220.</p></div>`,
+    "vendor": "",
+    "appliance_type": "ventilation",
+    "part_type": "remote-control"
+  },
+  {
+    "title": "Ventilation covers",
+    "url": "/ventilation/cover-facia-panel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop ventilation spare parts at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide Appliance Spares, we're committed to providing you with the best in ventilation spare parts. Our extensively stocked warehouse includes genuine parts, alongside a wide range of universal fitting and value-packed compatible options. We make it easy to find the exact part you need, ensuring your appliance operates at optimal efficiency. Experience fast Australia-wide delivery, expert guidance, and unbeatable prices.</p></div>`,
+    "vendor": "",
+    "appliance_type": "ventilation",
+    "part_type": "cover-facia-panel"
+  },
+  {
+    "title": "Ventilation ducting",
+    "url": "/ventilation/ducting",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop ventilation ducting spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With our easy-to-navigate website, finding the right ventilation ducting spare parts is a breeze. Simply refine your search using your appliance model number. Can't seem to locate the exact part you need? Don't worry, our team is happy to help! Just give us a call on Free Call 1800 005 220.</p></div>`,
+    "vendor": "",
+    "appliance_type": "ventilation",
+    "part_type": "ducting"
+  },
+  {
+    "title": "Ventilation motors",
+    "url": "/ventilation/motor-gearbox",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find all your ventilation spare parts and motors at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We have Australia’s largest selection of genuine parts and a wide range of universal fittings and affordable compatible spares. We're your go-to destination for appliance spare parts for all the leading brands. Find the part you need and enjoy speedy delivery right to your doorstep.</p></div>`,
+    "vendor": "",
+    "appliance_type": "ventilation",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Ventilation switches",
+    "url": "/ventilation/switch-relay",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop ventilation switches at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We have Australia’s largest selection of genuine parts and a wide range of universal fittings and affordable compatible spares. Find the part you need and enjoy speedy delivery right to your doorstep.</p></div>`,
+    "vendor": "",
+    "appliance_type": "ventilation",
+    "part_type": "switch-relay"
+  },
+  {
+    "title": "Deflecto ventilation spare parts",
+    "url": "/ventilation/deflecto",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Deflecto ventilation spare parts at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Deflecto is a trusted name in ventilation solutions, offering a range of products designed to improve air quality and efficiency. With patented technologies such as the Airtight Fusion seam, Deflecto's venting systems are stronger, cleaner, and more efficient. <br><br> At Statewide Appliance Spares, we stock a selection of Deflecto ventilation spare parts. Whether you need replacement vents, ducts, connectors, or covers, we have you covered. Keep your home's ventilation system running smoothly with genuine Deflecto spare parts from Statewide Appliance Spares. Experience the difference in quality and efficiency. Shop now.</p></div>`,
+    "vendor": "deflecto",
+    "appliance_type": "ventilation",
+    "part_type": ""
+  },
+  {
+    "title": "IXL ventilation spare parts",
+    "url": "/ventilation/ixl",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Genuine IXL parts available with fast delivery. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Discover genuine spare parts for your ILX appliance at Statewide Appliance Spares. We stock genuine ILX parts, ensuring fast Australia-wide delivery and competitive prices for all your heating and ventilation needs. <br><br>IXL stands as a leader and innovator in heat, light, and ventilation products. With a rich history spanning over 165 years, IXL is proudly Australian-owned, with roots firmly planted in Geelong, VIC. As a trusted family-owned company, IXL continues to deliver exceptional products designed to enhance your home environment. <br><br>At Statewide Appliance Spares, we're committed to providing you with the best in ILX spare parts. Our extensively stocked warehouse includes genuine ILX parts. We make it easy to find the exact part you need, ensuring your ILX appliance operates at optimal efficiency.</p></div>`,
+    "vendor": "ixl",
+    "appliance_type": "ventilation",
+    "part_type": ""
+  },
+  {
+    "title": "Simpson ventilation spare parts",
+    "url": "/ventilation/simpson",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Simpson ventilation spare parts from Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Discover genuine Simpson spare parts at Statewide Appliance Spares. We offer the largest range of appliance spares in Australia. Our genuine parts ensure optimal performance for your Simpson appliance. Experience fast Australia wide delivery, expert guidance and unbeatable prices.</p></div>`,
+    "vendor": "simpson",
+    "appliance_type": "ventilation",
+    "part_type": ""
+  },
+  {
+    "title": "Ventilation sensors",
+    "url": "/ventilation/sensor-thermistor-thermostat",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop ventilation sensors at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We have Australia’s largest selection of genuine parts and a wide range of universal fittings and affordable compatible spares. Find the part you need and enjoy speedy delivery right to your doorstep.</p></div>`,
+    "vendor": "",
+    "appliance_type": "ventilation",
+    "part_type": "sensor-thermistor-thermostat"
+  },
+  {
+    "title": "Ventilation motors",
+    "url": "/ventilation/motor-gearbox-shaft",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find all your ventilation spare parts and motors at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We have Australia’s largest selection of genuine parts and a wide range of universal fittings and affordable compatible spares. We're your go-to destination for appliance spare parts for all the leading brands. Find the part you need and enjoy speedy delivery right to your doorstep.</p></div>`,
+    "vendor": "",
+    "appliance_type": "ventilation",
+    "part_type": "sensor-thermistor-thermostat"
+  },
+  {
+    "title": "Dishwasher hoses",
+    "url": "/dishwasher/hoses",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Repair your dishwasher easily with dishwasher hoses from Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Discover the ultimate solution for your dishwasher needs at Statewide Appliance Spares, with Australia’s biggest selection of dishwasher spare parts.<br><br>As the largest distributor of appliance spare parts in Australia, Statewide Appliance Spares boasts over 38 years of industry expertise. Australian owned and operated, we take pride in delivering spare parts for all the big brands and unparalleled service.<br><br>Browse our selection of dishwasher hoses today and enjoy the convenience fast shipping and the lowest prices guaranteed.</p></div>`,
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Air treatment cables",
+    "url": "/air-treatment/cable-cord",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop air treatment spare parts at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Experience the Statewide advantage – the biggest range in Australia, fast delivery, lowest price guarantee and expert guidance from our local team. At Statewide Appliance Spares, we make buying spares easier!</p></div>`,
+    "vendor": "",
+    "appliance_type": "air-treatment",
+    "part_type": "cable-cord"
+  },
+  {
+    "title": "Air treatment filters",
+    "url": "/air-treatment/filter",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop air treatment parts at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Experience hassle-free shopping with our secure online platform, accessible 24/7, or reach out to our dedicated customer care team at Free Call 1800 005 220 for expert guidance and personalised assistance.</p></div>`,
+    "vendor": "",
+    "appliance_type": "air-treatment",
+    "part_type": "filters"
+  },
+  {
+    "title": "LG air treatment spare parts",
+    "url": "/air-treatment/lg",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for LG air treatment spare parts at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Experience the Statewide advantage – the biggest range in Australia, fast delivery, lowest price guarantee and expert guidance from our local team. At Statewide Appliance Spares, we make buying spares easier!</p></div>`,
+    "vendor": "lg",
+    "appliance_type": "air-treatment",
+    "part_type": ""
+  },
+  {
+    "title": "Philips air treatment spare parts",
+    "url": "/air-treatment/philips",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Genuine Philips air treatment spare parts available with fast delivery. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">As the largest national distributor for Philips, we offer genuine Philips spare parts and accessories, designed to fit and function seamlessly with your Philips appliances. We make sure that our most popular Philips parts and accessories are always readily available with fast delivery across Australia and New Zealand. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of genuine Philips spare parts today.</p></div>`,
+    "vendor": "philips",
+    "appliance_type": "air-treatment",
+    "part_type": ""
+  },
+  {
+    "title": "Sharp air treatment spare parts",
+    "url": "/air-treatment/sharp",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Sharp air treatment spare parts at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Discover genuine Sharp spare parts at Statewide Appliance Spares. We offer the largest range of appliance spares in Australia. Our genuine parts ensure optimal performance for your Sharp appliance. Experience fast Australia wide delivery, expert guidance and unbeatable prices.</p></div>`,
+    "vendor": "sharp",
+    "appliance_type": "air-treatment",
+    "part_type": ""
+  },
+  {
+    "title": "Vax air treatment spare parts",
+    "url": "/air-treatment/vax",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Vax air treatment spare parts at Statewide. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Discover genuine Vax spare parts at Statewide Appliance Spares. We offer the largest range of appliance spares in Australia. Our genuine parts ensure optimal performance for your Vax appliance. Experience fast Australia wide delivery, expert guidance and unbeatable prices.</p></div>`,
+    "vendor": "vax",
+    "appliance_type": "air-treatment",
+    "part_type": ""
+  },
+  {
+    "title": "Carpet cleaner filters",
+    "url": "/carpet-cleaners/filter",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your carpet cleaner running smoothly with our range of carpet cleaner filters. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Not sure which filter your carpet cleaner needs? No problem. Simply locate your model number using our <a href="https://www.statewideapp.com.au/findyourmodel">guide</a>. Then, search our website by brand and model number to find the correct replacement part hassle-free.</p><p>Experience the Statewide advantage:</p><ul><li>Wide range of genuine spare parts and great value, compatible parts for all the big brands</li><li>Fast shipping throughout Australia</li><li>Expert advice and high-quality service from our dedicated team</li></ul><p>Upgrade your carpet cleaner filters with Statewide Appliance Spares today.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-cleaners",
+    "part_type": "filters"
+  },
+  {
+    "title": "Carpet cleaner hoses",
+    "url": "/carpet-cleaners/hose-pipe-tubing",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop carpet cleaner hoses at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Looking to keep your appliance running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including a comprehensive selection of carpet cleaner hoses to keep your appliances in top shape.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-cleaners",
+    "part_type": "hose-pipe-tubing"
+  },
+  {
+    "title": "Carpet cleaner tanks",
+    "url": "/carpet-cleaners/tank",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop carpet cleaner water tanks and spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Looking to keep your appliance running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including a comprehensive selection of carpet cleaner water tanks to keep your appliances in top shape.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-cleaners",
+    "part_type": "tank"
+  },
+  {
+    "title": "Bissell carpet cleaner spare parts",
+    "url": "/carpet-cleaners/bissell",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your Bissell carpet cleaner running smoothly with our range of Bissell spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Bissell is a leader in the homecare business for over five generations. They have a deep commitment to understanding the lives and cleaning needs of their consumers. Buy your Bissell carpet cleaner spare parts from Statewide Appliance Spares. We have an extensive range of Bissell carpet cleaner spares to suit your Bissell carpet cleaner, with fast Australia-wide delivery.</p></div>`,
+    "vendor": "bissell",
+    "appliance_type": "carpet-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Bissell carpet cleaner spare parts",
+    "url": "/carpet-cleaners/hoover",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Hoover spare parts with the lowest prices guaranteed! <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Looking to keep your Hoover carpet cleaner running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need to keep your appliances in top shape.</p></div>`,
+    "vendor": "hoover",
+    "appliance_type": "carpet-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Oates carpet cleaner spare parts",
+    "url": "/carpet-cleaners/oates",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Oates carpet cleaner spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance to make buying spare parts easier.</p></div>`,
+    "vendor": "oates",
+    "appliance_type": "carpet-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Pullman carpet cleaner spare parts",
+    "url": "/carpet-cleaners/pullman",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your Pullman carpet cleaner running smoothly with our range of genuine Pullman parts. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Find all your Pullman carpet cleaner spares at Statewide Appliance Spares. We have a big selection of carpet cleaner spare parts, ensuring that you can maintain your equipment with ease. Experience the Statewide Appliance Spares difference – shop now!</p></div>`,
+    "vendor": "pullman",
+    "appliance_type": "carpet-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Wertheim carpet cleaner spare parts",
+    "url": "/carpet-cleaners/wertheim",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Wertheim carpet cleaner spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide Appliance Spares, we are proud to offer a comprehensive selection of genuine Wertheim carpet cleaner parts, ensuring that your cleaning equipment performs at its best. Shopping with us is easy, with our effortless online browsing and fast Australia-wide delivery.</p></div>`,
+    "vendor": "wertheim",
+    "appliance_type": "carpet-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Wertheim vacuum & floor care spare parts",
+    "url": "/wertheim/vacuums-and-floor-care",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Wertheim vacuum cleaners have always been synonymous with quality cleaning. Wertheim have been pioneers in cleaning and have made their mark in two specific areas: Deep Cleaning Powerheads and quality filtration systems for vacuum cleaners. Wertheim has embarked on a strategy of continual refinement of their deep-cleaning powerheads and released series after after series of successful deep-cleaning machines. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Wertheim cleaners can be found in many homes in Australia and New Zealand, where they continue to deliver exceptional cleaning power week after week.<br><br>Buy your Wertheim vacuum cleaner and floor care spare parts from Statewide Appliance Spares. We have Australia’s biggest range of appliance spares and accessories.<br><br>Statewide Appliance Spares are a market leader in the supply of appliance spare parts for over 35 years. We ensure our most popular parts are always in stock and get you the spare part you need, with fast, Australia wide delivery.</p></div>`,
+    "vendor": "wertheim",
+    "appliance_type": "vacuums-floor-care",
+    "part_type": ""
+  },
+  {
+    "title": "Taski carpet cleaner spare parts",
+    "url": "/carpet-cleaners/taski",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover genuine Taski carpet cleaner spare parts at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your trusted distributor for genuine Taski carpet cleaner spare parts.  With our extensive selection and easy shopping experience, keeping your floor care equipment in top condition has never been easier!<br><br>At Statewide Appliance Spares, we stock a wide range of genuine Taski carpet cleaner spare parts to ensure your equipment operates at peak efficiency. We have everything you need to maintain and repair your Taski carpet cleaner.</p></div>`,
+    "vendor": "taski",
+    "appliance_type": "carpet-cleaners",
+    "part_type": ""
+  },
+  {
+    "title": "Carpet cleaner brushes & rollers",
+    "url": "/carpet-cleaners/brush-roller",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find your carpet cleaner brushes & rollers at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Experience the Statewide advantage – the biggest range in Australia, fast delivery, lowest price guarantee, and expert guidance from our local team. At Statewide Appliance Spares, we make buying spares easier!</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-cleaners",
+    "part_type": "brush-roller"
+  },
+  {
+    "title": "Carpet cleaner belts",
+    "url": "/carpet-cleaners/belt-chain",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore a selection of carpet cleaner belts at Statewide Appliance Spares – your trusted source for quality appliance spare parts. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our well-stocked warehouse includes genuine parts alongside a vast selection of universal fitting and affordable compatible universal spare parts. Count on us to have our most sought-after parts consistently in stock, ensuring you get the spare part you need promptly with fast Australia-wide delivery. Trust the experts at Statewide. With more than 38 years’ experience, we can offer expert guidance and advice to make buying spares easier.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-cleaners",
+    "part_type": "belt-chain"
+  },
+  {
+    "title": "Television cables",
+    "url": "/televisions/cable-cord",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find the television cables to elevate your viewing experience and streamline your entertainment setup. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>At Statewide Appliance Spares, we understand the importance of seamless connectivity for your home entertainment system. Dive into our collection of television cables for your </span><a href=\"https://www.statewideapp.com.au/hisense/televisions\"><span>Hisense</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/lg/televisions\"><span>LG</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/panasonic/televisions\"><span>Panasonic</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/samsung/televisions\"><span>Samsung</span></a><span> and </span><a href=\"https://www.statewideapp.com.au/sharp/televisions\"><span>Sharp</span></a><span> TV.</span></p><p dir=\"ltr\"><span>Experience the Statewide advantage:</span></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Wide range of genuine spare parts and great value, compatible parts for all the big brands</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Fast shipping throughout Australia</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Expert advice and high-quality service from our dedicated team</span></p></li></ul><p dir=\"ltr\"><span>Upgrade your televisions cables with Statewide Appliance Spares today.</span></p><p dir=\"ltr\">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": "cable-cord"
+  },
+  {
+    "title": "Television LCD's",
+    "url": "/televisions/lcd",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop television LCD’s and spare parts at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Looking to keep your television running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including a comprehensive selection of television LCD’s to keep your appliances in top shape.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": "lcd"
+  },
+  {
+    "title": "Television aerials",
+    "url": "/televisions/aerial-tuner",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Your destination for television aerials and spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Whether you're a homeowner aiming for perfect TV reception, a DIY enthusiast tackling a weekend project, or a seasoned repairer in need of reliable parts, Statewide Appliance Spares has got you covered.</span></p><h2 class=\"contenthead\" dir=\"ltr\"><span>Why Choose Us?</span></h2><p dir=\"ltr\"><strong>Fast Delivery Across Australia</strong></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Need your aerial fast? We've got you covered with our speedy nationwide delivery.</span></p></li></ul><p dir=\"ltr\"><strong>Expert Local Team</strong></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Say goodbye to guesswork! Our local team of experts is here to guide you to the exact part you need.</span></p></li></ul><p dir=\"ltr\"><strong>Unmatched Selection</strong></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>With the biggest range of appliance spares in Australia, we're your one-stop-shop for all major brands.</span></p></li></ul><p dir=\"ltr\"><strong>Genuine Parts, Unbeatable Value</strong></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>A large range of genuine spare parts or exceptional value compatible and universal options.</span></p></li></ul><p dir=\"ltr\"><strong>Lowest Price Guarantee</strong></p><ul><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span>Shop with confidence knowing you're getting the best deal on the market.</span></p></li></ul><p dir=\"ltr\"><span>Browse our collection now and find the aerial that fits your needs and budget. Experience the convenience, expertise and value that only Statewide Appliance Spares can offer.</span></p><p dir=\"ltr\">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "televisions",
+    "part_type": "aerial-tuner"
+  },
+  {
+    "title": "Dishwasher wheels",
+    "url": "/dishwashers/wheel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop now at Statewide Appliance Spares and experience the convenience of finding dishwasher wheels and spare parts easily. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide Appliance Spares have Australia’s biggest range of dishwasher spare parts and accessories for leading brands including </span><a href="https://www.statewideapp.com.au/bosch/dishwashers"><span>Bosch</span></a><span>, </span><a href="https://www.statewideapp.com.au/dishlex/dishwashers"><span>Dishlex</span></a><span>, </span><a href="https://www.statewideapp.com.au/electrolux/dishwashers"><span>Electrolux</span></a><span>, </span><a href="https://www.statewideapp.com.au/fisher-paykel/dishwashers"><span>Fisher &amp; Paykel</span></a><span> and more.</span></p><p dir="ltr"><span></span><span>We ensure that our top-selling dishwasher components like&nbsp;</span><a href="https://www.statewideapp.com.au/dishwasher/hoses"><span>hoses</span></a><span>, </span><a href="https://statewideapp.com.au/dishwashers/cutlery-baskets"><span>cutlery baskets</span></a><span>, </span><a href="https://www.statewideapp.com.au/dishwashers/spray-arm-nozzle"><span>spray arms</span></a><span> and </span><a href="https://www.statewideapp.com.au/dishwasher/racks"><span>racks</span></a><span> are always readily available.</span></p><p dir="ltr"><b id="docs-internal-guid-520df161-7fff-75bb-fe6c-b0be983bc255"></b>With over 38 years in the business, Statewide Appliance Spares is Australia's largest distributor of appliance spare parts. Our Australian-owned and operated company is dedicated to delivering high-quality service and expert advice to make buying spares easier! Shop now with fast delivery and unbeatable prices<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "dishwashers",
+    "part_type": "wheel"
+  },
+  {
+    "title": "Rangehood buttons & knobs",
+    "url": "/rangehoods/button-knob-lever",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your kitchen running smoothly with new and replacement rangehood buttons and knobs. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\" class=\"contenthead\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Statewide Appliance Spares have Australia’s biggest range of rangehood spare parts and accessories for leading brands <a href=\"https://www.statewideapp.com.au/chef/rangehoods\">Chef</a>, <a href=\"https://www.statewideapp.com.au/electrolux/rangehoods\">Electrolux</a>, <a href=\"https://www.statewideapp.com.au/fisher-paykel/rangehoods\">Fisher &amp; Paykel</a>, <a href=\"https://www.statewideapp.com.au/lg/rangehoods\">LG</a>, <a href=\"https://www.statewideapp.com.au/westinghouse/rangehoods\">Westinghouse</a> and many more.<br><br>We ensure our most popular rangehood parts are always in stock – including <a href=\"https://www.statewideapp.com.au/rangehood-filters\">filters</a>, <a href=\"https://www.statewideapp.com.au/rangehoods/globe-lamp\">globes</a> and <a href=\"https://www.statewideapp.com.au/rangehoods/switch-relay\">switches</a> with fast Australia wide delivery and competitive prices.<br><br>Statewide Appliance Spares are a market leader in the supply of appliance spare parts for over 38 years. Our dedicated customer service team can offer expert guidance and advice to make buying spare parts easier.</p></div>",
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": "button-knob-lever"
+  },
+  {
+    "title": "Rangehood ducting",
+    "url": "/rangehoods/ducting",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop rangehood ducting at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We offer a range of rangehood spares including ducting,&nbsp;</span><a href="https://www.statewideapp.com.au/rangehoods/cover-facia-panel"><span>covers</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/rangehoods/filter"><span>filters</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/rangehoods/bracket-guiderail-wallmount"><span>brackets</span></a><span>&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/rangehoods/globe-lamp"><span>globes</span></a><span>.</span><b></b></p><h2 dir="ltr" class="contenthead"><span>What is a ducted rangehood?</span></h2><p dir="ltr"><span>A ducted rangehood draws air through the filter and expels it through ducts away from the kitchen to the exterior of the home. Ducted rangehoods are effective in extracting smoke, grease and particles from the home and can minimise odours.</span></p><h2 dir="ltr" class="contenthead"><span>Ducted rangehood vs recirculating</span></h2><p dir="ltr"><span>A ducted rangehood is connected to your kitchen through extractor fans which transport airborne particles from your kitchen to the outdoors. With a recirculated rangehood, air is extracted through a&nbsp;</span><a href="https://www.statewideapp.com.au/rangehoods/filter"><span>filtration</span></a><span> system built into the hood, working to remove any grease and odour from the air before releasing it back into the kitchen.</span><b></b></p><h2 dir="ltr" class="contenthead"><span>How to install a rangehood duct</span></h2><p dir="ltr"><span>Under Australian law, the requirements for the installation of rangehood ducting varies in each state. Do your research before installation.</span><b></b></p><p dir="ltr"><span>At Statewide, we offer an extensive range of rigid, semi rigid and flexible ducting, in addition to ducting kits. </span><span>&nbsp;</span><span>Our extensively stocked warehouse includes genuine ducting and a large range of universal fitting and great value compatible non-genuine and generic rangehood spare parts.</span><b></b></p><p dir="ltr"><span>With over 38 years of experience, Statewide Appliance Spares leads the market in appliance spare parts. Count on our dedicated customer service team for expert guidance and advice, making your spare parts shopping experience a breeze.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "rangehoods",
+    "part_type": "ducting"
+  },
+  {
+    "title": "Air conditioner bearings",
+    "url": "/air-conditioners/bearing",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find air conditioner bearings and AC spares at Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Air conditioner bearings are crucial components responsible for ensuring smooth and efficient operation of your air conditioning unit. Like any mechanical part, they can wear out over time due to factors such as friction, dirt, or lack of lubrication. When it's time to replace your bearings, look to Statewide Appliance Spares.</p><p>Statewide is your go-to destination for all your air conditioning spare parts needs. With over 38 years of expertise in the industry, we take pride in being Australia's leading supplier of appliance spare parts. When it comes to air conditioning, we've got you covered with the widest range of parts and accessories, catering to all major brands including <a href="https://www.statewideapp.com.au/daikin/air-conditioners">Daikin</a>, <a href="https://www.statewideapp.com.au/fujitsu/air-conditioners">Fujitsu</a>, <a href="https://www.statewideapp.com.au/kelvinator-spares">Kelvinator</a>, <a href="https://www.statewideapp.com.au/lg-air-conditioner-parts">LG</a>, <a href="https://www.statewideapp.com.au/mitsubishi-electric/air-conditioners/remote-wall-control">Mitsubishi Electric</a>, <a href="https://www.statewideapp.com.au/panasonic">Panasonic</a> and <a href="https://www.statewideapp.com.au/samsung/air-conditioners">Samsung</a>.</p><p>Our competitively priced spares come with a lowest price guarantee, ensuring you get the best deal every time. As authorised distributors for over 100 major brands, we stock only the most popular parts to ensure optimal performance and longevity for your air conditioning units.</p><p>Shop for air conditioner bearings and spare parts at Statewide Appliance Spares today and experience the difference of quality, reliability, and exceptional service. Your satisfaction is our priority, and we're here to make buying spare parts easier! Get in touch now and let us help you keep your air conditioning running smoothly.</p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "bearing"
+  },
+  {
+    "title": "Heater fans",
+    "url": "/heaters/fan/blower",
+    "vendor": "",
+    "appliance_type": "heaters",
+    "part_type": "fan-blower"
+  },
+  {
+    "title": "Air conditioner covers",
+    "url": "/air-conditioners/cover-facia-panel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Repair your air conditioner easily with covers from Statewide Appliance Spares. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide Appliance Spares, we understand the importance of maintaining your air conditioner's peak performance. That's why we offer an extensive selection of air conditioning parts, ensuring you can easily find the exact component you need. Our user-friendly website makes it simple to navigate through our comprehensive parts, streamlining your shopping experience.</p><h2>Find all your air conditioner spare parts at Statewide spares at Statewide</h2><p>Our comprehensive range of air conditioner spare parts includes <a href="https://www.statewideapp.com.au/air-conditioners/filter">filters</a>, <a href="https://www.statewideapp.com.au/air-conditioners/remote-wall-control">remote controls</a>, <a href="https://www.statewideapp.com.au/air-conditioners/pcb-control-box">PCB's</a>, <a href="https://www.statewideapp.com.au/air-conditioners/compressor">compressors</a>, <a href="https://www.statewideapp.com.au/air-conditioners/fan-blower">fans</a>, <a href="https://www.statewideapp.com.au/air-conditioners/motor-gearbox-shaft">motors</a> and more.</p><p>Shop for <a href="https://www.statewideapp.com.au/daikin/air-conditioners">Daikin Air Conditioner spare parts</a>. We offer competitive pricing and fast, Australia wide delivery.</p><p>Shop for <a href="https://www.statewideapp.com.au/samsung/air-conditioners">Samsung Air Conditioners spare parts</a> at Statewide Appliance Spares. We stock an extensive range of air conditioner spare parts, including filters, remote controls, and PCB's to get your unit back to working order and provide you a better living and more comfortable environment.</p><p>Find your <a href="https://www.statewideapp.com.au/electrolux/air-conditioners">Electrolux Air Conditioner spare parts</a> at Statewide. We offer the biggest selection with fast, Australia wide delivery.</p><p>Need <a href="https://www.statewideapp.com.au/fisher-paykel/air-conditioners">Fisher Paykel Air Conditioner spare parts</a>? Find what you need, at Statewide.</p><p>Statewide Appliance Spares have Australia's biggest range of <a href="https://www.statewideapp.com.au/fujitsu/air-conditioners">Fujitsu Air Conditioner spare parts</a> and accessories. We ensure our most popular Fujitsu air conditioner parts are always in stock to get your unit back to working order and provide you a better living and more comfortable environment.</p><p>Shop for <a href="https://www.statewideapp.com.au/lg/air-conditioners">LG Air Conditioner spare parts</a> from Statewide – the market leaders in appliance spares.</p><p>Need <a href="https://www.statewideapp.com.au/mitsubishi-electric/air-conditioners">Mitsubishi Electric Air Conditioner spare parts</a>? Statewide offers the biggest selection at competitive prices.</p><p>Find your <a href="https://www.statewideapp.com.au/panasonic/air-conditioners">Panasonic Air Conditioner spare parts</a> at Statewide. We offer the biggest selection with fast, Australia wide delivery.</p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "cover-facia-panel"
+  },
+  {
+    "title": "Air conditioner motors",
+    "url": "/air-conditioners/motor/gearbox",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your air conditioner running smoothly with new and replacement AC motors. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Recognising signs of an issue with your air conditioner motor can help you troubleshoot problems early on. Here are some common indicators that your AC motor may be experiencing difficulties: If you notice grinding, screeching, or banging sounds coming from your air conditioner, it could indicate motor issues. Reduced airflow from your vents could be a sign that the motor is struggling to operate efficiently. Touching the motor and feeling excessive heat is a clear sign of potential trouble. Motors should operate within a normal temperature range. If your AC unit is turning on and off frequently (short cycling), it might be due to motor malfunction. An overloaded or faulty motor can trip the circuit breaker, causing the AC system to shut down. If your air conditioner does not turn on despite power supply, the motor could be the culprit. A malfunctioning motor may work harder, leading to increased energy consumption and higher bills. Explore our extensively stocked warehouse, featuring genuine parts and a wide range of universal fittings and great value, compatible components. Trust Statewide Appliance Spares to keep your air conditioner running smoothly with quality replacement parts and exceptional service.</p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Air conditioner motors",
+    "url": "/air-conditioners/motor-gearbox-shaft",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your air conditioner running smoothly with new and replacement AC motors. <span class="collection-read-more">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Recognising signs of an issue with your air conditioner motor can help you troubleshoot problems early on. Here are some common indicators that your AC motor may be experiencing difficulties:</span><b></b></p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If you notice grinding, screeching, or banging sounds coming from your air conditioner, it could indicate motor issues.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Reduced airflow from your vents could be a sign that the motor is struggling to operate efficiently.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>Touching the motor and feeling excessive heat is a clear sign of potential trouble. Motors should operate within a normal temperature range.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your AC unit is turning on and off frequently (short cycling), it might be due to motor malfunction.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>An overloaded or faulty motor can trip the circuit breaker, causing the AC system to shut down.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>If your air conditioner does not turn on despite power supply, the motor could be the culprit.</span></p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><span>A malfunctioning motor may work harder, leading to increased energy consumption and higher bills.</span></p></li></ul><p dir="ltr"><span>Explore our extensively stocked warehouse, featuring genuine parts and a wide range of universal fittings and great value, compatible components. Trust Statewide Appliance Spares to keep your air conditioner running smoothly with quality replacement parts and exceptional service.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "air-conditioners",
+    "part_type": "motor-gearbox-shaft"
+  },
+  {
+    "title": "Shaver & trimmer batteries",
+    "url": "/shavers-trimmers/battery",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop for shaver & trimmer batteries from Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With our lowest price guarantee, you can shop confidently, as you always get great value for your money. Shop shaver & trimmer spare parts at Statewide Appliance Spares today. Experience convenience, reliability and exceptional quality with every purchase.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "battery",
+  },
+  {
+    "title": "Shaver & trimmer cords",
+    "url": "/shavers-trimmers/cable-cord",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop shaver cords at Statewide. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is Australia’s biggest distributor of appliance spare parts. Australian owned & operated, we have been supplying spare parts for over 38 years. With our extensively stocked warehouse, we offer the convenience of fast, Australia wide delivery.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "cable-cord",
+  },
+  {
+    "title": "Shaver & trimmer combs",
+    "url": "/shavers-trimmers/comb",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find your shaver & trimmer combs at Statewide. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your go-to destination for all your shaver & trimmer parts. We offer competitively priced spares, backed by our lowest price guarantee.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "shavers-trimmers",
+    "part_type": "comb",
+  },
+  {
+    "title": "Oral healthcare cables",
+    "url": "/oral-healthcare/cable-cord",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Statewide Appliance Spares is your go-to destination for oral healthcare cables and spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With our lowest price guarantee, you can shop confidently, as you always get great value for your money. Shop oral healthcare spare parts at Statewide Appliance Spares today. Experience convenience, reliability and exceptional quality with every purchase.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "oral-healthcare",
+    "part_type": "cable-cord",
+  },
+  {
+    "title": "Oral healthcare chargers",
+    "url": "/oral-healthcare/ac-adapter-charger",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop for oral healthcare chargers from Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is Australia’s biggest distributor of appliance spare parts. Australian owned & operated, we have been supplying spare parts for over 38 years. With our extensively stocked warehouse, we offer the convenience of fast, Australia wide delivery.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "oral-healthcare",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Mother & child care steam sterilisers spare parts",
+    "url": "/mother-and-child-care/steam-steriliser-parts",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop steam steriliser spare parts and accessories at Statewide. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Statewide Appliance Spares is Australia’s biggest distributor of appliance spare parts. Australian owned & operated, we have been supplying spare parts for over 38 years. With our extensively stocked warehouse, we offer the convenience of fast, Australia wide delivery.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "mother-child-care",
+    "part_type": "steam-steriliser-parts",
+  },
+  {
+    "title": "Home theatre belts",
+    "url": "/home-theatres/belt-chain",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for home theatre belts and spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of home theatre parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "home-theatres",
+    "part_type": "belt-chain",
+  },
+  {
+    "title": "Home theatre PCB's",
+    "url": "/home-theatres/pcb",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Buy your Home theatre PCB’s from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide understands the importance of a fully functioning home theatre system, which is why we offer a huge range of spare parts including PCB’s, ready for fast shipping.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "home-theatres",
+    "part_type": "pcb",
+  },
+  {
+    "title": "Home theatre remote controls",
+    "url": "/home-theatres/remote-control",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for home theatre remote controls. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide Appliance Spares, we understand the importance of a reliable and responsive remote control. Explore our collection of home theatre remote controls designed to enhance your viewing experience. <br><br>Finding the perfect remote control for your home theatre system is easy – simply browse our selection or refine your search using your brand and model number. If you need assistance or can't find the specific remote you're looking for, our friendly and knowledgeable team is here to help. Give us a call at 1800 005 220, and we'll guide you to the right solution. Shop our selection of home theatre remote controls today and experience the ease and convenience of Statewide Appliance Spares!<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "home-theatres",
+    "part_type": "remote-control",
+  },
+  {
+    "title": "LG Home theatre spare parts",
+    "url": "/lg/home-theatres",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for LG Home theatre spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're committed to providing quality service and convenience. Our extensive inventory of LG parts ensures fast Australia-wide delivery, so you can quickly get your LG Home theatre system back to its optimal performance.<br></p></div>`,
+    "vendor": "lg",
+    "appliance_type": "home-theatres",
+    "part_type": "",
+  },
+  {
+    "title": "Panasonic Home theatre spare parts",
+    "url": "/panasonic/home-theatres",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore Statewide Appliance Spares for the biggest range of Panasonic Home theatre spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop now at Statewide Appliance Spares and experience the ease of finding all your spare parts, speedy delivery, and unbeatable prices.<br></p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "home-theatres",
+    "part_type": "",
+  },
+  {
+    "title": "Samsung Hi Fi & Stereo spare parts",
+    "url": "/samsung/home-theatres",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Samsung Hi Fi & Stereo spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance and advice to make buying spare parts easier.<br></p></div>`,
+    "vendor": "samsung",
+    "appliance_type": "home-theatres",
+    "part_type": "",
+  },
+  {
+    "title": "Sharp Home theatre spare parts",
+    "url": "/sharp/home-theatres",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore Statewide Appliance Spares for your Sharp Home theatre spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Find all your Sharp Home theatre spares at Statewide Appliance Spares. We have a big selection of home theatre spare parts, ensuring that you can maintain your equipment with ease. Experience the Statewide Appliance Spares difference – shop now!<br></p></div>`,
+    "vendor": "sharp",
+    "appliance_type": "home-theatres",
+    "part_type": "",
+  },
+  {
+    "title": "Blu Ray & DVD belts",
+    "url": "/blu-ray-dvd/belt-chain",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Blu Ray / DVD belts and spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of Blu Ray / DVD parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "belt-chain",
+  },
+  {
+    "title": "Blu Ray & DVD brackets",
+    "url": "/blu-ray-dvd/bracket-guiderail-wallmount",
+    "vendor": "",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "bracket-guiderail-wallmount",
+  },
+  {
+    "title": "Blu Ray & DVD buttons",
+    "url": "/blu-ray-dvd/button-knob-lever",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Blu Ray / DVD buttons and spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Looking to keep your Blu Ray / DVD system running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including Blu Ray / DVD buttons and knobs.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "button-knob-lever",
+  },
+  {
+    "title": "Blu Ray & DVD cables",
+    "url": "/blu-ray-dvd/cable-cord",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Blu Ray / DVD cables. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Finding the right cable for your Blu Ray / DVD - simply browse our selection or refine your search using your brand and model number. If you need assistance or can't find the specific part you're looking for, our friendly and knowledgeable team is here to help. Give us a call at 1800 005 220, and we'll guide you to the right solution. Shop our selection of Blu Ray / DVD parts today and experience the ease and convenience of Statewide Appliance Spares!<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "cable-cord",
+  },
+  {
+    "title": "Blu Ray / DVD covers",
+    "url": "/blu-ray-dvd/cover-facia-panel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Blu Ray / DVD covers. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of Blu Ray / DVD parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "cover-facia-panel",
+  },
+  {
+    "title": "Power Of 4",
+    "url": "/power-of-4",
+    "vendor": "power-of-4",
+    "appliance_type": "",
+    "part_type": "",
+  },
+  {
+    "title": "Blu Ray & DVD PCB's",
+    "url": "/blu-ray-dvd/pcb",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Blu Ray / DVD PCB’s. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of Blu Ray / DVD PCB’s and spare parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "pcb",
+  },
+  {
+    "title": "LG Blu Ray & DVD spare parts",
+    "url": "/blu-ray-dvd/lg",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for LG Blu Ray / DVD spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're committed to providing quality service and convenience. Our extensive inventory of LG parts ensures fast Australia-wide delivery, so you can quickly get your LG Blu Ray / DVD system back to its optimal performance.<br></p></div>`,
+    "vendor": "lg",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "",
+  },
+  {
+    "title": "Panasonic Blu Ray & DVD spare parts",
+    "url": "/blu-ray-dvd/panasonic",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore Statewide Appliance Spares for your Sharp Blu Ray / DVD spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Find all your Sharp Blu Ray / DVD spares at Statewide Appliance Spares. We have a big selection of Blu Ray / DVD spare parts, ensuring that you can maintain your equipment with ease. Experience the Statewide Appliance Spares difference – shop now!<br></p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "",
+  },
+  {
+    "title": "Samsung Blu Ray & DVD spare parts",
+    "url": "/blu-ray-dvd/samsung",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Samsung Blu Ray / DVD spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance and advice to make buying spare parts easier.<br></p></div>`,
+    "vendor": "samsung",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "",
+  },
+  {
+    "title": "Blu Ray & DVD remote controls",
+    "url": "/blu-ray-dvd/remote-control",
+    "vendor": "",
+    "appliance_type": "blu-ray-dvd",
+    "part_type": "remote-control",
+  },
+  {
+    "title": "Hi Fi & Stereo aerials",
+    "url": "/hi-fi-stereos/aerial-tuner",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Hi Fi & Stereo aerials and spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your go-to destination for all your Hi Fi & Stereo spare parts. We offer competitively priced spares for all leading brands, backed by our lowest price guarantee.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": "aerial-tuner",
+  },
+  {
+    "title": "Hi Fi & Stereo belts",
+    "url": "/hi-fi-stereos/belt-chain",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Buy your Hi Fi & Stereo belts from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide understands the importance of a fully functioning Hi Fi & Stereo, which is why we offer a huge range of spare parts including belts, ready for fast shipping.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": "belt-chain",
+  },
+  {
+    "title": "Hi Fi & Stereo cables",
+    "url": "/hi-fi-stereos/cable-cord",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Hi Fi & Stereo cables. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop for Hi-Fi and Stereo spare parts from Statewide Appliance Spares. Hi-fi and stereo systems can include a large number and variety of components to give you a high-quality audio experience at home. Statewide Appliance Spares are a market leader in the supply of appliance spare parts for over 38 years. We make buying spare parts easier, with fast Australia wide delivery and competitive pricing for all your spares and accessories.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": "cable-cord",
+  },
+  {
+    "title": "Hi Fi & Stereo covers",
+    "url": "/hi-fi-stereos/cover-facia-panel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Hi Fi & Stereo covers. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of Hi Fi & Stereo parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": "cover-facia-panel",
+  },
+  {
+    "title": "Hi Fi & Stereo PCB's",
+    "url": "/hi-fi-stereos/pcb",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for Hi Fi & Stereo PCB’s. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Experience hassle-free shopping with our secure online platform, accessible 24/7, or reach out to our dedicated customer care team at Free Call 1800 005 220 for expert guidance and personalised assistance.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "hi-fi-stereos",
+    "part_type": "pcb",
+  },
+  {
+    "title": "Media player aerials",
+    "url": "/media-players/aerial-tuner",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Media player aerials and spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Statewide Appliance Spares is your go-to destination for all your media player spare parts. We offer competitively priced spares for all leading brands, backed by our lowest price guarantee.</p></div>`,
+    "vendor": "",
+    "appliance_type": "media-players",
+    "part_type": "aerial-tuner",
+  },
+  {
+    "title": "Media player brackets",
+    "url": "/media-players/bracket-guiderail-wallmount",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop media player brackets and holders. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Looking to keep your media player running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including Media player brackets and holders.</p></div>`,
+    "vendor": "",
+    "appliance_type": "media-players",
+    "part_type": "bracket-guiderail-wallmount",
+  },
+  {
+    "title": "Media player cables",
+    "url": "/media-players/cable-cord",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for media player cables. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We provide speedy delivery across Australia, ensuring your essentials arrive in no time. Our local team is here to offer expert guidance and advice whenever you need it. Buy your media player parts from Statewide Appliance Spares today. Experience the difference – shop with us now.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "media-players",
+    "part_type": "cable-cord",
+  },
+  {
+    "title": "Media player covers",
+    "url": "/media-players/cover-facia-panel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for media player covers. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of media player parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "media-players",
+    "part_type": "cover-facia-panel",
+  },
+  {
+    "title": "Media player PCB's",
+    "url": "/media-players/pcb",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop our range of media player PCB’s. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Experience hassle-free shopping with our secure online platform, accessible 24/7, or reach out to our dedicated customer care team at Free Call 1800 005 220 for expert guidance and personalised assistance.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "media-players",
+    "part_type": "pcb",
+  },
+  {
+    "title": "Media player remote controls",
+    "url": "/media-players/remote-control",
+    "vendor": "",
+    "appliance_type": "media-players",
+    "part_type": "remote-control",
+  },
+  {
+    "title": "Polisher bags",
+    "url": "/polishers/bag",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop polisher bags at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop polisher spare parts at Statewide Appliance Spares. With Australia's most extensive and biggest range of appliance spare parts, we're your one-stop solution for all your polisher needs.</p></div>`,
+    "vendor": "",
+    "appliance_type": "polishers",
+    "part_type": "bag",
+  },
+  {
+    "title": "Polisher brushes & rollers",
+    "url": "/polishers/brush-roller",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find your polisher brushes & rollers at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">You can trust Statewide Appliance Spares to meet all your polisher spare part needs. Experience unparalleled service and expert advice from our dedicated team. Shop polisher spare parts from Statewide Appliance Spares today.</p></div>`,
+    "vendor": "",
+    "appliance_type": "polishers",
+    "part_type": "brush-roller",
+  },
+  {
+    "title": "Polisher covers",
+    "url": "/polishers/cover-facia-panel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your polisher running smoothly with our range of polisher covers. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">You can trust Statewide Appliance Spares to meet all your polisher spare part needs. Experience unparalleled service and expert advice from our dedicated team. Shop polisher spare parts from Statewide Appliance Spares today.</p></div>`,
+    "vendor": "",
+    "appliance_type": "polishers",
+    "part_type": "cover-facia-panel",
+  },
+  {
+    "title": "Polisher handles",
+    "url": "/polishers/handle",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your polisher running smoothly with our range of polisher handles. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">You can trust Statewide Appliance Spares to meet all your polisher spare part needs. Experience unparalleled service and expert advice from our dedicated team. Shop polisher spare parts from Statewide Appliance Spares today.</p></div>`,
+    "vendor": "",
+    "appliance_type": "polishers",
+    "part_type": "handle",
+  },
+  {
+    "title": "Polisher motors",
+    "url": "/polishers/motor/gearbox",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop polisher motors at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop polisher spare parts at Statewide Appliance Spares. With Australia's most extensive and biggest range of appliance spare parts, we're your one-stop solution for all your polisher needs.</p></div>`,
+    "vendor": "",
+    "appliance_type": "polishers",
+    "part_type": "motor-gearbox-shaft",
+  },
+  {
+    "title": "Polisher wheels",
+    "url": "/polishers/wheel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop polisher wheels at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your go-to destination for all your floor care spare parts. We offer competitively priced spares for all leading brands, backed by our lowest price guarantee.</p></div>`,
+    "vendor": "",
+    "appliance_type": "polishers",
+    "part_type": "wheel",
+  },
+  {
+    "title": "Cleanstar polisher spare parts",
+    "url": "/polishers/cleanstar",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your Cleanstar polisher running smoothly with our range of Cleanstar spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide Appliance Spares, we proudly offer a wide selection of Cleanstar polisher spare parts. With over 100 years of combined experience in servicing the cleaning industry, Cleanstar has become the trusted brand that professionals rely on. <br><br>Shop confidently at Statewide Appliance Spares and unlock the full potential of your Cleanstar polisher! Explore our extensive selection of genuine spare parts, with the lowest prices guaranteed.</p></div>`,
+    "vendor": "cleanstar",
+    "appliance_type": "polishers",
+    "part_type": "",
+  },
+  {
+    "title": "Oates polisher spare parts",
+    "url": "/polishers/oates",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Oates polisher spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop Oates polisher spare parts at Statewide Appliance Spares. With Australia's most extensive and biggest range of appliance spare parts, we're your one-stop solution for all your polisher needs.</p></div>`,
+    "vendor": "oates",
+    "appliance_type": "polishers",
+    "part_type": "",
+  },
+  {
+    "title": "Polivac polisher spare parts",
+    "url": "/polishers/polivac",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop our extensive range of Polivac polisher spare parts at Statewide Appliance Spares, with speedy nationwide delivery. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your trusted distributor for genuine Polivac polisher spare parts. When you need a floor polishing machine you can rely on, the Polivac range stands out for its quality and durability, recognised as the industry workhorse for its exceptional reliability. <br><br>Take a look at our collection of Polivac polisher spare parts at Statewide Appliance Spares. We offer speedy delivery across Australia, ensuring your spare parts reach you in no time. Count on us for the lowest prices and the most extensive range of appliance spare parts in Australia. Shop today and discover the convenience of finding the perfect parts for your Polivac floor care, all at unbeatable prices.</p></div>`,
+    "vendor": "polivac",
+    "appliance_type": "polishers",
+    "part_type": "",
+  },
+  {
+    "title": "Scrubber batteries",
+    "url": "/scrubbers/battery",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop scrubber batteries at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class=\"collection-read-more\">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With over 38 years of expertise, Statewide Appliance Spares is a market leader in supplying appliance spare parts. Trust us to keep your scrubber performing at its best!</p></div>`,
+    "vendor": "",
+    "appliance_type": "scrubbers",
+    "part_type": "battery",
+  },
+  {
+    "title": "Scrubber buttons & knobs",
+    "url": "/scrubbers/button-knob-lever",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find everything you need to keep your scrubber running smoothly with our range of scrubber spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p><meta charset=\"utf-8\">You can trust Statewide Appliance Spares to meet all your scrubber spare part needs. Experience unparalleled service and expert advice from our dedicated team. Shop scrubber spare parts from Statewide Appliance Spares today.</p></div>",
+    "vendor": "",
+    "appliance_type": "scrubbers",
+    "part_type": "button-knob-lever",
+  },
+  {
+    "title": "Scrubber brushes & rollers",
+    "url": "/scrubbers/brush-roller",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find your scrubber brushes & rollers at Statewide Appliance Spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p><meta charset=\"utf-8\">Navigate our user-friendly website to find your scrubber part with ease. Plus, enjoy the convenience of fast, Australia wide delivery to ensure your appliance operates at its best in no time. <br><br> You can trust Statewide Appliance Spares to meet all your spare parts needs. Experience unparalleled service and expert advice from our dedicated team. Shop scrubber brushes and rollers from Statewide Appliance Spares today.</p></div>",
+    "vendor": "",
+    "appliance_type": "scrubbers",
+    "part_type": "brush-roller",
+  },
+  {
+    "title": "Scrubber filters",
+    "url": "/scrubbers/filter",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find everything you need to keep your scrubber running smoothly with our range of scrubber filters. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p><meta charset=\"utf-8\">Our extensively stocked warehouse features genuine parts alongside a range of universal fitting and value-packed compatible options. Count on us to swiftly deliver the spare part you need, wherever you are in Australia, ensuring minimal downtime for your appliance.</p></div>",
+    "vendor": "",
+    "appliance_type": "scrubbers",
+    "part_type": "filter",
+  },
+  {
+    "title": "Scrubber handles",
+    "url": "/scrubbers/handle",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop scrubber handles at Statewide Appliance Spares  – Home to Australia’s biggest range of appliance spares. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p><meta charset=\"utf-8\">Don't settle for anything less than the best – trust Statewide Appliance Spares for all your scrubber spare part needs. Shop now and experience the Statewide advantage.</p></div>",
+    "vendor": "",
+    "appliance_type": "scrubbers",
+    "part_type": "handle",
+  },
+  {
+    "title": "Scrubber motors",
+    "url": "/scrubbers/motor/gearbox",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop scrubber motors and spare parts at Statewide Appliance Spares. With the largest range of appliance spares in Australia, we offer all the parts you need, backed by our lowest price guarantee. <span class=\"collection-read-more\">Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p><meta charset=\"utf-8\">Looking to keep your appliance running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including a comprehensive selection of scrubber motors to keep your appliances in top shape.</p></div>",
+    "vendor": "",
+    "appliance_type": "scrubbers",
+    "part_type": "motor-gearbox-shaft",
+  },
+  {
+    "title": "Carpet extractor valves",
+    "url": "/carpet-extractors/solenoid-coil-valve",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop carpet extractor valves at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your go-to destination for all your floor care spare parts. We offer competitively priced spares for all leading brands, such as <a href="https://www.statewideapp.com.au/polivac/carpet-extractors">Polivac</a> backed by our lowest price guarantee.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-extractors",
+    "part_type": "solenoid-coil-valve",
+  },
+  {
+    "title": "Bissell carpet extractor spare parts",
+    "url": "/bissell/carpet-extractors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your Bissell carpet extractor running smoothly with our range of Bissell spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide Appliance Spares, we proudly offer a wide selection of Bissell carpet extractor spare parts. With fast Australia wide delivery, your essentials will reach you in no time, backed by our lowest price guarantee. Experience the convenience of shopping with Statewide Appliance Spares.</p></div>`,
+    "vendor": "bissell",
+    "appliance_type": "carpet-extractors",
+    "part_type": "",
+  },
+  {
+    "title": "Kerrick carpet extractor spare parts",
+    "url": "/kerrick/carpet-extractors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Kerrick carpet extractor spare parts at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your go-to destination for all your Kerrick floor care spare parts. With fast Australia wide delivery, your essentials will reach you in no time, backed by our lowest price guarantee. Experience the convenience of shopping with Statewide Appliance Spares.</p></div>`,
+    "vendor": "kerrick",
+    "appliance_type": "carpet-extractors",
+    "part_type": "",
+  },
+  {
+    "title": "Nilfisk carpet extractor spare parts",
+    "url": "/nilfisk/carpet-extractors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your Nilfisk carpet extractor running smoothly with our range of genuine Nilfisk spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Find all your Nilfisk carpet extractor spares at Statewide Appliance Spares. We have a big selection of genuine Nilfisk carpet extractor spare parts, ensuring that you can maintain your equipment with ease. Experience the Statewide Appliance Spares difference – shop now!</p></div>`,
+    "vendor": "nilfisk",
+    "appliance_type": "carpet-extractors",
+    "part_type": "",
+  },
+  {
+    "title": "Polivac carpet extractor spare parts",
+    "url": "/polivac/carpet-extractors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Polivac carpet extractor spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">At Statewide Appliance Spares, we are proud to offer a comprehensive selection of genuine Polivac carpet extractor parts, ensuring that your cleaning equipment performs at its best. Shopping with us is easy, with our effortless online browsing and fast Australia-wide delivery. Plus, our team of experts is always ready to offer guidance and support, making your Polivac cleaning experience seamless and efficient.</p></div>`,
+    "vendor": "polivac",
+    "appliance_type": "carpet-extractors",
+    "part_type": "",
+  },
+  {
+    "title": "Taski carpet extractor spare parts",
+    "url": "/taski/carpet-extractors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover genuine Taski carpet extractor spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your trusted distributor for genuine Taski carpet extractor spare parts. With our extensive selection and easy shopping experience, keeping your floor care equipment in top condition has never been easier! <br><br>At Statewide Appliance Spares, we stock a wide range of genuine Taski carpet extractor spare parts to ensure your equipment operates at peak efficiency. We have everything you need to maintain and repair your Taski carpet extractor.</p></div>`,
+    "vendor": "taski",
+    "appliance_type": "carpet-extractors",
+    "part_type": "",
+  },
+  {
+    "title": "Tennant carpet extractor spare parts",
+    "url": "/tennant/carpet-extractors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Discover genuine Tennant carpet extractor spare parts at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Find all your Tennant carpet extractor spares at Statewide Appliance Spares. We have a big selection of genuine Tennant carpet extractor spare parts, ensuring that you can maintain your equipment with ease. Finding the right Tennant spare part is simple – just refine your search using your carpet extractor model number. If you require assistance or cannot find the part you're looking for, our friendly and knowledgeable team is here to help. Give us a call at 1800 005 220, and we'll help you find the perfect solution for your carpet extractor repair needs. Experience the Statewide Appliance Spares difference – shop now!</p></div>`,
+    "vendor": "tennant",
+    "appliance_type": "carpet-extractors",
+    "part_type": "",
+  },
+  {
+    "title": "Vax carpet extractor spare parts",
+    "url": "/vax/carpet-extractors",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop now for genuine Vax carpet extractor spares and keep your carpet extractor performing at its best. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Don't settle for anything less than the best – trust Statewide Appliance Spares for all your Vax carpet extractor spare part needs.</p></div>`,
+    "vendor": "vax",
+    "appliance_type": "carpet-extractors",
+    "part_type": "",
+  },
+  {
+    "title": "Carpet extractor pumps",
+    "url": "/carpet-extractors/pump",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop carpet extractor pumps and spare parts at Statewide Appliance Spares. With the largest range of appliance spares in Australia, we offer all the parts you need, backed by our lowest price guarantee. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Looking to keep your appliance running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including a comprehensive selection of carpet extractor hoses to keep your appliances in top shape.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-extractors",
+    "part_type": "pump",
+  },
+  {
+    "title": "Carpet extractor hoses",
+    "url": "/carpet-extractors/hose-pipe-tubing",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop carpet extractor hoses at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Looking to keep your appliance running smoothly? Look no further! At Statewide Appliance Spares, we've got everything you need, including a comprehensive selection of carpet extractor hoses to keep your appliances in top shape.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-extractors",
+    "part_type": "hose-pipe-tubing",
+  },
+  {
+    "title": "Carpet extractor floor tools",
+    "url": "/carpet-extractors/floor-tool-nozzle",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop carpet extractor floor tools at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Don't settle for anything less than the best – trust Statewide Appliance Spares for all your carpet extractor spare part needs. Shop now and experience the Statewide advantage.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-extractors",
+    "part_type": "floor-tool-nozzle",
+  },
+  {
+    "title": "Carpet extractor filters",
+    "url": "/carpet-extractors/filter",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your carpet extractor running smoothly with our range of carpet extractor filters. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our extensively stocked warehouse features genuine parts alongside a range of universal fitting and value-packed compatible options. Count on us to swiftly deliver the spare part you need, wherever you are in Australia, ensuring minimal downtime for your appliance.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-extractors",
+    "part_type": "filter",
+  },
+  {
+    "title": "Carpet extractor brushes & rollers",
+    "url": "/carpet-extractors/brush-roller",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find your carpet extractor brushes & rollers at Statewide Appliance Spares. <span class=\"collection-read-more\">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Navigate our user-friendly website to find your carpet extractor part with ease. Plus, enjoy the convenience of fast, Australia wide delivery to ensure your appliance operates at its best in no time. <br><br>You can trust Statewide Appliance Spares to meet all your spare parts needs. Experience unparalleled service and expert advice from our dedicated team. Shop carpet extractor brushes and rollers from Statewide Appliance Spares today.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-extractors",
+    "part_type": "brush-roller",
+  },
+  {
+    "title": "Carpet extractor belts",
+    "url": "/carpet-extractors/belt-chain",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Explore a selection of carpet extractor belts at Statewide Appliance Spares – your trusted source for quality appliance spare parts. <span class=\"collection-read-more\">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our well-stocked warehouse includes genuine parts alongside a vast selection of universal fitting and affordable compatible generic spare parts. Count on us to have our most sought-after parts consistently in stock, ensuring you get the spare part you need promptly with fast Australia wide delivery. Trust the experts at Statewide. With more than 38 years’ experience, we can offer expert guidance and advice to make buying spares easier.</p></div>`,
+    "vendor": "",
+    "appliance_type": "carpet-extractors",
+    "part_type": "belt-chain",
+  },
+  {
+    "title": "Sander brushes & rollers",
+    "url": "/sanders/brush-roller",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find your sander brushes & rollers at Statewide Appliance Spares. <span class=\"collection-read-more\">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">You can trust Statewide Appliance Spares to meet all your sander spare part needs. Experience unparalleled service and expert advice from our dedicated team. Shop sander spare parts from Statewide Appliance Spares today.</p></div>`,
+    "vendor": "",
+    "appliance_type": "sanders",
+    "part_type": "brush-roller",
+  },
+  {
+    "title": "Sander bags",
+    "url": "/sanders/bag",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop sander spares at Statewide Appliance Spares – Home to Australia’s biggest range of appliance spares. <span class=\"collection-read-more\">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop sander spare parts at Statewide Appliance Spares. With Australia's most extensive and biggest range of appliance spare parts, we're your one-stop solution for all your sander needs.</p></div>`,
+
+    "vendor": "",
+    "appliance_type": "sanders",
+    "part_type": "bag",
+  },
+  {
+    "title": "Sander motors",
+    "url": "/sanders/motor/gearbox",
+    "vendor": "",
+    "appliance_type": "sanders",
+    "part_type": "motor-gearbox-shaft",
+  },
+  {
+    "title": "Sander pads",
+    "url": "/sanders/pads",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Find everything you need to keep your sander running smoothly with our range of sander pads. <span class=\"collection-read-more\">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">You can trust Statewide Appliance Spares to meet all your sander spare part needs. Experience unparalleled service and expert advice from our dedicated team. Shop sander spare parts from Statewide Appliance Spares today.</p></div>`,
+    "vendor": "",
+    "appliance_type": "sanders",
+    "part_type": "pads",
+  },
+  {
+    "title": "Polivac sander spare parts ",
+    "url": "/sanders/polivac",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your one-stop destination for all your Polivac sander and floor care needs. <span class=\"collection-read-more\">Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">As Australia's leading manufacturer and a major exporter of advanced cleaning technologies worldwide, Polivac International has been at the forefront of innovation for over sixty years. <br> <br>At Statewide Appliance Spares, we understand the importance of keeping your Polivac sander in top condition. That's why we stock genuine Polivac spare parts to ensure optimal performance and longevity for your equipment. <br><br>Experience the reliability and efficiency of Polivac sander spare parts with Statewide Appliance Spares. Shop online today or contact our dedicated customer service team for assistance on Free Call 1800 005 220.</p></div>`,
+    "vendor": "polivac",
+    "appliance_type": "sanders",
+    "part_type": "",
+  },
+  {
+    "title": "BBQ accessories",
+    "url": "/bbqs/accessories",
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\">Statewide Appliance Spares have a range of BBQ spare parts and accessories including&nbsp;<a href=\"https://www.statewideapp.com.au/bbqs/element-heater\">elements</a>,&nbsp;<a href=\"https://www.statewideapp.com.au/bbqs/grill-plate\">grill plates</a>,&nbsp;<a href=\"https://www.statewideapp.com.au/bbqs\">hotplates</a>&nbsp;and&nbsp;<a href=\"https://www.statewideapp.com.au/bbqs/button-knob-lever\">knobs</a>. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Statewide Appliance Spares are a market leader in the supply of appliance spare parts for over 38 years. Our dedicated customer service team can offer expert guidance and advice to make buying spare parts easier.&nbsp;</span></p><p dir=\"ltr\"><span>Shop the range of </span><a href=\"https://www.statewideapp.com.au/beefeater/bbqs\"><span>BeefEater parts</span></a><span>&nbsp;and accessories including BBQ tongs, trays and plates.</span><span><br></span><span>Looking for&nbsp;</span><a href=\"https://www.statewideapp.com.au/electrolux/bbqs\"><span>Electrolux BBQ parts</span></a><span>? Find the part you need at Statewide.</span></p><p dir=\"ltr\"><span></span><span>Shop now with fast, Australia wide delivery and competitive prices.&nbsp;</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "bbqs",
+    "part_type": "accessories",
+  },
+  {
+    "title": "BBQ grill plates",
+    "url": "/bbqs/grill-plate",
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop BBQ grill plates at Statewide. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Looking for BBQ grill plates? You're in the right place! Statewide Appliance Spares is your trusted source for BBQ accessories.  Shop now with speedy delivery and the lowest prices guaranteed.</span></p></div>`,
+    "vendor": "",
+    "appliance_type": "bbqs",
+    "part_type": "grill-plate",
+  },
+  {
+    "title": "Beefeater BBQ spare parts",
+    "url": "/beefeater/bbqs",
+    "top_description": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\">Find your genuine Beefeater BBQ spares at Statewide. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Enhance your outdoor cooking experience with Statewide Appliance Spares' collection of premium BeefEater BBQ spare parts. If you love easy outdoor entertaining, a great barbecue is essential, and that's where BeefEater excels.</span></p><p dir="ltr"><span>BeefEater barbecues are renowned for their functional and stylish design, durability and impressive range of features. Whether you're hosting a backyard gathering or enjoying a quiet family meal outdoors, BeefEater barbecues will complement any outdoor setting and cook up a delicious meal every time.</span></p><p dir="ltr"><span>At Statewide, we understand the importance of keeping your BeefEater barbecue in top condition, which is why we offer a comprehensive range of genuine BeefEater spare parts. From </span><a href="https://www.statewideapp.com.au/beefeater/bbqs/burner-gas-"><span>burners</span></a><span> and </span><a href="https://www.statewideapp.com.au/beefeater/bbqs/grill-plate"><span>grill plates</span></a><span> to </span><a href="https://www.statewideapp.com.au/beefeater/bbqs/button-knob-lever"><span>knobs</span></a><span> and </span><a href="https://www.statewideapp.com.au/beefeater/bbqs/hose-pipe-tubing"><span>gas valves</span></a><span>, we have everything you need to ensure your barbecue performs at its best.</span></p><p dir="ltr"><span>Finding the right spare part for your BeefEater barbecue is easy – explore our selection or refine your search using your BBQ’s model number. If you need assistance or have questions about compatibility, our friendly and knowledgeable team is here to help. Contact us at 1800 005 220, and we'll provide expert guidance to ensure you find the perfect spare part for your barbecue.</span></p><p dir="ltr"><span>Experience the unmatched performance and reliability of BeefEater barbecues with Statewide Appliance Spares' genuine spare parts.&nbsp;</span></p></div>`,
+    "vendor": "beefeater",
+    "appliance_type": "bbqs",
+    "part_type": "",
+  },
+  {
+    "title": "Computer batteries",
+    "url": "/computers/battery",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for computer batteries at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Power up your device with Statewide Appliance Spares' selection of premium computer batteries. At Statewide, we understand the importance of a dependable computer battery, which is why we offer a diverse range of high-quality batteries for laptops and computers. Whether you need a replacement battery to extend your device's runtime or want a spare for convenience, we have you covered. Our inventory includes genuine batteries from leading brands such as </span><a href="https://www.statewideapp.com.au/lg/computers/battery"><span>LG</span></a><span> and </span><a href="https://www.statewideapp.com.au/samsung/computers/battery"><span>Samsung</span></a><span>, ensuring compatibility and optimal performance with your device.&nbsp;</span></p><p dir="ltr"><span>Finding the right battery for your computer is easy – explore our selection or refine your search using your device's model number. If you need assistance or have questions about compatibility, our knowledgeable team is here to help. Contact us at 1800 005 220, and we'll provide expert guidance to ensure you find the ideal battery for your needs.</span></p><p dir="ltr"><span>Power up your device with Statewide Appliance Spares' range of computer batteries. Shop now and experience reliable and long-lasting battery performance for your computing needs!</span></p><p dir="ltr">&nbsp;</p></div>`,
+    "vendor": "",
+    "appliance_type": "computers",
+    "part_type": "battery",
+  },
+  {
+    "title": "Computer cables",
+    "url": "/computers/cable-cord",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for computer cables. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We provide speedy delivery across Australia, ensuring your essentials arrive in no time. Our local team is here to offer expert guidance and advice whenever you need it. Buy your computer parts from Statewide Appliance Spares today. Experience the difference – shop with us now.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "computers",
+    "part_type": "cable-cord"
+  },
+  {
+    "title": "Computer hinges",
+    "url": "/computers/hinge",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Statewide Appliance Spares is your trusted destination for computer hinges. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our local warehouse is stocked with genuine parts alongside universal fitting and great value compatible options. We ensure our most sought-after parts are always available, delivering them to you swiftly with our fast Australia wide delivery.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "computers",
+    "part_type": "hinge",
+  },
+  {
+    "title": "Computer keypads",
+    "url": "/computers/keypad",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop for computer keypads at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our local warehouse is stocked with genuine parts alongside universal fitting and great value compatible options. We ensure our most sought-after parts are always available, delivering them to you swiftly with our fast Australia wide delivery.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "computers",
+    "part_type": "keypad",
+  },
+  {
+    "title": "Computer PCB's",
+    "url": "/computers/pcb",
+    "vendor": "",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop our range of computer PCB’s. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Experience hassle-free shopping with our secure online platform, accessible 24/7, or reach out to our dedicated customer care team at Free Call 1800 005 220 for expert guidance and personalised assistance.<br></p></div>`,
+    "appliance_type": "computers",
+    "part_type": "pcb",
+  },
+  {
+    "title": "Computer adapters",
+    "url": "/computers/ac-adapter-charger",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find everything you need to keep your computer running smoothly with our range of power adapters. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of computer cords and spare parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "computers",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "LG computer spare parts",
+    "url": "/computers/lg",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Statewide Appliance Spares is your trusted destination for LG computer spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're committed to providing quality service and convenience. Our extensive inventory of LG parts ensures fast Australia-wide delivery, so you can quickly get your LG computer back to its optimal performance.<br></p></div>`,
+    "vendor": "lg",
+    "appliance_type": "computers",
+    "part_type": "",
+  },
+  {
+    "title": "Panasonic computer spare parts",
+    "url": "/computers/panasonic",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Explore Statewide Appliance Spares for the biggest range of Panasonic computer spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Why settle for anything less than genuine parts at the lowest prices? Experience the convenience and quality of shopping with Statewide Appliance Spares. Choose Statewide Appliance Spares for all your computer spare parts needs.<br></p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "computers",
+    "part_type": "",
+  },
+  {
+    "title": "Samsung computer spare parts",
+    "url": "/computers/samsung",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop Samsung computer spare parts at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop securely online with 24/7 convenience or speak to our dedicated customer service team on free call 1800 005 220. We love to help our customers and offer expert guidance and advice to make buying spare parts easier.<br></p></div>`,
+    "vendor": "samsung",
+    "appliance_type": "computers",
+    "part_type": "",
+  },
+  {
+    "title": "Mobile phone accessories",
+    "url": "/mobile-phones/accessories",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop for mobile phone accessories at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><span>Shop for mobile phone spare parts from Statewide Appliance Spares. We ensure our most popular mobile phone accessories are always in stock, with fast, Australia wide delivery.</span><b></b></p>\n<p dir=\"ltr\"><span>Finding the right part for your mobile phone is easy – explore our selection or refine your search using your device's model number. If you need assistance or have questions about compatibility, our knowledgeable team is here to help. Contact us at 1800 005 220, and we'll provide expert guidance to ensure you find the ideal part for your needs. Power up your device with Statewide Appliance Spares' range of mobile phone spare parts.</span></p>\n<p dir=\"ltr\">&nbsp;</p>",
+    "vendor": "",
+    "appliance_type": "mobile-phones",
+    "part_type": "accessories",
+  },
+  {
+    "title": "Mobile phone aerials",
+    "url": "/mobile-phones/aerial-tuner",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Statewide Appliance Spares is your go-to destination for mobile phone aerials. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">We provide speedy delivery across Australia, ensuring your essentials arrive in no time. Our local team is here to offer expert guidance and advice whenever you need it. Buy your mobile phone parts from Statewide Appliance Spares today. Experience the difference – shop with us now.<br></p>",
+    "vendor": "",
+    "appliance_type": "mobile-phones",
+    "part_type": "aerial-tuner",
+  },
+  {
+    "title": "Mobile phone batteries",
+    "url": "/mobile-phones/battery",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop mobile phone batteries at Statewide. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">We provide speedy delivery across Australia, ensuring your essentials arrive in no time. Our local team is here to offer expert guidance and advice whenever you need it. Buy your mobile phone batteries from Statewide Appliance Spares today. Experience the difference – shop with us now.<br></p>",
+    "vendor": "",
+    "appliance_type": "mobile-phones",
+    "part_type": "battery",
+  },
+  {
+    "title": "Mobile phone buttons & knobs",
+    "url": "/mobile-phones/button-knob-lever",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Statewide Appliance Spares is your go to destination for Mobile phone parts and buttons <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Our local warehouse is stocked with genuine parts alongside universal fitting and great value compatible options. We ensure our most sought-after parts are always available, delivering them to you swiftly with our fast Australia wide delivery.<br></p>",
+    "vendor": "",
+    "appliance_type": "mobile-phones",
+    "part_type": "button-knob-lever",
+  },
+  {
+    "title": "Mobile phone cables",
+    "url": "/mobile-phones/cable-cord",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop for mobile phone cables at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Our local warehouse is stocked with genuine parts alongside universal fitting and great value compatible options. We ensure our most sought-after parts are always available, delivering them to you swiftly with our fast Australia wide delivery.<br></p>",
+    "vendor": "",
+    "appliance_type": "mobile-phones",
+    "part_type": "cable-cord",
+  },
+  {
+    "title": "Mobile phone covers",
+    "url": "/mobile-phones/cover-facia-panel",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop our range of mobile phone covers. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Experience hassle-free shopping with our secure online platform, accessible 24/7, or reach out to our dedicated customer care team at Free Call 1800 005 220 for expert guidance and personalised assistance.<br></p>",
+    "vendor": "",
+    "appliance_type": "mobile-phones",
+    "part_type": "cover-facia-panel",
+  },
+  {
+    "title": "Mobile phone chargers",
+    "url": "/mobile-phones/ac-adapter-charger",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Shop for mobile phone chargers at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">With our lowest price guarantee, you can shop confidently, as you always get great value for your money. Shop mobile phone spare parts at Statewide Appliance Spares today. Experience convenience, reliability, and exceptional quality with every purchase.<br></p>",
+    "vendor": "",
+    "appliance_type": "mobile-phones",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Camera covers",
+    "url": "/cameras/cover-facia-panel",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop our range of cameras covers. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Experience hassle-free shopping with our secure online platform, accessible 24/7, or reach out to our dedicated customer care team at Free Call 1800 005 220 for expert guidance and personalised assistance.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "cameras",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Mobile phone displays",
+    "url": "/mobile-phones/lcd",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Find everything you need to keep your mobile phone running smoothly with our range of displays. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of mobile phone displays and spare parts today.<br></p>",
+    "vendor": "",
+    "appliance_type": "mobile-phones",
+    "part_type": "lcd",
+  },
+  {
+    "title": "LG mobile phone spare parts",
+    "url": "/mobile-phones/lg",
+    "top_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Statewide Appliance Spares is your trusted destination for LG mobile phone spare parts. <span class=\"collection-read-more\"> Read more</span></p>",
+    "below_description": "<p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're committed to providing quality service and convenience. Our extensive inventory of LG parts ensures fast Australia-wide delivery, so you can quickly get your LG mobile phone back to its optimal performance.<br></p>",
+    "vendor": "lg",
+    "appliance_type": "mobile-phones",
+    "part_type": "",
+  },
+  {
+    "title": "Camera accessories",
+    "url": "/cameras/accessories",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop for cameras accessories at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Shop for camera accessories from Statewide Appliance Spares. We ensure our most popular cameras accessories are always in stock, with fast, Australia wide delivery.<br><br>Finding the right part for your cameras is easy – explore our selection or refine your search using your device's model number. If you need assistance or have questions about compatibility, our knowledgeable team is here to help. Contact us at 1800 005 220, and we'll provide expert guidance to ensure you find the ideal part for your needs.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "cameras",
+    "part_type": "accessories",
+  },
+  {
+    "title": "Camera batteries",
+    "url": "/cameras/battery",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop cameras batteries at Statewide. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We provide speedy delivery across Australia, ensuring your essentials arrive in no time. Our local team is here to offer expert guidance and advice whenever you need it. Buy your cameras batteries from Statewide Appliance Spares today. Experience the difference – shop with us now.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "cameras",
+    "part_type": "battery",
+  },
+  {
+    "title": "Camera cables",
+    "url": "/cameras/cable-cord",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop for cameras cables at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Our local warehouse is stocked with genuine parts alongside universal fitting and great value compatible options. We ensure our most sought-after parts are always available, delivering them to you swiftly with our fast Australia wide delivery.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "cameras",
+    "part_type": "cable-cord",
+  },
+  {
+    "title": "Camera chargers",
+    "url": "/cameras/ac-adapter-charger",
+    "vendor": "",
+    "appliance_type": "cameras",
+    "part_type": "ac-adapter-charger",
+  },
+  {
+    "title": "Computer covers",
+    "url": "/computers/cover-facia-panel",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Statewide Appliance Spares is your trusted destination for computer covers. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We provide speedy delivery across Australia, ensuring your essentials arrive in no time. Our local team is here to offer expert guidance and advice whenever you need it. Buy your computer spare parts from Statewide Appliance Spares today. Experience the difference – shop with us now.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "computers",
+    "part_type": "cover-facia-panel",
+  },
+  {
+    "title": "Camera lens",
+    "url": "/cameras/lens",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find everything you need to keep your camera running smoothly with our range of lenses. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of cameras displays and spare parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "cameras",
+    "part_type": "lens",
+  },
+  {
+    "title": "Camera PCB's",
+    "url": "/cameras/pcb",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop our range of cameras PCB’s. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">We make sure that our most popular spare parts are always readily available with fast delivery across Australia. Our knowledgeable team is on hand to provide expert guidance and make your buying experience a breeze. Shop with confidence at Statewide Appliance Spares and discover our range of cameras PCB’s and spare parts today.<br></p></div>`,
+    "vendor": "",
+    "appliance_type": "cameras",
+    "part_type": "pcb",
+  },
+  {
+    "title": "Panasonic camera spare parts",
+    "url": "/cameras/panasonic",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Statewide Appliance Spares is your trusted destination for Panasonic camera spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">With over 38 years of experience as Australia's leading distributor of appliance spare parts, we're committed to providing quality service and convenience. Our extensive inventory of Panasonic parts ensures fast Australia-wide delivery, so you can quickly get your Panasonic camera back to its optimal performance.<br></p></div>`,
+    "vendor": "panasonic",
+    "appliance_type": "cameras",
+    "part_type": "",
+  },
+  {
+    "title": "Food processor & blender spare parts",
+    "url": "/food-processors-blenders",
+    "vendor": "",
+    "appliance_type": "food-processors-blenders",
+    "part_type": "",
+  },
+  {
+    "title": "Ariston dishwasher spare parts",
+    "url": "/dishwashers/ariston",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Ariston dishwashers are renowned for their sleek design, innovative features, and exceptional performance. Keep your Ariston dishwasher running smoothly with genuine spare parts from Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8">With fast Australia wide delivery and competitive prices, we make it easy for you to keep your Ariston appliances performing at their best. Don't let a faulty part disrupt your daily routine – shop with confidence at Statewide Appliance Spares.</p></div>`,
+    "vendor": "ariston",
+    "appliance_type": "dishwashers",
+    "part_type": "",
+  },
+  {
+    "title": "Bosch dishwasher spare parts",
+    "url": "/dishwashers/bosch",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8">Easily find all your Bosch dishwasher spares and accessories including <a href="https://www.statewideapp.com.au/bosch/dishwashers/hose-pipe-tubing">hoses</a>, <a href="https://www.statewideapp.com.au/bosch/dishwashers/cutlery-basket">cutlery baskets,</a>&nbsp;<a href="https://www.statewideapp.com.au/bosch/dishwashers/roller-wheel">rollers</a>&nbsp;and&nbsp;<a href="https://www.statewideapp.com.au/bosch/dishwashers/basket-rack-parts">replacement racks</a>. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Bosch dishwashers epitomise German engineering at its finest, boasting cutting-edge technology, sleek design, and unrivalled performance. Trusted by millions worldwide, Bosch appliances are synonymous with reliability and innovation, making them a popular choice for households everywhere.</span><b></b></p><p dir="ltr"><span>Statewide Appliance Spares is Australia’s biggest distributor of appliance spare parts and a Bosch authorised spare parts distributor. Australian owned &amp; operated, we have been supplying spare parts for over 38 years. With our extensively stocked warehouse, we ensure our most popular Bosch dishwasher spare parts are always readily available and convenience of fast, Australia wide delivery.</span></p></div>`,
+    "vendor": "bosch",
+    "appliance_type": "dishwashers",
+    "part_type": "",
+  },
+  {
+    "title": "Dishlex dishwasher spare parts",
+    "url": "/dishwashers/dishlex",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop Dishlex dishwasher spare parts from Statewide Appliance Spares today and keep your Dishlex dishwasher running smoothly. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Dishlex dishwashers are renowned for their reliability and efficiency, making them a staple in countless households across Australia. Whether you need a replacement part to keep your dishwasher running smoothly or you're looking to enhance its performance, we've got you covered.</span></p><p dir="ltr"><span>When you shop with Statewide, you can expect fast Australia wide delivery. Plus, we offer cost-effective shipping solutions and bulk buy discounts on selected products, ensuring you get your Dishlex parts quickly and affordably.</span></p><p dir="ltr"><span>Our expert and friendly team is on hand to help. We're passionate about making buying spares easier for our customers, so don't hesitate to reach out if you have any questions or need assistance.</span></p></div>`,
+    "vendor": "dishlex",
+    "appliance_type": "dishwashers",
+    "part_type": "",
+  },
+  {
+    "title": "Electrolux group dishwasher spare parts",
+    "url": "/dishwashers/electrolux",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop dishwasher spare parts from the Electrolux group at Statewide Appliance Spares. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>The Electrolux Group is a global leader in household appliances, known for innovation, quality, and sustainability. The Electrolux Group includes several well-known appliance brands, including: </span><a href="https://www.statewideapp.com.au/electrolux"><span>Electrolux</span></a><span>, </span><a href="https://www.statewideapp.com.au/aeg"><span>AEG</span></a><span> and </span><a href="https://www.statewideapp.com.au/westinghouse"><span>Westinghouse</span></a><span>.</span><b></b></p><p dir="ltr"><span>With over 38 years in the business, Statewide Appliance Spares is Australia's largest distributor of appliance spare parts. Our Australian-owned and operated company is dedicated to delivering high-quality service and expert advice to make buying spares easier!&nbsp;</span><b></b></p><p dir="ltr"><span>Shop Electrolux Group spare parts from Statewide Appliance Spares today and keep your appliances performing at their best for years to come.</span></p></div>`,
+    "vendor": "electrolux",
+    "appliance_type": "dishwashers",
+    "part_type": "",
+  },
+  {
+    "title": "Fisher & Paykel dishwasher spare parts",
+    "url": "/fisher-paykel/dishwashers",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><meta charset="utf-8"><meta charset="utf-8">Statewide Appliance Spares is your premier destination for all your Fisher &amp; Paykel dishwasher spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Fisher &amp; Paykel is synonymous with innovation, craftsmanship, and reliability in the world of home appliances.</span><b></b></p><p dir="ltr"><span>At Statewide, we're dedicated to providing you with a huge selection of Fisher &amp; Paykel spare parts to keep your appliances running like new. Whether it's a replacement part for your refrigerator, dishwasher, oven, or washing machine, we've got you covered.</span><b></b></p><p dir="ltr"><span>Our warehouse is stocked with genuine Fisher &amp; Paykel parts, ensuring you receive the highest quality components for your appliances. Additionally, we offer a wide range of universal fittings and compatible spares, so you can find the perfect solution for your needs.</span><b></b></p><p dir="ltr"><span>Don't settle for anything less than the best for your Fisher &amp; Paykel appliances. Shop Fisher &amp; Paykel spare parts from Statewide Appliance Spares today and experience the convenience, reliability, and value that we're known for.</span></p></div>`,
+    "vendor": "fisher-paykel",
+    "appliance_type": "dishwashers",
+    "part_type": "",
+  },
+  {
+    "title": "Miele dishwasher spare parts",
+    "url": "/dishwashers/miele",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Don't settle for anything less than optimal performance for your Miele dishwasher. Shop genuine Miele spare parts from Statewide Appliance Spares today. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Find all your Miele spare parts at Statewide and discover the convenience, reliability and value that we're renowned for.</span></p><h2 class="contenthead" dir="ltr"><b></b><span>Find your Miele spare parts easily at Statewide Appliance Spares</span></h2><p dir="ltr">Statewide Appliance Spares offer <a href="https://www.statewideapp.com.au/miele/dishwashers/basket-rack-parts">Miele basket/racks parts</a>&nbsp;for your Miele dishwasher.<br><br>Find your&nbsp;<a href="https://www.statewideapp.com.au/miele/dishwashers/cutlery-basket">Miele cutlery basket</a>&nbsp;at Statewide Appliance Spares. Shop securely online with 24/7 convenience.<br><br>Find&nbsp;<a href="https://www.statewideapp.com.au/miele/dishwashers/roller-wheel">Miele roller and wheel spares</a>&nbsp;for your Miele dishwasher at Statewide.<br><br>Shop for&nbsp;<a href="https://www.statewideapp.com.au/miele/dishwashers/spray-arm-nozzle">Miele spray arm and nozzle spares</a>&nbsp;at Statewide Appliance Spares. We can get you the spare part you need to get your dishwasher working at its best.<br><br>Looking for&nbsp;<a href="https://www.statewideapp.com.au/miele/dishwashers/pump">Miele drain pumps</a>? We can help you find the right pump for your Miele dishwasher.<br></p></div>`,
+    "vendor": "miele",
+    "appliance_type": "dishwashers",
+    "part_type": "",
+  },
+  {
+    "title": "Westinghouse dishwasher spare parts",
+    "url": "/dishwashers/westinghouse",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop genuine Westinghouse dishwasher spare parts at Statewide Appliance Spares <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>At Statewide, we're committed to providing you with a comprehensive range of genuine Westinghouse spare parts, designed to keep your appliances performing at their peak. Whether it's a critical component for your refrigerator, oven, cooktop, or dishwasher, we have the parts you need to maintain your Westinghouse appliances with confidence.</span><b></b></p><p dir="ltr"><span>For over 38 years, we've led the market in supplying appliance spare parts, earning the trust of countless customers. Inside our warehouse, you'll find not only genuine Westinghouse parts but also a vast array of universal fitting and value-packed compatible alternatives.</span></p></div>`,
+    "vendor": "westinghouse",
+    "appliance_type": "dishwashers",
+    "part_type": "",
+  },
+  {
+    "title": "Euromaid oven & cooktop spare parts",
+    "url": "/ovens-and-cooktops/euromaid",
+    "top_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Repair and maintain your Euromaid oven and cooktop with genuine Euromaid spare parts. <span class="collection-read-more"> Read more</span></p></div>`,
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Euromaid ovens are renowned for their durability and performance, making them a trusted choice for home cooks and professional chefs alike.</span></p><p dir=\"ltr\"><span>Navigate our user-friendly website to find your Euromaid part with ease. Plus, enjoy the convenience of fast, Australia wide delivery to ensure your appliance operates at its best in no time.</span></p><p dir=\"ltr\"><span>You can trust Statewide Appliance Spares to meet all your Euromaid oven and cooktop needs. Experience unparalleled service and expert advice from our dedicated team. Shop Euromaid oven and cooktop parts from Statewide Appliance Spares today</span></p></div>",
+    "vendor": "euromaid",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "",
+  },
+  {
+    "title": "Fisher & Paykel oven & cooktop spare parts",
+    "url": "/fisher-paykel/ovens-and-cooktops",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Discover all your Fisher & Paykel oven & cooktop spares right here at Statewide Appliance Spares. We're your one-stop shop for all genuine Fisher & Paykel spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Fisher &amp; Paykel is synonymous with innovation and quality craftsmanship in the kitchen. With a commitment to excellence, Fisher &amp; Paykel ovens combine cutting-edge technology with sleek design, providing unmatched cooking performance for discerning home chefs.</span></p><p dir=\"ltr\"><span>Maintaining your Fisher &amp; Paykel oven is essential to keep it running like new.</span></p><h2 dir=\"ltr\"><span>Maintenance tips for your Fisher &amp; Paykel oven</span></h2><h4><span>Replace your worn oven door seal</span></h4><p><span>Do you find that your left overs are taking a long time to heat up or that your food is cooking unevenly? It could be a sign that your oven door seal needs replacing. Inspect your seal for signs of damage and wear and tear. To replace your door seal, peel off the old seal and once removed, clean the area with warm, soapy water. Fit your new door seal. You can follow our step by step </span><a href=\"https://www.statewideapp.com.au/blogs/how-to-replace-your-oven-door-seal-in-4-easy-steps/\"><span>instructions</span></a><span> on replacing your oven door seal.</span></p><h4 dir=\"ltr\"><span>Replace your globe</span></h4><p dir=\"ltr\"><span>If your globe is blown, you can easily </span><a href=\"https://www.statewideapp.com.au/electrolux/ovens-cooktops/globe-lamp\"><span>replace</span></a><span> it. Just make sure to use a globe that is specifically designed for oven use, as standard globes cannot withstand high oven temperatures. To change your globe, firstly disconnect your oven from the power source. Unclip (or unscrew) the globe cover, remove the faulty globe. Then fit your new globe and reattach the globe cover. Read our guide </span><a href=\"https://www.statewideapp.com.au/blogs/how-to-change-an-oven-globe-a-step-by-step-guide/\"><span>here</span></a><span>.</span></p><h4 dir=\"ltr\"><span>Check your heating elements</span></h4><p dir=\"ltr\"><span>If your food is taking longer to cook or is heating unevenly, your oven </span><a href=\"https://www.statewideapp.com.au/oven-cooktop-elements\"><span>elements</span></a><span> may need replacing. We show you </span><a href=\"https://www.statewideapp.com.au/blogs/how-to-change-an-oven-element-a-step-by-step-guide/\"><span>how</span></a><span>.</span></p><h2 dir=\"ltr\"><span>Buy your Fisher &amp; Paykel genuine parts online at Statewide</span></h2><p dir=\"ltr\"><span>If you have it, you can also search for the exact Fisher &amp; Paykel oven and cooktop part with your model number. Need some expert help? Our team has got you covered. They are on hand to answer all your questions about </span><a href=\"https://www.statewideapp.com.au/ovens-and-cooktops\"><span>cooktop and oven spare parts</span></a><span> and help you find what you need.</span></p><p dir=\"ltr\"><span>Shop Fisher &amp; Paykel oven and cooktop parts from Statewide Appliance Spares today and experience unparalleled quality and service.</span></p></div>",
+    "vendor": "fisher-paykel",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "",
+  },
+  {
+    "title": "Miele oven & cooktop spare parts",
+    "url": "/ovens-and-cooktops/miele",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop for genuine Miele oven spare parts and Miele cooktop spare parts at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>We make finding the right </span><a href=\"https://www.statewideapp.com.au/miele\"><span>Miele parts</span></a><span> easier with an extensive range of parts for Miele cooktops, ovens and stoves.</span></p><p dir=\"ltr\"><span>Miele is renowned for its commitment to excellence and precision engineering, making their ovens a staple in modern kitchens. With innovative features and sleek designs, Miele ovens elevate cooking to an art form, delivering superior performance and reliability.</span></p><p dir=\"ltr\"><span>Ensure your Miele oven continues to perform at its best with genuine Miele spares from Statewide Appliance Spares. </span></p><p dir=\"ltr\"><span>We're committed to making your spare parts buying experience easier, with fast Australia wide delivery and competitive prices. Trust us to deliver high-quality Miele spare parts straight to your door.</span></p><p dir=\"ltr\">In our range of spare parts and accessories you will also find spares for other household appliances such as <a href=\"https://www.statewideapp.com.au/miele/vacuum-cleaners\">Miele vacuum cleaner parts</a>, <a href=\"https://www.statewideapp.com.au/miele/dishwashers\">Miele dishwasher parts</a>, <a href=\"https://www.statewideapp.com.au/miele/washing-machines\">Miele washing machine parts</a> and much more. We have exactly what you need to get your appliance working at its best.</p></div>",
+    "vendor": "miele",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "",
+  },
+  {
+    "title": "Smeg oven & cooktop spare parts",
+    "url": "/ovens-and-cooktops/smeg",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">Looking for&nbsp;Smeg oven parts&nbsp;or&nbsp;Smeg cooktop parts? Find the right&nbsp;<a href=\"https://www.statewideapp.com.au/kitchen-appliances\">kitchen appliance spare part</a>&nbsp;that you need at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>Our range of genuine </span><a href=\"https://www.statewideapp.com.au/smeg\"><span>Smeg spare parts</span></a><span> includes </span><a href=\"https://www.statewideapp.com.au/smeg/ovens-cooktops/gasket-seal\"><span>door seals</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/smeg/ovens-cooktops/shelf-rack\"><span>oven shelves,</span></a><span> </span><a href=\"https://www.statewideapp.com.au/smeg/ovens-cooktops/globe-lamp\"><span>globes</span></a><span>, </span><a href=\"https://www.statewideapp.com.au/smeg/ovens-cooktops/element-heater\"><span>elements</span></a><span> and more.</span></p><p dir=\"ltr\"><span>Navigate our comprehensive website to find your Smeg spare parts with ease. Plus, enjoy the convenience of fast, Australia wide delivery to ensure your Smeg appliance operates at its best in no time.</span></p><p dir=\"ltr\"><span>Can’t find the Smeg spare part you’re after? We love to help our customers and offer expert guidance and advice to make buying spare parts easier. Call us on 1800 005 220. Shop Smeg oven parts and Smeg cooktop parts online today and save.</span></p></div>",
+    "vendor": "smeg",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "",
+  },
+  {
+    "title": "Westinghouse oven & cooktop spare parts",
+    "url": "/ovens-and-cooktops/westinghouse",
+    "top_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">With the biggest selection of genuine Westinghouse spare parts, we're your go-to destination for all your Westinghouse appliance needs. <span class=\"collection-read-more\"> Read more</span></p></div>",
+    "below_description": "<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\"><span>For 60 years, Westinghouse has delivered great, reliable appliances that get the job done. Westinghouse appliances are part of the Electrolux family, which means you can buy with confidence as we are an Electrolux Nationally Authorised Spare Parts Distributor.</span></p><p dir=\"ltr\"><span>Can’t find the Westinghouse spare part you’re after? We love to help our customers and offer expert guidance and advice to make buying spare parts easier. Call us on 1800 005 220. Shop Westinghouse oven parts and Westinghouse cooktop parts online today and save.</span></p></div>",
+    "vendor": "westinghouse",
+    "appliance_type": "ovens-and-cooktops",
+    "part_type": "",
+  },
+  {
+    "title": "Hisense fridge & freezer spare parts",
+    "url": "/fridge-parts/hisense",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Statewide Appliance Spares is your go-to destination for genuine Hisense fridge and freezer spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container content-head col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Hisense is a globally recognised brand known for its commitment to innovation and quality. With cutting-edge technology and sleek designs, Hisense appliances bring convenience and style to any home.</span></p><p dir="ltr"><span>At Statewide Appliance Spares, we've been serving Australian households for over 38 years, earning a reputation as a leader in appliance spare parts. We ensure our most popular Hisense fridge and freezer spare parts are always in stock – including </span><a href="https://www.statewideapp.com.au/fridges-freezers/thermostat-thermistor"><span>thermostats</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/seal-gasket"><span>door gaskets</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/shelf-rack"><span>shelves</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/globe-bulb"><span>globes</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/pcb"><span>PCB’s</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/hinge-parts"><span>hinges</span></a><span> and </span><a href="https://www.statewideapp.com.au/fridges-freezers/crisper-drawer-parts"><span>drawers</span></a><span>.</span></p><p dir="ltr"><span>With fast Australia wide delivery and competitive prices, we make it easy for you to keep your Hisense appliances performing at their best.</span></p></div>`,
+    "vendor": "hisense",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "LG fridge & freezer spare parts",
+    "url": "/fridge-parts/lg",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Shop LG fridge and freezer spare parts at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>Whether you're in need of a </span><a href="https://www.statewideapp.com.au/lg/fridges-freezers/sensor-thermistor-thermostat" data-mce-href="https://www.statewideapp.com.au/lg/fridges-freezers/sensor-thermistor-thermostat"><span>thermostat</span></a><span>, </span><a href="https://www.statewideapp.com.au/lg/fridges-freezers/gasket-seal" data-mce-href="https://www.statewideapp.com.au/lg/fridges-freezers/gasket-seal"><span>door gasket</span></a><span>, </span><a href="https://www.statewideapp.com.au/lg/fridges-freezers/shelf-rack" data-mce-href="https://www.statewideapp.com.au/lg/fridges-freezers/shelf-rack"><span>shelf</span></a><span>, or any other essential component for your LG appliance, we've got you covered. <br><br>At Statewide, we understand the frustration of dealing with a malfunctioning fridge or freezer. That's why we ensure our most popular LG fridge and freezer spare parts are always in stock and ready to ship. Simply refine your search using your LG appliance model number to find the exact part you need. Can't find what you're looking for? Our team is here to provide expert guidance and assistance to make your spare parts purchase as smooth as possible. Just give us a call – Free Call 1800 005 220. <br><br>LG is a brand known for its commitment to innovation and cutting-edge technology, making their appliances a staple in households around the world. As Australia's leading supplier of LG fridge and freezer spare parts, Statewide Appliance Spares is proud to offer a comprehensive range of LG parts to ensure your appliances continue to perform at their best.</span></p></div>`,
+    "vendor": "lg",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Mitsubishi Electric fridge & freezer spare parts",
+    "url": "/mitsubishi-electric/fridges-freezers",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find your Mitsubishi Electric fridge & freezer spare parts at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>At Statewide Appliance Spares, we understand how frustrating it can be when your Mitsubishi Electric fridge or freezer needs a repair. That's why we ensure that our most popular fridge and freezer spare parts are always in stock. From </span><a href="https://www.statewideapp.com.au/fridges-freezers/sensor-thermistor-thermostat"><span>thermostats</span></a><span> to </span><a href="https://www.statewideapp.com.au/fridge-parts/seals"><span>door gaskets</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/shelf-rack"><span>shelves</span></a><span> to </span><a href="https://www.statewideapp.com.au/fridge-parts/globes-lamps-lighting"><span>globes</span></a><span>, </span><a href="https://www.statewideapp.com.au/fridges-freezers/pcb"><span>PCB's</span></a><span> to </span><a href="https://www.statewideapp.com.au/fridges-freezers/hinge"><span>hinges</span></a><span> and </span><a href="https://www.statewideapp.com.au/fridge-parts/drawers"><span>drawers</span></a><span> - we have it all. <br><br>Looking for specific Mitsubishi Electric spare parts? Our user-friendly website allows you to easily refine your search using your Mitsubishi Electric appliance model number. With just a few clicks, you'll find the exact spare part you need without any hassle. <br><br>If you can't find the part you're looking for or need assistance, our team of experts is here to help. We take pride in providing exceptional customer service and offering expert guidance to ensure you find the right spare part for your Mitsubishi Electric fridge or freezer. <br><br>Don't let a malfunctioning appliance disrupt your daily routine. Find the Mitsubishi Electric fridge and freezer spare parts you need at Statewide Appliance Spares today!</span></p></div>`,
+    "vendor": "mitsubishi-electric",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Samsung  fridge & freezer spare parts",
+    "url": "/fridge-parts/samsung",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Looking for spare parts for your SAMSUNG fridge freezer? Statewide Appliance Spares offers a comprehensive range of genuine Samsung fridge and freezer spare parts. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">We understand the importance of having your appliances up and running. That's why we ensure that our most popular Samsung fridge and freezer spare parts are always in stock, including <a href="https://www.statewideapp.com.au/samsung/fridges-freezers/thermostat-thermistor">thermostats</a>, <a href="https://www.statewideapp.com.au/samsung/fridges-freezers/seal-gasket">door gaskets</a>, <a href="https://www.statewideapp.com.au/samsung/fridges-freezers/shelf-rack">shelves</a>, <a href="https://www.statewideapp.com.au/samsung/fridges-freezers/globe-bulb">globes</a>, <a href="https://www.statewideapp.com.au/samsung/fridges-freezers/pcb">PCB’s</a>, <a href="https://www.statewideapp.com.au/samsung/fridges-freezers/hinge-parts">hinges</a> and <a href="https://www.statewideapp.com.au/samsung/fridges-freezers/crisper-drawer-parts">drawers</a>. Samsung has earned its reputation as one of the world's leading brands known for quality, innovation, and design. When you shop with us, you can be confident that you are getting genuine Samsung fridge parts and freezer spare parts. <h2 class="contenthead" dir="ltr">Why use genuine Samsung fridge spare parts?</h2> <ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation">High quality guarantee</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation">Designed to correctly fit your Samsung fridge and freezer</p></li></ul> <h2 class="contenthead" dir="ltr">To find the right Samsung fridge and freezer spare part for your appliance</h2> <ol><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation">First, you will need to find your fridge model number. This can usually be found on the inside of the refrigerator, on the left side. Our handy <a href="https://www.statewideapp.com.au/findyourmodel">guide</a> also helps you locate your model number.</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation">To order online, visit our website and search for your part. Use our drop-down search tool to find your part. Insert your brand, Appliance type ‘Fridges &amp; Freezers’ followed by model number.</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation">Alternatively give our Customer Care team a call on Free Call 1800 005 220. They can offer you expert guidance so that you find the exact part for your Samsung refrigerator.</p></li></ol> <p dir="ltr">Statewide Appliance Spares is Australia’s biggest distributor of appliance spare parts. Australian owned &amp; operated, we have been supplying spare parts for over 38 years. With our extensively stocked warehouse, we offer the convenience of fast, Australia wide delivery.</p> <h2 class="contenthead" dir="ltr">Looking for other Samsung appliance spare parts?</h2> <p dir="ltr">Statewide Appliance Spares offer replacement parts for all your Samsung home appliances. Shop for Samsung air conditioners spare parts <a href="https://www.statewideapp.com.au/samsung/air-conditioners">here</a>. We stock an extensive range of air conditioner spare parts, including <a href="https://www.statewideapp.com.au/samsung/air-conditioners/filter">filters</a>, <a href="https://www.statewideapp.com.au/samsung/air-conditioners/remote-control">remote controls</a> and <a href="https://www.statewideapp.com.au/samsung/air-conditioners/pcb">PCB’s</a> to get your unit back to working order and provide you a better living and more comfortable environment. Find all your <a href="https://www.statewideapp.com.au/samsung-washing-machine-parts">Samsung washing machine parts</a> at Statewide. We stock spare parts across more than 50 makes and model of Samsung washing machine. So no matter whether you’ve got a top loader or front loader, we’ve got you covered. Need <a href="https://www.statewideapp.com.au/samsung/dryers">Samsung dryer spare parts</a>? Our extensive range includes seals, dryer belts, thermostats and more. Get all your Samsung <a href="https://www.statewideapp.com.au/samsung/dishwashers">dishwasher</a> spares, including <a href="https://www.statewideapp.com.au/samsung/dishwashers/hose-pipe-tubing">hoses</a>, <a href="https://www.statewideapp.com.au/samsung/dishwashers/cutlery-basket">cutlery baskets</a>, <a href="https://www.statewideapp.com.au/samsung/dishwashers/pump">pumps</a> and <a href="https://www.statewideapp.com.au/samsung/dishwashers/gasket-seal">seals</a>. Find all your Samsung <a href="https://www.statewideapp.com.au/samsung/ovens-cooktops">oven &amp; cooktop</a> spares including <a href="https://www.statewideapp.com.au/samsung/ovens-cooktops/gasket-seal">seals</a>, <a href="https://www.statewideapp.com.au/samsung/ovens-cooktops/sensor-thermistor-thermostat">thermostats</a> and <a href="https://www.statewideapp.com.au/samsung/ovens-cooktops/element-heater">elements</a>. Shop for Samsung television spare parts <a href="https://www.statewideapp.com.au/samsung/televisions">here</a>. We ensure our most popular television spare parts and accessories are always in stock, including <a href="https://www.statewideapp.com.au/samsung/televisions/pcb">PCB’s</a>, <a href="https://www.statewideapp.com.au/samsung/televisions/remote-control">remote controls</a>, <a href="https://www.statewideapp.com.au/samsung/televisions/stand-parts">stands</a> and <a href="https://www.statewideapp.com.au/samsung/televisions/cable">cords</a>.</p></div>`,
+    "vendor": "Samsung",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  },
+  {
+    "title": "Sharp  fridge & freezer spare parts",
+    "url": "/fridge-parts/sharp",
+    "top_description": `<div class=\"landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9\"><p dir=\"ltr\">Find your Sharp fridge & freezer spare parts at Statewide Appliance Spares. <span class=\"collection-read-more\"> Read more</span></p></div>`,
+    "below_description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr"><span>We ensure our most popular Sharp refrigerator and freezer spare parts are always in stock – including&nbsp;</span><a href="https://www.statewideapp.com.au/sharp/fridges-freezers/sensor-thermistor-thermostat"><span>thermostats</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/sharp/fridges-freezers/gasket-seal"><span>door gaskets</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/sharp/fridges-freezers/shelf-rack"><span>shelves</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/sharp/fridges-freezers/globe-lamp"><span>globes</span></a><span>,&nbsp;</span><a href="https://www.statewideapp.com.au/sharp/fridges-freezers/pcb"><span>PCB’s</span></a><span>&nbsp;,&nbsp;</span><a href="https://www.statewideapp.com.au/sharp/fridges-freezers/hinge"><span>hinges</span></a><span>&nbsp;and&nbsp;</span><a href="https://www.statewideapp.com.au/sharp/fridges-freezers/crisper-bin-drawer"><span>drawers</span></a><span>.</span></p><p dir="ltr"><span>Statewide Appliance Spares are a market leader in appliance spare parts for over 38 years. Our extensively stocked warehouse includes genuine parts and a large range of universal fitting and great value compatible non-genuine and generic spare parts. We make buying spare parts easier, with fast Australia wide delivery and competitive prices.</span></p></div>`,
+    "vendor": "sharp",
+    "appliance_type": "fridges-freezers",
+    "part_type": ""
+  }
+]
+
+
+export const collectionData = {
+  "Miele vacuum bags & filters": {
+    "description": `<div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9"><p dir="ltr">Shop for Miele Vacuum Bags at Statewide Appliance Spares. Statewide offer genuine Miele GN &amp; Miele FJM dustbags that are perfectly designed to fit your Miele Vacuum Cleaner.<br><br>Miele Vacuum Bags feature:</p><ul><li dir="ltr"><p dir="ltr">AirClean filter system that filters more than 99.9% of all fine dust particles</p></li><li dir="ltr"><p dir="ltr">Active HEPA filter. The HEPA AirClean Filter filters even fine dust and allergens – ideal for those with house dust allergies.</p></li><li dir="ltr"><p dir="ltr">Active AirClean filters that help to neutralise unpleasant odours – ideal for pet owners or households with smokers.</p></li></ul><p>To search vacuum bags / filters for other brands, click&nbsp;<a href="/vacuum-cleaner">here</a></p></div>`,
+    "image": ["https://cdn.shopify.com/s/files/1/0762/6742/1990/files/Banner_1_-_LG_1000_1000.jpg?v=1710445922"],
+    "logo": "https://cdn.shopify.com/s/files/1/0762/6742/1990/files/LG.png?v=1710447771"
+  },
+  "Genuine LG fridge water & air filters": {
+    "description": `<div style="font-size:10pt !important"><div class="landing-page-header-container col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" style="float:left !important"></div><div class="landing-page-header-container col-xs-12 col-sm-12 col-md-12 col-xl-9" style="font-size:10pt !important"><p style="font-size:10pt !important">Statewide Appliance Spares is your trusted source for genuine LG fridge water filters and air filters. Discover a complete range of high-quality, genuine LG fridge water filters and air filters designed to ensure your refrigerator delivers clean, refreshing water.</p></div><p style="font-size:10pt !important">Explore our range and genuine LG fridge water filters today to enjoy cleaner and healthier hydration for you and your family.</p><ul style="margin-left:20px !important;text-align:left" type="disc"><li style="list-style:disc">LG filters fit seamlessly into your LG fridge, eliminating the guesswork and potential leaks that can come with non-genuine filters.</li><li style="list-style:disc">Experience cleaner, better-tasting water as genuine filters effectively reduce impurities, contaminants, and odours.</li><li style="list-style:disc">Rigorously tested and certified to meet industry standards, ensuring the highest quality and safety for your family.</li><li style="list-style:disc">Using genuine parts, including filters, helps protect your fridge's warranty and prevents any potential issues that may arise from using non-genuine parts.</li><li style="list-style:disc">Easy installation, saving you time and ensuring proper functionality from the moment you put them in.</li><li style="list-style:disc">Enjoy bulk buy discounts and keep extras on hand.</li></ul></div>`,
+    "logo": "https://cdn.shopify.com/s/files/1/0762/6742/1990/files/LG.png?v=1710447771"
+  }
+}
