@@ -421,7 +421,7 @@ function DesktopHeader({ isHome, menu, siteNav, isCartOpen, openCart, closeCart,
           <div className="flex w-search-bar justify-end flex-wrap items-center max-w-[25%]">
 
             <div className="w-full flex justify-end header-right-wrap">
-              <div className='header-call-details'>
+              <div className='header-call-details min-w-[125px]'>
                 {selectedLocale.country != 'NZ' ?
                   <div className="text-[#1e5097] text-center">
                     <p className='text-sm'>Australia Free Call</p>

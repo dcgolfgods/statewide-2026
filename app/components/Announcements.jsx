@@ -118,7 +118,7 @@ export function Announcements({
                     to={`/announcement/${node.handle}`}
                     className="block text-[#0eb2f1] hover:underline"
                   >
-                    <h2 className="text-[#1e5097]! leading-[28px] mb-[8px] font-bold text-[32px]!">
+                    <h2 className="leading-[28px] mb-[8px] font-bold">
                       {node.title}
                     </h2>
                   </Link>

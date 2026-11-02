@@ -27,6 +27,9 @@ import {NotFound} from './components/NotFound';
 import styles from './styles/app.css?url';
 import globalCss from './styles/global.css?url';
 import customFonts from './styles/custom-font.css?url';
+import openSansRegular from './styles/fonts/OpenSans-Regular.ttf?url';
+import openSansBold from './styles/fonts/OpenSans-Bold.ttf?url';
+import fontAwesome from './styles/fonts/fontawesome-webfont.woff2?url';
 import {DEFAULT_LOCALE, parseMenu} from './lib/utils';
 import {useAnalytics} from './hooks/useAnalytics';
 
@@ -73,6 +76,20 @@ export function links() {
       href: 'https://shop.app',
     },
     {rel: 'icon', type: 'image/svg+xml', href: '/favicon.ico'},
+    // Header fonts load before first paint so the header doesn't reflow on a
+    // first (uncached) visit when Open Sans and the icon font swap in.
+    {rel: 'stylesheet', href: customFonts},
+    ...[
+      [openSansRegular, 'font/ttf'],
+      [openSansBold, 'font/ttf'],
+      [fontAwesome, 'font/woff2'],
+    ].map(([href, type]) => ({
+      rel: 'preload',
+      as: 'font',
+      href,
+      type,
+      crossOrigin: 'anonymous',
+    })),
   ];
 }
 
@@ -284,7 +301,6 @@ export function Layout({children}) {
         {/* Stylesheets load after the content; app.css reveals the body. */}
         <link rel="stylesheet" href={styles} />
         <link rel="stylesheet" href={globalCss} />
-        <link rel="stylesheet" href={customFonts} />
         <ScrollRestoration nonce={nonce} />
         <Scripts nonce={nonce} />
       </body>
