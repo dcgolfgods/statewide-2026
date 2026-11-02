@@ -27,7 +27,7 @@ export const action = async ({request, context, params}) => {
   async function commitAndJson(extra = {}) {
     const {session} = context;
     const headers = new Headers();
-    headers.append('Set-Cookie', await session.commit({domain: '.statewide.com.au'}));
+    headers.append('Set-Cookie', await session.commit());
     return json({loggedIn: true, redirectTo: params.locale ? `/${params.locale}/account` : '/account', ...extra}, {headers});
   }
 
