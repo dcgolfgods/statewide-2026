@@ -77,7 +77,7 @@ export function Drawer({heading, open, onClose, openFrom = 'right', children}) {
 
       <div className={`fixed inset-y-0 ${panelPositionClass} flex max-w-full`}>
         <div
-          className={`w-screen max-w-[400px] text-left align-middle shadow-xl h-screen-dynamic bg-contrast transform transition-transform duration-300 ease-in-out ${panelTranslateClass}`}
+          className={`w-screen max-w-[400px] text-left align-middle shadow-xl h-screen-dynamic bg-white transform transition-transform duration-300 ease-in-out ${panelTranslateClass}`}
         >
           {children}
         </div>

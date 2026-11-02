@@ -16,6 +16,7 @@ import { DEFAULT_LOCALE } from '../lib/utils';
 // getCartDataOrCreate
 import { CartProvider, useCart } from '~/components/cartContext';
 import { MenuDrawer } from './MenuDrawer';
+import { preloadCartDrawer } from './CartDrawerFly';
 import MegaMenuDesktop from './MegaMenuDesktop';
 
 import ServerFooter from './Footer';
@@ -274,6 +275,12 @@ function Announce() {
 }
 //ss
 function CartDrawer({ isOpen, loading, onClose, cart, customerToken }) {
+  // Fetch the drawer contents while idle so the panel is never empty on open.
+  useEffect(() => {
+    const idle = window.requestIdleCallback || ((cb) => setTimeout(cb, 2000));
+    idle(() => preloadCartDrawer());
+  }, []);
+
   return (
     <Drawer open={isOpen} onClose={onClose} heading="My Cart" openFrom="right">
       <CartDrawerFly customerToken={customerToken} loading={loading} layout="drawer" onClose={onClose} cart={cart} />
