@@ -135,7 +135,7 @@ export function MenuDrawer({ isOpen, onClose, menu, selectedLocale }) {
             {isOpen && <div onClick={handleCloseMenu} className={`fixed bg-[#000000a8] top-0 bottom-0 left-0 right-0 z-[100] cursor-pointer `}>
             <div className="flex justify-center items-center mobile-overlay-cross absolute right-0 h-[50px] w-[50px] text-[#e0e7f1] text-[2.5em]"><i className="fa fa-times-circle"></i></div>
                 </div>}
-            <div className={`mobile-menu-drawer -translate-x-full  fixed top-0 left-0 bottom-0 h-full z-[110] bg-white w-[85%] transform transition-transform duration-300 ${!active && 'overflow-y-auto '} ${isOpen ? 'active' : ''}`}>
+            <div className={`mobile-menu-drawer fixed top-0 left-0 bottom-0 h-full z-[110] bg-white w-[85%] transform transition-transform duration-300 ${!active && 'overflow-y-auto '} ${isOpen ? 'active translate-x-0' : '-translate-x-full'}`}>
                 <h4 className='m-0 bg-[#e0e7f1] text-[#1e5097] py-[5px] px-[10px] font-bold'>Shop by Appliance Type</h4>
                 <MenuMobileNav data={data} active={active} thirdActive={thirdActive} setActive={setActive} setThirdActive={setThirdActive} menu={menu} onClose={handleCloseMenu} />
                 <OtherMenuItems onNavigate={handleCloseMenu} />
