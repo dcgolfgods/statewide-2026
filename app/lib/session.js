@@ -73,16 +73,12 @@ export class AppSession {
     return this.#sessionStorage.destroySession(this.#session);
   }
 
-  /**
-   * @param {SerializeOptions} [options] cookie overrides, e.g. a shared domain
-   */
-  commit(options) {
+  commit() {
     this.isPending = false;
-    return this.#sessionStorage.commitSession(this.#session, options);
+    return this.#sessionStorage.commitSession(this.#session);
   }
 }
 
 /** @typedef {import('@shopify/hydrogen').HydrogenSession} HydrogenSession */
 /** @typedef {import('react-router').SessionStorage} SessionStorage */
 /** @typedef {import('react-router').Session} Session */
-/** @typedef {import('react-router').CookieSerializeOptions} SerializeOptions */

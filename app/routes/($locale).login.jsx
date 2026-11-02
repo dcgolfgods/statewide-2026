@@ -28,7 +28,7 @@ export const action = async ({request, context, params}) => {
     console.log("multipassToken ",multipassToken)
     const {session} = context;
     const headers = new Headers();
-    headers.append('Set-Cookie', await session.commit({domain: '.statewide.com.au'}));
+    headers.append('Set-Cookie', await session.commit());
     return json({loggedIn: true, redirectTo: params.locale ? `/${params.locale}/account` : '/account', multipassToken, ...extra}, {headers});
   }
 
@@ -111,6 +111,7 @@ export const action = async ({request, context, params}) => {
       if (res?.statusCode === 200 && res?.data?.multipassToken) {
         const token = await createCustomerAccessTokenFromMultipass(res.data.multipassToken, context.storefront);
         if (!token) return badRequest({formError: 'Failed to create customer session. Please try again.'});
+        context.session.set('customerAccessToken', token);
         const multipassToken = res?.data?.multipassToken || null;
         return commitAndJson(multipassToken);
       }
