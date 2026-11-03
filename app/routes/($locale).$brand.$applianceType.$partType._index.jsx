@@ -163,7 +163,7 @@ export default function BrandPage() {
 
     return <CollectionPage
       custom={true}
-      title={"yidkwdnwdnldn"}
+      title={item?.heading}
       collection={collection}
       vendor={item?.vendor?.title?.replace(/ spare parts/g, '')}
       applianceType={item?.appliance_type?.title?.replace(/ spare parts/g, '')}

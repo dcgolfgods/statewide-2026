@@ -22,7 +22,7 @@ import {
 } from '~/lib/utils';
 import {CollectionPage, Page, Blogs, EGRC, Announcements} from '~/components';
 import {ProductPage} from '~/components';
-import {seoPayload} from '~/lib/seo.server';
+import {seoPayload, customCollectionHeading} from '~/lib/seo.server';
 import {metaDescription} from '../lib/meta-description.server';
 import { getCollectionDataUsingMetaobject } from '~/lib/shopifyAdminMetaobjects';
 import {fetchAnnouncements} from '~/lib/announcements';
@@ -129,63 +129,28 @@ export async function loader({params, request, context}) {
         applianceCollection,
         partCollection,
       ].filter(Boolean);
-      let collection = null;
+      let collection = brandCollection || applianceCollection || partCollection || null;
       if(brandCollection?.handle){
-        collection = brandCollection;
         meta = metaDescription.find((item)=> item.brand == brandCollection?.title && item.appliance_type ==  null &&  item.part_type == null )
-        if(meta){
-          seo = seoPayload.collection({
-            collection: {...brandCollection, ...meta, seo:{...meta}},
-            url: meta?.url || request.url,
-            breadcrumbCollections,
-          });
-        }else{
-          seo = seoPayload.collection({
-            collection: brandCollection,
-            url: request.url,
-            breadcrumbCollections,
-          });
-        }
-        
       }else if(applianceCollection?.handle){
-        collection = applianceCollection;
         meta = metaDescription.find((item)=> item.brand == null && item.appliance_type ==  applianceCollection?.title &&  item.part_type == null )
-        if(meta){
-          seo = seoPayload.collection({
-            collection: {...applianceCollection, ...meta, seo:{...meta}},
-            url: meta?.url || request.url,
-            breadcrumbCollections,
-          });
-        }else{
-          seo = seoPayload.collection({
-            collection: applianceCollection,
-            url: request.url,
-            breadcrumbCollections,
-          });
-        }
-       
       }else if(partCollection?.handle){
-        collection = partCollection;
         meta = metaDescription.find((item)=> item.brand == null && item.appliance_type ==  null &&  item.part_type == partCollection?.title )
-        if(meta){
-          seo = seoPayload.collection({
-            collection: {...partCollection, ...meta, seo:{...meta}},
-            url: meta?.url || request.url,
-            breadcrumbCollections,
-          });
-        }else{
-          seo = seoPayload.collection({
-            collection: partCollection,
-            url: request.url,
-            breadcrumbCollections,
-          });
-        }
+      }
+      if(collection){
+        seo = seoPayload.customCollection({
+          existItem,
+          collection,
+          meta,
+          url: request.url,
+          breadcrumbCollections,
+        });
       }
 
       return json({
         searchQuery: existItem?.searchQuery,
         noFilter: existItem?.noFilter || false,
-        item:{collection:collection, brandCollection:brandCollection, partCollection:partCollection, applianceCollection:applianceCollection, title:collection?.title, custom_title:existItem.custom_title, top_description:existItem.top_description, below_description:existItem.below_description},
+        item:{collection:collection, brandCollection:brandCollection, partCollection:partCollection, applianceCollection:applianceCollection, title:collection?.title, custom_title:existItem.custom_title, heading:customCollectionHeading({existItem, collection}), top_description:existItem.top_description, below_description:existItem.below_description},
         pageType: 'custom-collection',
         model, 
         seo
@@ -327,7 +292,7 @@ export default function BrandPage() {
     let collection = item?.collection ;
     return <CollectionPage
       custom={true}
-      title={"yidkwdnwdnldn"}
+      title={item?.heading}
       collection={collection}
       vendor={item?.brandCollection?.title?.replace(/ spare parts/g, '')}
       applianceType={item?.applianceCollection?.title?.replace(/ spare parts/g, '')}
