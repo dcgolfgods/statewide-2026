@@ -25,7 +25,7 @@ function normalizeGuide(node) {
   const slug = node.slug?.value?.trim();
   if (!appliance || !slug) return null;
 
-  const fileImages = (node.images?.references?.nodes ?? [])
+  const images = (node.images?.references?.nodes ?? [])
     .map((file) => file?.image)
     .filter((image) => image?.url)
     .map((image) => ({
@@ -41,7 +41,7 @@ function normalizeGuide(node) {
     slug,
     summary: node.summary?.value?.trim() || '',
     bodyHtml: richTextToHtml(node.body?.value),
-    images: fileImages.length ? fileImages : parseLegacyImages(node.legacy_images?.value),
+    images,
     link: collection?.handle
       ? {
           url: `/${collection.handle}`,
@@ -50,15 +50,6 @@ function normalizeGuide(node) {
       : null,
     sortOrder: Number(node.sort_order?.value ?? 0),
   };
-}
-
-function parseLegacyImages(value) {
-  try {
-    const images = JSON.parse(value || '[]');
-    return Array.isArray(images) ? images.filter((image) => image?.url) : [];
-  } catch {
-    return [];
-  }
 }
 
 /**
@@ -127,7 +118,6 @@ const MODEL_GUIDES_QUERY = `#graphql
         slug: field(key: "slug") { value }
         summary: field(key: "summary") { value }
         body: field(key: "body") { value }
-        legacy_images: field(key: "legacy_images") { value }
         link_label: field(key: "link_label") { value }
         sort_order: field(key: "sort_order") { value }
         images: field(key: "images") {

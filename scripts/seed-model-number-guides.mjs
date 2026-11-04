@@ -6,9 +6,13 @@
  *   node scripts/seed-model-number-guides.mjs          # dry run: prints what it would do
  *   node scripts/seed-model-number-guides.mjs --write  # writes to the store in .env
  *
- * Needs ADMIN_API_ACCESS_TOKEN with write_metaobject_definitions,
- * write_metaobjects and read_products. Re-running is safe: the definition is
- * reused and entries are upserted by handle (the slug).
+ * Images are linked to the existing files in Content > Files (matched by URL)
+ * and each file gets its alt text there.
+ *
+ * Needs an Admin API token (ADMIN_API_ACCESS_TOKEN_TEMP if set, else
+ * ADMIN_API_ACCESS_TOKEN) with write_metaobject_definitions, write_metaobjects,
+ * read_products and write_files. Re-running is safe: the definition is reused
+ * and entries are upserted by handle (the slug).
  */
 import fs from 'node:fs';
 import {modelData} from './model-number-guides.seed.js';
@@ -28,11 +32,12 @@ const env = Object.fromEntries(
     }),
 );
 const shop = env.PUBLIC_STORE_DOMAIN.replace(/^https?:\/\//, '');
+const TOKEN = env.ADMIN_API_ACCESS_TOKEN_TEMP || env.ADMIN_API_ACCESS_TOKEN;
 
 async function gql(query, variables = {}) {
   const response = await fetch(`https://${shop}/admin/api/${API_VERSION}/graphql.json`, {
     method: 'POST',
-    headers: {'Content-Type': 'application/json', 'X-Shopify-Access-Token': env.ADMIN_API_ACCESS_TOKEN},
+    headers: {'Content-Type': 'application/json', 'X-Shopify-Access-Token': TOKEN},
     body: JSON.stringify({query, variables}),
   });
   const json = await response.json();
@@ -52,8 +57,7 @@ const DEFINITION = {
     {key: 'slug', name: 'Slug', type: 'single_line_text_field', required: true, description: 'Anchor id, e.g. "dishwashers" for /findyourmodel#dishwashers. Keep unique and stable.'},
     {key: 'summary', name: 'Summary', type: 'multi_line_text_field', description: 'Direct answer, rendered as the first paragraph.'},
     {key: 'body', name: 'Body', type: 'rich_text_field', description: 'More detail. Use Heading 3 for sub-types (e.g. "Ducted systems").'},
-    {key: 'images', name: 'Images', type: 'list.file_reference', description: 'Guide photos. Set alt text on each file in Content > Files. While empty, "Legacy images" is used.', validations: [{name: 'file_type_options', value: '["Image"]'}]},
-    {key: 'legacy_images', name: 'Legacy images', type: 'json', description: 'Images migrated from the old page: [{"url","alt","width","height"}]. Used only while "Images" is empty.'},
+    {key: 'images', name: 'Images', type: 'list.file_reference', description: 'Guide photos, in display order. Alt text comes from each file (Content > Files).', validations: [{name: 'file_type_options', value: '["Image"]'}]},
     {key: 'collection', name: 'Parts collection', type: 'collection_reference', description: 'Parts category linked at the end of the section.'},
     {key: 'link_label', name: 'Link label', type: 'single_line_text_field', description: 'Text of the parts link, e.g. "Shop dishwasher parts".'},
     {key: 'sort_order', name: 'Sort order', type: 'number_integer', required: true, description: 'Tab order, lowest first.'},
@@ -82,6 +86,55 @@ async function collectionId(handle) {
   return data.collectionByHandle?.id ?? null;
 }
 
+/** The file in Content > Files whose URL is `url` (ignoring the ?v= cache key). */
+async function imageFile(url) {
+  const base = url.split('?')[0];
+  const filename = base.split('/').pop();
+  const data = await gql(
+    `query($query: String!) { files(first: 10, query: $query) { nodes { id alt ... on MediaImage { image { url } } } } }`,
+    {query: `filename:${filename}`},
+  );
+  return data.files.nodes.find((file) => file.image?.url?.split('?')[0] === base) ?? null;
+}
+
+async function setFileAlt(id, alt) {
+  const data = await gql(
+    `mutation($files: [FileUpdateInput!]!) { fileUpdate(files: $files) { files { id alt } userErrors { field message } } }`,
+    {files: [{id, alt}]},
+  );
+  const {userErrors} = data.fileUpdate;
+  if (userErrors.length) throw new Error(`alt for ${id}: ${JSON.stringify(userErrors)}`);
+}
+
+/** Removes the JSON image field earlier versions of this script created. */
+async function dropLegacyImagesField() {
+  const data = await gql(`query { metaobjectDefinitionByType(type: "${TYPE}") { id fieldDefinitions { key } } }`);
+  const definition = data.metaobjectDefinitionByType;
+  if (!definition?.fieldDefinitions.some((field) => field.key === 'legacy_images')) return;
+  if (!WRITE) {
+    console.log('would delete the legacy_images field');
+    return;
+  }
+  const images = DEFINITION.fieldDefinitions.find((field) => field.key === 'images');
+  const result = await gql(
+    `mutation($id: ID!, $definition: MetaobjectDefinitionUpdateInput!) {
+      metaobjectDefinitionUpdate(id: $id, definition: $definition) { metaobjectDefinition { id } userErrors { field message } }
+    }`,
+    {
+      id: definition.id,
+      definition: {
+        fieldDefinitions: [
+          {delete: {key: 'legacy_images'}},
+          {update: {key: 'images', description: images.description}},
+        ],
+      },
+    },
+  );
+  const {userErrors} = result.metaobjectDefinitionUpdate;
+  if (userErrors.length) throw new Error(JSON.stringify(userErrors));
+  console.log('deleted the legacy_images field');
+}
+
 async function ensureDefinition() {
   const existing = await gql(`query { metaobjectDefinitionByType(type: "${TYPE}") { id } }`);
   if (existing.metaobjectDefinitionByType) {
@@ -108,9 +161,19 @@ async function upsertGuide(guide, index) {
     {key: 'appliance', value: guide.appliance},
     {key: 'slug', value: guide.slug},
     {key: 'summary', value: guide.summary},
-    {key: 'legacy_images', value: JSON.stringify(guide.images)},
     {key: 'sort_order', value: String((index + 1) * 10)},
   ];
+  const fileIds = [];
+  for (const image of guide.images) {
+    const file = await imageFile(image.url);
+    if (!file) throw new Error(`${guide.slug}: no file in Content > Files for ${image.url}`);
+    if (file.alt !== image.alt) {
+      if (WRITE) await setFileAlt(file.id, image.alt);
+      console.log(`  ${WRITE ? 'set' : 'would set'} alt on ${file.id}: "${image.alt}"`);
+    }
+    fileIds.push(file.id);
+  }
+  fields.push({key: 'images', value: JSON.stringify(fileIds)});
   const body = htmlToRichText(guide.bodyHtml);
   if (body) fields.push({key: 'body', value: body});
   if (guide.link) {
@@ -143,3 +206,4 @@ await ensureDefinition();
 for (const [index, guide] of modelData.entries()) {
   await upsertGuide(guide, index);
 }
+await dropLegacyImagesField();

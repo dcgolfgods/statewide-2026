@@ -488,9 +488,6 @@ export type ModelNumberGuidesQuery = {
         Pick<StorefrontAPI.MetaobjectField, 'value'>
       >;
       body?: StorefrontAPI.Maybe<Pick<StorefrontAPI.MetaobjectField, 'value'>>;
-      legacy_images?: StorefrontAPI.Maybe<
-        Pick<StorefrontAPI.MetaobjectField, 'value'>
-      >;
       link_label?: StorefrontAPI.Maybe<
         Pick<StorefrontAPI.MetaobjectField, 'value'>
       >;
@@ -3471,7 +3468,7 @@ interface GeneratedQueryTypes {
     return: AnnouncementsQuery;
     variables: AnnouncementsQueryVariables;
   };
-  '#graphql\n  query ModelNumberGuides($language: LanguageCode) @inContext(language: $language) {\n    metaobjects(type: "model_number_guide", first: 50) {\n      nodes {\n        appliance: field(key: "appliance") { value }\n        slug: field(key: "slug") { value }\n        summary: field(key: "summary") { value }\n        body: field(key: "body") { value }\n        legacy_images: field(key: "legacy_images") { value }\n        link_label: field(key: "link_label") { value }\n        sort_order: field(key: "sort_order") { value }\n        images: field(key: "images") {\n          references(first: 10) {\n            nodes {\n              ... on MediaImage {\n                image { url altText width height }\n              }\n            }\n          }\n        }\n        collection: field(key: "collection") {\n          reference {\n            ... on Collection { handle title }\n          }\n        }\n      }\n    }\n  }\n': {
+  '#graphql\n  query ModelNumberGuides($language: LanguageCode) @inContext(language: $language) {\n    metaobjects(type: "model_number_guide", first: 50) {\n      nodes {\n        appliance: field(key: "appliance") { value }\n        slug: field(key: "slug") { value }\n        summary: field(key: "summary") { value }\n        body: field(key: "body") { value }\n        link_label: field(key: "link_label") { value }\n        sort_order: field(key: "sort_order") { value }\n        images: field(key: "images") {\n          references(first: 10) {\n            nodes {\n              ... on MediaImage {\n                image { url altText width height }\n              }\n            }\n          }\n        }\n        collection: field(key: "collection") {\n          reference {\n            ... on Collection { handle title }\n          }\n        }\n      }\n    }\n  }\n': {
     return: ModelNumberGuidesQuery;
     variables: ModelNumberGuidesQueryVariables;
   };
