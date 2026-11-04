@@ -1,4 +1,5 @@
 import {redirect} from 'react-router';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 /**
  * Automatically applies a discount found on the url
@@ -13,6 +14,7 @@ import {redirect} from 'react-router';
  * @preserve
  */
 export async function loader({request, context, params}) {
+  assertValidLocaleParam(params);
   const {cart} = context;
   // N.B. This route will probably be removed in the future.
   const session = context.session;

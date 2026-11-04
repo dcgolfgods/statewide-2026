@@ -3,6 +3,7 @@ import {flattenConnection} from '@shopify/hydrogen';
 import invariant from 'tiny-invariant';
 
 import {PRODUCT_CARD_FRAGMENT} from '~/data/fragments';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 /**
  * Fetch a given set of products from the storefront API
@@ -13,7 +14,8 @@ import {PRODUCT_CARD_FRAGMENT} from '~/data/fragments';
  * @returns Product[]
  * @see https://shopify.dev/api/storefront/2023-07/queries/products
  */
-export async function loader({request, context: {storefront}}) {
+export async function loader({request, context: {storefront}, params}) {
+  assertValidLocaleParam(params);
   const url = new URL(request.url);
   const searchParams = new URLSearchParams(url.search);
 

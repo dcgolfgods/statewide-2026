@@ -33,6 +33,7 @@ import {useCart} from '~/components/cartContext';
 import {getFeaturedData} from './($locale).featured-products';
 import {doLogout} from './($locale).account.logout';
 import invariant from 'tiny-invariant';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export const headers = routeHeaders;
 const badRequest = (data) => json(data, {status: 400});
@@ -144,6 +145,7 @@ export const action = async ({request, context, params}) => {
   }
 };
 export async function loader({request, context, params}) {
+  assertValidLocaleParam(params);
   const {pathname} = new URL(request.url);
   const locale = params.locale;
   const customerAccessToken = await context.session.get('customerAccessToken');

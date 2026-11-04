@@ -9,6 +9,7 @@ import {getHeroPlaceholder} from '~/lib/placeholders';
 import {seoPayload} from '~/lib/seo.server';
 import {routeHeaders} from '~/data/cache';
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export const meta = ({matches}) => getRouteSeoMeta(matches);
 
@@ -30,6 +31,7 @@ export const links = () => [
 ];
 
 export async function loader({request, params, context}) {
+  assertValidLocaleParam(params);
   const {language, country} = context.storefront.i18n;
   console.log("paramss",request.url)
   if (
