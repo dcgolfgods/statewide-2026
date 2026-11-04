@@ -1,9 +1,11 @@
 import {data as json} from 'react-router';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 /**
  * Fetch reviews from metaobject with pagination
  */
-export async function loader({request, context: {storefront}}) {
+export async function loader({request, context: {storefront}, params}) {
+  assertValidLocaleParam(params);
   const url = new URL(request.url);
   const searchParams = new URLSearchParams(url.search);
 

@@ -2,6 +2,7 @@ import {redirect} from 'react-router';
 import invariant from 'tiny-invariant';
 
 import {Button, PageHeader} from '~/components';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 /*
  If your online store had active orders before you launched your Hydrogen storefront,
@@ -10,7 +11,8 @@ import {Button, PageHeader} from '~/components';
  that are routing to your Hydrogen storefront. To prevent this, ensure that you redirect
  those requests back to Shopify.
 */
-export async function loader({request, context: {storefront}}) {
+export async function loader({request, context: {storefront}, params}) {
+  assertValidLocaleParam(params);
   const {origin} = new URL(request.url);
   const {shop} = await storefront.query(
     `#graphql

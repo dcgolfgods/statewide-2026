@@ -5,6 +5,7 @@ import {CartForm} from '@shopify/hydrogen';
 
 import {isLocalPath} from '~/lib/utils';
 import {Cart} from '~/components';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export async function action({request, context}) {
   const {session, cart} = context;
@@ -77,6 +78,7 @@ export async function action({request, context}) {
 }
 
 export async function loader({params}) {
+  assertValidLocaleParam(params);
   return redirect(params?.locale ? `/${params.locale}` : '/', {status: 301});
 }
 

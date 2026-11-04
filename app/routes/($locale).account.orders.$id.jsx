@@ -7,12 +7,14 @@ import { Money, Image, flattenConnection, useMoney } from '@shopify/hydrogen';
 import { statusMessage } from '~/lib/utils';
 import { Link, Heading, PageHeader, Text } from '~/components';
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export const meta = ({ data, matches }) => {
   return getRouteSeoMeta(matches, { title: `Order ${data?.order?.name}` });
 };
 
 export async function loader({ request, context, params }) {
+  assertValidLocaleParam(params);
   if (!params.id) {
     return redirect(params?.locale ? `${params.locale}/account` : '/account');
   }

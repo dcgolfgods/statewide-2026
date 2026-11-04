@@ -6,10 +6,12 @@ import React from 'react';
 import {getInputStyleClasses} from '~/lib/utils';
 import {Link} from '~/components';
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export const handle = { isPublic: true };
 
 export async function loader({context, params}) {
+  assertValidLocaleParam(params);
   const customerAccessToken = await context.session.get('customerAccessToken');
   // NOTE: no redirect here so the page doesn’t navigate on first load
   // If you want to hard-redirect when already logged in, you can

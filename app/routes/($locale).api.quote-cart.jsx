@@ -8,6 +8,7 @@ import {
   normalizeQuoteRef,
   normalizeQuoteEmail,
 } from '~/lib/quoteCart.server';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
@@ -23,7 +24,8 @@ function apiJson(body, status = 200) {
   });
 }
 
-export async function loader({request}) {
+export async function loader({request, params}) {
+  assertValidLocaleParam(params);
   if (request.method === 'OPTIONS') {
     return new Response(null, {status: 204, headers: CORS_HEADERS});
   }
@@ -31,7 +33,8 @@ export async function loader({request}) {
   return apiJson({error: 'Method not allowed. Use POST.'}, 405);
 }
 
-export async function action({request, context}) {
+export async function action({request, context, params}) {
+  assertValidLocaleParam(params);
   if (request.method === 'OPTIONS') {
     return new Response(null, {status: 204, headers: CORS_HEADERS});
   }

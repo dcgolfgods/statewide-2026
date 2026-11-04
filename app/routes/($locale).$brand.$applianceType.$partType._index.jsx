@@ -99,7 +99,25 @@ console.log("existItem",existItem)
   console.log("applianceTypeCollection",applianceTypeCollection)
   console.log("brandCollection",brandCollection)
   console.log("partTypeCollection",partTypeCollection)
-  if (!applianceTypeCollection?.collection && !brandCollection?.collection && !partTypeCollection?.collection) {
+  // URLs listed in collection_data (existItem) are curated and may map a
+  // segment to a different handle; any other URL must have all three
+  // segments as real collections, so /samsung/search/search or
+  // /haier/washing-machines/search is a 404, not a copy of /samsung.
+  // Some collection_data urls are stored without the leading slash.
+  const normalizePath = (path = '') => path.toLowerCase().replace(/^\/+|\/+$/g, '');
+  const isListedUrl =
+    Boolean(existItem) &&
+    normalizePath(existItem.url?.value) ===
+      normalizePath(`${params.brand}/${params.applianceType}/${params.partType}`);
+  const isUnknownCombination =
+    !isListedUrl &&
+    (!brandCollection?.collection ||
+      !applianceTypeCollection?.collection ||
+      !partTypeCollection?.collection);
+  if (
+    isUnknownCombination ||
+    (!applianceTypeCollection?.collection && !brandCollection?.collection && !partTypeCollection?.collection)
+  ) {
     console.log("Notfound part type")
     throw new Response('collection', { status: 404 });
   }else{

@@ -9,6 +9,7 @@ import {getImageLoadingPriority} from '~/lib/const';
 import {seoPayload} from '~/lib/seo.server';
 import {routeHeaders} from '~/data/cache';
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export const meta = ({matches}) => getRouteSeoMeta(matches);
 
@@ -16,7 +17,8 @@ const PAGE_BY = 8;
 
 export const headers = routeHeaders;
 
-export async function loader({request, context: {storefront}}) {
+export async function loader({request, context: {storefront}, params}) {
+  assertValidLocaleParam(params);
   const variables = getPaginationVariables(request, {pageBy: PAGE_BY});
 
   const data = await storefront.query(ALL_PRODUCTS_QUERY, {

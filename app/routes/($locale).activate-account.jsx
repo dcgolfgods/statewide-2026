@@ -6,8 +6,10 @@ import { getInputStyleClasses } from '~/lib/utils';
 import { Link } from '~/components';
 
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export async function loader({ context, params }) {
+  assertValidLocaleParam(params);
   const customerAccessToken = await context.session.get('customerAccessToken');
 
   if (customerAccessToken) {

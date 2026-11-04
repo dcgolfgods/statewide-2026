@@ -5,8 +5,10 @@ import {useState, useEffect, useRef} from 'react';
 import {Link} from '~/components';
 import {getInputStyleClasses} from '~/lib/utils';
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export async function loader({context, params}) {
+  assertValidLocaleParam(params);
   const customerAccessToken = await context.session.get('customerAccessToken');
 
   if (customerAccessToken) {

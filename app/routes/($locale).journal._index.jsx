@@ -7,6 +7,7 @@ import {getImageLoadingPriority, PAGINATION_SIZE} from '~/lib/const';
 import {seoPayload} from '~/lib/seo.server';
 import {routeHeaders} from '~/data/cache';
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export const meta = ({matches}) => getRouteSeoMeta(matches);
 
@@ -14,7 +15,8 @@ const BLOG_HANDLE = 'Journal';
 
 export const headers = routeHeaders;
 
-export const loader = async ({request, context: {storefront}}) => {
+export const loader = async ({request, context: {storefront}, params}) => {
+  assertValidLocaleParam(params);
   const {language, country} = storefront.i18n;
   const {blog} = await storefront.query(BLOGS_QUERY, {
     variables: {

@@ -9,6 +9,7 @@ import {routeHeaders} from '~/data/cache';
 
 import styles from '../styles/custom-font.css?url';
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export const meta = ({matches}) => getRouteSeoMeta(matches);
 
@@ -21,6 +22,7 @@ export const links = () => {
 };
 
 export async function loader({request, params, context}) {
+  assertValidLocaleParam(params);
   const {language, country} = context.storefront.i18n;
 
   invariant(params.journalHandle, 'Missing journal handle');
