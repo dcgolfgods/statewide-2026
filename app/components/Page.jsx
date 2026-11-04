@@ -7,7 +7,7 @@ import {AllReviews} from '~/components/AllReviews';
 import {useMatches} from 'react-router';
 import {DEFAULT_LOCALE} from '~/lib/utils';
 import { AllBrands } from './AllBrands';
-export function Page({page}) {
+export function Page({page, modelGuides}) {
   const [root] = useMatches();
   const selectedLocale = root.data?.selectedLocale ?? DEFAULT_LOCALE;
     const renderPage = () =>{
@@ -19,7 +19,7 @@ export function Page({page}) {
           <AllReviews />
         </div>
       }else if(page.handle == "findyourmodel"){
-        return <FindModel />
+        return <FindModel guides={modelGuides} />
       }else if(page.handle == "all-brands"){
         return <AllBrands />
       }else{

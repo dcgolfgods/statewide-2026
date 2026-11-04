@@ -370,3 +370,16 @@
     }
   }
 }
+
+/* Pinch-zoom is allowed (no user-scalable=no in the viewport meta, WCAG 1.4.4).
+   iOS Safari still zooms into any form field under 16px when it is focused,
+   which the old viewport lock used to prevent; keep fields at 16px there. */
+@supports (-webkit-touch-callout: none) {
+  @media (max-width: 767px) {
+    input,
+    select,
+    textarea {
+      font-size: 16px !important;
+    }
+  }
+}
