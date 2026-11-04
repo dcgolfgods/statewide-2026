@@ -1,8 +1,8 @@
 /**
- * Model number guide sections for /findyourmodel and the "find your model"
- * popup. The page loads these from `model_number_guide` metaobjects
- * (see app/lib/modelGuide.server.js); this copy is the fallback used when no
- * metaobjects are published, and the seed the metaobjects were created from.
+ * Seed data for the `model_number_guide` metaobjects (run
+ * scripts/seed-model-number-guides.mjs). Copy matches the live
+ * /findyourmodel page as of 2026-11-05. Not used by the site: the page reads
+ * the metaobjects, so edit content in Shopify admin, not here.
  *
  * Shape: {appliance, slug, summary, bodyHtml, images: [{url, alt, width, height}], link: {url, label}}
  */
@@ -10,7 +10,7 @@ const CDN = 'https://cdn.shopify.com/s/files/1/0799/5929/4245/files';
 
 export const modelData = [
   {
-    appliance: 'Air conditioners',
+    appliance: 'Airconditioners',
     slug: 'airconditioners',
     summary:
       'The location of model number information for airconditioners can vary greatly upon manufacturer, model and type of system. There are three main types of airconditioner systems:',
@@ -112,7 +112,7 @@ export const modelData = [
     link: {url: '/fridge-parts', label: 'Shop fridge and freezer parts'},
   },
   {
-    appliance: 'TVs',
+    appliance: "TV's",
     slug: 'tvs',
     summary: "Model number information for TV's in most cases is on the back of the unit. It may be in the centre or on one side.",
     images: [

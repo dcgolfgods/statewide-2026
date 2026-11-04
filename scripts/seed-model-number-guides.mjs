@@ -1,6 +1,6 @@
 /**
  * One-off: creates the `model_number_guide` metaobject definition and one
- * published entry per section of app/components/findModelData.js, so the
+ * published entry per section of scripts/model-number-guides.seed.js, so the
  * /findyourmodel copy can be edited in Shopify admin (Content > Metaobjects).
  *
  *   node scripts/seed-model-number-guides.mjs          # dry run: prints what it would do
@@ -11,7 +11,7 @@
  * reused and entries are upserted by handle (the slug).
  */
 import fs from 'node:fs';
-import {modelData} from '../app/components/findModelData.js';
+import {modelData} from './model-number-guides.seed.js';
 
 const WRITE = process.argv.includes('--write');
 const API_VERSION = '2026-04';

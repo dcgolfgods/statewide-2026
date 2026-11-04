@@ -1,6 +1,5 @@
-import {useCallback, useEffect, useRef, useState} from 'react';
+import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {Link} from './Link';
-import {modelData} from './findModelData';
 
 /**
  * "Where do I find my model number?" guide, used on /findyourmodel and in the
@@ -12,9 +11,14 @@ import {modelData} from './findModelData';
  * a stable #slug that opens it on load and is kept in the URL on the page.
  */
 export function FindModel({guides, popup = false}) {
-  const sections = guides?.length ? guides : modelData;
+  // From `model_number_guide` metaobjects (app/lib/modelGuide.server.js).
+  const sections = useMemo(() => guides ?? [], [guides]);
   const idPrefix = popup ? 'fym-popup' : 'fym';
-  const [activeSlug, setActiveSlug] = useState(sections[0]?.slug);
+  const [selectedSlug, setActiveSlug] = useState(sections[0]?.slug);
+  // The popup gets its sections after mounting: default to the first one.
+  const activeSlug = sections.some((section) => section.slug === selectedSlug)
+    ? selectedSlug
+    : sections[0]?.slug;
   const tabRefs = useRef({});
 
   const activate = useCallback(
@@ -176,15 +180,15 @@ export function FindModel({guides, popup = false}) {
 export const FindModelPopup = ({showPopup}) => {
   const [guides, setGuides] = useState(null);
 
-  // Same Shopify-managed copy as /findyourmodel; the bundled copy shows until it loads.
+  // Same Shopify-managed sections as /findyourmodel, loaded when the popup opens.
   useEffect(() => {
     let isMounted = true;
     fetch('/api/model-guides')
       .then((response) => (response.ok ? response.json() : null))
       .then((data) => {
-        if (isMounted && data?.guides?.length) setGuides(data.guides);
+        if (isMounted) setGuides(data?.guides ?? []);
       })
-      .catch(() => {});
+      .catch(() => isMounted && setGuides([]));
     return () => {
       isMounted = false;
     };
@@ -222,7 +226,13 @@ export const FindModelPopup = ({showPopup}) => {
             ×
           </span>
         </button>
-        <FindModel popup={true} guides={guides} />
+        {guides ? (
+          <FindModel popup={true} guides={guides} />
+        ) : (
+          <p className="p-4" role="status">
+            Loading…
+          </p>
+        )}
       </div>
     </>
   );

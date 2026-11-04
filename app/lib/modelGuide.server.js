@@ -1,9 +1,7 @@
-import {modelData} from '~/components/findModelData';
-
 /**
- * Sections of the /findyourmodel guide, from published `model_number_guide`
- * metaobjects (sorted by sort_order), falling back to the copy bundled in
- * findModelData.js when none are published yet.
+ * Sections of the /findyourmodel guide: the published `model_number_guide`
+ * metaobjects (Shopify admin > Content > Metaobjects > Model number guide),
+ * sorted by sort_order. Empty if none are published or the query fails.
  * @returns {Promise<Array<ModelGuide>>}
  */
 export async function getModelGuides(storefront) {
@@ -12,15 +10,14 @@ export async function getModelGuides(storefront) {
       variables: {language: storefront.i18n.language},
       cache: storefront.CacheShort(),
     });
-    const guides = (metaobjects?.nodes ?? [])
+    return (metaobjects?.nodes ?? [])
       .map(normalizeGuide)
       .filter(Boolean)
       .sort((a, b) => a.sortOrder - b.sortOrder);
-    if (guides.length) return guides;
   } catch (error) {
-    console.error('model_number_guide query failed, using bundled copy', error);
+    console.error('model_number_guide query failed', error);
+    return [];
   }
-  return modelData;
 }
 
 function normalizeGuide(node) {
