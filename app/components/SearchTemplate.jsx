@@ -10,6 +10,7 @@ import { useMatches } from 'react-router';
 import {
   CustomPagination
 } from '~/components';
+import {findExactPartNumberHits, withExactHitsFirst} from '~/lib/partNumberSearch';
 const mapSearch = {
   "lg aircon remote": 'lg remote'
 }
@@ -140,17 +141,25 @@ const SearchTemplate = ({ searchClient, searchTerm, customer }) => {
       }
       // facetFilters.push(['is_variant:false']);
 
-      const obj = await index?.search(query, {
-        facets: ['*'],
-        maxValuesPerFacet: 5000,
-        hitsPerPage: 20,
-        page: page,
-        facetFilters: facetFilters, // Remove empty filters
-      });
+      const [obj, exactPartHits] = await Promise.all([
+        index?.search(query, {
+          facets: ['*'],
+          maxValuesPerFacet: 5000,
+          hitsPerPage: 20,
+          page: page,
+          facetFilters: facetFilters, // Remove empty filters
+        }),
+        // "03.14.55" etc.: the exact part goes first (see partNumberSearch.js)
+        findExactPartNumberHits(index, query, {facetFilters}),
+      ]);
       if (!obj) {
         return;
       }
-      const { nbHits, hits, nbPages } = obj;
+      const { nbHits, nbPages } = obj;
+      // Exact part first on page 1; dropped from later pages so it isn't listed twice.
+      const hits = page === 0
+        ? withExactHitsFirst(exactPartHits, obj.hits)
+        : withExactHitsFirst(exactPartHits, obj.hits).slice(exactPartHits.length);
       setCount(nbHits);
       setResults(hits);
       setPageCount(nbPages)
