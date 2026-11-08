@@ -5,6 +5,7 @@ import {getImageLoadingPriority} from '~/lib/const';
 import {Input} from './Input';
 import {IconClose} from './Icon';
 import {Link} from './Link';
+import {findExactPartNumberHits, withExactHitsFirst} from '~/lib/partNumberSearch';
 
 const SearchForm = ({ params }) => {
     const [index, setIndex] = useState(null);
@@ -154,7 +155,7 @@ const SearchForm = ({ params }) => {
             }
             
             // Search for products and Query Suggestions in parallel (use trimmed for API)
-            const [productsResponse, suggestionsResponse] = await Promise.all([
+            const [productsResponse, suggestionsResponse, exactPartHits] = await Promise.all([
                 index?.search(trimmed, {
                     facets: ['*'],
                     hitsPerPage: 5,
@@ -162,9 +163,11 @@ const SearchForm = ({ params }) => {
                 suggestionsIndex?.search(trimmed, {
                     hitsPerPage: 6,
                 }).catch(() => ({hits: []})),
+                // "03.14.55" etc.: the exact part goes first (see partNumberSearch.js)
+                findExactPartNumberHits(index, trimmed),
             ]);
-            
-            const productHits = productsResponse?.hits || [];
+
+            const productHits = withExactHitsFirst(exactPartHits, productsResponse?.hits || []).slice(0, 5);
             setResults(productHits);
             
             // Extract query suggestions from hits
