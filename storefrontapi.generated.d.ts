@@ -2174,7 +2174,11 @@ export type SeoCollectionContentQueryVariables = StorefrontAPI.Exact<{
 }>;
 
 export type SeoCollectionContentQuery = {
-  shop: Pick<StorefrontAPI.Shop, 'name' | 'description'>;
+  shop: Pick<StorefrontAPI.Shop, 'name' | 'description'> & {
+    aboutStatewide?: StorefrontAPI.Maybe<
+      Pick<StorefrontAPI.Metafield, 'value'>
+    >;
+  };
 };
 
 export type HeroCollectionContentQueryVariables = StorefrontAPI.Exact<{
@@ -3493,7 +3497,7 @@ interface GeneratedQueryTypes {
     return: GetShopPrimaryDomainQuery;
     variables: GetShopPrimaryDomainQueryVariables;
   };
-  '#graphql\n  query seoCollectionContent($country: CountryCode, $language: LanguageCode)\n  @inContext(country: $country, language: $language) {\n    shop {\n      name\n      description\n    }\n  }\n': {
+  '#graphql\n  query seoCollectionContent($country: CountryCode, $language: LanguageCode)\n  @inContext(country: $country, language: $language) {\n    shop {\n      name\n      description\n      aboutStatewide: metafield(namespace: "custom", key: "about_statewide") {\n        value\n      }\n    }\n  }\n': {
     return: SeoCollectionContentQuery;
     variables: SeoCollectionContentQueryVariables;
   };

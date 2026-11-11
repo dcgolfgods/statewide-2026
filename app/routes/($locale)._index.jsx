@@ -59,6 +59,7 @@ export async function loader({request, params, context}) {
 }
 
 export default function Homepage() {
+  const {shop} = useLoaderData();
   const [root] = useMatches();
   const skipResources = root?.data?.skipResources;
   // const {
@@ -82,7 +83,7 @@ export default function Homepage() {
       <HomeBlogs />
       </div>
       <Brands />
-      <AboutUs skipResources={skipResources} />
+      <AboutUs skipResources={skipResources} aboutHtml={shop?.aboutStatewide?.value} />
 
      
     </>
@@ -124,6 +125,9 @@ const HOMEPAGE_SEO_QUERY = `#graphql
     shop {
       name
       description
+      aboutStatewide: metafield(namespace: "custom", key: "about_statewide") {
+        value
+      }
     }
   }
 `;
