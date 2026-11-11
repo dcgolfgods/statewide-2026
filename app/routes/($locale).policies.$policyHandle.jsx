@@ -6,12 +6,14 @@ import {PageHeader, Section, Button} from '~/components';
 import {routeHeaders} from '~/data/cache';
 import {seoPayload} from '~/lib/seo.server';
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export const meta = ({matches}) => getRouteSeoMeta(matches);
 
 export const headers = routeHeaders;
 
 export async function loader({request, params, context}) {
+  assertValidLocaleParam(params);
   invariant(params.policyHandle, 'Missing policy handle');
 
   const policyName = params.policyHandle.replace(/-([a-z])/g, (_, m1) =>

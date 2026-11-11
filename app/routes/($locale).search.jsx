@@ -11,11 +11,13 @@ import {seoPayload} from '~/lib/seo.server';
 
 import {getFeaturedData} from './($locale).featured-products';
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export const meta = ({matches}) => getRouteSeoMeta(matches);
 
 
-export async function loader({request, context: {storefront}}) {
+export async function loader({request, context: {storefront}, params}) {
+  assertValidLocaleParam(params);
   const searchParams = new URL(request.url).searchParams;
   const searchTerm = searchParams.get('q') ? searchParams.get('q') : "";
   const variables = getPaginationVariables(request, {pageBy: 8});

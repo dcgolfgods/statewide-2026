@@ -4,8 +4,10 @@ import {
   PRODUCT_CARD_FRAGMENT,
   FEATURED_COLLECTION_FRAGMENT,
 } from '~/data/fragments';
+import {assertValidLocaleParam} from '~/lib/locale';
 
-export async function loader({context: {storefront}}) {
+export async function loader({context: {storefront}, params}) {
+  assertValidLocaleParam(params);
   return Response.json(await getFeaturedData(storefront));
 }
 

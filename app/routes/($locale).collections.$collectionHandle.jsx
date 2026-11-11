@@ -23,12 +23,14 @@ import {routeHeaders} from '~/data/cache';
 import {seoPayload} from '~/lib/seo.server';
 import {getImageLoadingPriority} from '~/lib/const';
 import {getRouteSeoMeta} from '~/lib/meta';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export const meta = ({matches}) => getRouteSeoMeta(matches);
 
 export const headers = routeHeaders;
 
 export async function loader({params, request, context}) {
+  assertValidLocaleParam(params);
   const paginationVariables = getPaginationVariables(request, {
     pageBy: 8,
   });

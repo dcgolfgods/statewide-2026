@@ -1,4 +1,5 @@
 import {redirect} from 'react-router';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 /**
  * Automatically creates a new cart based on the URL and redirects straight to checkout.
@@ -20,6 +21,7 @@ import {redirect} from 'react-router';
  * @preserve
  */
 export async function loader({request, context, params}) {
+  assertValidLocaleParam(params);
   const {cart} = context;
   const {lines} = params;
   const linesMap = lines?.split(',').map((line) => {

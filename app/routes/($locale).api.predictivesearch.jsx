@@ -1,5 +1,12 @@
 import {redirect} from 'react-router';
 import { getSearchDataRedirectByTag } from '~/lib/shopifyAdminMetaobjects';
+import {assertValidLocaleParam} from '~/lib/locale';
+
+/** Fake locale prefixes (/lg/api/predictivesearch) are a 404 on GET. */
+export async function loader({params}) {
+  assertValidLocaleParam(params);
+  return null;
+}
 
 export async function action({request, context: {storefront, env}}, params) {
   const form = await request.formData();

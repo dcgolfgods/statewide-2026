@@ -1,4 +1,5 @@
 import {redirect} from 'react-router';
+import {assertValidLocaleParam} from '~/lib/locale';
 
 export async function doLogout(context) {
   const {session} = context;
@@ -15,11 +16,13 @@ export async function doLogout(context) {
   });
 }
 
-export async function loader({context}) {
+export async function loader({context, params}) {
+  assertValidLocaleParam(params);
   // Handle GET requests by performing logout directly
   return doLogout(context);
 }
 
-export const action = async ({context}) => {
+export const action = async ({context, params}) => {
+  assertValidLocaleParam(params);
   return doLogout(context);
 };
