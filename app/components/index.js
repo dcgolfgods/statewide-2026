@@ -44,7 +44,6 @@ export {ProductPage} from './ProductPage';
 export {CustomSelect} from './CustomSelect';
 export {BlogSearchBar} from './BlogSearchBar';
 export {Page} from './Page';
-// export {modelData} from './findModelData';
 export {ContactForm} from './ContactForm';
 export {Blogs} from './Blogs';
 export {BlogsPage} from './BlogsPage';

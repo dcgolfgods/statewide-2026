@@ -473,6 +473,45 @@ export type AnnouncementsQuery = {
   };
 };
 
+export type ModelNumberGuidesQueryVariables = StorefrontAPI.Exact<{
+  language?: StorefrontAPI.InputMaybe<StorefrontAPI.LanguageCode>;
+}>;
+
+export type ModelNumberGuidesQuery = {
+  metaobjects: {
+    nodes: Array<{
+      appliance?: StorefrontAPI.Maybe<
+        Pick<StorefrontAPI.MetaobjectField, 'value'>
+      >;
+      slug?: StorefrontAPI.Maybe<Pick<StorefrontAPI.MetaobjectField, 'value'>>;
+      summary?: StorefrontAPI.Maybe<
+        Pick<StorefrontAPI.MetaobjectField, 'value'>
+      >;
+      body?: StorefrontAPI.Maybe<Pick<StorefrontAPI.MetaobjectField, 'value'>>;
+      link_label?: StorefrontAPI.Maybe<
+        Pick<StorefrontAPI.MetaobjectField, 'value'>
+      >;
+      sort_order?: StorefrontAPI.Maybe<
+        Pick<StorefrontAPI.MetaobjectField, 'value'>
+      >;
+      images?: StorefrontAPI.Maybe<{
+        references?: StorefrontAPI.Maybe<{
+          nodes: Array<{
+            image?: StorefrontAPI.Maybe<
+              Pick<StorefrontAPI.Image, 'url' | 'altText' | 'width' | 'height'>
+            >;
+          }>;
+        }>;
+      }>;
+      collection?: StorefrontAPI.Maybe<{
+        reference?: StorefrontAPI.Maybe<
+          Pick<StorefrontAPI.Collection, 'handle' | 'title'>
+        >;
+      }>;
+    }>;
+  };
+};
+
 export type QuoteCartProductsQueryVariables = StorefrontAPI.Exact<{
   query: StorefrontAPI.Scalars['String']['input'];
   country?: StorefrontAPI.InputMaybe<StorefrontAPI.CountryCode>;
@@ -3428,6 +3467,10 @@ interface GeneratedQueryTypes {
   '#graphql\n  query Announcements(\n    $type: String!\n    $first: Int!\n    $after: String\n    $country: CountryCode\n    $language: LanguageCode\n  ) @inContext(country: $country, language: $language) {\n    metaobjects(type: $type, first: $first, after: $after, reverse: true) {\n      nodes {\n        id\n        handle\n        updatedAt\n        fields {\n          key\n          value\n          reference {\n            ... on MediaImage {\n              image {\n                url\n                altText\n                width\n                height\n              }\n            }\n          }\n        }\n      }\n      pageInfo {\n        hasNextPage\n        endCursor\n      }\n    }\n  }\n': {
     return: AnnouncementsQuery;
     variables: AnnouncementsQueryVariables;
+  };
+  '#graphql\n  query ModelNumberGuides($language: LanguageCode) @inContext(language: $language) {\n    metaobjects(type: "model_number_guide", first: 50) {\n      nodes {\n        appliance: field(key: "appliance") { value }\n        slug: field(key: "slug") { value }\n        summary: field(key: "summary") { value }\n        body: field(key: "body") { value }\n        link_label: field(key: "link_label") { value }\n        sort_order: field(key: "sort_order") { value }\n        images: field(key: "images") {\n          references(first: 10) {\n            nodes {\n              ... on MediaImage {\n                image { url altText width height }\n              }\n            }\n          }\n        }\n        collection: field(key: "collection") {\n          reference {\n            ... on Collection { handle title }\n          }\n        }\n      }\n    }\n  }\n': {
+    return: ModelNumberGuidesQuery;
+    variables: ModelNumberGuidesQueryVariables;
   };
   '#graphql\n  query QuoteCartProducts(\n    $query: String!\n    $country: CountryCode\n    $language: LanguageCode\n  ) @inContext(country: $country, language: $language) {\n    products(first: 50, query: $query) {\n      nodes {\n        variants(first: 50) {\n          nodes {\n            id\n            sku\n          }\n        }\n      }\n    }\n  }\n': {
     return: QuoteCartProductsQuery;

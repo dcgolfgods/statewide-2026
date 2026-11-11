@@ -682,21 +682,6 @@
       box-shadow: 1px 3px 3px #d3d3d3
     }
   
-    .modelnumber-dropdown {
-      height: 40px;
-      align-items: center;
-      text-transform: uppercase;
-      border: 1px solid #1e5097;
-      color: #fff;
-      order: -2;
-      font-size: .8em;
-      width: 95%;
-      padding-left: 20px;
-      font-weight: 700;
-      background: #1e5097;
-      margin-bottom: 10px
-    }
-  
     .dropdown-arrow-up {
       margin-right: 10px;
       border-top: none;
@@ -763,27 +748,6 @@
           width: 95%;
           order: 3;
       }
-      .modelnumber-menu {
-          width: 95%;
-          order: 2;
-          display: none;
-          margin-bottom: 20px;
-      }
-      .modelnumber-menu.active{
-        display: block;
-      }
-      .modelnumber-dropdown {
-          display: flex;
-      }
-      .modelnumber-arrow {
-          display: none;
-      }
-      .modelnumber-item {
-        padding-left: 20px;
-        width: 100%;
-        margin: 0;
-        border-left: 1px solid #1e5097;
-      }
     }
     .dropdown-arrow-down {
       margin-right: 10px;
@@ -797,6 +761,100 @@
       font-weight: 700;
       width: 100%;
       text-align: left;
+    }
+    /* Find your model number guide (FindModel.jsx): tabs on the right on
+       desktop, a scrollable row above the section on mobile. */
+    .find-your-model-no .modelnumber-container {
+      align-items: flex-start;
+      /* Deep links (#dishwashers) scroll here; clear the sticky header. */
+      scroll-margin-top: 200px;
+    }
+    .find-your-model-no .modelnumber-appliance {
+      display: block;
+      order: 1;
+    }
+    .find-your-model-no .modelnumber-menu {
+      order: 2;
+    }
+    .find-your-model-no .modelnumber-item {
+      width: 100%;
+      background: #fff;
+      font: inherit;
+      font-size: 1.15rem;
+      text-align: left;
+    }
+    .find-your-model-no .modelnumber-item:hover {
+      background: #e0e7f1;
+    }
+    .find-your-model-no .modelnumber-item-active,
+    .find-your-model-no .modelnumber-item-active:hover {
+      background: #1e5097;
+      color: #fff;
+    }
+    .find-your-model-no .modelnumber-item:focus-visible,
+    .find-your-model-no .modelnumber-panel:focus-visible {
+      outline: 2px solid #2092e0;
+      outline-offset: 2px;
+    }
+    .find-your-model-no .modelnumber-panel-title {
+      color: #1e5097;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .find-your-model-no .modelnumber-img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 12px;
+    }
+    .find-your-model-no .modelnumber-info {
+      display: block;
+    }
+    .find-your-model-no .modelnumber-info h3 {
+      color: #1e5097;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 18px 0 6px;
+    }
+    .find-your-model-no .modelnumber-info p {
+      margin-bottom: 12px;
+    }
+    .find-your-model-no .modelnumber-shop a,
+    .find-your-model-no .modelnumber-help a {
+      color: #1e5097;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+    .find-your-model-no .modelnumber-help {
+      margin-top: 30px;
+      text-align: center;
+    }
+    @media (max-width: 767px) {
+      .find-your-model-no .modelnumber-menu {
+        order: 1;
+        width: 100%;
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+        margin-bottom: 16px;
+        padding-bottom: 4px;
+      }
+      .find-your-model-no .modelnumber-item {
+        width: auto;
+        flex: 0 0 auto;
+        margin: 0;
+        padding: 0 14px;
+        height: 36px;
+        white-space: nowrap;
+        border-left-width: 1px;
+      }
+      .find-your-model-no .modelnumber-arrow {
+        display: none;
+      }
+      .find-your-model-no .modelnumber-appliance {
+        order: 2;
+        width: 100%;
+      }
     }
     .contact-form-container {
       width: 80%;

@@ -225,7 +225,6 @@ function root({shop, url}) {
     description: truncate(
       'Appliance spare parts with fast Australia wide delivery. Search by brand, appliance or model no. Genuine parts, big brands & lowest prices. Buy online now.',
     ),
-    handle: '@shopify',
     url: canonical,
     robots: {
       noIndex: false,
@@ -900,17 +899,70 @@ function blog({blog, url}) {
   };
 }
 
-function page({page, url}) {
+/**
+ * Page-specific SEO for pages whose Shopify record has no SEO fields filled
+ * in. Values set on the page in Shopify admin always win.
+ */
+const PAGE_SEO_DEFAULTS = {
+  findyourmodel: {
+    title: 'Where to Find Your Appliance Model Number | Statewide Appliance Spares',
+    description:
+      'Where to find the model number on your dishwasher, oven, fridge, washing machine, air conditioner and more, by appliance, then shop genuine spare parts.',
+  },
+};
+
+/**
+ * Pages listed in PAGE_SEO_DEFAULTS use that curated title and description
+ * (their Shopify page SEO fields still hold the old values); every other page
+ * uses its Shopify SEO fields, then its title.
+ */
+function page({page, url, image}) {
+  const defaults = PAGE_SEO_DEFAULTS[page?.handle] ?? {};
+  const title = defaults.title || page?.seo?.title || page?.title;
+  const description = defaults.description || page?.seo?.description || '';
+  const canonical = canonicalUrl(url);
+  const origin = canonicalOrigin(canonical);
   return {
-    description: truncate(page?.seo?.description || ''),
-    title: page?.seo?.title ?? page?.title,
-    titleTemplate: '%s | Page',
-    url: canonicalUrl(url),
-    jsonLd: {
-      '@context': 'https://schema.org',
-      '@type': 'WebPage',
-      name: page.title,
-    },
+    description: truncate(description),
+    title,
+    titleTemplate: /\|/.test(title ?? '') ? '%s' : `%s | ${BRAND_NAME}`,
+    url: canonical,
+    ...(image?.url
+      ? {
+          media: {
+            type: 'image',
+            url: image.url,
+            width: image.width,
+            height: image.height,
+            altText: image.alt,
+          },
+        }
+      : {}),
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        '@id': `${canonical}#webpage`,
+        name: page?.title,
+        headline: title,
+        ...(description ? {description} : {}),
+        url: canonical,
+        inLanguage: 'en-AU',
+        ...(image?.url ? {primaryImageOfPage: {'@type': 'ImageObject', url: image.url}} : {}),
+        isPartOf: {'@type': 'WebSite', '@id': `${origin}/#website`, name: BRAND_NAME, url: `${origin}/`},
+        publisher: {'@id': `${origin}/#organization`},
+        breadcrumb: {'@id': `${canonical}#breadcrumb`},
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        '@id': `${canonical}#breadcrumb`,
+        itemListElement: [
+          {'@type': 'ListItem', position: 1, name: 'Home', item: `${origin}/`},
+          {'@type': 'ListItem', position: 2, name: page?.title, item: canonical},
+        ],
+      },
+    ],
   };
 }
 

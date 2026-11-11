@@ -23,6 +23,7 @@ import {
 import {CollectionPage, Page, Blogs, EGRC, Announcements} from '~/components';
 import {ProductPage} from '~/components';
 import {seoPayload} from '~/lib/seo.server';
+import {getModelGuides} from '~/lib/modelGuide.server';
 import {metaDescription} from '../lib/meta-description.server';
 import { getCollectionDataUsingMetaobject } from '~/lib/shopifyAdminMetaobjects';
 import {fetchAnnouncements} from '~/lib/announcements';
@@ -75,10 +76,12 @@ export async function loader({params, request, context}) {
         language: context.storefront.i18n.language,
       },
     });
-    seo = seoPayload.page({page, url: request.url});
+    // /findyourmodel renders its guide from model_number_guide metaobjects.
+    const modelGuides = brand === 'findyourmodel' ? await getModelGuides(context.storefront) : null;
+    seo = seoPayload.page({page, url: request.url, image: modelGuides?.[0]?.images?.[0]});
 
     return json({
-      page, seo, pageType:'page'
+      page, seo, pageType:'page', modelGuides
     });
   }
   let blogGraphQLQuery=BLOGS_QUERY
@@ -299,7 +302,8 @@ export default function BrandPage() {
     articles,
     searchQuery,
     recentlyViewedBlogs,
-    noFilter
+    noFilter,
+    modelGuides
   } = useLoaderData();
   if(pageType == 'google-reviews'){
     return <EGRC />
@@ -318,7 +322,7 @@ export default function BrandPage() {
     );
   }
   if(pageType == 'page'){
-    return <Page page={page} />
+    return <Page page={page} modelGuides={modelGuides} />
   }
 
   const {vendor, appliance_type, part_type} = getCollectionFilterTitle(brandCollection);
