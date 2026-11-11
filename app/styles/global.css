@@ -2930,3 +2930,11 @@
         appearance: auto;
       }
 }
+
+/* About Statewide text from the shop metafield custom.about_statewide */
+.about-statewide-text p + p,
+.about-statewide-text p + ul,
+.about-statewide-text ul + p { margin-top: 1em; }
+.about-statewide-text ul { list-style: disc; padding-left: 1.25em; text-align: left; }
+.about-statewide-text a { color: #1e5097; text-decoration: underline; }
+.about-statewide-text strong, .about-statewide-text b { font-weight: 700; }
