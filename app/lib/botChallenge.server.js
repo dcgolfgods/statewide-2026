@@ -19,9 +19,14 @@ const COOKIE_NAME = 'sw_human';
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 30; // 30 days
 export const CHALLENGE_PATH = '/__human-check';
 
-/** Crawlers that must always reach the site (matched on User-Agent). */
+/**
+ * Crawlers that must always reach the site (matched on User-Agent).
+ * AI search and answer bots are allowed so the store can appear in AI search
+ * results. AI training crawlers (GPTBot, ClaudeBot, Bytespider, CCBot,
+ * meta-externalagent, ...) are left out on purpose.
+ */
 const TRUSTED_CRAWLERS =
-  /googlebot|google-inspectiontool|googleother|storebot-google|adsbot-google|mediapartners-google|apis-google|feedfetcher-google|google-site-verification|chrome-lighthouse|bingbot|bingpreview|msnbot|adidxbot|duckduckbot|applebot|yahoo! slurp|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|whatsapp|slackbot|telegrambot|discordbot|shopify|klaviyo|algolia|ahrefsbot|semrushbot|screaming frog|uptimerobot/i;
+  /googlebot|google-inspectiontool|googleother|storebot-google|adsbot-google|mediapartners-google|apis-google|feedfetcher-google|google-site-verification|chrome-lighthouse|bingbot|bingpreview|msnbot|adidxbot|duckduckbot|applebot|yahoo! slurp|facebookexternalhit|facebot|twitterbot|linkedinbot|pinterest|whatsapp|slackbot|telegrambot|discordbot|shopify|klaviyo|algolia|ahrefsbot|semrushbot|screaming frog|uptimerobot|oai-searchbot|chatgpt-user|perplexitybot|perplexity-user|claude-searchbot|claude-user/i;
 
 /** Files and endpoints that are never challenged. */
 const SKIP_PATH =
