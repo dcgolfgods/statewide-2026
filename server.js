@@ -3,6 +3,7 @@ import {createRequestHandler, storefrontRedirect} from '@shopify/hydrogen';
 import {createHydrogenRouterContext} from '~/lib/context';
 import {isSearchEngineIndexable} from '~/lib/indexing.server';
 import {getLowercasePathRedirect} from '~/lib/urlRedirects';
+import {handleBotChallenge} from '~/lib/botChallenge.server';
 
 /**
  * Export a fetch handler in module format.
@@ -19,6 +20,11 @@ export default {
       const lowercaseRedirect = getLowercaseRedirect(request);
       if (lowercaseRedirect) {
         return lowercaseRedirect;
+      }
+
+      const botChallenge = await handleBotChallenge(request, env);
+      if (botChallenge) {
+        return botChallenge;
       }
 
       const hydrogenContext = await createHydrogenRouterContext(
