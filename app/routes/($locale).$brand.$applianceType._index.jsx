@@ -3,7 +3,7 @@ import {getPaginationVariables} from '@shopify/hydrogen';
 import invariant from 'tiny-invariant';
 import {CollectionPage, Article, AnnouncementDetail} from '~/components';
 import {useLoaderData} from 'react-router';
-import {seoPayload} from '~/lib/seo.server';
+import {seoPayload, customCollectionHeading} from '~/lib/seo.server';
 import {metaDescription} from '../lib/meta-description.server';
 import {
   COLLECTION_QUERY,
@@ -101,89 +101,28 @@ export async function loader({params, request, context}) {
       applianceCollection,
       partCollection,
     ].filter(Boolean);
-    let collection = null;
+    let collection = brandCollection || applianceCollection || partCollection || null;
     if(brandCollection?.handle){
-      collection = brandCollection;
       meta = metaDescription.find((item)=> item.brand == brandCollection?.title && item.appliance_type ==  null &&  item.part_type == null )
-      if(meta){
-        let seoTitle = existItem.seoTitle?.value || brandCollection.seo.title;
-        let seoDescription = existItem.seoDescription?.value || brandCollection.seo.description;
-
-        console.log("seoTitle 1",seoTitle)
-        console.log("seoDescription 1",seoDescription)
-        seo = seoPayload.collection({
-          collection: {...brandCollection, ...meta, seo:{...meta, title:seoTitle, description:seoDescription}, seoTitle:existItem.seoTitle, seoDescription:existItem.seoDescription},
-          url: meta?.url || request.url,
-          breadcrumbCollections,
-        });
-      }else{
-        let seoTitle = existItem.seoTitle?.value || brandCollection.seo.title;
-        let seoDescription = existItem.seoDescription?.value || brandCollection.seo.description;
-        console.log("seoTitle 2",seoTitle)
-        console.log("seoDescription 2",seoDescription)
-        seo = seoPayload.collection({
-          collection: {...brandCollection, seo:{...brandCollection.seo, title:seoTitle, description:seoDescription}, seoTitle:existItem.seoTitle, seoDescription:existItem.seoDescription},
-          url: request.url,
-          breadcrumbCollections,
-        });
-      }
-      
     }else if(applianceCollection?.handle){
-      collection = applianceCollection;
       meta = metaDescription.find((item)=> item.brand == null && item.appliance_type ==  applianceCollection?.title &&  item.part_type == null )
-      if(meta){
-        let seoTitle = existItem.seoTitle?.value || applianceCollection.seo.title;
-        let seoDescription = existItem.seoDescription?.value || applianceCollection.seo.description;
-        console.log("seoTitle 3",seoTitle)
-        console.log("seoDescription 3",seoDescription)
-        seo = seoPayload.collection({
-          collection: {...applianceCollection, ...meta, seo:{...meta, title:seoTitle, description:seoDescription}, seoTitle:existItem.seoTitle, seoDescription:existItem.seoDescription},
-          url: meta?.url || request.url,
-          breadcrumbCollections,
-        });
-      }else{
-        let seoTitle = existItem.seoTitle?.value || applianceCollection.seo.title;
-        let seoDescription = existItem.seoDescription?.value || applianceCollection.seo.description;
-        console.log("seoTitle 4",seoTitle)
-        console.log("seoDescription 4",seoDescription)
-        seo = seoPayload.collection({
-          collection: {...applianceCollection, seo:{...meta, title:seoTitle, description:seoDescription}, seoTitle:existItem.seoTitle, seoDescription:existItem.seoDescription},
-          url: request.url,
-          breadcrumbCollections,
-        });
-      }
-     
     }else if(partCollection?.handle){
-      collection = partCollection;
       meta = metaDescription.find((item)=> item.brand == null && item.appliance_type ==  null &&  item.part_type == partCollection?.title )
-      if(meta){
-        let seoTitle = existItem.seoTitle?.value || partCollection.seo.title;
-        let seoDescription = existItem.seoDescription?.value || partCollection.seo.description;
-        console.log("seoTitle 5",seoTitle)
-        console.log("seoDescription 5",seoDescription)
-        seo = seoPayload.collection({
-          collection: {...partCollection, ...meta, seo:{...meta, title:seoTitle, description:seoDescription}, seoTitle:existItem.seoTitle, seoDescription:existItem.seoDescription},
-          url: meta?.url || request.url,
-          breadcrumbCollections,
-        });
-      }else{
-        let seoTitle = existItem.seoTitle?.value || partCollection.seo.title;
-        let seoDescription = existItem.seoDescription?.value || partCollection.seo.description;
-        console.log("seoTitle 6",seoTitle)
-        console.log("seoDescription 6",seoDescription)
-        seo = seoPayload.collection({
-          collection: {...partCollection, seo:{...partCollection.seo, title:seoTitle, description:seoDescription}, seoTitle:existItem.seoTitle, seoDescription:existItem.seoDescription},
-          url: request.url,
-          breadcrumbCollections,
-        });
-      }
+    }
+    if(collection){
+      seo = seoPayload.customCollection({
+        existItem,
+        collection,
+        meta,
+        url: request.url,
+        breadcrumbCollections,
+      });
     }
 
-    // console.log("seoseo",seo)
     return json({
       searchQuery: existItem?.searchQuery,
       noFilter: existItem?.noFilter || false,
-      item:{collection:collection, brandCollection:brandCollection, partCollection:partCollection, applianceCollection:applianceCollection, title:collection?.title, custom_title:existItem.custom_title, top_description:existItem.top_description, below_description:existItem.below_description},
+      item:{collection:collection, brandCollection:brandCollection, partCollection:partCollection, applianceCollection:applianceCollection, title:collection?.title, custom_title:existItem.custom_title, heading:customCollectionHeading({existItem, collection}), top_description:existItem.top_description, below_description:existItem.below_description},
       pageType: 'custom-collection',
       model, 
       seo
@@ -320,7 +259,7 @@ export default function BrandPage() {
     let collection = item?.collection ;
     return <CollectionPage
       custom={true}
-      title={item?.custom_title?.value || item?.title}
+      title={item?.heading || item?.custom_title?.value || item?.title}
       collection={collection}
       vendor={item?.brandCollection?.title?.replace(/ spare parts/g, '')}
       applianceType={item?.applianceCollection?.title?.replace(/ spare parts/g, '')}

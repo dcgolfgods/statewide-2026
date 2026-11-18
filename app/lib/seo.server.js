@@ -764,9 +764,7 @@ function collectionJsonLd({url, collection, breadcrumbCollections = []}) {
       '@type': 'CollectionPage',
       '@id': `${canonical}/#webpage`,
       name: collection?.seo?.title ?? collection?.title ?? '',
-      description: truncate(
-        collection?.seo?.description ?? collection?.description ?? '',
-      ),
+      description: collectionDescription(collection),
       image: collection?.image?.url,
       url: canonical,
       mainEntity: itemList,
@@ -784,7 +782,28 @@ function collectionJsonLd({url, collection, breadcrumbCollections = []}) {
   ];
 }
 
-function collection({collection, url, breadcrumbCollections = []}) {
+/**
+ * Collection meta description: the written SEO description, falling back to
+ * the body copy. Anything over 160 characters is shortened at the last full
+ * sentence (or word) that fits, so it never ends mid-word.
+ */
+function collectionDescription(collection) {
+  const text = (
+    collection?.seo?.description?.trim() ||
+    collection?.description ||
+    ''
+  )
+    .replace(/\s+/g, ' ')
+    .trim();
+  const max = 160;
+  if (text.length <= max) return text;
+  const fits = text.slice(0, max);
+  const sentenceEnd = Math.max(fits.lastIndexOf('. '), fits.lastIndexOf('! '), fits.lastIndexOf('? '));
+  if (sentenceEnd >= 70) return fits.slice(0, sentenceEnd + 1);
+  return `${text.slice(0, max - 1).replace(/[\s,;:&-]+\S*$/, '')}…`;
+}
+
+function collectionSeo({collection, url, breadcrumbCollections = []}) {
   let title = collection.seo?.title;
   if (!title) {
     title = collection.title;
@@ -792,9 +811,7 @@ function collection({collection, url, breadcrumbCollections = []}) {
   const canonical = canonicalUrl(url);
   return {
     title,
-    description: truncate(
-      collection?.seo?.description ?? collection?.description ?? '',
-    ),
+    description: collectionDescription(collection),
     url: canonical,
     titleTemplate:
       /authorised/i.test(title ?? '') || /\|/.test(title ?? '')
@@ -813,6 +830,66 @@ function collection({collection, url, breadcrumbCollections = []}) {
       breadcrumbCollections,
     }),
   };
+}
+
+/**
+ * SEO for pages driven by a `collection_data` metaobject (e.g.
+ * /washing-machines/door-lid-latch). The page H1 comes from the metaobject's
+ * custom_title, so the title and description are built from that same value
+ * instead of inheriting the parent collection's metadata.
+ *
+ * Manually written SEO is kept: the metaobject's seo_title/seo_description
+ * first, then the collection's own SEO when the page is that collection's
+ * own URL (e.g. /samsung).
+ */
+function customCollection({existItem, collection, meta, url, breadcrumbCollections = []}) {
+  const clean = (value) => (typeof value === 'string' ? value.trim() : '') || null;
+  const pageUrl = clean(existItem?.url?.value);
+  const isOwnPage = Boolean(collection?.handle) && pageUrl === `/${collection.handle}`;
+  const heading = customCollectionHeading({existItem, collection});
+  // meta-description entries apply to their collection's own URL and to the
+  // URLs they list in matchedUrl, never to every page under that collection.
+  const ownMeta =
+    meta && (isOwnPage || meta.matchedUrl?.includes(pageUrl)) ? meta : null;
+
+  const title =
+    clean(existItem?.seoTitle?.value) ||
+    clean(ownMeta?.title) ||
+    (isOwnPage ? clean(collection?.seo?.title) : null) ||
+    heading;
+  const description =
+    clean(existItem?.seoDescription?.value) ||
+    clean(ownMeta?.description) ||
+    (isOwnPage ? clean(collection?.seo?.description) : null) ||
+    customCollectionDescription(heading, {isBrand: Boolean(existItem?.brandCollection?.reference)});
+
+  return collectionSeo({
+    collection: {...collection, title: heading, seo: {title, description}},
+    url: ownMeta?.url || url,
+    breadcrumbCollections,
+  });
+}
+
+/** The H1 a collection_data page renders (see CollectionTemplate). */
+export function customCollectionHeading({existItem, collection}) {
+  const heading = existItem?.custom_title?.value?.trim() || collection?.title || '';
+  return /sudz/i.test(heading) ? 'Sudz' : heading;
+}
+
+function customCollectionDescription(heading, {isBrand}) {
+  // Sentence-case headings read naturally mid-sentence ("Shop genuine washing
+  // machine door latches"). Brand names, acronyms ("LG") and Title Case
+  // headings are kept as written.
+  const [first = '', ...rest] = heading.split(' ');
+  const isSentenceCase = rest.every((word) => word === word.toLowerCase());
+  const isPlainWord = first.length > 1 && first.slice(1) === first.slice(1).toLowerCase();
+  const product =
+    !isBrand && isSentenceCase && isPlainWord
+      ? [first.toLowerCase(), ...rest].join(' ')
+      : heading;
+  return isBrand
+    ? `Shop genuine ${product}. Secure checkout and fast delivery across Australia & NZ.`
+    : `Shop genuine ${product} for all major brands. Secure checkout and fast delivery across Australia & NZ.`;
 }
 
 function collectionsJsonLd({url, collections}) {
@@ -959,7 +1036,8 @@ function policies({policies, url}) {
 export const seoPayload = {
   article,
   blog,
-  collection,
+  collection: collectionSeo,
+  customCollection,
   home,
   listCollections,
   page,
