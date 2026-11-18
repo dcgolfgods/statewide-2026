@@ -4,6 +4,7 @@ import {hydrateRoot} from 'react-dom/client';
 import {NonceProvider} from '@shopify/hydrogen';
 
 import {handleSpecialUser} from '~/lib/specialUserHelper';
+import {captureChannelSightTrackId} from '~/lib/channelSightHelper';
 import {getLowercasePathRedirect, hasNonAsciiPath} from '~/lib/urlRedirects';
 
 // Oxygen lowercases the path before the worker, so server 301s never see
@@ -19,6 +20,9 @@ if (lowercasePathRedirect) {
 } else if (shouldHydrate) {
   // Handle specialUser parameter on client side
   handleSpecialUser();
+
+  // Keep the ChannelSight ?cstrackid=... so it can be passed to checkout
+  captureChannelSightTrackId();
 
   startTransition(() => {
     // Extract nonce from existing script tags

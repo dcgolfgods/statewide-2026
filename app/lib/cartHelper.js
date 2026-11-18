@@ -15,6 +15,7 @@ const fetchShopify = async (query, variables) => {
 
 // Import the client-side helper
 import { checkSpecialUserCookie } from './specialUserHelper';
+import { getChannelSightTrackId, CS_TRACK_ID_ATTRIBUTE } from './channelSightHelper';
   
   // Check if a cart exists by fetching its details
   const getCart = async (cartId) => {
@@ -342,7 +343,44 @@ export const removeLineItems = async (cartId, lineIds) => {
       cart = cartResponse.data.cart;
     }
 
+    // ChannelSight: copy the Buy Now track ID onto the cart so the checkout
+    // pixel can send the sale. cartAttributesUpdate replaces the whole list,
+    // so keep the other attributes (e.g. _specialUser) too.
+    const csTrackId = getChannelSightTrackId();
+    const currentAttributes = cart?.attributes || [];
+    const currentCsTrackId = currentAttributes.find(attr => attr.key === CS_TRACK_ID_ATTRIBUTE)?.value;
+
+    if (cart?.id && csTrackId && currentCsTrackId !== csTrackId) {
+      const attributes = [
+        ...currentAttributes
+          .filter(attr => attr.key !== CS_TRACK_ID_ATTRIBUTE)
+          .map(attr => ({ key: attr.key, value: attr.value })),
+        { key: CS_TRACK_ID_ATTRIBUTE, value: csTrackId },
+      ];
+      await setCartAttributes(cart.id, attributes);
+      cartResponse = await getCart(cart.id);
+      cart = cartResponse.data.cart;
+    }
+
     return cart;
+};
+
+const setCartAttributes = async (cartId, attributes) => {
+  const mutation = `
+    mutation SetCartAttributes($cartId: ID!, $attributes: [AttributeInput!]!) {
+      cartAttributesUpdate(cartId: $cartId, attributes: $attributes) {
+        cart {
+          id
+        }
+        userErrors {
+          field
+          message
+        }
+      }
+    }
+  `;
+
+  return await fetchShopify(mutation, { cartId, attributes });
 };
 
 const updateCart = async (cart) => {
