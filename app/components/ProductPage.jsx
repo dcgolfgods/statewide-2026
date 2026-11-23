@@ -10,7 +10,7 @@ import {
   IconUp,
   IconDown,
 } from '~/components';
-import { productAvaibilityLabel, handleize, elementInViewport, calculatePriceIncludingTax, DEFAULT_LOCALE, convertTitleToHandle, businessDays, multiBuyCalc } from '~/lib/utils';
+import { productAvaibilityLabel, handleize, elementInViewport, calculatePriceIncludingTax, DEFAULT_LOCALE, convertTitleToHandle, businessDays, multiBuyCalc, getDelayedAvailability } from '~/lib/utils';
 import { UpsellProducts } from './UpsellProducts';
 import { useCart } from '~/components/cartContext';
 import { gtag_report_conversion, viewKlaviyoProduct } from './KlaviyoEvent';
@@ -484,6 +484,7 @@ export function ProductForm({ tradeCustomer, variants, priceScaleFound, qtyPrice
     delivery,
     is_always_in_stock: product?.is_always_in_stock?.value == "1" || product?.is_always_in_stock?.value == 1 ? true : false
   });
+  const delayed = getDelayedAvailability(product?.sybiz_availability?.value, stockLabel);
 
   let attributes = [];
   if (stockLabel == "Special Order") {
@@ -618,7 +619,7 @@ export function ProductForm({ tradeCustomer, variants, priceScaleFound, qtyPrice
   // return null;
   return (
     <div className="mb-[15px]">
-    {popup && <InStockPopup stockLabel={stockLabel} showPopup={showPopup} deliveryValue={deliveryValue} />}
+    {popup && <InStockPopup stockLabel={stockLabel} showPopup={showPopup} deliveryValue={deliveryValue} delayed={delayed} />}
     <div className="bg-[#e6e6e6] p-[15px]">
       {stockLabel == "No Longer Available" ?
         <div className={`text-[#00aeef] gap-[4px] availability flex flex-wrap ${alternate_products?.length > 0 && alternate_products_sku?.length > 0 ? '' : 'justify-center'}`}>
@@ -774,20 +775,20 @@ export function ProductForm({ tradeCustomer, variants, priceScaleFound, qtyPrice
               {
                 !isOutOfStock && <div className="text-[#00aeef] gap-[4px] availability flex justify-left">
                   <span className="icon mr-[8px]">
-                    <i className="fa fa-check-circle"></i>
+                    <i className={delayed ? "fa fa-times-circle" : "fa fa-check-circle"}></i>
                   </span>
                   <div className="text-left">
-                    <span className="text-black text text-[15px] block w-full font-bold">
-                      {stockLabel}
+                    <span className={`${delayed ? 'text-[#e60000]' : 'text-black'} text text-[15px] block w-full font-bold`}>
+                      {delayed ? delayed.label : stockLabel}
                     </span>
                     <p onClick={() => showPopup(true)} className="text-[13px] text-[#1e5097] hover:underline cursor-pointer">
-                      {text}
+                      {delayed ? delayed.message : text}
                     </p>
                   </div>
                 </div>
               }
 
-              {isLG && isLgFridge ? <>
+              {delayed ? null : isLG && isLgFridge ? <>
                 {lgItems.map((item => {
                   return <div className="text-[#00aeef] gap-[4px] availability flex justify-left w-[75%] lg:w-full">
                     <span className="icon mr-[8px]">
@@ -963,7 +964,7 @@ function ProductDescription({ product, compatibility }) {
 
 
 
-const InStockPopup = ({ showPopup, stockLabel, deliveryValue }) => {
+const InStockPopup = ({ showPopup, stockLabel, deliveryValue, delayed }) => {
   return (
     <>
       <div onClick={() => showPopup(false)} className='bg-black/[.6] z-[1000]  in-stock-popup fixed top-0 bottom-0 left-0 right-0 h-full w-full bg'>
@@ -975,7 +976,12 @@ const InStockPopup = ({ showPopup, stockLabel, deliveryValue }) => {
             <p className='tracking-[-0.5px] w-[100px] text-[#1e5097] text-[15px] font-bold'>In Stock</p>
             <p className='tracking-[-0.5px] in-stock-popup-text text-[15px]'>This item is typically held in stock and will usually be despatched within {deliveryValue} business days of your order being placed.</p>
           </div>}
-        {stockLabel == "Special Order" &&
+        {stockLabel == "Special Order" && delayed &&
+          <div className='flex mb-4'>
+            <p className='tracking-[-0.5px] w-[100px] shrink-0 text-[#e60000] text-[15px] openSansBold font-bold'>{delayed.label}</p>
+            <p className='tracking-[-0.5px] in-stock-popup-text text-[15px]'>{delayed.message}</p>
+          </div>}
+        {stockLabel == "Special Order" && !delayed &&
           <div className='flex mb-4'>
             <p className='tracking-[-0.5px] w-[100px] text-[#1e5097] text-[15px] openSansBold font-bold'>Special Order</p>
             <p className='tracking-[-0.5px] in-stock-popup-text text-[15px]'>This item is ordered from our supplier and is usually despatched within {deliveryValue} business days of your order being placed. Supplier delays may occasionally extend this timeframe.<span className='block'>Despatch time is <b className='openSansBold'>additional</b> to shipping time. Your total delivery time includes both the time to despatch <b className='openSansBold'>and</b> ship your order.</span></p>

@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { flattenConnection, Image, Money, useMoney } from '@shopify/hydrogen';
 import { Text, Link, AddToCartButton, Button } from '~/components';
-import { isDiscounted, isNewArrival, productAvaibilityLabel, businessDays } from '~/lib/utils';
+import { isDiscounted, isNewArrival, productAvaibilityLabel, businessDays, getDelayedAvailability } from '~/lib/utils';
 import { getProductPlaceholder } from '~/lib/placeholders';
 import {countries} from '~/data/countries';
 import { useNavigate } from 'react-router';
@@ -48,6 +48,8 @@ const [addingProduct,setAddingProduct] = useState(false);
     active:product?.meta?.product_extended_property?.is_active_value == "1" || product?.meta?.product_extended_property?.is_active_value == 1 ? true : false,
     is_always_in_stock: product?.meta?.product_extended_property?.is_always_in_stock == "1" || product?.meta?.product_extended_property?.is_always_in_stock == 1 ? true : false
   })
+  // Needs Algolia to index the custom.sybiz_availability metafield.
+  const delayed = getDelayedAvailability(product?.meta?.custom?.sybiz_availability, stockLabel);
   let altProduct = [];
   // let altProductSku = [];
 
@@ -314,9 +316,9 @@ const [addingProduct,setAddingProduct] = useState(false);
               }
               </div>
               :<div onClick={()=> showPopup(true)} className='text-[#00aeef]  px-[4px] lg:px-4  gap-[4px] cursor-pointer availability flex justify-start'>
-                <span className='icon relative top-[-1px]'><i className="fa fa-check-circle"></i></span>
-                <div className='text font-bold text-[14px] relative status-label'>
-                  {stockLabel}
+                <span className='icon relative top-[-1px]'><i className={delayed ? "fa fa-times-circle" : "fa fa-check-circle"}></i></span>
+                <div className={`text font-bold text-[14px] relative status-label${delayed ? ' text-[#e60000]' : ''}`}>
+                  {delayed ? delayed.label : stockLabel}
                   <div className='text-[#00aeef] absolute left-[100%] font-bold py-[2px] rounded-[5px] bg-white z-[1] px-[5px] availability-info-tooltip'>
                       <div className="availability-info-point-inner"></div>
                       <div className="availability-info-text text-[8.4px]">

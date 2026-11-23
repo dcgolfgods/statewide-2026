@@ -1202,6 +1202,9 @@ query CollectionAndProductDetails(
   delivery: metafield(namespace: "product_extended_property", key: "days_to_deliver") {
     value
   }
+  sybiz_availability: metafield(namespace: "custom", key: "sybiz_availability") {
+    value
+  }
   priceScale: metafield(namespace: "product_extended_property", key: "product_prices") {
     value
   }
@@ -2836,6 +2839,28 @@ export const productAvaibilityLabel = (data) => {
   }
   return label
 }
+
+// Sybiz "Availability" custom field, synced to the product metafield
+// custom.sybiz_availability. Only special order parts use it: it swaps the
+// usual special order label and despatch text for a delay notice.
+const DELAYED_AVAILABILITY = {
+  'eta unconfirmed': {
+    label: 'Special Order',
+    message:
+      'This part is ordered from our supplier. They are in the process of replenishing Australian stock. Orders placed now will be fulfilled and dispatched as soon as the part is available.',
+  },
+  delayed: {
+    label: 'Special Order - Delayed',
+    message:
+      'This part is ordered from our supplier, and currently taking longer than normal to deliver. Please contact our Customer Care team for the current estimated arrival time of this part.',
+  },
+};
+
+export const getDelayedAvailability = (availability, stockLabel) => {
+  if (stockLabel !== 'Special Order') return null;
+  const key = String(availability ?? '').trim().replace(/\s+/g, ' ').toLowerCase();
+  return DELAYED_AVAILABILITY[key] || null;
+};
 
 export const elementInViewport = (el) => {
   let top = el.offsetTop;
