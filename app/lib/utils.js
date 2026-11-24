@@ -2855,7 +2855,7 @@ const DELAYED_AVAILABILITY = {
   delayed: {
     label: 'Special Order - Arriving Soon',
     message:
-      'This part is ordered from our supplier. Our supplier is expecting new stock of this part soon. Please contact our Customer Care team for the current estimated timeframe.',
+      'This part is ordered from our supplier. Our supplier is expecting new stock of this part soon. Orders placed now will be fulfilled and dispatched as soon as the part is available.',
   },
 };
 export const getDelayedAvailability = (availability, stockLabel) => {
