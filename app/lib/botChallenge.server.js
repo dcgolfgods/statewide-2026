@@ -111,6 +111,11 @@ export async function handleBotChallenge(request, env) {
 
   const url = new URL(request.url);
 
+  // Oxygen preview links (*.myshopify.dev) already need a Shopify login or a
+  // share link, and the Turnstile widget only works on the live domain, so
+  // the check would block the team and client reviewing previews.
+  if (url.hostname.endsWith('.myshopify.dev')) return null;
+
   if (url.pathname === CHALLENGE_PATH && request.method === 'POST') {
     return verifyChallenge(request, env);
   }
