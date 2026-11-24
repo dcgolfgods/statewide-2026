@@ -316,8 +316,8 @@ const [addingProduct,setAddingProduct] = useState(false);
               }
               </div>
               :<div onClick={()=> showPopup(true)} className='text-[#00aeef]  px-[4px] lg:px-4  gap-[4px] cursor-pointer availability flex justify-start'>
-                <span className='icon relative top-[-1px]'><i className={delayed ? "fa fa-times-circle" : "fa fa-check-circle"}></i></span>
-                <div className={`text font-bold text-[14px] relative status-label${delayed ? ' text-[#e60000]' : ''}`}>
+                <span className='icon relative top-[-1px]'><i className="fa fa-check-circle"></i></span>
+                <div className={`text font-bold text-[14px] relative status-label`}>
                   {delayed ? delayed.label : stockLabel}
                   <div className='text-[#00aeef] absolute left-[100%] font-bold py-[2px] rounded-[5px] bg-white z-[1] px-[5px] availability-info-tooltip'>
                       <div className="availability-info-point-inner"></div>

@@ -2825,6 +2825,9 @@
       .fa-check-circle:before {
         content: "\f058";
     }
+    .fa-thumbs-up:before {
+      content: "\f164";
+    }
     .fa-plus:before {
       content: "\f067";
     }

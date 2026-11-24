@@ -1205,6 +1205,9 @@ query CollectionAndProductDetails(
   sybiz_availability: metafield(namespace: "custom", key: "sybiz_availability") {
     value
   }
+  sybiz_expected_date: metafield(namespace: "custom", key: "sybiz_expected_date") {
+    value
+  }
   priceScale: metafield(namespace: "product_extended_property", key: "product_prices") {
     value
   }
@@ -2842,24 +2845,58 @@ export const productAvaibilityLabel = (data) => {
 
 // Sybiz "Availability" custom field, synced to the product metafield
 // custom.sybiz_availability. Only special order parts use it: it swaps the
-// usual special order label and despatch text for a delay notice.
+// usual special order label and despatch text for an availability notice.
 const DELAYED_AVAILABILITY = {
   'eta unconfirmed': {
-    label: 'Special Order',
+    label: 'Available to order',
     message:
-      'This part is ordered from our supplier. They are in the process of replenishing Australian stock. Orders placed now will be fulfilled and dispatched as soon as the part is available.',
+      'Temporarily out of stock. This part is ordered from our supplier. They are in the process of replenishing Australian stock. Orders placed now will be fulfilled and dispatched as soon as the part is available.',
   },
   delayed: {
-    label: 'Special Order - Delayed',
+    label: 'Special Order - Arriving Soon',
     message:
-      'This part is ordered from our supplier, and currently taking longer than normal to deliver. Please contact our Customer Care team for the current estimated arrival time of this part.',
+      'This part is ordered from our supplier. Our supplier is expecting new stock of this part soon. Please contact our Customer Care team for the current estimated timeframe.',
   },
 };
-
 export const getDelayedAvailability = (availability, stockLabel) => {
   if (stockLabel !== 'Special Order') return null;
   const key = String(availability ?? '').trim().replace(/\s+/g, ' ').toLowerCase();
   return DELAYED_AVAILABILITY[key] || null;
+};
+
+const MONTH_NAMES = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+];
+
+// Sybiz "next delivery date" custom field, synced to the product metafield
+// custom.sybiz_expected_date (YYYY-MM-DD; D/M/YYYY is accepted too). The
+// website shows the month after that date, e.g. 1/11/2026 -> "December 2026".
+// Returns null when there is no valid date, the part isn't a special order,
+// or the month shown would already be in the past.
+export const getExpectedMonth = (dateValue, stockLabel, now = new Date()) => {
+  if (stockLabel !== 'Special Order') return null;
+  const value = String(dateValue ?? '').trim();
+  let year;
+  let month;
+  let match = value.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+  if (match) {
+    year = Number(match[1]);
+    month = Number(match[2]);
+  } else if ((match = value.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/))) {
+    year = Number(match[3]);
+    month = Number(match[2]);
+  } else {
+    return null;
+  }
+  if (!year || month < 1 || month > 12) return null;
+
+  // One month after the Sybiz date (December rolls over to January).
+  const shown = year * 12 + (month - 1) + 1;
+  const current = now.getFullYear() * 12 + now.getMonth();
+  if (shown < current) return null;
+
+  return `${MONTH_NAMES[shown % 12]} ${Math.floor(shown / 12)}`;
 };
 
 export const elementInViewport = (el) => {

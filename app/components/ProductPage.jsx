@@ -10,7 +10,7 @@ import {
   IconUp,
   IconDown,
 } from '~/components';
-import { productAvaibilityLabel, handleize, elementInViewport, calculatePriceIncludingTax, DEFAULT_LOCALE, convertTitleToHandle, businessDays, multiBuyCalc, getDelayedAvailability } from '~/lib/utils';
+import { productAvaibilityLabel, handleize, elementInViewport, calculatePriceIncludingTax, DEFAULT_LOCALE, convertTitleToHandle, businessDays, multiBuyCalc, getDelayedAvailability, getExpectedMonth } from '~/lib/utils';
 import { UpsellProducts } from './UpsellProducts';
 import { useCart } from '~/components/cartContext';
 import { gtag_report_conversion, viewKlaviyoProduct } from './KlaviyoEvent';
@@ -485,6 +485,7 @@ export function ProductForm({ tradeCustomer, variants, priceScaleFound, qtyPrice
     is_always_in_stock: product?.is_always_in_stock?.value == "1" || product?.is_always_in_stock?.value == 1 ? true : false
   });
   const delayed = getDelayedAvailability(product?.sybiz_availability?.value, stockLabel);
+  const expectedMonth = getExpectedMonth(product?.sybiz_expected_date?.value, stockLabel);
 
   let attributes = [];
   if (stockLabel == "Special Order") {
@@ -775,10 +776,10 @@ export function ProductForm({ tradeCustomer, variants, priceScaleFound, qtyPrice
               {
                 !isOutOfStock && <div className="text-[#00aeef] gap-[4px] availability flex justify-left">
                   <span className="icon mr-[8px]">
-                    <i className={delayed ? "fa fa-times-circle" : "fa fa-check-circle"}></i>
+                    <i className="fa fa-check-circle"></i>
                   </span>
                   <div className="text-left">
-                    <span className={`${delayed ? 'text-[#e60000]' : 'text-black'} text text-[15px] block w-full font-bold`}>
+                    <span className="text-black text text-[15px] block w-full font-bold">
                       {delayed ? delayed.label : stockLabel}
                     </span>
                     <p onClick={() => showPopup(true)} className="text-[13px] text-[#1e5097] hover:underline cursor-pointer">
@@ -788,7 +789,7 @@ export function ProductForm({ tradeCustomer, variants, priceScaleFound, qtyPrice
                 </div>
               }
 
-              {delayed ? null : isLG && isLgFridge ? <>
+              {isLG && isLgFridge ? <>
                 {lgItems.map((item => {
                   return <div className="text-[#00aeef] gap-[4px] availability flex justify-left w-[75%] lg:w-full">
                     <span className="icon mr-[8px]">
@@ -809,6 +810,17 @@ export function ProductForm({ tradeCustomer, variants, priceScaleFound, qtyPrice
                     {showFreeSHipping ? <>Free Shipping</> : <>Fast Shipping</>}
                   </span>
 
+                </div>
+              }
+
+              {expectedMonth &&
+                <div className="text-[#00aeef] gap-[4px] availability flex justify-left w-[75%] lg:w-full">
+                  <span className="icon mr-[8px]">
+                    <i className="fa fa-thumbs-up"></i>
+                  </span>
+                  <span className="text-black font-bold text text-[15px]">
+                    Currently expected in {expectedMonth}
+                  </span>
                 </div>
               }
 
@@ -978,7 +990,7 @@ const InStockPopup = ({ showPopup, stockLabel, deliveryValue, delayed }) => {
           </div>}
         {stockLabel == "Special Order" && delayed &&
           <div className='flex mb-4'>
-            <p className='tracking-[-0.5px] w-[100px] shrink-0 text-[#e60000] text-[15px] openSansBold font-bold'>{delayed.label}</p>
+            <p className='tracking-[-0.5px] w-[100px] shrink-0 text-[#1e5097] text-[15px] openSansBold font-bold'>{delayed.label}</p>
             <p className='tracking-[-0.5px] in-stock-popup-text text-[15px]'>{delayed.message}</p>
           </div>}
         {stockLabel == "Special Order" && !delayed &&
