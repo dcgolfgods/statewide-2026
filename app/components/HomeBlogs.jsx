@@ -2,6 +2,39 @@ import { Image } from '@shopify/hydrogen';
 import { useState } from 'react';
 import {Link} from  '~/components';
 
+function ExternalLinkIcon() {
+    return (
+        <svg
+            className="inline-block w-[12px] h-[12px] shrink-0"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+        >
+            <path d="M14 5h5v5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M19 5 10 14" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+            <path d="M17 13.5V18a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h4.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+    );
+}
+
+function YouTubeLink({href, className, children}) {
+    return (
+        <a
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={className}
+        >
+            {children}
+            <span className="inline-flex items-center ml-[5px] align-middle">
+                <ExternalLinkIcon />
+            </span>
+            <span className="sr-only"> (opens in a new tab)</span>
+        </a>
+    );
+}
+
 export function HomeBlogs(){
     const [showVideo1, setShowVideo1] = useState(false);
     const [showVideo2, setShowVideo2] = useState(false);
@@ -54,10 +87,10 @@ export function HomeBlogs(){
                                     </div>
                                 </div>
                                 <h5 className='mb-[8px] text-[#00aeef] text-[13px] lg:text-[16px] font-bold lg:min-h-[48px]'>
-                                <Link className="text-[#00aeef]" to="https://www.youtube.com/watch?v=LCGA84xtnNo&ab_channel=StatewideApplianceSpares">Welcome to Statewide Appliance Spares</Link>
+                                <YouTubeLink className="text-[#00aeef]" href="https://www.youtube.com/watch?v=LCGA84xtnNo&ab_channel=StatewideApplianceSpares">Welcome to Statewide Appliance Spares</YouTubeLink>
                                 </h5>
                                 <div className="blg-desc hidden lg:block"><p className='text-[#1e5097] text-[14px] mb-[10px] '>
-                                <Link to="https://www.youtube.com/watch?v=LCGA84xtnNo&ab_channel=StatewideApplianceSpares">Welcome to Statewide Appliance Spares - Australia's biggest and most trusted spare parts distributor.</Link>
+                                <YouTubeLink href="https://www.youtube.com/watch?v=LCGA84xtnNo&ab_channel=StatewideApplianceSpares">Welcome to Statewide Appliance Spares - Australia's biggest and most trusted spare parts distributor.</YouTubeLink>
                                 </p></div>
                             </div>
                             <div className="item w-[50%] px-[15px] lg:px-[24px] lg:min-h-[352px] text-center lg:text-left">
@@ -73,15 +106,15 @@ export function HomeBlogs(){
                                     </div>
                                 </div>
                                 <h5 className='mb-[8px] text-[#00aeef] text-[13px] lg:text-[16px] font-bold lg:min-h-[48px]'>
-                                <Link className="text-[#00aeef]" to="https://www.youtube.com/watch?v=BnMAyKLwtSY&ab_channel=StatewideApplianceSpares">Home Appliance Repairs Made Easy</Link></h5>
+                                <YouTubeLink className="text-[#00aeef]" href="https://www.youtube.com/watch?v=BnMAyKLwtSY&ab_channel=StatewideApplianceSpares">Home Appliance Repairs Made Easy</YouTubeLink></h5>
                                 <div className="blg-desc hidden lg:block"><p className='text-[#1e5097] text-[14px] mb-[10px] '>
-                                    <Link to="https://www.youtube.com/watch?v=BnMAyKLwtSY&ab_channel=StatewideApplianceSpares">
+                                    <YouTubeLink href="https://www.youtube.com/watch?v=BnMAyKLwtSY&ab_channel=StatewideApplianceSpares">
                                     Need help with your home appliance repairs and maintenance? Check out our DIY videos! All the expert hints and tips to make appliance repairs a breeze.
-                                    </Link>
+                                    </YouTubeLink>
                                     </p></div>
                             </div>
                             <div className='flex justify-center mt-[20px] lg:mt-6 text-center w-full'>
-                                <Link to="https://www.youtube.com/channel/UCG7Wp7MygDui7EDEB9URjBQ" className="flex items-center justify-center font-bold h-[35px] w-[102px] bg-[#1e5097] text-white text-[14px] border-b-[1px]">VIEW ALL</Link>
+                                <YouTubeLink href="https://www.youtube.com/channel/UCG7Wp7MygDui7EDEB9URjBQ" className="inline-flex items-center justify-center font-bold h-[35px] px-[12px] bg-[#1e5097] text-white text-[14px] border-b-[1px]">VIEW ALL</YouTubeLink>
                             </div>
                         </div>
                     </div>

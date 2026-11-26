@@ -427,7 +427,7 @@ function Contact({ onNavigate }) {
                         </div>
                     </div>
                 </a></div>
-                <div className="mobile-menu-footer-contact-box py-[5px]"><a href="https://www.youtube.com/channel/UCG7Wp7MygDui7EDEB9URjBQ" onClick={onNavigate}>
+                <div className="mobile-menu-footer-contact-box py-[5px]"><a href="https://www.youtube.com/channel/UCG7Wp7MygDui7EDEB9URjBQ" target="_blank" rel="noopener noreferrer" onClick={onNavigate}>
                     <div className="mobile-link">
                         <div className="mobile-footer-contact-heading relative pl-[35px]">
                             <div className="mobile-footer-icon absolute left-[10px] top-[2px]"><i className="text-[19.2px] fa fa-youtube-play"></i></div>
